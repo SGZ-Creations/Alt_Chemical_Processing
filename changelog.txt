@@ -1,0 +1,23 @@
+---------------------------------------------------------------------------------------------------
+Version: 0.0.2
+Date: xx. xx. 2022
+  Features:
+    - Initial release
+    - Publicly avalible
+  Changes:
+    - Name changed from "Bob's Alt" to "Alt_Bobs_Fuels" "alt = alternative"
+    - Recipe reqirement and output
+  Fixes:
+    - Prod mods should now work on the recipes.
+    - oredering in the crafting menu
+
+---------------------------------------------------------------------------------------------------
+Version: 0.0.1
+Date: 01. 09. 2021
+  Start:
+    - Named Bobs Alt
+  Features:
+    - Added 2 recipes to rocket fuel
+    - Added 1 new technology
+  Changes:
+    - Stack size for Enriched fuel to 50 from 20
