@@ -35,6 +35,6 @@ fuelrecipe.expensive.ingredients[#fuelrecipe.normal.ingredients+1] = {
 }
 
 fuelrecipe.name = "rocket-fuel-from-enriched-fuel"
-fuelrecipe.normal.result_count= 5
-fuelrecipe.expensive.result_count= 5
+fuelrecipe.normal.result_count= 10
+fuelrecipe.expensive.result_count= 10
 data:extend{solidfuelrecipe,fuelrecipe}
