@@ -1,16 +1,22 @@
 ---------------------------------------------------------------------------------------------------
-Version: 0.0.2
-Date: xx. xx. 2022
+Version: 0.0.3
+Date: 15.01.2024
   Features:
     - Initial release
     - Publicly avalible
   Changes:
+    - Tech Prerequisite changed to work with verison 1.2.0 of bobs.
+  Bugfixes:
+    - Removed missing reqired tech.
+---------------------------------------------------------------------------------------------------
+Version: 0.0.2
+Date: 00. 00. 2022
+  Changes:
     - Name changed from "Bob's Alt" to "Alt_Bobs_Fuels" "alt = alternative"
     - Recipe reqirement and output
-  Fixes:
+  Bugfixes:
     - Prod mods should now work on the recipes.
-    - oredering in the crafting menu
-
+    - Ordering in the crafting menu
 ---------------------------------------------------------------------------------------------------
 Version: 0.0.1
 Date: 01. 09. 2021
