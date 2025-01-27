@@ -10,27 +10,26 @@ solidfuelrecipe.ingredients[#solidfuelrecipe.ingredients+1] = {
 
 
 solidfuelrecipe.name = "rocket-fuel-from-solid-fuel"
-solidfuelrecipe.result_count= 5
+solidfuelrecipe.results_count= 5
 
 local fuelrecipe = table.deepcopy(data.raw.recipe["rocket-fuel"])
 
 fuelrecipe.ingredients[#fuelrecipe.ingredients+1] = {
     type = "item",
-    name = "enriched-fuel",
+    name = "bob-enriched-fuel",
     amount = 20,
     recipe = "pb"
 }
-
 fuelrecipe.name = "rocket-fuel-from-enriched-fuel"
-fuelrecipe.result_count= 10
+fuelrecipe.results_count= 10
 data:extend{solidfuelrecipe,fuelrecipe}
-
 
 local recipes = {
     {
         type = "recipe",
         category = "chemistry",
         name = "carbon-dioxide-sepreation",
+        icon = "__bobplates__/graphics/icons/oxygen.png",
         enabled = false,
         total_raw = true,
         energy_required = 10.0,

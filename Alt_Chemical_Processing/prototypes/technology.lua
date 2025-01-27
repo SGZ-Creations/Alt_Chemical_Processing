@@ -26,4 +26,4 @@ fueltech.prerequisites = {"rocket-fuel",}
 data:extend{fueltech}
 
 
-table.insert(data.raw.technology["bob-chemical-processing-2"].effects, {recipe="carbon-dioxide-sepreation"})
+table.insert(data.raw.technology["bob-chemical-processing-2"].effects, {type="unlock-recipe", recipe="carbon-dioxide-sepreation"})
