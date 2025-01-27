@@ -1,4 +1,5 @@
 local fueltech = table.deepcopy(data.raw.technology["rocket-fuel"])
+
 fueltech.name = "rocket-fuel-2"
 fueltech.effects = {
     {
@@ -23,3 +24,6 @@ fueltech.prerequisites = {"rocket-fuel",}
     }
 
 data:extend{fueltech}
+
+
+table.insert(data.raw.technology["bob-chemical-processing-2"].effects, {recipe="carbon-dioxide-sepreation"})
