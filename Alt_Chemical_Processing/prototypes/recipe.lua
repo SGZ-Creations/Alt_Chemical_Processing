@@ -1,3 +1,4 @@
+local DRI = data.raw.item
 local recipes = {
     {
         type = "recipe",
@@ -32,7 +33,7 @@ local recipes = {
         energy_required = 10.0,
         ingredients = {
             {type="item", name="solid-fuel", amount=10},
-            {type="fluid", name="carbon-dioxide", amount=140},
+            {type="fluid", name="hydrazine", amount=140},
             {type="fluid", name="dinitrogen-tetroxide", amount=80}
         },
         results = {
@@ -53,7 +54,6 @@ local recipes = {
         energy_required = 10.0,
         ingredients = {
             {type="item", name="bob-enriched-fuel", amount=10},
-            {type="fluid", name="hydrazine", amount=40},
             {type="fluid", name="dinitrogen-tetroxide", amount=80}
         },
         results = {
@@ -63,3 +63,6 @@ local recipes = {
     },
 }
 data:extend(recipes)
+
+
+DRI["bob-enriched-fuel"].stack_size = 50

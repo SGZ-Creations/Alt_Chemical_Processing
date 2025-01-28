@@ -2,6 +2,7 @@
 Version: 0.1.0
 Date: 27.01.2025
   Features:
+    - Mod Rename from "alt bobs fuel" --> Alt Chemical Processing
     - Update to work with 2.0 & [space-age].
   Changes:
     - Added Carbon-dioxide seperation recipe.
