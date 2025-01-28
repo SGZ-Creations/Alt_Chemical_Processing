@@ -1,25 +1,3 @@
-
-local solidfuelrecipe = table.deepcopy(data.raw.recipe["rocket-fuel"])
-solidfuelrecipe.ingredients[#solidfuelrecipe.ingredients+1] = {
-    type = "item",
-    name = "solid-fuel",
-    count = 10,
-    order = "pa"
-}
-solidfuelrecipe.name = "rocket-fuel-from-solid-fuel"
-solidfuelrecipe.results_count= 5
-
-local fuelrecipe = table.deepcopy(data.raw.recipe["rocket-fuel"])
-fuelrecipe.ingredients[#fuelrecipe.ingredients+1] = {
-    type = "item",
-    name = "bob-enriched-fuel",
-    count = 10,
-    recipe = "pb"
-}
-fuelrecipe.name = "rocket-fuel-from-enriched-fuel"
-fuelrecipe.results_count= 10
-data:extend{solidfuelrecipe,fuelrecipe}
-
 local recipes = {
     {
         type = "recipe",
@@ -30,6 +8,7 @@ local recipes = {
         total_raw = true,
         subgroup = "fluid",
         order = "a[fluid]-g[carbon-dixoide]",
+        allow_productivity = true,
         energy_required = 10.0,
         ingredients = {
             {type="fluid", name="carbon-dioxide", amount=25},
@@ -37,6 +16,48 @@ local recipes = {
         results = {
             {type="item", name="bob-carbon", amount=1},
             {type="fluid", name="bob-oxygen", amount=25}
+        },
+        allow_decomposition = true,
+    },
+    {
+        type = "recipe",
+        category = "chemistry",
+        name = "rocket-fuel-from-solid-fuel",
+        icon = "__base__/graphics/icons/rocket-fuel.png",
+        enabled = false,
+        total_raw = true,
+        subgroup = "bob-chemical-fuels",
+        order = "d[rocket-parts]-c[rocket-fuel]",
+        allow_productivity = true,
+        energy_required = 10.0,
+        ingredients = {
+            {type="item", name="solid-fuel", amount=10},
+            {type="fluid", name="carbon-dioxide", amount=140},
+            {type="fluid", name="dinitrogen-tetroxide", amount=80}
+        },
+        results = {
+            {type="item", name="rocket-fuel", amount=10},
+        },
+        allow_decomposition = true,
+    },
+    {
+        type = "recipe",
+        category = "chemistry",
+        name = "rocket-fuel-from-enriched-fuel",
+        icon = "__base__/graphics/icons/rocket-fuel.png",
+        enabled = false,
+        total_raw = true,
+        subgroup = "bob-chemical-fuels",
+        order = "d[rocket-parts]-d[rocket-fuel]",
+        allow_productivity = true,
+        energy_required = 10.0,
+        ingredients = {
+            {type="item", name="bob-enriched-fuel", amount=10},
+            {type="fluid", name="hydrazine", amount=40},
+            {type="fluid", name="dinitrogen-tetroxide", amount=80}
+        },
+        results = {
+            {type="item", name="rocket-fuel", amount=20},
         },
         allow_decomposition = true,
     },

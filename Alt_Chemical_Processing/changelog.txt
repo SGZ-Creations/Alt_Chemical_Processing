@@ -5,9 +5,6 @@ Date: 27.01.2025
     - Update to work with 2.0 & [space-age].
   Changes:
     - Added Carbon-dioxide seperation recipe.
-  Info:
-    - Prod mod are currently broken function in mod.
-    - Recipe result amount is not correct.
 ---------------------------------------------------------------------------------------------------
 Version: 0.0.3
 Date: 15.01.2024
