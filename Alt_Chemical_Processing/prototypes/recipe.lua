@@ -1,23 +1,19 @@
 
 local solidfuelrecipe = table.deepcopy(data.raw.recipe["rocket-fuel"])
-
 solidfuelrecipe.ingredients[#solidfuelrecipe.ingredients+1] = {
     type = "item",
     name = "solid-fuel",
-    amount = 10,
+    count = 10,
     order = "pa"
 }
-
-
 solidfuelrecipe.name = "rocket-fuel-from-solid-fuel"
 solidfuelrecipe.results_count= 5
 
 local fuelrecipe = table.deepcopy(data.raw.recipe["rocket-fuel"])
-
 fuelrecipe.ingredients[#fuelrecipe.ingredients+1] = {
     type = "item",
     name = "bob-enriched-fuel",
-    amount = 20,
+    count = 10,
     recipe = "pb"
 }
 fuelrecipe.name = "rocket-fuel-from-enriched-fuel"
@@ -32,6 +28,8 @@ local recipes = {
         icon = "__bobplates__/graphics/icons/oxygen.png",
         enabled = false,
         total_raw = true,
+        subgroup = "fluid",
+        order = "a[fluid]-g[carbon-dixoide]",
         energy_required = 10.0,
         ingredients = {
             {type="fluid", name="carbon-dioxide", amount=25},
