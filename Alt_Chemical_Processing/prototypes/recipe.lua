@@ -1,4 +1,5 @@
 local DRI = data.raw.item
+DRI["bob-enriched-fuel"].stack_size = 50
 local recipes = {
     {
         type = "recipe",
@@ -63,6 +64,3 @@ local recipes = {
     },
 }
 data:extend(recipes)
-
-
-DRI["bob-enriched-fuel"].stack_size = 50
