@@ -1,13 +1,15 @@
 { 
     "name": "Alt_Chemical_Processing",
     "title": "Alt Chemical Processing",
-    "version": "0.1.0",
+    "version": "0.1.1",
     "factorio_version": "2.0",
     "author": "SGZ_Creations",
     "contact": "https://discord.gg/tbxnpsxkDM",
     "dependencies":[
         "bobrevamp >= 1.3.0", 
-        "bobplates >= 1.3.0"
+        "bobplates >= 1.3.0",
+        "? SaltedFish >= 1.0.0",
+        "? space-age >= 2.0.0"
     ],
     "description": "This mod changes: Stack sizes. & Adds alternate recipes for Bob's rocket fuel & other Chemicals",
     "package": {

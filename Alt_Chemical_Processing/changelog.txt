@@ -1,4 +1,10 @@
 ---------------------------------------------------------------------------------------------------
+Version: 0.1.1
+Date: 16.02.2025
+  Features:
+    - If BobsPlates & SaltedFish mods are combined the salt item wil unitfy.
+    - Added the Bobs, [space-age] & SaltedFish = [item=salted-fish] mod unification code from PA&R.
+---------------------------------------------------------------------------------------------------
 Version: 0.1.0
 Date: 27.01.2025
   Features:
