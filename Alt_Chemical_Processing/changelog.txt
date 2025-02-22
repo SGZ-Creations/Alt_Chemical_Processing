@@ -1,8 +1,17 @@
 ---------------------------------------------------------------------------------------------------
+Version: 0.1.2
+Date: 22.02.2025
+  Features:
+    - Bobs is now marked optional. So that the salted fish recipe(s) can be used without bobs.
+    - New Salt nutrient recipe if salted fish mod is used.
+  Changes:
+    - Bobs Item merge, Item filters.
+    - Bob-tungsten-ore to the merger. Meaning it won't have a use unless you convert with added recipes.
+---------------------------------------------------------------------------------------------------
 Version: 0.1.1
 Date: 16.02.2025
   Features:
-    - If BobsPlates & SaltedFish mods are combined the salt item wil unitfy.
+    - If BobsPlates & SaltedFish mods are combined the salt item wil/should unitfy.
     - Added the Bobs, [space-age] & SaltedFish = [item=salted-fish] mod unification code from PA&R.
 ---------------------------------------------------------------------------------------------------
 Version: 0.1.0
