@@ -1,1 +1,2 @@
-require("mods.bobs-duplicate-items")
+require("mods.duplicate-items-final-fix")
+require("mods.filters")

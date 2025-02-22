@@ -6,8 +6,8 @@
     "author": "SGZ_Creations",
     "contact": "https://discord.gg/tbxnpsxkDM",
     "dependencies":[
-        "bobrevamp >= 1.3.0", 
-        "bobplates >= 1.3.0",
+        "? bobrevamp >= 1.3.0", 
+        "? bobplates >= 1.3.0",
         "? SaltedFish >= 1.0.0",
         "? space-age >= 2.0.0"
     ],

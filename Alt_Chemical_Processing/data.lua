@@ -1,0 +1,1 @@
+	require("mods.duplicate-items-data")

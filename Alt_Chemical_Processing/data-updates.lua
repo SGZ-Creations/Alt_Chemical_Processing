@@ -1,2 +1,2 @@
-require("prototypes.recipe")
-require("prototypes.technology")
+require("prototypes.bobs.recipe")
+require("prototypes.bobs.technology")
