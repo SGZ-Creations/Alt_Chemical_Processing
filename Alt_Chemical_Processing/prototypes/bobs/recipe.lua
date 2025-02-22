@@ -70,7 +70,7 @@ if mods["bobplates"] and mods["bobrevamp"] then
             name = "tungsten-conversion-1",
             enabled = false,
             energy_required = 1.0,
-            subgroup = "bob-resource",
+            subgroup = "bob-ores",
             order = "b-d[bob-tungsten-ore]",
             hide_from_player_crafting = true,
             ingredients = {
@@ -83,7 +83,7 @@ if mods["bobplates"] and mods["bobrevamp"] then
             name = "tungsten-conversion-2",
             enabled = false,
             energy_required = 1.0,
-            subgroup = "bob-resource",
+            subgroup = "bob-ores",
             order = "b-d[bob-tungsten-ore]",
             hide_from_player_crafting = true,
             ingredients = {
@@ -104,7 +104,7 @@ if mods["bobplates"] and mods["bobrevamp"] then
                 {type = "item", name = "bob-nickel-plate", amount = 1},
             },
             energy_required = 10,
-            results = {{type="item", name="tungsten-plate", amount=2}},
+            results = {{type="item", name="tungsten-plate", amount=5}},
             allow_productivity = true
         },
     })
