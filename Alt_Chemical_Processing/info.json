@@ -15,7 +15,8 @@
     "package": {
         "ignore": [
             ".gitignore",
-            ".gitattributes"
+            ".gitattributes",
+            "graphics/**"
         ]
     }
 }

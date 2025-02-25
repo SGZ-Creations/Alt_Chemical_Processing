@@ -54,3 +54,7 @@ if mods["bobplates"] and mods["SaltedFish"] then
         end
     end
 end
+if mods["bobplates"] and mods["space-age"] and mods["James-Oil-Processing"] then
+    data.raw.item["carbon"].icon = "__space-age__/graphics/icons/carbon.png"
+    data.raw.item["carbon"].icon_size = 64
+end

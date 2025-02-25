@@ -35,7 +35,7 @@ if mods["bobplates"] and mods["bobrevamp"] then
                 type = "technology",
                 name = "tungsten-conversions",
                 icon = "__bobplates__/graphics/icons/ore/tungsten-ore.png",
-                icon_size = 128,
+                icon_size = 64,
                 effects = {
                     {
                         type = "unlock-recipe",
