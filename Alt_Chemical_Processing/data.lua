@@ -1,3 +1,5 @@
 	require("prototypes.salted_fish.recipes")
 	require("prototypes.salted_fish.tech")
+	require("prototypes.woodgasification.Recipes")
+	require("prototypes.woodgasification.Techs")
 	require("mods.duplicate-items-data")
