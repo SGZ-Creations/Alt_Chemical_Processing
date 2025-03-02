@@ -3,7 +3,10 @@ Version: 0.1.4
 Date: 02.03.2025
   Features:
     - 2 New plant recipes unlocked at gleba if using Wood_Gasification_updated.
-    - 2 New nutrients made from seed if using Wood_Gasification_updated. 
+    - 2 New nutrients made from seed if using Wood_Gasification_updated.
+  Modding:
+    - Temp fixed bugs in ticket 1032 on james Modding house Factorio section.
+    - Merged: ["hydrogen"] = "bob-hydrogen", ["hydrogen-sulfide"] = "bob-hydrogen-sulfide", to not have duplicate liquids. regarding James-Oil-Processing.
 ---------------------------------------------------------------------------------------------------
 Version: 0.1.3
 Date: 25.02.2025
