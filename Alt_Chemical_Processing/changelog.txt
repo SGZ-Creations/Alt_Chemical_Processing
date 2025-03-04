@@ -1,12 +1,18 @@
 ---------------------------------------------------------------------------------------------------
+Version: 0.1.5
+Date: 04.03.2025
+  Changes:
+    - Removed temp fix from previus version.
+---------------------------------------------------------------------------------------------------
 Version: 0.1.4
 Date: 02.03.2025
   Features:
     - 2 New plant recipes unlocked at gleba if using Wood_Gasification_updated.
     - 2 New nutrients made from seed if using Wood_Gasification_updated.
+    - Settings to toggle them on/off.
   Modding:
-    - Temp fixed bugs in ticket 1032 on james Modding house Factorio section.
-    - Merged: ["hydrogen"] = "bob-hydrogen", ["hydrogen-sulfide"] = "bob-hydrogen-sulfide", to not have duplicate liquids. regarding James-Oil-Processing.
+    - T̶e̶m̶p̶ f̶i̶x̶e̶d̶ b̶u̶g̶s̶ i̶n̶ t̶i̶c̶k̶e̶t̶ 1̶0̶3̶2̶ o̶n̶ j̶a̶m̶e̶s̶ M̶o̶d̶d̶i̶n̶g̶ h̶o̶u̶s̶e̶ F̶a̶c̶t̶o̶r̶i̶o̶ s̶e̶c̶t̶i̶o̶n̶.
+    - M̶e̶r̶g̶e̶d̶:̶ [̶"h̶y̶d̶r̶o̶g̶e̶n̶"]̶ =̶ "b̶o̶b̶-̶h̶y̶d̶r̶o̶g̶e̶n̶", [̶"h̶y̶d̶r̶o̶g̶e̶n̶-̶s̶u̶l̶f̶i̶d̶e̶"]̶ =̶ "b̶o̶b̶-̶h̶y̶d̶r̶o̶g̶e̶n̶-̶s̶u̶l̶f̶i̶d̶e̶", t̶o̶ n̶o̶t̶ h̶a̶v̶e̶ d̶u̶p̶l̶i̶c̶a̶t̶e̶ l̶i̶q̶u̶i̶d̶s̶. r̶e̶g̶a̶r̶d̶i̶n̶g̶ J̶a̶m̶e̶s̶-̶O̶i̶l̶-̶P̶r̶o̶c̶e̶s̶s̶i̶n̶g̶.
 ---------------------------------------------------------------------------------------------------
 Version: 0.1.3
 Date: 25.02.2025
