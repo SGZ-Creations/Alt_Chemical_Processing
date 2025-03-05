@@ -4,6 +4,9 @@ Date: 05.03.2025
   Features:
     - Alternative Atomic Artillery recipe for AtomicArtillery2.
     - Setting to toggle new Recipe On/Off.
+    - Joke recipe that seems usful in space :P
+  Changes:
+    - Disable function hides: Recipe, Techs, Filters, if mods["space-age"]["vanilla-loaders-hd"]["boblogistics"].
 ---------------------------------------------------------------------------------------------------
 Version: 0.1.5
 Date: 04.03.2025
