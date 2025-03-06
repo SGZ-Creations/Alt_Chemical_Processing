@@ -1,3 +1,4 @@
+	require("mods.biter-captures")
 	require("mods.recipes")
 	require("mods.tech")
 
@@ -11,3 +12,4 @@
 	require("prototypes.atomicartillery.tech")
 
 	require("mods.duplicate-items-data")
+	require("Alt_Chemical_Processing.prototypes.bobs.bobs-biters")
