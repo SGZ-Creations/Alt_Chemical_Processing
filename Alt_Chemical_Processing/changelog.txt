@@ -2,7 +2,11 @@
 Version: 0.1.7
 Date: 06.03.2025
   Features:
-    - allow capturing armoured bitter nest from ArmouredBiters mod.
+    - Allow capturing armoured bitter nest from ArmouredBiters mod.
+    - 2x new steel recipes in Foundry, 
+    - 1x new recipe seed to spoilage.
+  Changes:
+    - Tweaked values in recipe for seed to nutrients.
 ---------------------------------------------------------------------------------------------------
 Version: 0.1.6
 Date: 05.03.2025
