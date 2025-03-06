@@ -5,6 +5,7 @@ Date: 06.03.2025
     - Allow capturing armoured bitter nest from ArmouredBiters mod.
     - 2x new steel recipes in Foundry, 
     - 1x new recipe seed to spoilage.
+    - Bobs enemies capture and artifact farming. Missing 30 more filters.
   Changes:
     - Tweaked values in recipe for seed to nutrients.
 ---------------------------------------------------------------------------------------------------
