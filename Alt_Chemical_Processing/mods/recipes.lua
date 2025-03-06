@@ -22,7 +22,7 @@ if SS["iron-utillity"].value then
 end
 
 if mods["space-age"] then
-	if SS["seed-spoilage"] then
+	if SS["seed-spoilage"].value then
 		data:extend({
 			{
 				type = "recipe",
@@ -34,7 +34,7 @@ if mods["space-age"] then
 			},
 		})
 	end
-	if SS["carbon-steel"]then
+	if SS["carbon-steel"].value then
 		data:extend({
 			{
 				type = "recipe",
