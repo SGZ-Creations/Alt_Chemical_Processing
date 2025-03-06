@@ -12,4 +12,4 @@
 	require("prototypes.atomicartillery.tech")
 
 	require("mods.duplicate-items-data")
-	require("Alt_Chemical_Processing.prototypes.bobs.bobs-biters")
+	--require("prototypes.bobs.bobs-biters")
