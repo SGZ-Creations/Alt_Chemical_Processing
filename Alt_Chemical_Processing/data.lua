@@ -1,6 +1,7 @@
-	require("mods.biter-captures")
 	require("mods.recipes")
 	require("mods.tech")
+
+	require("prototypes.armoredbiters.biter-captures")
 
 	require("prototypes.salted_fish.recipes")
 	require("prototypes.salted_fish.tech")
