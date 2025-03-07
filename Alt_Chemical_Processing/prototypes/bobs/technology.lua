@@ -1,5 +1,9 @@
 local DRT = data.raw.technology
 
+if mods["boblogistics"] and not mods["bobplates"] then
+    table.insert(DRT["logistic-science-pack"].effects, {type="unlock-recipe", recipe="basic-logistics-science"})
+end
+
 if mods["bobplates"] and mods["bobrevamp"] then
     local fueltech = table.deepcopy(DRT["rocket-fuel"])
 

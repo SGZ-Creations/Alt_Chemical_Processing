@@ -110,19 +110,21 @@ if mods["bobplates"] and mods["bobrevamp"] then
     end
 end
 
-if mods["boblogistics"] then
+if mods["boblogistics"] and not mods["bobplates"] then
     data:extend({
-        type = "reciep",
-        name = "logistics-sciecnce-basic",
-        subgroup = "sciecnce-pack",
-        order = "b[logistics-sciecnce-pack]",
-        enabled = false,
-        allow_productivity = true,
-        energy_required = 10,
-        ingredients = {
-            {type = "item", name = "inserter", amount = 1},
-            {type = "item", name = "basic-transport-belt", amount = 1},
+        {
+            type = "recipe",
+            name = "basic-logistics-science",
+            subgroup = "science-pack",
+            order = "b[logistics-sciecnce-pack]",
+            enabled = false,
+            allow_productivity = true,
+            energy_required = 10,
+            ingredients = {
+                {type = "item", name = "inserter", amount = 1},
+                {type = "item", name = "basic-transport-belt", amount = 1},
+            },
+            results = {{type="item", name="logistic-science-pack", amount=1}},
         },
-        results = {{type="item", name="logistics-science-pack", amount=1}},
     })
 end
