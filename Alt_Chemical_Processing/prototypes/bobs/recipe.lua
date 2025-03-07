@@ -11,6 +11,7 @@ if mods["bobplates"] and mods["bobrevamp"] then
             subgroup = "fluid",
             order = "a[fluid]-g[carbon-dixoide]",
             allow_productivity = true,
+            allow_decomposition = true,
             energy_required = 10.0,
             ingredients = {
                 {type="fluid", name="carbon-dioxide", amount=25},
@@ -19,7 +20,6 @@ if mods["bobplates"] and mods["bobrevamp"] then
                 {type="item", name="bob-carbon", amount=1},
                 {type="fluid", name="bob-oxygen", amount=25}
             },
-            allow_decomposition = true,
         },
         {
             type = "recipe",
@@ -30,6 +30,7 @@ if mods["bobplates"] and mods["bobrevamp"] then
             subgroup = "bob-chemical-fuels",
             order = "d[rocket-parts]-c[rocket-fuel]",
             allow_productivity = true,
+            allow_decomposition = true,
             energy_required = 10.0,
             ingredients = {
                 {type="item", name="solid-fuel", amount=10},
@@ -39,7 +40,6 @@ if mods["bobplates"] and mods["bobrevamp"] then
             results = {
                 {type="item", name="rocket-fuel", amount=10},
             },
-            allow_decomposition = true,
         },
         {
             type = "recipe",
@@ -50,6 +50,7 @@ if mods["bobplates"] and mods["bobrevamp"] then
             subgroup = "bob-chemical-fuels",
             order = "d[rocket-parts]-d[rocket-fuel]",
             allow_productivity = true,
+            allow_decomposition = true,
             energy_required = 10.0,
             ingredients = {
                 {type="item", name="bob-enriched-fuel", amount=10},
@@ -58,7 +59,6 @@ if mods["bobplates"] and mods["bobrevamp"] then
             results = {
                 {type="item", name="rocket-fuel", amount=20},
             },
-            allow_decomposition = true,
         },
     })
     DRI["bob-enriched-fuel"].stack_size = 50
@@ -98,15 +98,31 @@ if mods["bobplates"] and mods["bobrevamp"] then
             subgroup = "bob-alloy",
             order = "c-b-d[bob-tungsten]",
             enabled = false,
-            ingredients =
-            {
+            allow_productivity = true,
+            energy_required = 10,
+            ingredients = {
                 {type = "item", name = "bob-powdered-tungsten", amount = 4},
                 {type = "item", name = "bob-nickel-plate", amount = 1},
             },
-            energy_required = 10,
             results = {{type="item", name="tungsten-plate", amount=5}},
-            allow_productivity = true
         },
     })
     end
+end
+
+if mods["boblogistics"] then
+    data:extend({
+        type = "reciep",
+        name = "logistics-sciecnce-basic",
+        subgroup = "sciecnce-pack",
+        order = "b[logistics-sciecnce-pack]",
+        enabled = false,
+        allow_productivity = true,
+        energy_required = 10,
+        ingredients = {
+            {type = "item", name = "inserter", amount = 1},
+            {type = "item", name = "basic-transport-belt", amount = 1},
+        },
+        results = {{type="item", name="logistics-science-pack", amount=1}},
+    })
 end
