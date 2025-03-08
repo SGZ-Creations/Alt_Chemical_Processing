@@ -3,7 +3,7 @@ Version: 0.1.8
 Date: 08.03.2025
   Changes:
     - 2x steel recipes moved one step furter down the tech tree.
-    - Removed water from god moduls mod's modules.
+    - Removed water from god moduls mod's modules. Should help if using revers factory.
 ---------------------------------------------------------------------------------------------------
 Version: 0.1.7
 Date: 06.03.2025
