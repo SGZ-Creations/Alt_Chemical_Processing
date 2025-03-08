@@ -11,7 +11,7 @@ if mods["space-age"] then
 	end
 
 	if SS["carbon-steel"].value then
-		table.insert(DRT["advanced-asteroid-processing"].effects, {type="unlock-recipe", recipe="foundry-carbon-steel"})
-		table.insert(DRT["advanced-asteroid-processing"].effects, {type="unlock-recipe", recipe="foundry-carbon-steel-plate"})
+		table.insert(DRT["trace-carbonic-processing"].effects, {type="unlock-recipe", recipe="foundry-carbon-steel"})
+		table.insert(DRT["trace-carbonic-processing"].effects, {type="unlock-recipe", recipe="foundry-carbon-steel-plate"})
 	end
 end
