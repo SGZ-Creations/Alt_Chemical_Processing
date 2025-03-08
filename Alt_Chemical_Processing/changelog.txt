@@ -2,7 +2,8 @@
 Version: 0.1.8
 Date: 08.03.2025
   Changes:
-    - 2x steel recipes moved one step furter down the thech tree
+    - 2x steel recipes moved one step furter down the tech tree.
+    - Removed water from god moduls mod's modules.
 ---------------------------------------------------------------------------------------------------
 Version: 0.1.7
 Date: 06.03.2025

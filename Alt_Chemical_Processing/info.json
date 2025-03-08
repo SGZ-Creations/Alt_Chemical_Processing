@@ -14,7 +14,8 @@
         "? space-age >= 2.0.0",
         "? AtomicArtillery2",
         "? Wood_Gasification_updated >= 4.2.1",
-        "? ArmouredBiters >= 1.2.1"
+        "? ArmouredBiters >= 1.2.1",
+        "? god-module >= 0.2.14"
     ],
     "description": "This mod changes: Stack sizes. & Adds alternate recipes for Bob's rocket fuel & other Chemicals",
     "package": {
