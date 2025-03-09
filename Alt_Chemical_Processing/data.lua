@@ -1,5 +1,5 @@
-	require("mods.recipes")
-	require("mods.tech")
+	require("prototypes.SpaceAge.recipes")
+	require("prototypes.SpaceAge.tech")
 
 	require("prototypes.armoredbiters.biter-captures")
 
