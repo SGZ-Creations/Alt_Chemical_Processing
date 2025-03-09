@@ -6,17 +6,17 @@
     "author": "SGZ_Creations",
     "contact": "https://discord.gg/tbxnpsxkDM",
     "dependencies":[
+        "? AtomicArtillery2",
+        "? ArmouredBiters >= 1.2.1",
         "? bobrevamp >= 1.3.0", 
         "? bobplates >= 1.3.0",
         "? bobenemies >= 1.3.0",
         "? boblogistics >= 1.3.0",
+        "? god-module >= 0.2.14",
+        "? More-Asteroid-Resources-Forked >= 1.1.6",
         "? SaltedFish >= 1.0.0",
         "? space-age >= 2.0.0",
-        "? AtomicArtillery2",
-        "? Wood_Gasification_updated >= 4.2.1",
-        "? More-Asteroid-Resources-Forked >= 1.1.6",
-        "? ArmouredBiters >= 1.2.1",
-        "? god-module >= 0.2.14"
+        "? Wood_Gasification_updated >= 4.2.1"
     ],
     "description": "This mod changes: Stack sizes. & Adds alternate recipes for Bob's rocket fuel & other Chemicals",
     "package": {
