@@ -4,8 +4,8 @@ local DRUS = data.raw["unit-spawner"]
 local SS = settings.startup
 
 if mods["space-age"] and mods["bobenemies"] then
-	DRA["capture-robot-rocket"].ammo_type.target_filter["spitter-spawner"].hidden = true
-	DRA["capture-robot-rocket"].ammo_type.target_filter["biter-spawner"].hidden = true
+	--DRA["capture-robot-rocket"].ammo_type.target_filter["spitter-spawner"].hidden = true
+	--DRA["capture-robot-rocket"].ammo_type.target_filter["biter-spawner"].hidden = true
 	if SS["bobmods-enemies-enableartifacts"] and SS["bobmods-enemies-enablenewartifacts"] then
 		table.insert(DRR["biter-egg"].results, {type= "item", name="alien-artifact", amount=5})
 		table.insert(DRR["biter-egg"].results, {type= "item", name="alien-artifact-red", amount=5})
