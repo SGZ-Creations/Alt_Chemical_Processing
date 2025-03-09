@@ -6,7 +6,7 @@ if mods["Wood_Gasification_updated"]and mods["space-age"] then
             name = "yumako-jellynut",
             setting_type = "startup",
             default_value = true,
-            order = "1Aaa"
+            order = "1Baa"
         },
     })
 end
@@ -18,14 +18,47 @@ if mods["space-age"] then
             name = "seed-spoilage",
             setting_type = "startup",
             default_value = true,
-            order = "1Aab"
+            order = "1Bab"
         },
         {
             type = "bool-setting",
             name = "carbon-steel",
             setting_type = "startup",
             default_value = true,
+            order = "1Bac"
+        },
+    })
+end
+if mods["space-age"] and not mods["BigBags"] then
+    data:extend({
+        --StackSizeSettings
+        {
+            type = "int-setting",
+            name = "ACP-metallic-asteroid-chunk",
+            setting_type = "startup",
+            default_value = 1,
+            order = "1Aaa"
+        },
+        {
+            type = "int-setting",
+            name = "ACP-carbonic-asteroid-chunk",
+            setting_type = "startup",
+            default_value = 1,
+            order = "1Aab"
+        },
+        {
+            type = "int-setting",
+            name = "ACP-oxide-asteroid-chunk",
+            setting_type = "startup",
+            default_value = 1,
             order = "1Aac"
+        },
+        {
+            type = "int-setting",
+            name = "ACP-promethium-asteroid-chunk",
+            setting_type = "startup",
+            default_value = 1,
+            order = "1Aad"
         },
     })
 end
