@@ -1,4 +1,4 @@
-local DRI = data.raw["item"]
+local DRI = data.raw.item
 local SS = settings.startup
 
 if mods["space-age"]and not mods["BigBags"] then
