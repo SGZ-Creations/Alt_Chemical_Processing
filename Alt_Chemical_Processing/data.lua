@@ -5,6 +5,7 @@
 	require("prototypes.armoredbiters.biter-captures")
 
 	require("prototypes.godmodule.recipes")
+	require("prototypes.AsteroidResources.Tech")
 
 	require("prototypes.salted_fish.recipes")
 	require("prototypes.salted_fish.tech")
