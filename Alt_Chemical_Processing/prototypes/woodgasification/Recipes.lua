@@ -4,7 +4,7 @@ if mods["Wood_Gasification_updated"]and mods["space-age"] then
 		{
 			type = "recipe",
 			name = "nutrient-yumako-seed",
-			order = "ab[yumako-seed]",
+			order = "aa-[seeds]-a[yumako-seed]",
 			subgroup = "agriculture-processes",
 			--icon = "",
 			enabled = false,
@@ -19,7 +19,7 @@ if mods["Wood_Gasification_updated"]and mods["space-age"] then
 		{
 			type = "recipe",
 			name = "nutrient-jellynut-seed",
-			order = "ab[yumako-seed]",
+			order = "ab-[seeds]-a[jellynut-seed]",
 			subgroup = "agriculture-processes",
 			--icon = "",
 			enabled = false,
