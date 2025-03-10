@@ -12,5 +12,6 @@ if mods["space-age"] then
 	if SS["LavaCraft"].value then
 		table.insert(DRT["foundry"].effects, {type = "unlock-recipe", recipe = "slow-lava"})
 		table.insert(DRT["artillery"].effects, {type = "unlock-recipe", recipe = "fast-lava"})
+		table.insert(DRT["foundry"].effects, {type = "unlock-recipe", recipe = "lava-calcite"})
 	end
 end

@@ -41,7 +41,7 @@ if mods["space-age"] then
 				name = "foundry-carbon-steel",
 				category = "metallurgy",
 				subgroup = "vulcanus-processes",
-				order = "a[carbon-steel]",
+				order = "ac[carbon-steel]",
 				allow_productivity = true,
 				enabled = false,
 				ingredients =
@@ -57,7 +57,7 @@ if mods["space-age"] then
 				name = "foundry-carbon-steel-plate",
 				category = "metallurgy",
 				subgroup = "vulcanus-processes",
-				order = "b[carbon-steel]",
+				order = "ad[carbon-steel]",
 				allow_productivity = true,
 				enabled = false,
 				ingredients =
@@ -77,7 +77,7 @@ if mods["space-age"] then
 				name = "slow-lava",
 				category = "metallurgy",
 				subgroup = "vulcanus-processes",
-				order = "b[carbon-steel]",
+				order = "aa[fluid]-c[vulcanus]-b[lava]",
 				enabled = false,
 				allow_productivity = true,
 				energy_required = 120,
@@ -91,7 +91,7 @@ if mods["space-age"] then
 				name = "fast-lava",
 				category = "metallurgy",
 				subgroup = "vulcanus-processes",
-				order = "b[carbon-steel]",
+				order = "ab[fluid]-c[vulcanus]-b[lava]",
 				allow_productivity = true,
 				enabled = false,
 				energy_required = 90,
@@ -99,6 +99,20 @@ if mods["space-age"] then
 					{type = "item", name = "stone", amount = 1000},
 				},
 				results = {{type="fluid", name="lava", amount = SS["SFastLava"].value}},
+			},
+			{
+				type = "recipe",
+				name = "lava-calcite",
+				category = "metallurgy",
+				subgroup = "vulcanus-processes",
+				order = "calcite",
+				enabled = false,
+				allow_productivity = true,
+				energy_required = 10,
+				ingredients = {
+					{type = "fluid", name = "lava", amount = 100},
+				},
+				results = {{type="item", name="calcite", amount = 25}},
 			},
 		})
 	end
