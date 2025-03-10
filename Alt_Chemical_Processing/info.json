@@ -18,7 +18,7 @@
         "? space-age >= 2.0.0",
         "? Wood_Gasification_updated >= 4.2.1"
     ],
-    "description": "This mod changes: Stack sizes. & Adds alternate recipes for Bob's rocket fuel & other Chemicals",
+    "description": "This mod adds custom recipes to space age and other mods listed in dependencies so should one of them be enabled see of settings for this mod shows up as base game and this mod don't do anything",
     "package": {
         "ignore": [
             ".gitignore",
