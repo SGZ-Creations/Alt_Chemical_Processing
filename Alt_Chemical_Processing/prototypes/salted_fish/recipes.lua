@@ -13,7 +13,7 @@ if mods["SaltedFish"] then
 				{type = "item", name = "nutrients", amount = 25}
 			},
 			subgroup = "agriculture-processes",
-			order = "e[other-agriculture]-b[salted-nutrients]",
+			order = "ac-[nutrient]-a[salt]",
 			auto_recycle = false,
 		},
 	})

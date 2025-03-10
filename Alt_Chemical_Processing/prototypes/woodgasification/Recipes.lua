@@ -4,9 +4,8 @@ if mods["Wood_Gasification_updated"]and mods["space-age"] then
 		{
 			type = "recipe",
 			name = "nutrient-yumako-seed",
-			order = "aa-[seeds]-a[yumako-seed]",
+			order = "aa-[nutrient]-a[yumako-seed]",
 			subgroup = "agriculture-processes",
-			--icon = "",
 			enabled = false,
 			energy_required = 2,
 			ingredients = {
@@ -19,9 +18,8 @@ if mods["Wood_Gasification_updated"]and mods["space-age"] then
 		{
 			type = "recipe",
 			name = "nutrient-jellynut-seed",
-			order = "ab-[seeds]-a[jellynut-seed]",
+			order = "ab-[nutrient]-a[jellynut-seed]",
 			subgroup = "agriculture-processes",
-			--icon = "",
 			enabled = false,
 			energy_required = 2,
 			ingredients = {
@@ -38,7 +36,7 @@ if mods["Wood_Gasification_updated"]and mods["space-age"] then
 				type = "recipe",
 				name = "no-pressure-yumako",
 				category = "R-greenhouse",
-				order = "ab[2-yumako]",
+				order = "ad-[2-yumako]-[greenhouse]",
 				subgroup = "agriculture-processes",
 				icon = "__space-age__/graphics/icons/yumako-processing.png",
 				enabled = false,
@@ -58,7 +56,7 @@ if mods["Wood_Gasification_updated"]and mods["space-age"] then
 				type = "recipe",
 				name = "no-pressure-jellynut",
 				category = "R-greenhouse",
-				order = "ab[3-jellynut]",
+				order = "ae-[3-jellynut]-[greenhouse]",
 				subgroup = "agriculture-processes",
 				icon = "__space-age__/graphics/icons/jellynut-processing.png",
 				enabled = false,
