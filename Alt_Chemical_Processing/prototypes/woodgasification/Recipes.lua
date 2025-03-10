@@ -10,7 +10,7 @@ if mods["Wood_Gasification_updated"]and mods["space-age"] then
 			enabled = false,
 			energy_required = 2,
 			ingredients = {
-				{type = "item", name = "yumako-seed", amount = 1},
+				{type = "item", name = "yumako-seed", amount = 10},
 			},
 			results = {
 				{type = "item", name = "nutrients", amount = 5},
@@ -25,7 +25,7 @@ if mods["Wood_Gasification_updated"]and mods["space-age"] then
 			enabled = false,
 			energy_required = 2,
 			ingredients = {
-				{type = "item", name = "jellynut-seed", amount = 1},
+				{type = "item", name = "jellynut-seed", amount = 10},
 			},
 			results = {
 				{type = "item", name = "nutrients", amount = 5},
