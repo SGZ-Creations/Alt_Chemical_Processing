@@ -70,4 +70,36 @@ if mods["space-age"] then
 			},
 		})
 	end
+	if SS["LavaCraft"].value then
+		data:extend({
+			{
+				type = "recipe",
+				name = "slow-lava",
+				category = "metallurgy",
+				subgroup = "vulcanus-processes",
+				order = "b[carbon-steel]",
+				enabled = false,
+				allow_productivity = true,
+				energy_required = 120,
+				ingredients = {
+					{type = "item", name = "stone", amount = 1000},
+				},
+				results = {{type="fluid", name="lava", amount = SS["SSlowLava"].value}},
+			},
+			{
+				type = "recipe",
+				name = "fast-lava",
+				category = "metallurgy",
+				subgroup = "vulcanus-processes",
+				order = "b[carbon-steel]",
+				allow_productivity = true,
+				enabled = false,
+				energy_required = 90,
+				ingredients = {
+					{type = "item", name = "stone", amount = 1000},
+				},
+				results = {{type="fluid", name="lava", amount = SS["SFastLava"].value}},
+			},
+		})
+	end
 end

@@ -6,7 +6,7 @@ if mods["Wood_Gasification_updated"]and mods["space-age"] then
             name = "yumako-jellynut",
             setting_type = "startup",
             default_value = true,
-            order = "1Baa"
+            order = "2Caa"
         },
     })
 end
@@ -18,14 +18,35 @@ if mods["space-age"] then
             name = "seed-spoilage",
             setting_type = "startup",
             default_value = true,
-            order = "1Bab"
+            order = "2Cab"
         },
         {
             type = "bool-setting",
             name = "carbon-steel",
             setting_type = "startup",
             default_value = true,
-            order = "1Bac"
+            order = "2Cac"
+        },
+        {
+            type = "int-setting",
+            name = "SSlowLava",
+            setting_type = "startup",
+            default_value = 200,
+            order = "1Aae"
+        },
+        {
+            type = "int-setting",
+            name = "SFastLava",
+            setting_type = "startup",
+            default_value = 200,
+            order = "1Aaf"
+        },
+        {
+            type = "bool-setting",
+            name = "LavaCraft",
+            setting_type = "startup",
+            default_value = true,
+            order = "1Aag"
         },
     })
 end
@@ -70,7 +91,7 @@ if mods["AtomicArtillery2"] then
             name = "NawArtilleryRecipe",
             setting_type = "startup",
             default_value = true,
-            order = "2Aaa"
+            order = "3Aaa"
         },
     })
 end

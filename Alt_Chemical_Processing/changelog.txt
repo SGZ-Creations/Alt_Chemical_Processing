@@ -1,7 +1,12 @@
 ---------------------------------------------------------------------------------------------------
 Version: 0.1.10
-Date: ????
+Date: 10.03.2025
+  Features:
+    - 2x lava recipes injected to 2 diffrent space age techs.
   Changes:
+    - Mod Title.
+    - Order of settings.
+    - Coloured settings. Easier diffrencing.
 ---------------------------------------------------------------------------------------------------
 Version: 0.1.9
 Date: 09.03.2025

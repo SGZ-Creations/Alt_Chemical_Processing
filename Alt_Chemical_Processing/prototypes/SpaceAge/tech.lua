@@ -9,4 +9,8 @@ if mods["space-age"] then
 	if SS["seed-spoilage"].value then
 		table.insert(DRT["biochamber"].effects, {type="unlock-recipe", recipe="spoiled-seed"})
 	end
+	if SS["LavaCraft"].value then
+		table.insert(DRT["foundry"].effects, {type = "unlock-recipe", recipe = "slow-lava"})
+		table.insert(DRT["artillery"].effects, {type = "unlock-recipe", recipe = "fast-lava"})
+	end
 end
