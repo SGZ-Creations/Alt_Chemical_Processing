@@ -81,6 +81,13 @@ if mods["space-age"] and not mods["BigBags"] then
             default_value = 1,
             order = "1Aad"
         },
+        {
+            type = "int-setting",
+            name = "FuelStacks",
+            setting_type = "startup",
+            default_value = 1,
+            order = "1Aae"
+        },
     })
 end
 
