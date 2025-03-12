@@ -3,6 +3,8 @@ Version: 0.1.11
 Date: 12.03.2025
   Features:
     - Nuclear Fuel StackSetting.
+  Bugfixes:
+    - Bobs prefix bug with newest version of bobs beta (11.03.25)
 ---------------------------------------------------------------------------------------------------
 Version: 0.1.10
 Date: 10.03.2025

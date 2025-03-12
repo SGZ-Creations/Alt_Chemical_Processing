@@ -122,7 +122,7 @@ if mods["boblogistics"] and not mods["bobplates"] then
             energy_required = 10,
             ingredients = {
                 {type = "item", name = "inserter", amount = 1},
-                {type = "item", name = "basic-transport-belt", amount = 1},
+                {type = "item", name = "bob-basic-transport-belt", amount = 1},
             },
             results = {{type="item", name="logistic-science-pack", amount=1}},
         },
