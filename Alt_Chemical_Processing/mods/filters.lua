@@ -23,10 +23,10 @@ end
 
 if mods["space-age"] and mods["vanilla-loaders-hd"] and mods["boblogistics"] then
     DRT["turbo-transport-belt"].enabled = false
-
     DRT["turbo-transport-belt"].hidden = true
-
     DRR["turbo-loader"].hidden = true
 
-    --Hide_Item("turbo-loader")
+    Hide_Item("turbo-transport-belt")
+    Hide_Item("turbo-underground-transport")
+    Hide_Item("turbo-splitter")
 end
