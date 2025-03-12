@@ -14,7 +14,7 @@ if mods["bobplates"] and mods["bobrevamp"] then
             allow_decomposition = true,
             energy_required = 10.0,
             ingredients = {
-                {type="fluid", name="carbon-dioxide", amount=25},
+                {type="fluid", name="bob-carbon-dioxide", amount=25},
             },
             results = {
                 {type="item", name="bob-carbon", amount=1},
@@ -34,8 +34,8 @@ if mods["bobplates"] and mods["bobrevamp"] then
             energy_required = 10.0,
             ingredients = {
                 {type="item", name="solid-fuel", amount=10},
-                {type="fluid", name="hydrazine", amount=140},
-                {type="fluid", name="dinitrogen-tetroxide", amount=80}
+                {type="fluid", name="bob-hydrazine", amount=140},
+                {type="fluid", name="bob-dinitrogen-tetroxide", amount=80}
             },
             results = {
                 {type="item", name="rocket-fuel", amount=10},
@@ -54,7 +54,7 @@ if mods["bobplates"] and mods["bobrevamp"] then
             energy_required = 10.0,
             ingredients = {
                 {type="item", name="bob-enriched-fuel", amount=10},
-                {type="fluid", name="dinitrogen-tetroxide", amount=80}
+                {type="fluid", name="bob-dinitrogen-tetroxide", amount=80}
             },
             results = {
                 {type="item", name="rocket-fuel", amount=20},
