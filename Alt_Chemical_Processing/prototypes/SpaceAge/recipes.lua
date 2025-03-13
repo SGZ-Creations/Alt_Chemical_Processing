@@ -34,6 +34,20 @@ if mods["space-age"] then
 			},
 		})
 	end
+	data:extend({
+		{
+			type = "recipe",
+			name = "fed-fish",
+			category = "organic",
+			enabled = false,
+			energy_required = 10,
+			ingredients = {
+				{type = "item", name = "yumako", amount = 5},
+				{type = "item", name = "jellynut", amount = 5},
+			},
+			results = {{type = "item", name = "raw-fish", amount = 5}}
+		},
+	})
 	if SS["carbon-steel"].value then
 		data:extend({
 			{
