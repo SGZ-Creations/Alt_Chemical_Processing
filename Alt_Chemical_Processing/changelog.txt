@@ -3,7 +3,8 @@ Version: 0.1.12
 Date: 00.03.2025
   Features:
     - Added alt recipe for breading fish.
-    - Addedd tech reqirement fish breeding for recipe fish feeding. 
+    - Added tech requirement: fish breeding for recipe fish feeding.
+    - Allow bob belts in foundry.
 ---------------------------------------------------------------------------------------------------
 Version: 0.1.11
 Date: 12.03.2025
