@@ -1,4 +1,15 @@
 local DRI = data.raw.item
+local DRR = data.raw.recipe
+
+if mods["boblogistics"] and mods["space-age"] then
+	DRR["bob-turbo-transport-belt"].category = "crafting-with-fluid-or-metallurgy"
+	DRR["bob-turbo-underground-belt"].category = "crafting-with-fluid-or-metallurgy"
+	DRR["bob-turbo-splitter"].category = "crafting-with-fluid-or-metallurgy"
+
+	DRR["bob-ultimate-transport-belt"].category = "crafting-with-fluid-or-metallurgy"
+	DRR["bob-ultimate-underground-belt"].category = "crafting-with-fluid-or-metallurgy"
+	DRR["bob-ultimate-splitter"].category = "crafting-with-fluid-or-metallurgy"
+end
 
 if mods["bobplates"] and mods["bobrevamp"] then
     data:extend({

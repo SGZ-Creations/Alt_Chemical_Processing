@@ -1,4 +1,4 @@
-local DRT = data.raw.technology
+local DRT = data.raw["technology"]
 
 if mods["boblogistics"] and not mods["bobplates"] then
     table.insert(DRT["logistic-science-pack"].effects, {type="unlock-recipe", recipe="basic-logistics-science"})
@@ -21,8 +21,7 @@ if mods["bobplates"] and mods["bobrevamp"] then
     fueltech.prerequisites = {"rocket-fuel",}
         fueltech.unit = {
             count = 300,
-            ingredients =
-            {
+            ingredients =  {
                 {"automation-science-pack",2},
                 {"logistic-science-pack",2},
                 {"chemical-science-pack",1},
