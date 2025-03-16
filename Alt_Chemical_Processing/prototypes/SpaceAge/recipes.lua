@@ -98,7 +98,7 @@ if mods["space-age"] then
 				ingredients = {
 					{type = "item", name = "stone", amount = 1000},
 				},
-				results = {{type="fluid", name="lava", amount = SS["SSlowLava"].value}},
+				results = {{type="fluid", name="lava", amount= SS["SSlowLava"].value}},
 			},
 			{
 				type = "recipe",
@@ -112,7 +112,7 @@ if mods["space-age"] then
 				ingredients = {
 					{type = "item", name = "stone", amount = 1000},
 				},
-				results = {{type="fluid", name="lava", amount = SS["SFastLava"].value}},
+				results = {{type="fluid", name="lava", amount= SS["SFastLava"].value}},
 			},
 			{
 				type = "recipe",
@@ -126,7 +126,7 @@ if mods["space-age"] then
 				ingredients = {
 					{type = "fluid", name = "lava", amount = 100},
 				},
-				results = {{type="item", name="calcite", amount = 25}},
+				results = {{type="item", name="calcite", amount= 25}},
 			},
 		})
 	end
