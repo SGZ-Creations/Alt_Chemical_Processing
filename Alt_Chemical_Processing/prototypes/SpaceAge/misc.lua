@@ -23,15 +23,13 @@ elseif mods["BigBags"] then -- BigBag overwrites my settings making them useless
 end
 
 if mods["space-age"] then
-	if SS["BigMiner"] then
+	if SS["BigMiner"].value then
 		RECIPE["big-mining-drill"].ingredients = {
-			{type = "item", name = "advanced-circuit", amount = 5},
-			{type = "item", name = "electric-engine-unit", amount = 5},
+			{type = "item", name = "advanced-circuit", amount = 10},
+			{type = "item", name = "electric-engine-unit", amount = 10},
 			{type = "item", name = "tungsten-carbide", amount = 20},
 			{type = "item", name = "electric-mining-drill", amount = 5},
 		}
-	end
-	if SS["BigMiner"] then
 		RECIPE["big-mining-drill"].results = {{type = "item", name = "big-mining-drill", amount = 2}}
 	end
 end

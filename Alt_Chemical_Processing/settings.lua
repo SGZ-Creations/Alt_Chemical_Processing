@@ -47,7 +47,8 @@ if mods["space-age"] then
             setting_type = "startup",
             default_value = false,
             order = "1Aag"
-        },{
+        },
+        {
             type = "bool-setting",
             name = "BigMiner",
             setting_type = "startup",
