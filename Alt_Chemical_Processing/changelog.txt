@@ -5,6 +5,9 @@ Date: 00.03.2025
     - Added alt recipe for breading fish.
     - Added tech requirement: fish breeding for recipe fish feeding.
     - Allow bob belts in foundry.
+    - Added setting to change big mining drill recipe.
+  Changes:
+    - Made all setting default to false.
 ---------------------------------------------------------------------------------------------------
 Version: 0.1.11
 Date: 12.03.2025
