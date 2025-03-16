@@ -3,6 +3,7 @@ if mods["bobplates"] and mods["space-age"] then
         ["bob-carbon"] = "carbon",
         ["bob-tungsten-plate"] = "tungsten-plate",
         ["bob-tungsten-carbide"] = "tungsten-carbide",
+        ["bob-tungsten-ore"] = "tungsten-ore",
         ["bob-lithium"] = "lithium-plate",
         ["seedling"] = "tree-seed",
     }
