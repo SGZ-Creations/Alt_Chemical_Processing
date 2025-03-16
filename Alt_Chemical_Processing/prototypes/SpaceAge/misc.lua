@@ -28,10 +28,10 @@ if mods["space-age"] then
 			{type = "item", name = "advanced-circuit", amount = 5},
 			{type = "item", name = "electric-engine-unit", amount = 5},
 			{type = "item", name = "tungsten-carbide", amount = 20},
-			{type = "item", name = "mining-drill", amount = 5},
+			{type = "item", name = "electric-mining-drill", amount = 5},
 		}
 	end
 	if SS["BigMiner"] then
-		RECIPE["big-mining-drill"].results = {type = "item", name = "big-mining-drill", amount = 2}
+		RECIPE["big-mining-drill"].results = {{type = "item", name = "big-mining-drill", amount = 2}}
 	end
 end
