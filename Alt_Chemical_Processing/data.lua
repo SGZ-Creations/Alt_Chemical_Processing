@@ -16,5 +16,4 @@
 	require("prototypes.atomicartillery.recipe")
 	require("prototypes.atomicartillery.tech")
 
-	require("mods.duplicate-items-data")
 	require("prototypes.bobs.bobs-biters")
