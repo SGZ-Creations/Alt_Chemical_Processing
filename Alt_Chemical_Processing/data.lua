@@ -1,3 +1,6 @@
+	require("prototypes.Base.tech")
+	require("prototypes.Base.recipes")
+
 	require("prototypes.SpaceAge.recipes")
 	require("prototypes.SpaceAge.tech")
 	require("prototypes.SpaceAge.misc")

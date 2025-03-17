@@ -6,6 +6,7 @@ Date: 00.03.2025
     - Added tech requirement: fish breeding for recipe fish feeding.
     - Allow bob belts in foundry.
     - Added setting to change big mining drill recipe.
+    - Optional coal-liquefaction-2 added. with option.
   Changes:
     - Made all setting default to false.
 ---------------------------------------------------------------------------------------------------

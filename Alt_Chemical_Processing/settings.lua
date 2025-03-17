@@ -53,7 +53,7 @@ if mods["space-age"] then
             name = "BigMiner",
             setting_type = "startup",
             default_value = false,
-            order = "1Aag"
+            order = "3Aab"
         },
     })
 end
@@ -105,7 +105,7 @@ if mods["AtomicArtillery2"] then
             name = "NawArtilleryRecipe",
             setting_type = "startup",
             default_value = false,
-            order = "3Aaa"
+            order = "3Caa"
         },
     })
 end
@@ -117,5 +117,12 @@ data:extend({
         setting_type = "startup",
         default_value = false,
         order = "5Aaa"
+    },
+    {
+        type = "bool-setting",
+        name = "LiquidCoal",
+        setting_type = "startup",
+        default_value = false,
+        order = "3Aaa"
     },
 })
