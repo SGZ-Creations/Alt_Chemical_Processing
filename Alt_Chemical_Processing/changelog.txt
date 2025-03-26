@@ -1,4 +1,10 @@
 ---------------------------------------------------------------------------------------------------
+Version: 0.1.13
+Date: 26.03.25
+  Changes:
+    - Bobs logistics belts changed crafting category to Pressed.
+    - Changed Express-belts crafting category to Pressed. 
+---------------------------------------------------------------------------------------------------
 Version: 0.1.12
 Date: 17.03.2025
   Features:
