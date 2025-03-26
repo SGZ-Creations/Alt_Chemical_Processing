@@ -4,7 +4,6 @@
     "version": "0.1.12",
     "factorio_version": "2.0",
     "author": "SGZ_Creations",
-    "contact": "https://discord.gg/tbxnpsxkDM",
     "dependencies":[
         "? AtomicArtillery2",
         "? ArmouredBiters >= 1.2.1",

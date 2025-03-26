@@ -2,13 +2,17 @@ local DRI = data.raw.item
 local DRR = data.raw.recipe
 
 if mods["boblogistics"] and mods["space-age"] then
-	DRR["bob-turbo-transport-belt"].category = "crafting-with-fluid-or-metallurgy"
-	DRR["bob-turbo-underground-belt"].category = "crafting-with-fluid-or-metallurgy"
-	DRR["bob-turbo-splitter"].category = "crafting-with-fluid-or-metallurgy"
+    DRR["express-transport-belt"].category = "pressing"
+    DRR["express-underground-belt"].category = "pressing"
+    DRR["express-splitter"].category = "pressing"
 
-	DRR["bob-ultimate-transport-belt"].category = "crafting-with-fluid-or-metallurgy"
-	DRR["bob-ultimate-underground-belt"].category = "crafting-with-fluid-or-metallurgy"
-	DRR["bob-ultimate-splitter"].category = "crafting-with-fluid-or-metallurgy"
+	DRR["bob-turbo-transport-belt"].category = "pressing"
+	DRR["bob-turbo-underground-belt"].category = "pressing"
+	DRR["bob-turbo-splitter"].category = "pressing"
+
+	DRR["bob-ultimate-transport-belt"].category = "pressing"
+	DRR["bob-ultimate-underground-belt"].category = "pressing"
+	DRR["bob-ultimate-splitter"].category = "pressing"
 end
 
 if mods["bobplates"] and mods["bobrevamp"] then
