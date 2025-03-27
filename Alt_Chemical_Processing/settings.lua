@@ -49,6 +49,20 @@ if mods["space-age"] then
             order = "1Aag"
         },
         {
+            type = "int-setting",
+            name = "IceCubes",
+            setting_type = "startup",
+            default_value = 1,
+            order = "1Aah"
+        },
+        {
+            type = "int-setting",
+            name = "WaterAmount",
+            setting_type = "startup",
+            default_value = 20,
+            order = "1Aai"
+        },
+        {
             type = "bool-setting",
             name = "BigMiner",
             setting_type = "startup",

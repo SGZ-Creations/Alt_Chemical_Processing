@@ -6,6 +6,8 @@ local SS = settings.startup
 	})
 ]]
 
+data.raw.recipe["ice-melting"].ingredients = {{type = "item", name = "ice", amount = SS["IceCubes"].value}}
+data.raw.recipe["ice-melting"].results = {{type = "fluid", name = "water", amount = SS["WaterAmount"].value}}
 
 if SS["iron-utillity"].value then
 	data:extend({
