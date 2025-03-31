@@ -24,7 +24,7 @@ if mods["vanilla-loaders-hd"]and mods["boblogistics"] then
 			remove_ingredient("bob-turbo-loader", "bob-turbo-transport-belt")
 			remove_ingredient("bob-turbo-loader", "bob-turbo-bulk-inserter")
 		--Bob Ultimate Loader
-			remove_ingredient("bob-ultimate-loader", "bob-ultimet-transport-belt")
+			remove_ingredient("bob-ultimate-loader", "bob-ultimate-transport-belt")
 			remove_ingredient("bob-ultimate-loader", "bob-express-bulk-inserter")
 
 		if mods["space-age"] then

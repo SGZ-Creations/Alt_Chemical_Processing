@@ -1,16 +1,23 @@
 ---------------------------------------------------------------------------------------------------
+Version: 0.1.15
+Date: 01.04.25
+  Bugfixes:
+    - Typos in previus Logs.
+    - Mist belt staying in recipe.
+---------------------------------------------------------------------------------------------------
 Version: 0.1.14
 Date: 31.03.25
-  Changes:
+  Features:
     - Optional settings for vanilla-loaders-hd
     - Optional recipes if Space age is active.
 ---------------------------------------------------------------------------------------------------
 Version: 0.1.13
 Date: 27.03.25
+  Features:
+    - Made Settings for changing recipe ice-melting Ingedients & Results.
   Changes:
     - Bobs logistics belts changed crafting category to Pressed.
     - Changed Express-belts crafting category to Pressed.
-    - Made Settings for changing recipe ice-melting Ingedients & Results.
 ---------------------------------------------------------------------------------------------------
 Version: 0.1.12
 Date: 17.03.2025
