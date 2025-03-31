@@ -11,6 +11,25 @@ if mods["Wood_Gasification_updated"]and mods["space-age"] then
     })
 end
 
+if mods["vanilla-loaders-hd"]and mods["boblogistics"] then
+    data:extend({
+        {
+            type = "bool-setting",
+            name = "CheaperLoaders",
+            setting_type = "startup",
+            default_value = false,
+            order = "4Aaa"
+        },
+        {
+            type = "bool-setting",
+            name = "SAgeLoaders",
+            setting_type = "startup",
+            default_value = false,
+            order = "4Aab"
+        },
+    })
+end
+
 if mods["space-age"] then
     data:extend({
         {
