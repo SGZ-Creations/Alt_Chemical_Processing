@@ -25,8 +25,4 @@ if mods["space-age"] and mods["vanilla-loaders-hd"] and mods["boblogistics"] the
     DRT["turbo-transport-belt"].enabled = false
     DRT["turbo-transport-belt"].hidden = true
     DRR["turbo-loader"].hidden = true
-
-    --DRR["turbo-transport-belt"].hidden_in_factoriopedia = true
-    --DRR["turbo-underground-transport"].hidden_in_factoriopedia = true
-    --DRR["turbo-splitter"].hidden_in_factoriopedia = true
 end
