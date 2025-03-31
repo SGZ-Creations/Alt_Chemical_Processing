@@ -3,7 +3,7 @@ Version: 0.1.14
 Date: 31.03.25
   Changes:
     - Optional settings for vanilla-loaders-hd
-    - optional reecipes if Space age is Active.
+    - Optional recipes if Space age is active.
 ---------------------------------------------------------------------------------------------------
 Version: 0.1.13
 Date: 27.03.25
