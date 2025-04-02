@@ -33,27 +33,8 @@ if mods["bobplates"] and mods["bobrevamp"] then
     table.insert(DRT["bob-chemical-processing-2"].effects, {type="unlock-recipe", recipe="carbon-dioxide-sepreation"})
 
     if mods["space-age"]then
-        data:extend({
-            {
-                type = "technology",
-                name = "tungsten-conversions",
-                icon = "__space-age__/graphics/technology/tungsten-steel.png",
-                icon_size = 64,
-                effects = {
-                    {
-                        type = "unlock-recipe",
-                        recipe = "tungsten-conversion-1"
-                    },
-                    {
-                        type = "unlock-recipe",
-                        recipe = "tungsten-conversion-2"
-                    },
-                },
-                prerequisites = {"bob-tungsten-processing"},
-                research_trigger = {type="mine-entity", entity="bob-tungsten-ore"},
-                order = "Armour01"
-            }
-        })
-        table.insert(DRT["tungsten-steel"].effects, {type="unlock-recipe", recipe="bob-foundry-tungsten-plate"})
+        table.insert(DRT["bob-tungsten-processing"].effects,{type="unlock-recipe", recipe="tungsten-conversion-1"})
+        table.insert(DRT["bob-tungsten-processing"].effects,{type="unlock-recipe", recipe="tungsten-conversion-2"})
+        table.insert(DRT["tungsten-steel"].effects,{type="unlock-recipe", recipe="bob-foundry-tungsten-plate"})
     end
 end
