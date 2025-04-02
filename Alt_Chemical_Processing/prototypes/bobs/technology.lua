@@ -37,7 +37,7 @@ if mods["bobplates"] and mods["bobrevamp"] then
             {
                 type = "technology",
                 name = "tungsten-conversions",
-                icon = "__bobplates__/graphics/icons/ore/tungsten-ore.png",
+                icon = "__space-age__/graphics/technology/tungsten-steel.png",
                 icon_size = 64,
                 effects = {
                     {
