@@ -65,6 +65,19 @@ if mods["vanilla-loaders-hd"]and mods["boblogistics"] then
 				table.insert(data.raw.recipe["bob-ultimate-loader"].ingredients, {type="item", name= "lithium-plate", amount=5})
 				data.raw.recipe["bob-ultimate-loader"].results = {{type ="item", name ="bob-ultimate-loader", amount=2}}
 			end
+			if mods["bobplates"]and mods["bobelectronics"] then
+			--Express Loader
+				remove_ingredient("express-loader", "plastic-bar")
+				remove_ingredient("express-loader", "carbon")
+				--Bob Turbo loader
+				remove_ingredient("bob-turbo-loader", "holmium-plate")
+				remove_ingredient("bob-turbo-loader", "carbon-fiber")
+				--Bob Ultimate Loader
+				remove_ingredient("bob-ultimate-loader", "quantum-processor")
+				remove_ingredient("bob-ultimate-loader", "lithium-plate")
+				remove_ingredient("bob-ultimate-loader", "holmium-plate")
+				remove_ingredient("bob-ultimate-loader", "carbon-fiber")
+			end
 		end
 	end
 end
