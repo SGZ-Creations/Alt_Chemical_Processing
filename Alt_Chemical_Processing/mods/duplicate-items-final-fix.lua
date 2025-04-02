@@ -5,7 +5,7 @@ if mods["bobplates"] and mods["space-age"] then
         ["bob-tungsten-carbide"] = "tungsten-carbide",
         ["bob-tungsten-ore"] = "tungsten-ore",
         ["bob-lithium"] = "lithium-plate",
-        ["seedling"] = "tree-seed",
+        ["bob-seedling"] = "tree-seed",
     }
     for _, recipe in pairs(data.raw.recipe) do
         for _, ingredient in pairs(recipe.ingredients or {}) do
