@@ -21,20 +21,6 @@ data:extend({
 	}
 })
 
-if SS["iron-utillity"].value then
-	data:extend({
-		{
-			type = "recipe",
-			name = "iron-ore-utillity",
-			enabled = false,
-			energy_required = 10,
-            allow_productivity = true,
-			ingredients = {{type = "item", name = "iron-ore", amount = 1000}},
-			results = {{type = "item", name = "utility-science-pack", amount = 5}}
-		}
-	})
-end
-
 if mods["space-age"] then
 	if SS["seed-spoilage"].value then
 		data:extend({
