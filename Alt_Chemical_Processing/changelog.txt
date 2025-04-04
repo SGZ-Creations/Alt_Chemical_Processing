@@ -1,7 +1,9 @@
 ---------------------------------------------------------------------------------------------------
 Version: 0.1.17
 Date: 00.04.25
-  Changes:
+  Features:
+    - Ice crafting recipe using samee setting as increasing the amount used.
+  Bugfixes:
     - Missing an bobs prefix.
 ---------------------------------------------------------------------------------------------------
 Version: 0.1.16

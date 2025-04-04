@@ -6,8 +6,20 @@ local SS = settings.startup
 	})
 ]]
 
+
 data.raw.recipe["ice-melting"].ingredients = {{type = "item", name = "ice", amount = SS["IceCubes"].value}}
 data.raw.recipe["ice-melting"].results = {{type = "fluid", name = "water", amount = SS["WaterAmount"].value}}
+data:extend({
+	{
+		type = "recipe",
+		name = "ice-cubes",
+		category = "chemistry-or-cryogenics",
+		enabled = false,
+		energy_required = 10,
+		ingredients = {{type = "fluid", name = "water", amount =SS["WaterAmount"].value}},
+		results = {{type = "item", name = "ice", amount =SS["IceCubes"].value}}
+	}
+})
 
 if SS["iron-utillity"].value then
 	data:extend({
