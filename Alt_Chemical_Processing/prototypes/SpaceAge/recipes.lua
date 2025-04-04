@@ -9,6 +9,7 @@ local SS = settings.startup
 
 data.raw.recipe["ice-melting"].ingredients = {{type = "item", name = "ice", amount = SS["IceCubes"].value}}
 data.raw.recipe["ice-melting"].results = {{type = "fluid", name = "water", amount = SS["WaterAmount"].value}}
+data.raw.recipe["ice-melting"].category = "chemistry-or-cryogenics"
 data:extend({
 	{
 		type = "recipe",

@@ -5,6 +5,8 @@ Date: 04.04.25
     - Ice crafting recipe using same setting as increasing the amount used.
   Bugfixes:
     - Missing an bobs prefix.
+  Changes:
+    - Ice Melting recipe category to use chemistry-or-cryogenics
 ---------------------------------------------------------------------------------------------------
 Version: 0.1.16
 Date: 02.04.25
