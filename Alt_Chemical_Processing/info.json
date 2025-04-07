@@ -1,7 +1,7 @@
 { 
     "name": "Alt_Chemical_Processing",
     "title": "Alt Recipes & Processing",
-    "version": "0.1.17",
+    "version": "0.1.18",
     "factorio_version": "2.0",
     "author": "SGZ_Creations",
     "dependencies":[
@@ -11,6 +11,7 @@
         "? bobplates >= 2.0.0",
         "? bobenemies >= 2.0.0",
         "? boblogistics >= 2.0.0",
+        "? Better_Robots_Extended >= 1.1.10",
         "? god-module >= 0.2.14",
         "? More-Asteroid-Resources-Forked >= 1.1.6",
         "? SaltedFish >= 1.0.0",
