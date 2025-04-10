@@ -34,6 +34,13 @@ if mods["space-age"] then
     data:extend({
         {
             type = "bool-setting",
+            name = "WarmAquilo",
+            setting_type = "startup",
+            default_value = false,
+            order = "11aa"
+        },
+        {
+            type = "bool-setting",
             name = "seed-spoilage",
             setting_type = "startup",
             default_value = false,
