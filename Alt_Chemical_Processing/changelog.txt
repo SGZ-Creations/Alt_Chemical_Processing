@@ -7,6 +7,8 @@ Date: 08.04.25
   Changes:
     - Settings updates for mod Better_Robots_Extended.
     - More icons added to settings.
+  Bugfixes:
+    - Many missing [space-age] dpendency checks casusing coutless crashes. 
 ---------------------------------------------------------------------------------------------------
 Version: 0.1.17
 Date: 07.04.25

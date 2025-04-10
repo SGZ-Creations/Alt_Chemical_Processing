@@ -2,21 +2,24 @@ local ITEM = data.raw["item"]
 local RECIPE = data.raw["recipe"]
 local SS = settings.startup
 ---@settings
-
-if SS["WarmAquilo"].value then
-	data.raw.planet["aquilo"].entities_require_heating = false
+if mods["space-age"] then
+	if SS["WarmAquilo"].value then
+		data.raw.planet["aquilo"].entities_require_heating = false
+	end
 end
 
-if mods["space-age"]and not mods["BigBags"] then
-	data.raw.item["metallic-asteroid-chunk"].stack_size = SS["ACP-metallic-asteroid-chunk"].value
-	data.raw.item["carbonic-asteroid-chunk"].stack_size = SS["ACP-carbonic-asteroid-chunk"].value
-	data.raw.item["oxide-asteroid-chunk"].stack_size = SS["ACP-oxide-asteroid-chunk"].value
-	data.raw.item["promethium-asteroid-chunk"].stack_size = SS["ACP-promethium-asteroid-chunk"].value
-elseif mods["BigBags"] then -- BigBag overwrites my settings making them useless & confusing. but still need to create the stack_size to be avalibe for Bigbags to not default back.
-	ITEM["metallic-asteroid-chunk"].stack_size = 50
-	ITEM["carbonic-asteroid-chunk"].stack_size = 50
-	ITEM["oxide-asteroid-chunk"].stack_size = 50
-	ITEM["promethium-asteroid-chunk"].stack_size = 50
+if mods["space-age"] then
+	if not mods["BigBags"] then
+		data.raw.item["metallic-asteroid-chunk"].stack_size = SS["ACP-metallic-asteroid-chunk"].value
+		data.raw.item["carbonic-asteroid-chunk"].stack_size = SS["ACP-carbonic-asteroid-chunk"].value
+		data.raw.item["oxide-asteroid-chunk"].stack_size = SS["ACP-oxide-asteroid-chunk"].value
+		data.raw.item["promethium-asteroid-chunk"].stack_size = SS["ACP-promethium-asteroid-chunk"].value
+	elseif mods["BigBags"] then -- BigBag overwrites my settings making them useless & confusing. but still need to create the stack_size to be avalibe for Bigbags to not default back.
+		ITEM["metallic-asteroid-chunk"].stack_size = 50
+		ITEM["carbonic-asteroid-chunk"].stack_size = 50
+		ITEM["oxide-asteroid-chunk"].stack_size = 50
+		ITEM["promethium-asteroid-chunk"].stack_size = 50
+	end
 end
 
 
