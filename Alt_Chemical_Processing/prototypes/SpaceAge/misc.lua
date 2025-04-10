@@ -3,6 +3,10 @@ local RECIPE = data.raw["recipe"]
 local SS = settings.startup
 ---@settings
 
+if SS["WarmAquilo"].value then
+	data.raw.planet["aquilo"].entities_require_heating = false
+end
+
 if mods["space-age"]and not mods["BigBags"] then
 	data.raw.item["metallic-asteroid-chunk"].stack_size = SS["ACP-metallic-asteroid-chunk"].value
 	data.raw.item["carbonic-asteroid-chunk"].stack_size = SS["ACP-carbonic-asteroid-chunk"].value
