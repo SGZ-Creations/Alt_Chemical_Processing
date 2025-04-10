@@ -14,6 +14,34 @@ if SS["iron-utillity"].value then
 	})
 end
 
+--[[ 
+Propper intermediates mod for modpack make this use gunpowder made of sulfur, charcoal, potassium nitrate (saltpeter) which is supposedly easy to make
+	- Saltpeter mined with water
+	- Charcoal made in furnace from wood
+	- Sulfur mined with steam
+	- Gunpowder can then be made in assembly & chemically.
+]]
+if SS["CliffRemovalService"].value then
+	data:extend({
+		{
+			type = "recipe",
+			name = "cliff-explosive-removal",
+            main_product = "cliff-explosives",
+            category = "chemistry-or-cryogenics",
+			order = "e[cliff-explosive]",
+			subgroup = "terrain",
+			--enabled = false,
+			energy_required = 10,
+			ingredients = {
+				{type = "item", name = "steel-plate", amount = 10},
+				{type = "item", name = "stone", amount = 5},
+				{type = "item", name = "coal", amount = 5},
+			},
+			results = {{type = "item", name = "cliff-explosives", amount = 1}}
+		}
+	})
+end
+
 if SS["LiquidCoal"].value then
 	data:extend({
 		{

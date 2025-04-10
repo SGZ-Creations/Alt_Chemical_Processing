@@ -37,7 +37,7 @@ if mods["space-age"] then
             name = "WarmAquilo",
             setting_type = "startup",
             default_value = false,
-            order = "11aa"
+            order = "1Aaf"
         },
         {
             type = "bool-setting",
@@ -65,28 +65,28 @@ if mods["space-age"] then
             name = "SFastLava",
             setting_type = "startup",
             default_value = 200,
-            order = "1Aaf"
+            order = "1Aag"
         },
         {
             type = "bool-setting",
             name = "LavaCraft",
             setting_type = "startup",
             default_value = false,
-            order = "1Aag"
+            order = "1Aah"
         },
         {
             type = "int-setting",
             name = "IceCubes",
             setting_type = "startup",
             default_value = 1,
-            order = "1Aah"
+            order = "1Aai"
         },
         {
             type = "int-setting",
             name = "WaterAmount",
             setting_type = "startup",
             default_value = 20,
-            order = "1Aai"
+            order = "1Aaj"
         },
         {
             type = "bool-setting",
@@ -156,7 +156,7 @@ data:extend({
         name = "iron-utillity",
         setting_type = "startup",
         default_value = false,
-        order = "5Aaa"
+        order = "5Zaa"
     },
     {
         type = "bool-setting",
@@ -164,5 +164,28 @@ data:extend({
         setting_type = "startup",
         default_value = false,
         order = "3Aaa"
+    },
+    {
+        type = "bool-setting",
+        name = "CliffRemovalService",
+        setting_type = "startup",
+        default_value = false,
+        order = "5Yab"
+    },
+    {
+        type = "double-setting",
+        name = "ExplosiveRange",
+        setting_type = "startup",
+        default_value = 10,
+        minimum_value = 0.1,
+        order = "5Yab"
+    },
+    {
+        type = "double-setting",
+        name = "ExplosiveRadius",
+        setting_type = "startup",
+        default_value = 1.5,
+        minimum_value = 0.1,
+        order = "5Yac"
     },
 })
