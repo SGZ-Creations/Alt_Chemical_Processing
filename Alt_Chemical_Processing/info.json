@@ -1,7 +1,7 @@
 { 
     "name": "Alt_Chemical_Processing",
     "title": "Alt Recipes & Processing",
-    "version": "0.1.18",
+    "version": "0.1.19",
     "factorio_version": "2.0",
     "author": "SGZ_Creations",
     "dependencies":[
@@ -14,7 +14,6 @@
         "? Better_Robots_Extended >= 1.1.10",
         "? god-module >= 0.2.14",
         "? More-Asteroid-Resources-Forked >= 1.1.6",
-        "? Power-Armour-Replacer >= 0.3.18",
         "? SaltedFish >= 1.0.0",
         "? spidertron-extended >= 0.4.0",
         "? vanilla-loaders-hd >= 2.2.0",

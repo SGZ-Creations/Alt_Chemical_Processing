@@ -1,4 +1,12 @@
 ---------------------------------------------------------------------------------------------------
+Version: 0.1.19
+Date: 21.05.25
+  Features:
+    - Added code function to do custom crafting category. Importing from PAR was not functional.
+  Bugfixes:
+    - Fixed some few crashes casued by the the previus version.
+    - 0.1.18 version should be deleted.
+---------------------------------------------------------------------------------------------------
 Version: 0.1.18
 Date: 21.05.25
   Features:
@@ -13,7 +21,6 @@ Date: 21.05.25
     - More icons added to settings.
   Bugfixes:
     - Many missing [space-age] dpendency checks casusing coutless crashes.
-    - Hotfix on 0.1.18-2 Fixes Crash. on the early 0.18.x-x.  
 ---------------------------------------------------------------------------------------------------
 Version: 0.1.17
 Date: 07.04.25
