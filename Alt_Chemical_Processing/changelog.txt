@@ -5,7 +5,7 @@ Date: 21.05.25
     - Added code function to do custom crafting category. Importing from PAR was not functional.
   Bugfixes:
     - Fixed some few crashes casued by the the previus version.
-    - 0.1.18 version should be deleted.
+    - 0.1.18 version should be deleted. from the portal.
 ---------------------------------------------------------------------------------------------------
 Version: 0.1.18
 Date: 21.05.25
