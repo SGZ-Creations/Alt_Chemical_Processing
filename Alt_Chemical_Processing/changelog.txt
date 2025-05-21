@@ -12,7 +12,8 @@ Date: 21.05.25
     - Settings updates for mod Better_Robots_Extended.
     - More icons added to settings.
   Bugfixes:
-    - Many missing [space-age] dpendency checks casusing coutless crashes. 
+    - Many missing [space-age] dpendency checks casusing coutless crashes.
+    - Hotfix on 0.1.18-2 Fixes Crash. on the early 0.18.x-x.  
 ---------------------------------------------------------------------------------------------------
 Version: 0.1.17
 Date: 07.04.25
