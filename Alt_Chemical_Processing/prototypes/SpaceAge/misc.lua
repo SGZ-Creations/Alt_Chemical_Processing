@@ -11,7 +11,6 @@ if mods["space-age"] then
 	end
 end
 
-end
 if mods["space-age"] then
 	if not mods["BigBags"] then
 		data.raw.item["metallic-asteroid-chunk"].stack_size = SS["ACP-metallic-asteroid-chunk"].value
