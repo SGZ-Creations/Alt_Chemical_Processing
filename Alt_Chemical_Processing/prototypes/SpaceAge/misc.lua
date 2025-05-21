@@ -6,6 +6,7 @@ if mods["space-age"] then
 	if SS["WarmAquilo"].value then
 		data.raw.planet["aquilo"].entities_require_heating = false
 	end
+	data.raw["recipe"]["spidertron"].category = "electronics-or-handcrafting"
 end
 
 if mods["space-age"] then

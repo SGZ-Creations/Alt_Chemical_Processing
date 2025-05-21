@@ -1,10 +1,12 @@
-	require("prototypes.Base.Misc")
+
 	require("prototypes.Base.recipes")
 	require("prototypes.Base.tech")
 
 	require("prototypes.SpaceAge.recipes")
 	require("prototypes.SpaceAge.tech")
 	require("prototypes.SpaceAge.misc")
+
+	require("prototypes.SpidertronExtended.misc")
 
 	require("prototypes.armoredbiters.biter-captures")
 
