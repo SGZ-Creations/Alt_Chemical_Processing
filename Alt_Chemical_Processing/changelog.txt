@@ -6,6 +6,8 @@ Date: 21.05.25
     - Optional [item=cliff-explosives] Recipe.
     - Optional [item=cliff-explosives] TrowRange.
     - Optional [item=cliff-explosives] ExplosivRadius.
+    - Allow for [item=spidertron] to be crafted in [item=electromagnetic-plant].
+    - Made [item=spidertron] from SpidertronExtended also use [item=electromagnetic-plant].
   Changes:
     - Settings updates for mod Better_Robots_Extended.
     - More icons added to settings.
