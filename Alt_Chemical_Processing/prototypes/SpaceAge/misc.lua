@@ -6,9 +6,12 @@ if mods["space-age"] then
 	if SS["WarmAquilo"].value then
 		data.raw.planet["aquilo"].entities_require_heating = false
 	end
-	data.raw["recipe"]["spidertron"].category = "electronics-or-handcrafting"
+	if mods["Power-Armour-Replacer"] then
+		data.raw["recipe"]["spidertron"].category = "electronics-or-handcrafting"
+	end
 end
 
+end
 if mods["space-age"] then
 	if not mods["BigBags"] then
 		data.raw.item["metallic-asteroid-chunk"].stack_size = SS["ACP-metallic-asteroid-chunk"].value
