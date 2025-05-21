@@ -34,13 +34,6 @@ if mods["space-age"] then
     data:extend({
         {
             type = "bool-setting",
-            name = "WarmAquilo",
-            setting_type = "startup",
-            default_value = false,
-            order = "1Aaf"
-        },
-        {
-            type = "bool-setting",
             name = "seed-spoilage",
             setting_type = "startup",
             default_value = false,
@@ -65,11 +58,18 @@ if mods["space-age"] then
             name = "SFastLava",
             setting_type = "startup",
             default_value = 200,
-            order = "1Aag"
+            order = "1Aaf"
         },
         {
             type = "bool-setting",
             name = "LavaCraft",
+            setting_type = "startup",
+            default_value = false,
+            order = "1Aag"
+        },
+        {
+            type = "bool-setting",
+            name = "WarmAquilo",
             setting_type = "startup",
             default_value = false,
             order = "1Aah"
