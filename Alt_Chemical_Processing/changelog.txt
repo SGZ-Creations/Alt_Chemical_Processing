@@ -1,9 +1,11 @@
 ---------------------------------------------------------------------------------------------------
 Version: 0.1.18
-Date: 08.04.25
+Date: 21.05.25
   Features:
-    - Option to toggle Aquilos freezing On/Off planet.
-    - Optional cliff explosive recipe.
+    - Option to toggle [planet=aquilo] freezing On/Off planet.
+    - Optional [item=cliff-explosives] Recipe.
+    - Optional [item=cliff-explosives] TrowRange.
+    - Optional [item=cliff-explosives] ExplosivRadius.
   Changes:
     - Settings updates for mod Better_Robots_Extended.
     - More icons added to settings.
