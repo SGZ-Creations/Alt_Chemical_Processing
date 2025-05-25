@@ -7,7 +7,11 @@ if mods["space-age"] then
 		data.raw.planet["aquilo"].entities_require_heating = false
 	end
 end
-
+--[[
+if mods["space-age"] then
+	data.raw.item["inserter"]["stack-insert"].wait_for_full_hand = SS["InsertSleep"].value
+end
+]]
 if mods["space-age"] then
 	if not mods["BigBags"] then
 		data.raw.item["metallic-asteroid-chunk"].stack_size = SS["ACP-metallic-asteroid-chunk"].value

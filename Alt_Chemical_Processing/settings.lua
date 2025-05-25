@@ -95,6 +95,13 @@ if mods["space-age"] then
             default_value = false,
             order = "3Aab"
         },
+        {
+            type = "bool-setting",
+            name = "InsertSleep",
+            setting_type = "startup",
+            default_value = false,
+            order = "3Aac"
+        },
     })
 end
 if mods["space-age"] and not mods["BigBags"] then
