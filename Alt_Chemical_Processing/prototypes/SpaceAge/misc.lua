@@ -11,6 +11,7 @@ end
 if mods["space-age"] then
 	data.raw.item["inserter"]["stack-insert"].wait_for_full_hand = SS["InsertSleep"].value
 end
+- Added StackInser deep sleep Setting. This setting is highly suggested to keep off/deafult as I was told it can fuck badly with your stack inserters. 
 ]]
 if mods["space-age"] then
 	if not mods["BigBags"] then

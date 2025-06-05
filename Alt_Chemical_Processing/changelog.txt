@@ -2,7 +2,7 @@
 Version: 0.1.20
 Date: 25.05.25
   Features:
-    - Added StackInser deep sleep Setting. This setting is highly suggested to keep off/deafult as I was told it can fuck badly with your stack inserters. 
+    
 ---------------------------------------------------------------------------------------------------
 Version: 0.1.19
 Date: 21.05.25
