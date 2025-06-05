@@ -100,9 +100,7 @@ if mods["space-age"] then
 				enabled = false,
 				allow_productivity = true,
 				energy_required = 120,
-				ingredients = {
-					{type = "item", name = "stone", amount = 1000},
-				},
+				ingredients = {{type = "item", name = "stone", amount = 1000}},
 				results = {{type="fluid", name="lava", amount= SS["SSlowLava"].value}},
 			},
 			{
@@ -114,9 +112,7 @@ if mods["space-age"] then
 				allow_productivity = true,
 				enabled = false,
 				energy_required = 90,
-				ingredients = {
-					{type = "item", name = "stone", amount = 1000},
-				},
+				ingredients = {{type = "item", name = "stone", amount = 1000}},
 				results = {{type="fluid", name="lava", amount= SS["SFastLava"].value}},
 			},
 			{
@@ -128,10 +124,24 @@ if mods["space-age"] then
 				enabled = false,
 				allow_productivity = true,
 				energy_required = 10,
-				ingredients = {
-					{type = "fluid", name = "lava", amount = 100},
-				},
+				ingredients = {{type = "fluid", name = "lava", amount = 100}},
 				results = {{type="item", name="calcite", amount= 25}},
+			},
+		})
+	end
+	if SS["CryoRecyle"].value then
+		data:extend({
+			{
+				type = "recipe",
+				name = "recycle-craft-cryo",
+				category = "cryogenics",
+				subgroup = "science-pack",
+				order = "k",
+				enabled = false,
+				allow_productivity = true,
+				energy_required = 10,
+				ingredients = {{type = "item", name = "cryogenic-science-pack", amount = 5}},
+				results = {{type="item", name="cryogenic-science-pack", amount= 1}},
 			},
 		})
 	end

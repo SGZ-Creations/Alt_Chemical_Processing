@@ -18,14 +18,14 @@ if mods["vanilla-loaders-hd"]and mods["boblogistics"] then
             name = "CheaperLoaders",
             setting_type = "startup",
             default_value = false,
-            order = "4Aaa"
+            order = "6Aaa"
         },
         {
             type = "bool-setting",
             name = "SAgeLoaders",
             setting_type = "startup",
             default_value = false,
-            order = "4Aab"
+            order = "6Aab"
         },
     })
 end
@@ -95,12 +95,19 @@ if mods["space-age"] then
             default_value = false,
             order = "3Aab"
         },
-        {
+        --[[{
             type = "bool-setting",
             name = "InsertSleep",
             setting_type = "startup",
             default_value = false,
-            order = "3Aac"
+            order = "4Aac"
+        },]]
+        {
+            type = "bool-setting",
+            name = "CryoRecyle",
+            setting_type = "startup",
+            default_value = false,
+            order = "4Aad"
         },
     })
 end

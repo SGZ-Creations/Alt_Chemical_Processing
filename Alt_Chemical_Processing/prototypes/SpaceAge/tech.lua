@@ -12,4 +12,7 @@ if mods["space-age"] then
 		table.insert(DRT["artillery"].effects, {type = "unlock-recipe", recipe = "fast-lava"})
 		table.insert(DRT["foundry"].effects, {type = "unlock-recipe", recipe = "lava-calcite"})
 	end
+	if SS["CryoRecyle"].value then
+		table.insert(DRT["cryogenic-science-pack"].effects, {type = "unlock-recipe", recipe = "recycle-craft-cryo"})
+	end
 end
