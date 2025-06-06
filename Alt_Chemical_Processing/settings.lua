@@ -6,7 +6,7 @@ if mods["Wood_Gasification_updated"]and mods["space-age"] then
             name = "yumako-jellynut",
             setting_type = "startup",
             default_value = false,
-            order = "2Caa"
+            order = "1Aba"
         },
     })
 end
@@ -37,63 +37,70 @@ if mods["space-age"] then
             name = "seed-spoilage",
             setting_type = "startup",
             default_value = false,
-            order = "2Cab"
-        },
-        {
-            type = "bool-setting",
-            name = "carbon-steel",
-            setting_type = "startup",
-            default_value = false,
-            order = "2Cac"
-        },
-        {
-            type = "int-setting",
-            name = "SSlowLava",
-            setting_type = "startup",
-            default_value = 200,
-            order = "1Aae"
-        },
-        {
-            type = "int-setting",
-            name = "SFastLava",
-            setting_type = "startup",
-            default_value = 200,
-            order = "1Aaf"
-        },
-        {
-            type = "bool-setting",
-            name = "LavaCraft",
-            setting_type = "startup",
-            default_value = false,
-            order = "1Aag"
+            order = "1Abb"
         },
         {
             type = "bool-setting",
             name = "WarmAquilo",
             setting_type = "startup",
             default_value = false,
-            order = "1Aah"
+            order = "1Aca"
+        },
+        {
+            type = "bool-setting",
+            name = "CryoRecycle",
+            setting_type = "startup",
+            default_value = false,
+            order = "1Acb"
         },
         {
             type = "int-setting",
             name = "IceCubes",
             setting_type = "startup",
             default_value = 1,
-            order = "1Aai"
+            order = "1Acc"
         },
         {
             type = "int-setting",
             name = "WaterAmount",
             setting_type = "startup",
             default_value = 20,
-            order = "1Aaj"
+            order = "1Acd"
+        },
+        {
+            type = "bool-setting",
+            name = "carbon-steel",
+            setting_type = "startup",
+            default_value = false,
+            order = "1Afb"
         },
         {
             type = "bool-setting",
             name = "BigMiner",
             setting_type = "startup",
             default_value = false,
-            order = "3Aab"
+            order = "1Afc"
+        },
+        {
+            type = "int-setting",
+            name = "SSlowLava",
+            setting_type = "startup",
+            default_value = 200,
+            order = "1Afd"
+        },
+        {
+            type = "int-setting",
+            name = "SFastLava",
+            setting_type = "startup",
+            default_value = 200,
+            order = "1Afe"
+        },
+        {
+            type = "bool-setting",
+            name = "LavaCraft",
+            setting_type = "startup",
+            default_value = false,
+            order = "1Aff"
         },
         --[[{
             type = "bool-setting",
@@ -102,13 +109,6 @@ if mods["space-age"] then
             default_value = false,
             order = "4Aac"
         },]]
-        {
-            type = "bool-setting",
-            name = "CryoRecyle",
-            setting_type = "startup",
-            default_value = false,
-            order = "4Aad"
-        },
     })
 end
 if mods["space-age"] and not mods["BigBags"] then
@@ -164,20 +164,32 @@ if mods["AtomicArtillery2"] then
     })
 end
 
+if mods["StoneWaterWell-ActuallyUpdated"] and mods["space-age"] then
+    data:extend({
+        {
+            type = "double-setting",
+            name = "WaterWellPressureMin",
+            setting_type = "startup",
+            default_value = 1000,
+            order = "3Cab"
+        },
+        {
+            type = "double-setting",
+            name = "WaterWellPressureMax",
+            setting_type = "startup",
+            default_value = 2000,
+            order = "3Cac"
+        },
+    })
+end
+
 data:extend({
-    {
-        type = "bool-setting",
-        name = "iron-utillity",
-        setting_type = "startup",
-        default_value = false,
-        order = "5Zaa"
-    },
     {
         type = "bool-setting",
         name = "LiquidCoal",
         setting_type = "startup",
         default_value = false,
-        order = "3Aaa"
+        order = "1Afa"
     },
     {
         type = "bool-setting",
@@ -201,5 +213,12 @@ data:extend({
         default_value = 1.5,
         minimum_value = 0.1,
         order = "5Yac"
+    },
+    {
+        type = "bool-setting",
+        name = "iron-utillity",
+        setting_type = "startup",
+        default_value = false,
+        order = "5Zaa"
     },
 })

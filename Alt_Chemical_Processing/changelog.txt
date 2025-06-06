@@ -2,7 +2,10 @@
 Version: 0.1.20
 Date: 25.05.25
   Features:
-    - New Toggleabel Recipe for craftcycle [item=cryogeenic-science-pack].
+    - New Toggleabel Recipe for craftcycle [item=cryogenic-science-pack].
+    - Created settings for StoneWaterWell-ActuallyUpdated.
+  Changes:
+    - Cleaning in settings menue.
 ---------------------------------------------------------------------------------------------------
 Version: 0.1.19
 Date: 21.05.25

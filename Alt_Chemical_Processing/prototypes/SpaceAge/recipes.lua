@@ -129,7 +129,7 @@ if mods["space-age"] then
 			},
 		})
 	end
-	if SS["CryoRecyle"].value then
+	if SS["CryoRecycle"].value then
 		data:extend({
 			{
 				type = "recipe",
