@@ -1,3 +1,4 @@
+---@class data.SettingsStartup
 local SS = settings.startup
 if mods["Wood_Gasification_updated"]and mods["space-age"] then
 	data:extend({

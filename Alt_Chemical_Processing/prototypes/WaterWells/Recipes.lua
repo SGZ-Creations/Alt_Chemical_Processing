@@ -1,6 +1,8 @@
-local DRR = data.raw.recipe
+---@class data.RecipePrototype
+local Recipes = data.raw.recipe
+
 if mods["StoneWaterWell-ActuallyUpdated"] then
-	DRR["stone-waterwell"].ingredients = {
+	Recipes["stone-waterwell"].ingredients = {
 		{type ="item", name="stone", amount = 40},
 		{type ="item", name="stone-brick", amount = 8},
 		{type ="item", name="copper-plate", amount = 5},

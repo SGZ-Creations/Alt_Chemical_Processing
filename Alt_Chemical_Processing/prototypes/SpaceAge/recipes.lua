@@ -1,15 +1,12 @@
+---@class data.SettingsStartup
 local SS = settings.startup
---[[
-	local DRR = data.raw.recipe
-	table.insert(DRR["utillity-science-pack"].ingredients {
-		{type = "item", name = "iron-ore", amount = 1000},
-	})
-]]
+---@class data.RecipePrototype 
+local Recipe = data.raw["recipe"]
 
 if mods["space-age"]then
-	data.raw.recipe["ice-melting"].ingredients = {{type = "item", name = "ice", amount = SS["IceCubes"].value}}
-	data.raw.recipe["ice-melting"].results = {{type = "fluid", name = "water", amount = SS["WaterAmount"].value}}
-	data.raw.recipe["ice-melting"].category = "chemistry-or-cryogenics"
+	Recipe["ice-melting"].ingredients = {{type = "item", name = "ice", amount = SS["IceCubes"].value}}
+	Recipe["ice-melting"].results = {{type = "fluid", name = "water", amount = SS["WaterAmount"].value}}
+	Recipe["ice-melting"].category = "chemistry-or-cryogenics"
 	data:extend({
 		{
 			type = "recipe",

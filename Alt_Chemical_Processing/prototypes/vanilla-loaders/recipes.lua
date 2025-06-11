@@ -1,10 +1,12 @@
-local DRR = data.raw.recipe
+---@class data.RecipePrototype
+local Recipes = data.raw.recipe
+---@class data.Settings.startup
 local SS = settings.startup
 
 function remove_ingredient(recipe_name, ingredient_name)
-    for i, ingredient in pairs(DRR[recipe_name].ingredients) do
+    for i, ingredient in pairs(Recipes[recipe_name].ingredients) do
         if ingredient.name == ingredient_name then
-            table.remove(DRR[recipe_name].ingredients, i)
+            table.remove(Recipes[recipe_name].ingredients, i)
         end
     end
 end

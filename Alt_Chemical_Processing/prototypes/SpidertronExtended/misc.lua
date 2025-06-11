@@ -1,8 +1,10 @@
+---@class data.RecipePrototype
+local Recipe = data.raw.recipe
 if mods["spidertron-extended"] then
-	data.raw["recipe"]["spidertronmk2"].category = "electronics-or-handcrafting"
-	data.raw["recipe"]["spidertronmk3"].category = "electronics-or-handcrafting"
-	data.raw["recipe"]["spidertron-builder"].category = "electronics-or-handcrafting"
-	data.raw["recipe"]["immolator"].category = "electronics-or-handcrafting"
-	data.raw["recipe"]["major-spidertron"].category = "electronics-or-handcrafting"
+	Recipe["spidertronmk2"].category = "electronics-or-handcrafting"
+	Recipe["spidertronmk3"].category = "electronics-or-handcrafting"
+	Recipe["spidertron-builder"].category = "electronics-or-handcrafting"
+	Recipe["immolator"].category = "electronics-or-handcrafting"
+	Recipe["major-spidertron"].category = "electronics-or-handcrafting"
 end
-	data.raw["recipe"]["spidertron"].category = "electronics-or-handcrafting"
+	Recipe["spidertron"].category = "electronics-or-handcrafting"
