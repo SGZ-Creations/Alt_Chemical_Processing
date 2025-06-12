@@ -1,18 +1,24 @@
 ---------------------------------------------------------------------------------------------------
+Version: 0.1.21
+Date: 12.06.25
+  Changes:
+    - Made bobs inserter follow space age on allowing to craft inserters at the electromagnetic plant.
+    - Typos in changelog.
+---------------------------------------------------------------------------------------------------
 Version: 0.1.20
 Date: 25.05.25
   Features:
-    - New Toggleabel Recipe for craftcycle [item=cryogenic-science-pack].
+    - New Toggleable Recipe for craftcycle [item=cryogenic-science-pack].
     - Created settings for StoneWaterWell-ActuallyUpdated.
   Changes:
-    - Cleaning in settings menue.
+    - Cleaning in settings menu.
 ---------------------------------------------------------------------------------------------------
 Version: 0.1.19
 Date: 21.05.25
   Features:
     - Added code function to do custom crafting category. Importing from PAR was not functional.
   Bugfixes:
-    - Fixed some few crashes casued by the the previus version.
+    - Fixed some few crashes caused by the the previous version.
     - 0.1.18 version should be deleted. from the portal.
 ---------------------------------------------------------------------------------------------------
 Version: 0.1.18
@@ -20,8 +26,8 @@ Date: 21.05.25
   Features:
     - Option to toggle [planet=aquilo] freezing On/Off planet.
     - Optional [item=cliff-explosives] Recipe.
-    - Optional [item=cliff-explosives] TrowRange.
-    - Optional [item=cliff-explosives] ExplosivRadius.
+    - Optional [item=cliff-explosives] ThrowRange.
+    - Optional [item=cliff-explosives] ExplosiveRadius.
     - Allow for [item=spidertron] to be crafted in [item=electromagnetic-plant].
     - Made [item=spidertron] from SpidertronExtended also use [item=electromagnetic-plant].
   Changes:
@@ -49,7 +55,7 @@ Date: 02.04.25
 Version: 0.1.15
 Date: 01.04.25
   Bugfixes:
-    - Typos in previus Logs.
+    - Typos in previous Logs.
     - Mist belt staying in recipe.
 ---------------------------------------------------------------------------------------------------
 Version: 0.1.14
@@ -61,7 +67,7 @@ Date: 31.03.25
 Version: 0.1.13
 Date: 27.03.25
   Features:
-    - Made Settings for changing recipe ice-melting Ingedients & Results.
+    - Made Settings for changing recipe ice-melting Ingredients & Results.
   Changes:
     - Bobs logistics belts changed crafting category to Pressed.
     - Changed Express-belts crafting category to Pressed.

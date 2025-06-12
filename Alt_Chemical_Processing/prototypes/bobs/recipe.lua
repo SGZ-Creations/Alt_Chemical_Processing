@@ -13,6 +13,14 @@ if mods["boblogistics"] and mods["space-age"] then
 	DRR["bob-ultimate-transport-belt"].category = "pressing"
 	DRR["bob-ultimate-underground-belt"].category = "pressing"
 	DRR["bob-ultimate-splitter"].category = "pressing"
+
+    DRR["bob-red-bulk-inserter"].category = "electronics-or-handcrafting"
+
+    DRR["bob-turbo-inserter"].category = "electronics-or-handcrafting"
+    DRR["bob-turbo-bulk-inserter"].category = "electronics-or-handcrafting"
+
+    DRR["bob-express-inserter"].category = "electronics-or-handcrafting"
+    DRR["bob-express-bulk-inserter"].category = "electronics-or-handcrafting"
 end
 
 if mods["bobplates"] and mods["bobrevamp"] then
