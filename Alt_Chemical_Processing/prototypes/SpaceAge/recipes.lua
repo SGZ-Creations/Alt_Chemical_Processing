@@ -126,6 +126,43 @@ if mods["space-age"] then
 			},
 		})
 	end
+	if mods["Configurable_Landfill"]then
+		data:extend({
+			{
+				type = "recipe",
+				name = "casted-space-foundation",
+				category = "metallurgy",
+				subgroup = "space-platform",
+				order = "a[space-platform-foundation]",
+				enabled = false,
+				allow_productivity = true,
+				energy_required = 10,
+				ingredients = {
+					{type = "fluid", name = "molten-iron", amount = 1000},
+					{type = "fluid", name = "molten-copper", amount = 200}
+				},
+				results = {{type="item", name="space-platform-foundation", amount= SS["space-platform-foundation-results"].value}},
+			},
+		})
+	elseif not mods["Configurable_Landfill"] then
+		data:extend({
+			{
+				type = "recipe",
+				name = "casted-space-foundation",
+				category = "metallurgy",
+				subgroup = "space-platform",
+				order = "a[space-platform-foundation]",
+				enabled = false,
+				allow_productivity = true,
+				energy_required = 10,
+				ingredients = {
+					{type = "fluid", name = "molten-iron", amount = 1000},
+					{type = "fluid", name = "molten-copper", amount = 200}
+				},
+				results = {{type="item", name="space-platform-foundation", amount= 1}},
+			},
+		})
+	end
 	if SS["CryoRecycle"].value then
 		data:extend({
 			{

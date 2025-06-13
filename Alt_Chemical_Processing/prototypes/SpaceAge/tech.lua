@@ -6,6 +6,7 @@ local SS = settings.startup
 if mods["space-age"] then
 		table.insert(Tech["fish-breeding"].effects, {type="unlock-recipe", recipe="fed-fish"})
 		table.insert(Tech["lithium-processing"].effects, {type="unlock-recipe", recipe="ice-cubes"})
+		table.insert(Tech["foundry"].effects, {type="unlock-recipe", recipe="casted-space-foundation"})
 	if SS["seed-spoilage"].value then
 		table.insert(Tech["biochamber"].effects, {type="unlock-recipe", recipe="spoiled-seed"})
 	end
