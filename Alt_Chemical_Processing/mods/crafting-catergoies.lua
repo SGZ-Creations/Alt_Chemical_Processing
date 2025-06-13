@@ -17,12 +17,13 @@ if mods["space-age"] then
 	table.insert(data.raw["assembling-machine"]["electromagnetic-plant"].crafting_categories, "electronics-or-handcrafting")
 end
 
-
-if not mods["electromagnetic-plant-expanded"] then
-	Recipe["burner-inserter"].category = "electronics"
-	Recipe["inserter"].category = "electronics"
-	Recipe["long-handed-inserter"].category = "electronics"
-	Recipe["fast-inserter"].category = "electronics"
-	Recipe["bulk-inserter"].category = "electronics"
-	Recipe["stack-inserter"].category = "electronics"
+if mods["space-age"] then
+	if not mods["electromagnetic-plant-expanded"] then
+		Recipe["burner-inserter"].category = "electronics"
+		Recipe["inserter"].category = "electronics"
+		Recipe["long-handed-inserter"].category = "electronics"
+		Recipe["fast-inserter"].category = "electronics"
+		Recipe["bulk-inserter"].category = "electronics"
+		Recipe["stack-inserter"].category = "electronics"
+	end
 end
