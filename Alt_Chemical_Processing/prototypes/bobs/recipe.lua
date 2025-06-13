@@ -1,26 +1,27 @@
 local DRI = data.raw.item
-local DRR = data.raw.recipe
+---@class data.RecipePrototype 
+local Recipe = data.raw["recipe"]
 
 if mods["boblogistics"] and mods["space-age"] then
-    DRR["express-transport-belt"].category = "pressing"
-    DRR["express-underground-belt"].category = "pressing"
-    DRR["express-splitter"].category = "pressing"
+    Recipe["express-transport-belt"].category = "pressing"
+    Recipe["express-underground-belt"].category = "pressing"
+    Recipe["express-splitter"].category = "pressing"
 
-	DRR["bob-turbo-transport-belt"].category = "pressing"
-	DRR["bob-turbo-underground-belt"].category = "pressing"
-	DRR["bob-turbo-splitter"].category = "pressing"
+	Recipe["bob-turbo-transport-belt"].category = "pressing"
+	Recipe["bob-turbo-underground-belt"].category = "pressing"
+	Recipe["bob-turbo-splitter"].category = "pressing"
 
-	DRR["bob-ultimate-transport-belt"].category = "pressing"
-	DRR["bob-ultimate-underground-belt"].category = "pressing"
-	DRR["bob-ultimate-splitter"].category = "pressing"
+	Recipe["bob-ultimate-transport-belt"].category = "pressing"
+	Recipe["bob-ultimate-underground-belt"].category = "pressing"
+	Recipe["bob-ultimate-splitter"].category = "pressing"
 
-    DRR["bob-red-bulk-inserter"].category = "electronics-or-handcrafting"
+    Recipe["bob-red-bulk-inserter"].category = "electronics-or-handcrafting"
 
-    DRR["bob-turbo-inserter"].category = "electronics-or-handcrafting"
-    DRR["bob-turbo-bulk-inserter"].category = "electronics-or-handcrafting"
+    Recipe["bob-turbo-inserter"].category = "electronics-or-handcrafting"
+    Recipe["bob-turbo-bulk-inserter"].category = "electronics-or-handcrafting"
 
-    DRR["bob-express-inserter"].category = "electronics-or-handcrafting"
-    DRR["bob-express-bulk-inserter"].category = "electronics-or-handcrafting"
+    Recipe["bob-express-inserter"].category = "electronics-or-handcrafting"
+    Recipe["bob-express-bulk-inserter"].category = "electronics-or-handcrafting"
 end
 
 if mods["bobplates"] and mods["bobrevamp"] then

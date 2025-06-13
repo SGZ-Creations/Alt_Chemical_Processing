@@ -2,8 +2,10 @@
 Version: 0.1.21
 Date: 12.06.25
   Changes:
-    - Made bobs inserter follow space age on allowing to craft inserters at the electromagnetic plant.
+    - Allowing base game inserter to use electromagnetic-plant for crafting inserters. If not using electromagnetic-plant-expanded mod.
+    - Allowing bobs inserter to use electromagnetic-plant for craft inserters.
     - Typos in changelog.
+    - some
 ---------------------------------------------------------------------------------------------------
 Version: 0.1.20
 Date: 25.05.25
