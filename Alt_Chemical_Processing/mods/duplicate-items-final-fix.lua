@@ -57,4 +57,7 @@ end
 if mods["bobplates"] and mods["space-age"] and mods["James-Oil-Processing"] then
     data.raw.item["carbon"].icon = "__space-age__/graphics/icons/carbon.png"
     data.raw.item["carbon"].icon_size = 64
+elseif mods["bobplates"] and mods["space-age"] then
+    data.raw.item["carbon"].icon = "__space-age__/graphics/icons/carbon.png"
+    data.raw.item["carbon"].icon_size = 64
 end
