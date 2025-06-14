@@ -159,7 +159,7 @@ if mods["space-age"] then
 					{type = "fluid", name = "molten-iron", amount = 1000},
 					{type = "fluid", name = "molten-copper", amount = 200}
 				},
-				results = {{type="item", name="space-platform-foundation", amount= 1}},
+				results = {{type="item", name="space-platform-foundation", amount= 2}},
 			},
 		})
 	end
