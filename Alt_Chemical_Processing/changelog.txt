@@ -1,4 +1,10 @@
 ---------------------------------------------------------------------------------------------------
+Version: 0.1.23
+Date: 16.02.25
+  Changes:
+    - Changed base game cliff explosive output to be more rewarding using setting [Optioanl Explossive].
+    - Some carbon textures when using bobs.
+---------------------------------------------------------------------------------------------------
 Version: 0.1.22
 Date: 14.06.25
   Features:
