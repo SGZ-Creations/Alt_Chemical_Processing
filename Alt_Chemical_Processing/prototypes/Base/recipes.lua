@@ -1,4 +1,6 @@
 local SS = settings.startup
+---@class dat.RecipePrototype
+local Recipe = data.raw["recipe"]
 
 if SS["iron-utillity"].value then
 	data:extend({
@@ -40,7 +42,9 @@ if SS["CliffRemovalService"].value then
 			results = {{type = "item", name = "cliff-explosives", amount = 1}}
 		}
 	})
+	Recipe["cliff-explosives"].results = {{type = "item", name = "cliff-explosives", amount = 5}}
 end
+
 
 if SS["LiquidCoal"].value then
 	data:extend({
