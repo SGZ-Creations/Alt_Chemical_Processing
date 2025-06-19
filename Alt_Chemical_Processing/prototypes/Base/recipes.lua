@@ -1,5 +1,6 @@
+---@class LuaSettings
 local SS = settings.startup
----@class dat.RecipePrototype
+---@class data.RecipePrototype
 local Recipe = data.raw["recipe"]
 
 if SS["iron-utillity"].value then
@@ -17,8 +18,8 @@ if SS["iron-utillity"].value then
 end
 
 --[[ 
-Propper intermediates mod for modpack make this use gunpowder made of sulfur, charcoal, potassium nitrate (saltpeter) which is supposedly easy to make
-	- Saltpeter mined with water
+Proper intermediates mod for modpack make this use gunpowder made of sulfur, charcoal, potassium nitrate (saltpeter) which is supposedly easy to make
+	- Saltpetre mined with water
 	- Charcoal made in furnace from wood
 	- Sulfur mined with steam
 	- Gunpowder can then be made in assembly & chemically.
@@ -28,11 +29,10 @@ if SS["CliffRemovalService"].value then
 		{
 			type = "recipe",
 			name = "cliff-explosive-removal",
-            main_product = "cliff-explosives",
-            category = "chemistry-or-cryogenics",
+			main_product = "cliff-explosives",
+			category = "chemical-hands",
 			order = "e[cliff-explosive]",
 			subgroup = "terrain",
-			--enabled = false,
 			energy_required = 10,
 			ingredients = {
 				{type = "item", name = "steel-plate", amount = 10},

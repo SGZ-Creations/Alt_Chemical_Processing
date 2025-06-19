@@ -5,16 +5,24 @@ data:extend({
 	{
 		type = "recipe-category",
 		name = "electronics-or-handcrafting"
-	}
+	},
+	{
+		type = "recipe-category",
+		name = "chemical-hands"
+	},
 })
 
 table.insert(data.raw["assembling-machine"]["assembling-machine-1"].crafting_categories, "electronics-or-handcrafting")
 table.insert(data.raw["assembling-machine"]["assembling-machine-2"].crafting_categories, "electronics-or-handcrafting")
 table.insert(data.raw["assembling-machine"]["assembling-machine-3"].crafting_categories, "electronics-or-handcrafting")
+table.insert(data.raw["assembling-machine"]["chemical-plant"].crafting_categories, "chemical-hands")
+
 table.insert(data.raw["character"]["character"].crafting_categories, "electronics-or-handcrafting")
+table.insert(data.raw["character"]["character"].crafting_categories, "chemical-hands")
 
 if mods["space-age"] then
 	table.insert(data.raw["assembling-machine"]["electromagnetic-plant"].crafting_categories, "electronics-or-handcrafting")
+	table.insert(data.raw["assembling-machine"]["cryogenic-plant"].crafting_categories, "chemical-hands")
 end
 
 if mods["space-age"] then

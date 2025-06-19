@@ -2,8 +2,12 @@
 Version: 0.1.23
 Date: 16.02.25
   Changes:
-    - Changed base game cliff explosive output to be more rewarding using setting [Optioanl Explossive].
+    - Changed base game cliff explosive output to be more rewarding using setting [Optional Explosives].
     - Some carbon textures when using bobs.
+    - Made Cliff Explosive use sulfur instead of stone when bobs plates & revamps are loaded.
+    - Can now hand craft Early Cliff Explosive recipe.
+  Info:
+    - Early Cliff Explosive recipe: Host/Player would need to make sure you can mine it when creating the world.
 ---------------------------------------------------------------------------------------------------
 Version: 0.1.22
 Date: 14.06.25
@@ -23,7 +27,7 @@ Date: 12.06.25
 Version: 0.1.20
 Date: 25.05.25
   Features:
-    - New Toggleable Recipe for craftcycle [item=cryogenic-science-pack].
+    - New Toggleable Recipe for craft cycle [item=cryogenic-science-pack].
     - Created settings for StoneWaterWell-ActuallyUpdated.
   Changes:
     - Cleaning in settings menu.

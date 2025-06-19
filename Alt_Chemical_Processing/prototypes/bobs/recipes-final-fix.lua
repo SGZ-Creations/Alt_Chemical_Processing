@@ -1,3 +1,8 @@
+---@class LuaSettings
+local SS = settings.startup
+---@class data.RecipePrototype
+local Recipe = data.raw["recipe"]
+
 if mods["bobplates"] and mods["bobrevamp"] and mods["space-age"] then
 	data:extend({
 		{
@@ -27,4 +32,13 @@ if mods["bobplates"] and mods["bobrevamp"] and mods["space-age"] then
 			results = {{type="item", name="tungsten-ore", amount=100}},
 		},
 	})
+end
+if SS["CliffRemovalService"].value then
+	if mods["bobplates"] and mods["bobrevamp"] then
+		Recipe["cliff-explosive-removal"].ingredients = {
+			{type = "item", name = "steel-plate", amount = 10},
+			{type = "item", name = "sulfur", amount = 5},
+			{type = "item", name = "coal", amount = 5},
+		}
+	end
 end
