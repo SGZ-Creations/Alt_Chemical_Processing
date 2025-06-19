@@ -22,7 +22,6 @@ Date: 12.06.25
     - Allowing base game inserter to use electromagnetic-plant for crafting inserters. If not using electromagnetic-plant-expanded mod.
     - Allowing bobs inserter to use electromagnetic-plant for craft inserters.
     - Typos in changelog.
-    - some
 ---------------------------------------------------------------------------------------------------
 Version: 0.1.20
 Date: 25.05.25
