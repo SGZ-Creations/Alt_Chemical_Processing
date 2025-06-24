@@ -102,6 +102,20 @@ if mods["space-age"] then
             default_value = false,
             order = "1Aff"
         },
+        {
+            type = "bool-setting",
+            name = "QualityArms",
+            setting_type = "startup",
+            default_value = false,
+            order = "1Aga"
+        },
+        {
+            type = "int-setting",
+            name = "CollectorArms",
+            setting_type = "startup",
+            default_value = 50,
+            order = "1Agb"
+        },
         --[[{
             type = "bool-setting",
             name = "InsertSleep",

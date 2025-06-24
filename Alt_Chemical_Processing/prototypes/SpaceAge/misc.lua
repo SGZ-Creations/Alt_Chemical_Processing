@@ -2,6 +2,8 @@
 local Item = data.raw["item"]
 ---@class data.RecipePrototype
 local Recipe = data.raw["recipe"]
+---@class data.EntityPrototype
+local Colletor = data.raw["asteroid-collector"]
 ---@class data.SettingsStartup
 local SS = settings.startup
 
@@ -9,6 +11,10 @@ local SS = settings.startup
 if mods["space-age"] then
 	if SS["WarmAquilo"].value then
 		data.raw.planet["aquilo"].entities_require_heating = false
+	end
+	if SS["QualityArms"].value == true then
+		Colletor["asteroid-collector"].arm_count_quality_scaling = 0
+		Colletor["asteroid-collector"].arm_count_base = SS["CollectorArms"].value
 	end
 end
 
