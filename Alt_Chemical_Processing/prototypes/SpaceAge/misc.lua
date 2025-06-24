@@ -3,9 +3,11 @@ local Item = data.raw["item"]
 ---@class data.RecipePrototype
 local Recipe = data.raw["recipe"]
 ---@class data.EntityPrototype
-local Colletor = data.raw["asteroid-collector"]
+local Collector = data.raw["asteroid-collector"]
 ---@class data.SettingsStartup
 local SS = settings.startup
+---@class data.QualityPrototype
+local Quality = data.raw["quality"]
 
 
 if mods["space-age"] then
@@ -13,8 +15,13 @@ if mods["space-age"] then
 		data.raw.planet["aquilo"].entities_require_heating = false
 	end
 	if SS["QualityArms"].value == true then
-		Colletor["asteroid-collector"].arm_count_quality_scaling = 0
-		Colletor["asteroid-collector"].arm_count_base = SS["CollectorArms"].value
+		Collector["asteroid-collector"].arm_count_quality_scaling = 0
+		--Quality["normal"].asteroid_collector_collection_radius_bonus = 0
+		Collector["asteroid-collector"].arm_count_base = SS["CollectorArms"].value
+		Collector["asteroid-collector"].collection_radius = SS["CollectorRadius"].value
+		for name,quality in pairs(Quality) do
+			quality.asteroid_collector_collection_radius_bonus = 0
+		end
 	end
 end
 

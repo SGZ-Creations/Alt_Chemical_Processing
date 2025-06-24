@@ -116,6 +116,14 @@ if mods["space-age"] then
             default_value = 50,
             order = "1Agb"
         },
+        {
+            type = "double-setting",
+            name = "CollectorRadius",
+            setting_type = "startup",
+            default_value = 7.5,
+            minimum_value = 0.5,
+            order = "1Agb"
+        },
         --[[{
             type = "bool-setting",
             name = "InsertSleep",
