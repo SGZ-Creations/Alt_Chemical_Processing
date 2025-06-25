@@ -1,7 +1,13 @@
 ---------------------------------------------------------------------------------------------------
 Version: 0.1.26
-Date: ????
+Date: 26.06.25
+  Features:
+    - Changed how grenade are made + Added new early recipe. updated output on base grenade.
+    - Added new Explosives recipe. updated output on base explosives.
   Changes:
+    - Re-overhauled cliff explosives recipe.
+  Info:
+    - All these new changes are only available if enabled with [Optional Explosives]-
 ---------------------------------------------------------------------------------------------------
 Version: 0.1.25
 Date: 25.06.25

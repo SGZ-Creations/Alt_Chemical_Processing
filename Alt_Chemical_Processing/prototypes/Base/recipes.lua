@@ -31,18 +31,53 @@ if SS["CliffRemovalService"].value then
 			name = "cliff-explosive-removal",
 			main_product = "cliff-explosives",
 			category = "chemical-hands",
-			order = "e[cliff-explosive]",
+			order = "e[cliff-explosives]",
 			subgroup = "terrain",
 			energy_required = 10,
 			ingredients = {
-				{type = "item", name = "steel-plate", amount = 10},
-				{type = "item", name = "stone", amount = 5},
-				{type = "item", name = "coal", amount = 5},
+				{type = "item", name = "grenade", amount = 1},
+				{type = "item", name = "explosives", amount = 1},
 			},
 			results = {{type = "item", name = "cliff-explosives", amount = 1}}
+		},
+		{
+			type = "recipe",
+			name = "early-nades",
+			main_product = "grenade",
+			order = "a[grenade]-a[normal]",
+			subgroup = "capsule",
+			energy_required = 10,
+			ingredients = {
+				{type = "item", name = "coal", amount = 10},
+				{type = "item", name = "iron-plate", amount = 5},
+			},
+			results = {{type = "item", name = "grenade", amount = 1}}
+		},
+		{
+			type = "recipe",
+			name = "early-explosives",
+			main_product = "explosives",
+			category = "chemical-hands",
+			order = "b[chemistry]-a[explosives]",
+			subgroup = "intermediant-product",
+			energy_required = 10,
+			ingredients = {
+				{type = "item", name = "coal", amount = 10},
+				{type = "fluid", name = "water", amount = 5},
+			},
+			results = {{type = "item", name = "explosives", amount = 1}}
 		}
 	})
+	Recipe["explosives"].ingrediends = {
+		{type = "item", name = "coal", amount = 10},
+		{type = "item", name = "sulfur", amount = 10},
+		{type = "fluid", name = "water", amount = 5}
+	}
 	Recipe["cliff-explosives"].results = {{type = "item", name = "cliff-explosives", amount = 5}}
+	Recipe["explosives"].results = {{type = "item", name = "explosives", amount = 10}}
+	Recipe["grenade"].results = {{type = "item", name = "grenade", amount = 5}}
+	Recipe["cliff-explosives"].category = "chemical-hands"
+	Recipe["explosives"].category = "chemical-hands"
 end
 
 
