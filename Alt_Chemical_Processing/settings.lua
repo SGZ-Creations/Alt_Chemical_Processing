@@ -113,7 +113,7 @@ if mods["space-age"] then
             type = "int-setting",
             name = "CollectorArms",
             setting_type = "startup",
-            default_value = 50,
+            default_value = 1,
             order = "1Agb"
         },
         {
