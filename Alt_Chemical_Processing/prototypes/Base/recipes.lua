@@ -59,7 +59,7 @@ if SS["CliffRemovalService"].value then
 			main_product = "explosives",
 			category = "chemical-hands",
 			order = "b[chemistry]-a[explosives]",
-			subgroup = "intermediant-product",
+			subgroup = "intermediate-product",
 			energy_required = 10,
 			ingredients = {
 				{type = "item", name = "coal", amount = 10},
