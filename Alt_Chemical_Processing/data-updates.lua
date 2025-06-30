@@ -1,4 +1,6 @@
 require("prototypes.bobs.recipe")
+require("prototypes.bobs.RocketSilo")
 require("prototypes.bobs.technology")
+require("prototypes.SpaceBobsMinerals.Mineral")
 require("prototypes.vanilla-loaders.recipes")
 require("prototypes.SpidertronExtended.misc")
