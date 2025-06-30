@@ -11,7 +11,7 @@ if mods["space-age"] and mods["bobplates"] then
 		{type = "item", name = "battery",							amount = SS["Battery"].value, 						probability = 0.05, show_details_in_recipe_tooltip = false},
 		{type = "item", name = "bob-silver-zinc-battery",			amount = SS["SilverZincBattery"].value, 			probability = 0.05, show_details_in_recipe_tooltip = false},
 		{type = "item", name = "bob-lithium-ion-battery",			amount = SS["LithiumIonBattery"].value, 			probability = 0.05, show_details_in_recipe_tooltip = false},
-		{type = "item", name = "bob-advanced-processing-unit",		amount = SS["AdvanceedProcessingUnit"].value, 		probability = 0.05, show_details_in_recipe_tooltip = false},
+		{type = "item", name = "bob-advanced-processing-unit",		amount = SS["AdvancedProcessingUnit"].value, 		probability = 0.05, show_details_in_recipe_tooltip = false},
 		{type = "item", name = "processing-unit",					amount = SS["ProcessingUnit"].value, 				probability = 0.05, show_details_in_recipe_tooltip = false},
 		{type = "item", name = "advanced-circuit",					amount = SS["AdvancedCircuit"].value, 				probability = 0.05, show_details_in_recipe_tooltip = false},
 		{type = "item", name = "electronic-circuit",				amount = SS["ElectronicCircuit"].value, 			probability = 0.05, show_details_in_recipe_tooltip = false},
@@ -25,7 +25,7 @@ if Scraping then
 	data:extend({
 		{
 			type = "recipe",
-			name = "acp_electronic-scrap-recycling",
+			name = "acp_electronic-scrap-processing",
 			icons = {
 				{icon = "__quality__/graphics/icons/recycling.png"},
 				{icon = "__space-age__/graphics/icons/scrap.png", scale = 0.4},
@@ -40,7 +40,7 @@ if Scraping then
 			auto_recycle = false,
 			energy_required = 1,
 			ingredients = {
-				{type = "item", name = "sr-electronic-scrap", amount = 10},
+				{type = "item", name = "sr-electronic-scrap", amount = 1},
 				{type = "fluid", name = "water", amount = 8}
 			},
 			results = {
@@ -53,7 +53,7 @@ if Scraping then
 		},
 		{
 			type = "recipe",
-			name = "acp_metallic-scrap-recycling",
+			name = "acp_metallic-scrap-processing",
 			icons = {
 				{icon = "__quality__/graphics/icons/recycling.png"},
 				{icon = "__space-age__/graphics/icons/scrap.png"},
@@ -68,17 +68,27 @@ if Scraping then
 			auto_recycle = false,
 			energy_required = 1,
 			ingredients = {
-				{type = "item", name = "sr-metallic-scrap", amount = 10},
+				{type = "item", name = "sr-metallic-scrap", amount = 1},
 				{type = "fluid", name = "water", amount = 8}
 			},
 			results = {
-				{type = "item", name = "", amount_min = 1, amount_max = 10, probability = 0.25, show_details_in_recipe_tooltip = false},
+				{type = "item", name = "bob-glass", amount_min = 2, amount_max = 10, probability = 0.20, show_details_in_recipe_tooltip = false},
+				{type = "item", name = "bob-tin-plate", amount_min = 3, amount_max = 10, probability = 0.15, show_details_in_recipe_tooltip = false},
+				{type = "item", name = "bob-silver-plate", amount_min = 1, amount_max = 10, probability = 0.25, show_details_in_recipe_tooltip = false},
+				{type = "item", name = "bob-lead-plate", amount_min = 1, amount_max = 10, probability = 0.25, show_details_in_recipe_tooltip = false},
+				{type = "item", name = "bob-gold-plate", amount_min = 2, amount_max = 10, probability = 0.20, show_details_in_recipe_tooltip = false},
+				{type = "item", name = "bob-zinc-plate", amount_min = 1, amount_max = 10, probability = 0.25, show_details_in_recipe_tooltip = false},
+				{type = "item", name = "bob-silicon-plate", amount_min = 3, amount_max = 10, probability = 0.15, show_details_in_recipe_tooltip = false},
+				{type = "item", name = "bob-nickel-plate", amount_min = 2, amount_max = 10, probability = 0.20, show_details_in_recipe_tooltip = false},
+				{type = "item", name = "bob-aluminium-plate", amount_min = 2, amount_max = 10, probability = 0.20, show_details_in_recipe_tooltip = false},
+				{type = "item", name = "bob-titanium-plate", amount_min = 2, amount_max = 10, probability = 0.20, show_details_in_recipe_tooltip = false},
+				{type = "item", name = "bob-cobalt-steel-alloy", amount_min = 1, amount_max = 10, probability = 0.25, show_details_in_recipe_tooltip = false},
 			},
 			allow_productivity = true
 		},
 		{
 			type = "recipe",
-			name = "acp_architectural-scrap-recycling",
+			name = "acp_architectural-scrap-processing",
 			icons = {
 				{icon = "__quality__/graphics/icons/recycling.png"},
 				{icon = "__space-age__/graphics/icons/scrap.png"},
@@ -93,7 +103,7 @@ if Scraping then
 			auto_recycle = false,
 			energy_required = 1,
 			ingredients = {
-				{type = "item", name = "sr-architectural-scrap", amount = 10},
+				{type = "item", name = "sr-architectural-scrap", amount = 1},
 				{type = "fluid", name = "water", amount = 8}
 			},
 			results = {
