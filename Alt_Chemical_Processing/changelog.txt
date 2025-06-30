@@ -1,6 +1,13 @@
 ---------------------------------------------------------------------------------------------------
+Version: 0.1.27
+Date: 02.07.25
+  Features:
+    - [space-age] Bobs: Resource gathering on/in Fulgora + space.
+  Info:
+    - Slight issues on Vulcanus & Gleba Surface. space chunks should hopefully contain all the ores it needs.
+---------------------------------------------------------------------------------------------------
 Version: 0.1.26
-Date: 26.06.25
+Date: 30.06.25
   Features:
     - Changed how grenade are made + Added new early recipe. updated output on base grenade.
     - Added new Explosives recipe. updated output on base explosives.
@@ -105,7 +112,7 @@ Date: 01.04.25
 Version: 0.1.14
 Date: 31.03.25
   Features:
-    - Optional settings for vanilla-loaders-hd
+    - Optional settings for vanilla-loaders-HD
     - Optional recipes if Space age is active.
 ---------------------------------------------------------------------------------------------------
 Version: 0.1.13
@@ -137,19 +144,19 @@ Date: 12.03.2025
 Version: 0.1.10
 Date: 10.03.2025
   Features:
-    - 2x lava recipes injected to 2 diffrent space age techs.
+    - 2x lava recipes injected to 2 different space age techs.
     - Calcite casting from lava.
   Changes:
     - Mod Title.
     - Order of settings.
-    - Coloured settings. Easier diffrencing.
+    - Coloured settings. Easier differencing.
     - Recipe ordering should be better.
-    - Increased seeed to nutrients.
+    - Increased seed to nutrients.
 ---------------------------------------------------------------------------------------------------
 Version: 0.1.9
 Date: 09.03.2025
   Features:
-    - Added stacksize settings for space chunks.
+    - Added stack size settings for space chunks.
   Bugfixes:
     - Crash with missing tech. Missing mod dependency.
   Scripting:
@@ -158,8 +165,8 @@ Date: 09.03.2025
 Version: 0.1.8
 Date: 08.03.2025
   Changes:
-    - 2x steel recipes moved one step furter down the tech tree.
-    - Removed water from god moduls mod's modules. Should help if using revers factory.
+    - 2x steel recipes moved one step further down the tech tree.
+    - Removed water from god modules mod's modules. Should help if using revers factory.
 ---------------------------------------------------------------------------------------------------
 Version: 0.1.7
 Date: 06.03.2025
@@ -177,14 +184,14 @@ Date: 05.03.2025
   Features:
     - Alternative Atomic Artillery recipe for AtomicArtillery2.
     - Setting to toggle new Recipe On/Off.
-    - Joke recipe that seems usful in space :P
+    - Joke recipe that seems useful in space :P
   Changes:
     - Disable function hides: Recipe, Techs, Filters, if mods["space-age"]["vanilla-loaders-hd"]["boblogistics"].
 ---------------------------------------------------------------------------------------------------
 Version: 0.1.5
 Date: 04.03.2025
   Changes:
-    - Removed temp fix from previus version.
+    - Removed temp fix from previous version.
 ---------------------------------------------------------------------------------------------------
 Version: 0.1.4
 Date: 02.03.2025
@@ -213,7 +220,7 @@ Date: 22.02.2025
 Version: 0.1.1
 Date: 16.02.2025
   Features:
-    - If BobsPlates & SaltedFish mods are combined the salt item wil/should unitfy.
+    - If BobsPlates & SaltedFish mods are combined the salt item will/should unify.
     - Added the Bobs, [space-age] & SaltedFish = [item=salted-fish] mod unification code from PA&R.
 ---------------------------------------------------------------------------------------------------
 Version: 0.1.0
@@ -222,23 +229,23 @@ Date: 27.01.2025
     - Mod Rename from "alt bobs fuel" --> Alt Chemical Processing
     - Update to work with 2.0 & [space-age].
   Changes:
-    - Added Carbon-dioxide seperation recipe.
+    - Added Carbon-dioxide separation recipe.
 ---------------------------------------------------------------------------------------------------
 Version: 0.0.3
 Date: 15.01.2024
   Features:
     - Initial release
-    - Publicly avalible
+    - Publicly available
   Changes:
-    - Tech Prerequisite changed to work with verison 1.2.0 of bobs.
+    - Tech Prerequisite changed to work with version 1.2.0 of bobs.
   Bugfixes:
-    - Removed missing reqired tech.
+    - Removed missing required tech.
 ---------------------------------------------------------------------------------------------------
 Version: 0.0.2
 Date: 00. 00. 2022
   Changes:
     - Name changed from "Bob's Alt" to "Alt_Bobs_Fuels" "alt = alternative"
-    - Recipe reqirement and output
+    - Recipe requirement and output
   Bugfixes:
     - Prod mods should now work on the recipes.
     - Ordering in the crafting menu
