@@ -1,9 +1,9 @@
 ---@class LuaSettings
 local SS = settings.startup
 ---@class data.RecipePrototype 
-local Recipe = data.raw["recipe"]
+local Recipe = data.raw.recipe
+---@class data.ItemPrototype
 local Item = data.raw.item
-local SpaceBobs = mods["bobplates"] and mods["bobrevamp"] and mods["space-age"]
 
 if mods["boblogistics"] and mods["space-age"] then
     Recipe["express-transport-belt"].category = "pressing"
@@ -91,58 +91,6 @@ if mods["bobplates"] and mods["bobrevamp"] then
     Item["bob-enriched-fuel"].stack_size = 50
 end
 
-if SpaceBobs then
-    data:extend({
-        {
-            type = "recipe",
-            name = "foundry-ores",
-            category = "metallurgy",
-            subgroup = "vulcanus-processes",
-            main_product = "bob-cobalt-ore",
-            order = "a[ores]",
-            allow_productivity = true,
-            enabled = false,
-            ingredients =
-            {
-                {type = "fluid", name = "lava", amount = 5500},
-                {type = "item", name = "calcite", amount = 11},
-            },
-            energy_required = 10,
-            results = {
-                {type="item", name="stone", amount=510},
-                {type="item", name="bob-lead-ore", amount=25},
-                {type="item", name="bob-bauxite-ore", amount=25},
-                {type="item", name="bob-cobalt-ore", amount=25},
-                {type="item", name="bob-gold-ore", amount=25},
-                {type="item", name="bob-nickel-ore", amount=25},
-                {type="item", name="bob-rutile-ore", amount=25},
-                {type="item", name="bob-silver-ore", amount=25},
-                {type="item", name="bob-tin-ore", amount=25},
-                {type="item", name="bob-zinc-ore", amount=25},
-                {type="item", name="bob-quartz", amount=25},
-            },
-        },
-        {
-            type = "recipe",
-            name = "bob-foundry-tungsten-plate",
-            category = "metallurgy",
-            subgroup = "bob-alloy",
-            order = "c-b-d[bob-tungsten]",
-            enabled = false,
-            allow_productivity = true,
-            energy_required = 10,
-            ingredients = {
-                {type = "item", name = "bob-powdered-tungsten", amount = 4},
-                {type = "item", name = "bob-nickel-plate", amount = 1},
-            },
-            results = {{type="item", name="tungsten-plate", amount=5}},
-        }
-    })
-    if
-        Item["bob-gem-ore"] then
-        table.insert(Recipe["foundry-ores"].results, {type ="item", name = "bob-gem-ore", amount = 25})
-    end
-end
 
 if mods["boblogistics"] and not mods["bobplates"] then
     data:extend({

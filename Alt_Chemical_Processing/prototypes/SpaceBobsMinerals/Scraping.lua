@@ -2,25 +2,39 @@
 local SS = settings.startup
 ---@class data.RecipePrototype
 local Recipe = data.raw["recipe"]
+---@class data.ItemPrototype
+local Item = data.raw.item
 local Scraping = mods["space-age"] and mods["scrap-reprocessor"] and mods["bobplates"] and mods["bobrevamp"]
---[[
+
 if mods["space-age"] and mods["bobplates"] then
 	Recipe["scrap-recycling"].results = {
-		{type = "item", name = "ice",								amount = SS["Ice"].value, 							probability = 0.05, show_details_in_recipe_tooltip = false},
-		{type = "item", name = "steel-plate",						amount = SS["Steel"].value, 						probability = 0.05, show_details_in_recipe_tooltip = false},
-		{type = "item", name = "battery",							amount = SS["Battery"].value, 						probability = 0.05, show_details_in_recipe_tooltip = false},
-		{type = "item", name = "bob-silver-zinc-battery",			amount = SS["SilverZincBattery"].value, 			probability = 0.05, show_details_in_recipe_tooltip = false},
-		{type = "item", name = "bob-lithium-ion-battery",			amount = SS["LithiumIonBattery"].value, 			probability = 0.05, show_details_in_recipe_tooltip = false},
-		{type = "item", name = "bob-advanced-processing-unit",		amount = SS["AdvancedProcessingUnit"].value, 		probability = 0.05, show_details_in_recipe_tooltip = false},
-		{type = "item", name = "processing-unit",					amount = SS["ProcessingUnit"].value, 				probability = 0.05, show_details_in_recipe_tooltip = false},
-		{type = "item", name = "bob-gem-ore",						amount = SS["GemsOre"].value, 						probability = 0.05, show_details_in_recipe_tooltip = false},
-		{type = "item", name = "advanced-circuit",					amount = SS["AdvancedCircuit"].value, 				probability = 0.05, show_details_in_recipe_tooltip = false},
-		{type = "item", name = "electronic-circuit",				amount = SS["ElectronicCircuit"].value, 			probability = 0.05, show_details_in_recipe_tooltip = false},
-		{type = "item", name = "low-density-structure",				amount = SS["LowDensity"].value, 					probability = 0.05, show_details_in_recipe_tooltip = false},
-		{type = "item", name = "holmium-ore",						amount = SS["HolmiumOre"].value, 					probability = 0.05, show_details_in_recipe_tooltip = false},
+		{type = "item", name = "ice",								amount = SS["ScrapIce"].value, 							probability = 0.05, show_details_in_recipe_tooltip = false},
+		{type = "item", name = "holmium-ore",						amount = SS["ScrapHolmiumOre"].value, 					probability = 0.05, show_details_in_recipe_tooltip = false},
+		{type = "item", name = "steel-plate",						amount = SS["ScrapSteel"].value, 						probability = 0.05, show_details_in_recipe_tooltip = false},
+		{type = "item", name = "low-density-structure",				amount = SS["ScrapLowDensity"].value, 					probability = 0.05, show_details_in_recipe_tooltip = false},
+		{type = "item", name = "electronic-circuit",				amount = SS["ScrapElectronicCircuit"].value, 			probability = 0.05, show_details_in_recipe_tooltip = false},
+		{type = "item", name = "advanced-circuit",					amount = SS["ScrapAdvancedCircuit"].value, 				probability = 0.05, show_details_in_recipe_tooltip = false},
+		{type = "item", name = "processing-unit",					amount = SS["ScrapProcessingUnit"].value, 				probability = 0.05, show_details_in_recipe_tooltip = false},
+		{type = "item", name = "bob-advanced-processing-unit",		amount = SS["ScrapAdvancedProcessingUnit"].value, 		probability = 0.05, show_details_in_recipe_tooltip = false},
+		{type = "item", name = "battery",							amount = SS["ScrapBattery"].value, 						probability = 0.05, show_details_in_recipe_tooltip = false},
+		{type = "item", name = "bob-silver-zinc-battery",			amount = SS["ScrapSilverZincBattery"].value, 			probability = 0.05, show_details_in_recipe_tooltip = false},
+		{type = "item", name = "bob-lithium-ion-battery",			amount = SS["ScrapLithiumIonBattery"].value, 			probability = 0.05, show_details_in_recipe_tooltip = false},
+		{type = "item", name = "bob-glass", 						amount = SS["ScrapGlass"].value,						probability = 0.05, show_details_in_recipe_tooltip = false},
+		{type = "item", name = "bob-tin-plate", 					amount = SS["ScrapTin"].value, 							probability = 0.05, show_details_in_recipe_tooltip = false},
+		{type = "item", name = "bob-silver-plate", 					amount = SS["ScrapSilver"].value, 						probability = 0.05, show_details_in_recipe_tooltip = false},
+		{type = "item", name = "bob-lead-plate", 					amount = SS["ScrapLead"].value, 						probability = 0.05, show_details_in_recipe_tooltip = false},
+		{type = "item", name = "bob-gold-plate", 					amount = SS["ScrapGold"].value, 						probability = 0.05, show_details_in_recipe_tooltip = false},
+		{type = "item", name = "bob-zinc-plate", 					amount = SS["ScrapZinc"].value, 						probability = 0.05, show_details_in_recipe_tooltip = false},
+		{type = "item", name = "bob-silicon-plate",					amount = SS["ScrapSilicon"].value, 						probability = 0.05, show_details_in_recipe_tooltip = false},
+		{type = "item", name = "bob-nickel-plate", 					amount = SS["ScrapNickel"].value, 						probability = 0.05, show_details_in_recipe_tooltip = false},
+		{type = "item", name = "bob-aluminium-plate", 				amount = SS["ScrapAluminium"].value, 					probability = 0.05, show_details_in_recipe_tooltip = false},
+		{type = "item", name = "bob-titanium-plate", 				amount = SS["ScrapTitanium"].value, 					probability = 0.05, show_details_in_recipe_tooltip = false},
+		{type = "item", name = "bob-cobalt-steel-alloy", 			amount = SS["ScrapCobaltSteel"].value, 					probability = 0.05, show_details_in_recipe_tooltip = false},
 	}
-end]]
-
+	if Item["bob-gem-ore"] then
+		table.insert(Recipe["scrap-recycling"].results,	{type = "item", name = "bob-gem-ore",amount = SS["ScrapGemsOre"].value, probability = 0.05, show_details_in_recipe_tooltip = false})
+	end
+end
 
 if Scraping then
 	data:extend({
