@@ -71,10 +71,10 @@ if mods["vanilla-loaders-hd"]and mods["boblogistics"] then
 			--Express Loader
 				remove_ingredient("express-loader", "plastic-bar")
 				remove_ingredient("express-loader", "carbon")
-				--Bob Turbo loader
+			--Bob Turbo loader
 				remove_ingredient("bob-turbo-loader", "holmium-plate")
 				remove_ingredient("bob-turbo-loader", "carbon-fiber")
-				--Bob Ultimate Loader
+			--Bob Ultimate Loader
 				remove_ingredient("bob-ultimate-loader", "quantum-processor")
 				remove_ingredient("bob-ultimate-loader", "lithium-plate")
 				remove_ingredient("bob-ultimate-loader", "holmium-plate")

@@ -2,9 +2,8 @@
 Version: 0.1.27
 Date: 02.07.25
   Features:
-    - [space-age] Bobs: Resource gathering on/in Fulgora + space.
-  Info:
-    - Slight issues on Vulcanus & Gleba Surface. space chunks should hopefully contain all the ores it needs.
+    - [space-age] Bobs: Resource gathering on/in Fulgora.
+    - [space-age] Bobs: Resource gathering on/in Vulcanus using lava.
 ---------------------------------------------------------------------------------------------------
 Version: 0.1.26
 Date: 30.06.25

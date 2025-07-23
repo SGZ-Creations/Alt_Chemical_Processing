@@ -18,7 +18,7 @@ if mods["space-age"] then
 		Collector["asteroid-collector"].arm_count_quality_scaling = 0
 		Collector["asteroid-collector"].arm_count_base = SS["CollectorArms"].value
 		Collector["asteroid-collector"].collection_radius = SS["CollectorRadius"].value
-		for name,quality in pairs(Quality) do
+		for name, quality in pairs(Quality) do
 			quality.asteroid_collector_collection_radius_bonus = 0
 		end
 	end

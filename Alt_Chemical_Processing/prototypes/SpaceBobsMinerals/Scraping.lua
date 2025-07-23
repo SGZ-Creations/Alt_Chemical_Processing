@@ -13,6 +13,7 @@ if mods["space-age"] and mods["bobplates"] then
 		{type = "item", name = "bob-lithium-ion-battery",			amount = SS["LithiumIonBattery"].value, 			probability = 0.05, show_details_in_recipe_tooltip = false},
 		{type = "item", name = "bob-advanced-processing-unit",		amount = SS["AdvancedProcessingUnit"].value, 		probability = 0.05, show_details_in_recipe_tooltip = false},
 		{type = "item", name = "processing-unit",					amount = SS["ProcessingUnit"].value, 				probability = 0.05, show_details_in_recipe_tooltip = false},
+		{type = "item", name = "bob-gem-ore",						amount = SS["GemsOre"].value, 						probability = 0.05, show_details_in_recipe_tooltip = false},
 		{type = "item", name = "advanced-circuit",					amount = SS["AdvancedCircuit"].value, 				probability = 0.05, show_details_in_recipe_tooltip = false},
 		{type = "item", name = "electronic-circuit",				amount = SS["ElectronicCircuit"].value, 			probability = 0.05, show_details_in_recipe_tooltip = false},
 		{type = "item", name = "low-density-structure",				amount = SS["LowDensity"].value, 					probability = 0.05, show_details_in_recipe_tooltip = false},
