@@ -18,9 +18,6 @@ require("prototypes.salted_fish.tech")
 require("prototypes.woodgasification.Recipes")
 require("prototypes.woodgasification.Techs")
 
-require("prototypes.atomicartillery.recipe")
-require("prototypes.atomicartillery.tech")
-
 require("prototypes.WaterWells.Pressure")
 require("prototypes.WaterWells.Recipes")
 
