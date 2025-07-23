@@ -1,3 +1,11 @@
+require("Settings.ChemicalProcesssing")
+require("Settings.VanillaLoaders")
+require("Settings.SpaceAge")
+require("Settings.WaterWell")
+require("Settings.Recycling")
+require("Settings.BigBags")
+
+
 
 if mods["Wood_Gasification_updated"]and mods["space-age"] then
     data:extend({
@@ -170,18 +178,6 @@ if mods["space-age"] and not mods["BigBags"] then
             setting_type = "startup",
             default_value = 1,
             order = "1Aae"
-        },
-    })
-end
-
-if mods["AtomicArtillery2"] then
-    data:extend({
-        {
-            type = "bool-setting",
-            name = "NawArtilleryRecipe",
-            setting_type = "startup",
-            default_value = false,
-            order = "3Caa"
         },
     })
 end
