@@ -1,10 +1,6 @@
 ---@class data.TechnologyPrototype
 local Tech = data.raw["technology"]
 
-if mods["bobplates"] then
-    table.insert(Tech["foundry"].effects, {type="unlock-recipe", recipe="foundry-ores"})
-end
-
 if mods["boblogistics"] and not mods["bobplates"] then
     table.insert(Tech["logistic-science-pack"].effects, {type="unlock-recipe", recipe="basic-logistics-science"})
 end
