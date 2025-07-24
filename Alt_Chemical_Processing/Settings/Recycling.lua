@@ -89,7 +89,7 @@ if mods["space-age"] and mods["bobplates"] then
 			setting_type = "startup",
 			default_value = 1,
 			minimum_value = 1,
-			order = "7Aal"
+			order = "7Aak"
 		},
 		{
 			type = "int-setting",
@@ -97,7 +97,7 @@ if mods["space-age"] and mods["bobplates"] then
 			setting_type = "startup",
 			default_value = 1,
 			minimum_value = 1,
-			order = "7Aam"
+			order = "7Aal"
 		},
 		{
 			type = "int-setting",
@@ -105,7 +105,7 @@ if mods["space-age"] and mods["bobplates"] then
 			setting_type = "startup",
 			default_value = 1,
 			minimum_value = 1,
-			order = "7Aan"
+			order = "7Aam"
 		},
 		{
 			type = "int-setting",
@@ -113,7 +113,7 @@ if mods["space-age"] and mods["bobplates"] then
 			setting_type = "startup",
 			default_value = 1,
 			minimum_value = 1,
-			order = "7Aao"
+			order = "7Aan"
 		},
 		{
 			type = "int-setting",
@@ -121,7 +121,7 @@ if mods["space-age"] and mods["bobplates"] then
 			setting_type = "startup",
 			default_value = 1,
 			minimum_value = 1,
-			order = "7Aaa"
+			order = "7Aao"
 		},
 		{
 			type = "int-setting",
