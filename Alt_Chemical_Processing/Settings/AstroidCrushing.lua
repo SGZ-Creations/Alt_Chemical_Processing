@@ -14,7 +14,7 @@ if mods["More-Asteroid-Resources-Forked"]then
 			setting_type = "startup",
 			default_value = 15,
 			minimum_value = 0,
-			order = "8Aaa"
+			order = "8Aab"
 		},
 		{
 			type = "int-setting",
@@ -22,7 +22,7 @@ if mods["More-Asteroid-Resources-Forked"]then
 			setting_type = "startup",
 			default_value = 3,
 			minimum_value = 0,
-			order = "8Aaa"
+			order = "8Aac"
 		},
 		{
 			type = "int-setting",
@@ -30,7 +30,7 @@ if mods["More-Asteroid-Resources-Forked"]then
 			setting_type = "startup",
 			default_value = 1,
 			minimum_value = 0,
-			order = "8Aaa"
+			order = "8Aad"
 		},
 		{
 			type = "int-setting",
@@ -38,7 +38,7 @@ if mods["More-Asteroid-Resources-Forked"]then
 			setting_type = "startup",
 			default_value = 20,
 			minimum_value = 0,
-			order = "8Aaa"
+			order = "8Aae"
 		},
 		{
 			type = "int-setting",
@@ -46,7 +46,7 @@ if mods["More-Asteroid-Resources-Forked"]then
 			setting_type = "startup",
 			default_value = 8,
 			minimum_value = 0,
-			order = "8Aaa"
+			order = "8Aaf"
 		},
 		{
 			type = "int-setting",
@@ -54,7 +54,7 @@ if mods["More-Asteroid-Resources-Forked"]then
 			setting_type = "startup",
 			default_value = 10,
 			minimum_value = 0,
-			order = "8Aaa"
+			order = "8Aag"
 		},
 		{
 			type = "int-setting",
@@ -62,7 +62,7 @@ if mods["More-Asteroid-Resources-Forked"]then
 			setting_type = "startup",
 			default_value = 3,
 			minimum_value = 0,
-			order = "8Aaa"
+			order = "8Aah"
 		},
 		{
 			type = "int-setting",
@@ -70,7 +70,7 @@ if mods["More-Asteroid-Resources-Forked"]then
 			setting_type = "startup",
 			default_value = 20,
 			minimum_value = 0,
-			order = "8Aaa"
+			order = "8Aai"
 		},
 		{
 			type = "int-setting",
@@ -78,7 +78,7 @@ if mods["More-Asteroid-Resources-Forked"]then
 			setting_type = "startup",
 			default_value = 8,
 			minimum_value = 0,
-			order = "8Aaa"
+			order = "8Aaj"
 		},
 		{
 			type = "int-setting",
@@ -86,7 +86,7 @@ if mods["More-Asteroid-Resources-Forked"]then
 			setting_type = "startup",
 			default_value = 5,
 			minimum_value = 0,
-			order = "8Aaa"
+			order = "8Aak"
 		},
 		{
 			type = "int-setting",
@@ -94,7 +94,7 @@ if mods["More-Asteroid-Resources-Forked"]then
 			setting_type = "startup",
 			default_value = 3,
 			minimum_value = 0,
-			order = "8Aaa"
+			order = "8Aal"
 		},
 	})
 end

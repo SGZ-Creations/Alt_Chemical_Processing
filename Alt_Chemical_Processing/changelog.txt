@@ -2,10 +2,15 @@
 Version: 0.1.27
 Date: 02.07.25
   Features:
-    - [space-age] Bobs: Resource gathering on/in Fulgora.
+    - [space-age] Bobs: Resource gathering on/in Fulgora with scrap.
     - [space-age] Bobs: Resource gathering on/in Vulcanus using lava.
+    - [space-age] Bobs: Resource gathering on/in Gleba using stone & water.
+    - [space-age] Bobs: Resource gathering on/in Aquilo using CrudeOil, AmmoniacalSolution, Fluorine & Ice.
+    - Added extra scrap & space ship processing with bobs using 2 other mods: More-Asteroid-Resources-Forked & scrap-reprocessor.
   Changes:
     - Removed Support for Atomic Artillery 2.
+  Bugfixes:
+    - Crash due to missing "base". 
 ---------------------------------------------------------------------------------------------------
 Version: 0.1.26
 Date: 30.06.25
