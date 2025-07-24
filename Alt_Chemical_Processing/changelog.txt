@@ -9,6 +9,7 @@ Date: 02.07.25
     - Added extra scrap & space ship processing with bobs using 2 other mods: More-Asteroid-Resources-Forked & scrap-reprocessor.
   Changes:
     - Removed Support for Atomic Artillery 2.
+    - Re upload with a version mistake.
   Bugfixes:
     - Crash due to missing "base". 
 ---------------------------------------------------------------------------------------------------
