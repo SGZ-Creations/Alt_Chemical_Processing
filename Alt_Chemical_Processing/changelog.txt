@@ -1,4 +1,13 @@
 ---------------------------------------------------------------------------------------------------
+Version: 0.1.28
+Date: 26.07.25
+  Features:
+    - Created SimpleSilo Setting.
+  Changes:
+    - Moved some code from bobs to SpaceBobsCombination.
+    - Made Tech & Recipe simpler with SpaceBobs.
+    - Drastically reduced fluids needed for Aquilo bobs ores.
+---------------------------------------------------------------------------------------------------
 Version: 0.1.27
 Date: 02.07.25
   Features:

@@ -13,21 +13,6 @@ if SpaceBobs then
     data:extend({
         {
             type = "recipe",
-            name = "bob-foundry-tungsten-plate",
-            category = "metallurgy",
-            subgroup = "bob-alloy",
-            order = "c-b-d[bob-tungsten]",
-            enabled = false,
-            allow_productivity = true,
-            energy_required = 10,
-            ingredients = {
-                {type = "item", name = "bob-powdered-tungsten", amount = 4},
-                {type = "item", name = "bob-nickel-plate", amount = 1},
-            },
-            results = {{type="item", name="tungsten-plate", amount=5}},
-        },
-        {
-            type = "recipe",
             name = "VulcanusOres",
             category = "metallurgy",
             subgroup = "bob-ores",
@@ -94,9 +79,9 @@ if SpaceBobs then
             enabled = false,
             ingredients =
             {
-                {type = "fluid", name = "ammoniacal-solution", amount = 1000},
-                {type = "fluid", name = "fluorine", amount = 1000},
-                {type = "fluid", name = "crude-oil", amount = 1000},
+                {type = "fluid", name = "ammoniacal-solution", amount = 250},
+                {type = "fluid", name = "fluorine", amount = 50},
+                {type = "fluid", name = "crude-oil", amount = 50},
                 {type = "item", name = "ice", amount = 15},
             },
             energy_required = 10,
