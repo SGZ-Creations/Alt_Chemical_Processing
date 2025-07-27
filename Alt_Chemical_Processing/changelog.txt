@@ -3,6 +3,10 @@ Version: 0.1.29
 Date: 27.07.25
   Changes:
     - Made oil-processing use craft a pumpjack to progress. due to James Oil Extravaganza.
+    - Made salted fish heal 160 instead of 80 SaltedFish mod.
+    - Changed Lamp parameters Light = {intensity = 1, size = 50, colour = {1, 1, 1}}.
+  Info:
+    - Let me know if you want these numbers to be settings based. Crate a suggestions report.
 ---------------------------------------------------------------------------------------------------
 Version: 0.1.28
 Date: 26.07.25
