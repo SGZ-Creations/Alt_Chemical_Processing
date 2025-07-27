@@ -22,3 +22,4 @@ require("prototypes.WaterWells.Pressure")
 require("prototypes.WaterWells.Recipes")
 
 require("prototypes.bobs.bobs-biters")
+require("prototypes.OilExtravaganza.TechBlockage")
