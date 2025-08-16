@@ -25,4 +25,3 @@ require("prototypes.WaterWells.Recipes")
 require("prototypes.bobs.Artifacts")
 require("prototypes.bobs.bobs-biters")
 require("prototypes.OilExtravaganza.TechBlockage")
-
