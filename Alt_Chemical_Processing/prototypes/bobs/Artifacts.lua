@@ -2,8 +2,8 @@
 local SS = settings.startup
 
 if SS["bobmods-enemies-enableartifacts"] then
-	if SS["OptionalArtifactCrafting"].value == true then
-		if mods["bobenemies"] and mods["reskins-bobs"] and mods["SaltedFish"] then
+	if mods["bobenemies"] and mods["reskins-bobs"] and mods["SaltedFish"] then
+		if SS["OptionalArtifactCrafting"].value == true then
 			data:extend({
 				{
 					type = "recipe",
@@ -12,12 +12,12 @@ if SS["bobmods-enemies-enableartifacts"] then
 					icon = "__reskins-bobs__/graphics/icons/enemies/artifacts/bob-alien-artifact-red.png",
 					enabled = false,
 					subgroup = "bob-alien-artifact",
-					order = "ZA",
+					order = "z[alien-artifact]-za[colour]",
 					allow_productivity = true,
 					allow_decomposition = true,
 					energy_required = 10.0,
 					ingredients = {
-						{type="fluid", name="bob-alien-artifact", amount=20},
+						{type="item", name="bob-alien-artifact", amount=20},
 						{type="item", name="sulfur", amount=25},
 						{type="item", name="salt", amount=25},
 						{type="item", name="carbon", amount=25},
@@ -31,17 +31,17 @@ if SS["bobmods-enemies-enableartifacts"] then
 					icon = "__reskins-bobs__/graphics/icons/enemies/artifacts/bob-alien-artifact-orange.png",
 					enabled = false,
 					subgroup = "bob-alien-artifact",
-					order = "ZB",
+					order = "z[alien-artifact]-zb[colour]",
 					allow_productivity = true,
 					allow_decomposition = true,
 					energy_required = 10.0,
 					ingredients = {
-						{type="fluid", name="bob-alien-artifact", amount=20},
+						{type="item", name="bob-alien-artifact", amount=20},
 						{type="item", name="sulfur", amount=25},
 						{type="item", name="salt", amount=25},
 						{type="item", name="carbon", amount=25},
 					},
-					results = {{type="item", name="bob-alien-artifact-red", amount=20}},
+					results = {{type="item", name="bob-alien-artifact-orange", amount=20}},
 				},
 				{
 					type = "recipe",
@@ -50,12 +50,12 @@ if SS["bobmods-enemies-enableartifacts"] then
 					icon = "__reskins-bobs__/graphics/icons/enemies/artifacts/bob-alien-artifact-yellow.png",
 					enabled = false,
 					subgroup = "bob-alien-artifact",
-					order = "ZC",
+					order = "z[alien-artifact]-zc[colour]",
 					allow_productivity = true,
 					allow_decomposition = true,
 					energy_required = 10.0,
 					ingredients = {
-						{type="fluid", name="bob-alien-artifact", amount=20},
+						{type="item", name="bob-alien-artifact", amount=20},
 						{type="item", name="sulfur", amount=25},
 						{type="item", name="salt", amount=25},
 						{type="item", name="carbon", amount=25},
@@ -69,12 +69,12 @@ if SS["bobmods-enemies-enableartifacts"] then
 					icon = "__reskins-bobs__/graphics/icons/enemies/artifacts/bob-alien-artifact-green.png",
 					enabled = false,
 					subgroup = "bob-alien-artifact",
-					order = "ZD",
+					order = "z[alien-artifact]-zd[colour]",
 					allow_productivity = true,
 					allow_decomposition = true,
 					energy_required = 10.0,
 					ingredients = {
-						{type="fluid", name="bob-alien-artifact", amount=20},
+						{type="item", name="bob-alien-artifact", amount=20},
 						{type="item", name="sulfur", amount=25},
 						{type="item", name="salt", amount=25},
 						{type="item", name="carbon", amount=25},
@@ -88,12 +88,12 @@ if SS["bobmods-enemies-enableartifacts"] then
 					icon = "__reskins-bobs__/graphics/icons/enemies/artifacts/bob-alien-artifact-blue.png",
 					enabled = false,
 					subgroup = "bob-alien-artifact",
-					order = "ZE",
+					order = "z[alien-artifact]-ze[colour]",
 					allow_productivity = true,
 					allow_decomposition = true,
 					energy_required = 10.0,
 					ingredients = {
-						{type="fluid", name="bob-alien-artifact", amount=20},
+						{type="item", name="bob-alien-artifact", amount=20},
 						{type="item", name="sulfur", amount=25},
 						{type="item", name="salt", amount=25},
 						{type="item", name="carbon", amount=25},
@@ -107,12 +107,12 @@ if SS["bobmods-enemies-enableartifacts"] then
 					icon = "__reskins-bobs__/graphics/icons/enemies/artifacts/bob-alien-artifact-purple.png",
 					enabled = false,
 					subgroup = "bob-alien-artifact",
-					order = "ZF",
+					order = "z[alien-artifact]-zf[colour]",
 					allow_productivity = true,
 					allow_decomposition = true,
 					energy_required = 10.0,
 					ingredients = {
-						{type="fluid", name="bob-alien-artifact", amount=20},
+						{type="item", name="bob-alien-artifact", amount=20},
 						{type="item", name="sulfur", amount=25},
 						{type="item", name="salt", amount=25},
 						{type="item", name="carbon", amount=25},
