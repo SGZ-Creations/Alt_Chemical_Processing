@@ -30,7 +30,6 @@ if mods["space-age"] then
 				"rocket-fuel",
 				"bob-heat-shield",
 				"low-density-structure",
-				"bob-titanium-processing",
 				"bob-advanced-processing-unit",
 			}
 		end
