@@ -3,7 +3,7 @@ local Tech = data.raw["technology"]
 local SS =settings.startup
 
 if mods["nanobots-refined"] then
-	if SS["EasyNanoTech"] then
+	if SS["EasyNanoTech"].value == true then
 		Tech["nano-range-1"].unit.count = 25
 		Tech["nano-range-2"].unit.count = 25
 		Tech["nano-range-3"].unit.count = 25
