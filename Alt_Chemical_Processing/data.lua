@@ -11,6 +11,7 @@ require("prototypes.armoredbiters.biter-captures")
 
 require("prototypes.godmodule.recipes")
 require("prototypes.AsteroidResources.Tech")
+require("prototypes.NanoBotsRefined.Tech")
 
 require("prototypes.SaltedFish.recipes")
 require("prototypes.SaltedFish.tech")
