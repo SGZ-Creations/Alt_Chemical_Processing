@@ -5,6 +5,9 @@ Date: 27.07.25
     - Made oil-processing use craft a pumpjack to progress. due to James Oil Extravaganza.
     - Made salted fish heal 160 instead of 80 SaltedFish mod.
     - Changed Lamp parameters Light = {intensity = 1, size = 50, colour = {1, 1, 1}}.
+    - Some Gregtorio Changes. Not that I'm playing anymore.
+    - Optional bobs artifact recipes.
+    - Simplified Nanobots Refiend tech a lot.
   Info:
     - Let me know if you want these numbers to be settings based. Crate a suggestions report.
 ---------------------------------------------------------------------------------------------------
