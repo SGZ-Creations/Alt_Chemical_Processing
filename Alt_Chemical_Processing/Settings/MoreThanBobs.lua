@@ -1,4 +1,4 @@
-if mods["bobeenmies"] then
+if mods["bobenemies"]and mods["reskins-bobs"] and mods["SaltedFish"] then
 	data:extend({
 		{
 			type = "bool-setting",
