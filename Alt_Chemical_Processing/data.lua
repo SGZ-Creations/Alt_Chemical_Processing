@@ -10,6 +10,8 @@ require("prototypes.SpaceAge.misc")
 require("prototypes.armoredbiters.biter-captures")
 
 require("prototypes.godmodule.recipes")
+require("prototypes.godmodule.Tech")
+
 require("prototypes.AsteroidResources.Tech")
 require("prototypes.NanoBotsRefined.Tech")
 
@@ -25,4 +27,6 @@ require("prototypes.WaterWells.Recipes")
 
 require("prototypes.bobs.Artifacts")
 require("prototypes.bobs.bobs-biters")
+
 require("prototypes.OilExtravaganza.TechBlockage")
+require("prototypes.BetterRobotsExtended.Bots")
