@@ -37,11 +37,11 @@ if mods["Better_Robots_Extended"] then
 			Recipe["roboport"].enabled = false
 
 			if mods["bobelectronics"] then
-				Recipe["BRE-logistic-robot"].ingrediends = {
+				Recipe["BRE-logistic-robot"].ingredients = {
 					{type = "item", name = "bob-basic-circuit-board", amount = 2},
 					{type = "item", name = "flying-robot-frame", amount = 1},
 				}
-				Recipe["BRE-construction-robotics"].ingrediends = {
+				Recipe["BRE-construction-robotics"].ingredients = {
 					{type = "item", name = "bob-basic-circuit-board", amount = 2},
 					{type = "item", name = "flying-robot-frame", amount = 1},
 				}
