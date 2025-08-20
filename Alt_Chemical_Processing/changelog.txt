@@ -1,7 +1,11 @@
 ---------------------------------------------------------------------------------------------------
 Version: 0.1.30
-Date: ????
+Date: 10.08.25
   Changes:
+    - https://mods.factorio.com/mod/god-module?from=search Added code for Quality Module prerequisites.
+    - https://mods.factorio.com/mod/Better_Robots_Extended?from=search Fixed duplicate recipe when "boblogistics" = active.
+    - https://mods.factorio.com/mod/Better_Robots_Extended?from=search Fixed crafting menu order.
+    - https://mods.factorio.com/mod/Better_Robots_Extended?from=search Tweaked crafting recipe when using "bobelectronics" mod.
 ---------------------------------------------------------------------------------------------------
 Version: 0.1.29
 Date: 27.07.25
@@ -11,7 +15,7 @@ Date: 27.07.25
     - Changed Lamp parameters Light = {intensity = 1, size = 50, colour = {1, 1, 1}}.
     - Some Gregtorio Changes. Not that I'm playing anymore.
     - Optional bobs artifact recipes with added to same tech as bobs.
-    - Simplified Nanobots Refiend tech a lot.
+    - Simplified Nanobots Refined tech a lot.
   Info:
     - Let me know if you want these numbers to be settings based. Crate a suggestions report.
 ---------------------------------------------------------------------------------------------------
