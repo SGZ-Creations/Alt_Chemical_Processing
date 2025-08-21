@@ -1,4 +1,4 @@
-require("prototypes.OilExtravaganza.Resource")
+--require("prototypes.OilExtravaganza.Resource")
 require("prototypes.bobs.recipe")
 require("prototypes.bobs.technology")
 require("prototypes.bobs.Artifacts")
