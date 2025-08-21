@@ -23,10 +23,10 @@ if mods["Better_Robots_Extended"] then
 	if settings.startup["BRE-erzwinge-MK1-Bots"].value == true then
 		table.insert(Tech["construction-robotics"].effects, {type = "unlock-recipe", recipe = "BRE-construction-robotics"})
 		table.insert(Tech["logistic-robotics"].effects, {type = "unlock-recipe", recipe = "BRE-logistic-robot"})
-		table.insert(Tech["construction-robotics"].effects, {type = "unlock-recipe", recipe = "BRE-construction-robotics"})
-		table.insert(Tech["logistic-robotics"].effects, {type = "unlock-recipe", recipe = "BRE-logistic-robot"})
 		table.insert(Tech["construction-robotics"].effects, {type = "unlock-recipe", recipe = "BRE-roboport"})
 		table.insert(Tech["logistic-robotics"].effects, {type = "unlock-recipe", recipe = "BRE-roboport"})
+		Tech["BRE-construction-robotics-2"].effects = {{type = "unlock-recipe", recipe = "BRE-construction-robotics-mk2"}, {type = "unlock-recipe", recipe = "bre-roboport-mk2"}}
+		Tech["BRE-logistic-robotics-2"].effects = {{type = "unlock-recipe", recipe = "BRE-logistic-robotics-mk2"}, {type = "unlock-recipe", recipe = "bre-roboport-mk2"}}
 
 		if mods["boblogistics"] then
 			Recipe["logistic-robot"].hidden = true
