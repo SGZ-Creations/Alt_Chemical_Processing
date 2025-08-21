@@ -1,6 +1,6 @@
 ---------------------------------------------------------------------------------------------------
 Version: 0.1.30
-Date: 10.08.25
+Date: 21.08.25
   Changes:
     - https://mods.factorio.com/mod/god-module?from=search Added code for Quality Module prerequisites.
     - https://mods.factorio.com/mod/Better_Robots_Extended?from=search Fixed duplicate recipe & tech when "boblogistics" = active.
