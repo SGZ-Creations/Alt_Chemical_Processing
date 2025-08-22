@@ -88,3 +88,29 @@ if mods["boblogistics"] and not mods["bobplates"] then
         },
     })
 end
+
+if mods["bobplates"] and mods["bobrevamp"]and mods["space-age"] then
+    data:extend({
+        {
+            type = "recipe",
+            category = "chemistry-or-cryogenics",
+            name = "CalciumChloride",
+            enabled = false,
+            subgroup = "bob-resource-chemical",
+            order = "f[bob-calcium-chloride]",
+            allow_productivity = true, 
+            allow_decomposition = true,
+            energy_required = 10.0,
+            ingredients = {
+                {type="fluid", name="bob-chlorine", amount=10},
+                {type="item", name="calcite", amount=1},
+            },
+            results = {
+                {type="item", name="bob-calcium-chloride", amount=1},
+            },
+        },
+    })
+    Recipe["carbon-dioxide-sepreation"].category = "chemistry-or-cryogenics"
+    Recipe["rocket-fuel-from-solid-fuel"].category = "chemistry-or-cryogenics"
+    Recipe["rocket-fuel-from-enriched-fuel"].category = "chemistry-or-cryogenics"
+end

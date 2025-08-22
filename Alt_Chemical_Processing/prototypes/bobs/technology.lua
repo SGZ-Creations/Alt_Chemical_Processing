@@ -45,6 +45,7 @@ if mods["bobplates"] and mods["bobrevamp"] then
     table.insert(Tech["bob-chemical-processing-2"].effects, {type="unlock-recipe", recipe="carbon-dioxide-sepreation"})
 
     if mods["space-age"]then
+        table.insert(Tech["bob-chemical-processing-2"].effects, {type="unlock-recipe", recipe="CalciumChloride"})
         table.insert(Tech["bob-tungsten-processing"].effects, {type="unlock-recipe", recipe="tungsten-conversion-1"})
         table.insert(Tech["bob-tungsten-processing"].effects, {type="unlock-recipe", recipe="tungsten-conversion-2"})
         table.insert(Tech["tungsten-steel"].effects, {type="unlock-recipe", recipe="bob-foundry-tungsten-plate"})
