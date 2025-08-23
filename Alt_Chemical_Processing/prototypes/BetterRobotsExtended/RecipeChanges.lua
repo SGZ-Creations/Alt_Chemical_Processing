@@ -1,3 +1,6 @@
+---@class data.RecipePrototype
+Recipe = data.raw.recipe
+
 if mods["Better_Robots_Extended"] and mods["bobelectronics"] and mods["bobplates"] and mods["bobrevamp"] and mods["boblogistics"]then
 	Recipe["BRE-logistic-robotics-mk2"].ingredients = {
 		{type = "item", name = "logistic-robot", amount = 1},
