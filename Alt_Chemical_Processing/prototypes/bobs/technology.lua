@@ -53,7 +53,7 @@ if mods["bobplates"] and mods["bobrevamp"] then
     end
     if SS["BigMiner"].value then
         if mods["bobmining"]then
-            Tech["big-mining-drill"].prerequisites = {"bob-mining-drill-5", "foundry"}
+            Tech["big-mining-drill"].prerequisites = {"bob-drills-5", "foundry"}
         end
     end
 end

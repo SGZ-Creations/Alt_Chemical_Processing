@@ -72,9 +72,9 @@ if mods["bobplates"] and mods["bobrevamp"] then
             Recipe["big-mining-drill"].ingredients = {
                 {type = "item", name = "superconductor", amount = 20},
                 {type = "item", name = "carbon-fiber", amount = 20},
-                {type = "item", name = "bob-mining-drill-4", amount = 5},
+                {type = "item", name = "bob-mining-drill-4", amount = 2},
             }
-            Recipe["big-mining-drill"].results = {{type = "item", name = "big-mining-drill", amount = 2}}
+            Recipe["big-mining-drill"].results = {{type = "item", name = "big-mining-drill", amount = 1}}
         end
     end
 end

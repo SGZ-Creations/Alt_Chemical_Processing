@@ -3,6 +3,7 @@ Version: 0.1.31
 Date: 23.08.25
   Changes:
     - Calcium Chloride recipe with Space bob combined.
+    - Changed how the big mining drill setting work if playing with bobs mining mods.
 ---------------------------------------------------------------------------------------------------
 Version: 0.1.30
 Date: 21.08.25
