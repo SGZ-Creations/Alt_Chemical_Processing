@@ -6,6 +6,7 @@ local SS = settings.startup
 if mods["boblogistics"] and not mods["bobplates"] then
     table.insert(Tech["logistic-science-pack"].effects, {type="unlock-recipe", recipe="basic-logistics-science"})
 end
+
 if SS["bobmods-enemies-enableartifacts"] then
 	if mods["bobenemies"] and mods["reskins-bobs"] and mods["SaltedFish"] then
         table.insert(Tech["bob-artifact-processing"].effects, {type="unlock-recipe", recipe="ArtifactRed"})
@@ -49,5 +50,10 @@ if mods["bobplates"] and mods["bobrevamp"] then
         table.insert(Tech["bob-tungsten-processing"].effects, {type="unlock-recipe", recipe="tungsten-conversion-1"})
         table.insert(Tech["bob-tungsten-processing"].effects, {type="unlock-recipe", recipe="tungsten-conversion-2"})
         table.insert(Tech["tungsten-steel"].effects, {type="unlock-recipe", recipe="bob-foundry-tungsten-plate"})
+    end
+    if SS["BigMiner"].value then
+        if mods["bobmining"]then
+            Tech["big-mining-drill"].prerequisites = {"bob-mining-drill-5", "foundry"}
+        end
     end
 end
