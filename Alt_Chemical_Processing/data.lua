@@ -30,3 +30,4 @@ require("prototypes.bobs.bobs-biters")
 
 require("prototypes.OilExtravaganza.TechBlockage")
 require("prototypes.BetterRobotsExtended.Bots")
+require("prototypes.BetterRobotsExtended.RecipeChanges")
