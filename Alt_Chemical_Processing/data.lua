@@ -28,6 +28,7 @@ require("prototypes.WaterWells.Recipes")
 require("prototypes.bobs.Artifacts")
 require("prototypes.bobs.bobs-biters")
 
+require("prototypes.OilExtravaganza.Recipe")
 require("prototypes.OilExtravaganza.TechBlockage")
 require("prototypes.BetterRobotsExtended.Bots")
 require("prototypes.BetterRobotsExtended.RecipeChanges")
