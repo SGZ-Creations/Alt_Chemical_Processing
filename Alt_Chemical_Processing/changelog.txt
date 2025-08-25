@@ -6,6 +6,7 @@ Date: 23.08.25
     - Changed how the big mining drill setting work if playing with bobs mining mods.
     - Made bots from https://mods.factorio.com/mod/Better_Robots_Extended?from=search use bobs intermediates.
     - Alt Syngas for mod https://mods.factorio.com/mod/James-Oil-Processing?from=search
+    - Made bob-ammonia = ammonia to not have 2 liquids being the same.
 ---------------------------------------------------------------------------------------------------
 Version: 0.1.30
 Date: 21.08.25

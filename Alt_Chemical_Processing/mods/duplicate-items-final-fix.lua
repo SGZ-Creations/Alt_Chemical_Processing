@@ -6,6 +6,7 @@ if mods["bobplates"] and mods["space-age"] then
         ["bob-tungsten-ore"] = "tungsten-ore",
         ["bob-lithium"] = "lithium-plate",
         ["bob-seedling"] = "tree-seed",
+        ["bob-ammonia"] = "ammonia",
     }
     for _, recipe in pairs(data.raw.recipe) do
         for _, ingredient in pairs(recipe.ingredients or {}) do
@@ -28,6 +29,7 @@ if mods["bobplates"] and mods["space-age"] then
         end
     end
 end
+
 
 if mods["bobplates"] and mods["SaltedFish"] then
     local replacements = {
