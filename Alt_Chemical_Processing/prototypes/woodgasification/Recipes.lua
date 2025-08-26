@@ -31,6 +31,15 @@ if mods["Wood_Gasification_updated"]and mods["space-age"] then
 			}
 		},
 	})
+	if SS["require-gleba-for-greenhouse-tech"].value == true then
+		Recipe["greenhouse"].ingredients = {
+			{type = "item", name = "pipe", amount = 20},
+			{type = "item", name = "carbon-fiber", amount = 50},
+			{type = "item", name = "tungsten-plate", amount = 100},
+			{type = "item", name = "holmium-plate", amount = 100},
+			{type = "item", name = "steel-plate", amount = 100},
+		}
+	end
 	if SS["yumako-jellynut"].value == true then
 		data:extend({
 			{
@@ -74,5 +83,17 @@ if mods["Wood_Gasification_updated"]and mods["space-age"] then
 				}
 			},
 		})
+	end
+	if SS["require-gleba-for-greenhouse-tech"].value == true then
+		if mods["bobplates"]and mods["bobrevamp"]and mods["boblogistics"] then
+			Recipe["greenhouse"].ingredients = {
+				{type = "item", name = "carbon-fiber", amount = 50},
+				{type = "item", name = "holmium-plate", amount = 100},
+				{type = "item", name = "bob-titanium-plate", amount = 100},
+				{type = "item", name = "bob-aluminium-plate", amount = 100},
+				{type = "item", name = "bob-cobalt-steel-alloy", amount = 100},
+				{type = "item", name = "bob-stone-pipes", amount = 100},
+			}
+		end
 	end
 end

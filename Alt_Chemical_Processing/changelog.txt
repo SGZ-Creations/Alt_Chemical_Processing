@@ -4,17 +4,19 @@ Date: 23.08.25
   Changes:
     - Calcium Chloride recipe with Space bob combined.
     - Changed how the big mining drill setting work if playing with bobs mining mods.
-    - Made bots from https://mods.factorio.com/mod/Better_Robots_Extended?from=search use bobs intermediates.
-    - Alt Syngas for mod https://mods.factorio.com/mod/James-Oil-Processing?from=search
+    - Made bots from https://mods.factorio.com/mod/Better_Robots_Extended use bobs intermediates.
+    - Alt Syngas for mod https://mods.factorio.com/mod/James-Oil-Processing
     - Made bob-ammonia = ammonia to not have 2 liquids being the same.
+    - Changed recipe for [item=greenhouse] if the mods setting require gleba is enabled https://mods.factorio.com/mod/Wood_Gasification_updated
+    - Changed recipe for [item=greenhouse] --||-- regarding bobs mod too https://mods.factorio.com/mod/Wood_Gasification_updated
 ---------------------------------------------------------------------------------------------------
 Version: 0.1.30
 Date: 21.08.25
   Changes:
-    - https://mods.factorio.com/mod/god-module?from=search Added code for Quality Module prerequisites.
-    - https://mods.factorio.com/mod/Better_Robots_Extended?from=search Fixed duplicate recipe & tech when "boblogistics" = active.
-    - https://mods.factorio.com/mod/Better_Robots_Extended?from=search Fixed crafting menu order.
-    - https://mods.factorio.com/mod/Better_Robots_Extended?from=search Tweaked crafting recipe when using "bobelectronics" mod.
+    - https://mods.factorio.com/mod/god-module Added code for Quality Module prerequisites.
+    - https://mods.factorio.com/mod/Better_Robots_Extended Fixed duplicate recipe & tech when "boblogistics" = active.
+    - https://mods.factorio.com/mod/Better_Robots_Extended Fixed crafting menu order.
+    - https://mods.factorio.com/mod/Better_Robots_Extended Tweaked crafting recipe when using "bobelectronics" mod.
 ---------------------------------------------------------------------------------------------------
 Version: 0.1.29
 Date: 27.07.25
