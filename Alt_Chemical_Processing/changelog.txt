@@ -7,8 +7,8 @@ Date: 23.08.25
     - Made bots from https://mods.factorio.com/mod/Better_Robots_Extended use bobs intermediates.
     - Alt Syngas for mod https://mods.factorio.com/mod/James-Oil-Processing
     - Made bob-ammonia = ammonia to not have 2 liquids being the same.
-    - Changed recipe for [item=greenhouse] if the mods setting require gleba is enabled https://mods.factorio.com/mod/Wood_Gasification_updated
-    - Changed recipe for [item=greenhouse] --||-- regarding bobs mod too https://mods.factorio.com/mod/Wood_Gasification_updated
+    - Changed recipe for [item=I-greenhouse] if the mods setting require gleba is enabled https://mods.factorio.com/mod/Wood_Gasification_updated
+    - Changed recipe for [item=I-greenhouse] --||-- regarding bobs mod too https://mods.factorio.com/mod/Wood_Gasification_updated
 ---------------------------------------------------------------------------------------------------
 Version: 0.1.30
 Date: 21.08.25
