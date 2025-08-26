@@ -1,5 +1,8 @@
 ---@class data.SettingsStartup
 local SS = settings.startup
+---@class data.RecipePrototype 
+local Recipe = data.raw["recipe"]
+
 if mods["Wood_Gasification_updated"]and mods["space-age"] then
 	data:extend({
 		{
@@ -89,10 +92,10 @@ if mods["Wood_Gasification_updated"]and mods["space-age"] then
 			Recipe["greenhouse"].ingredients = {
 				{type = "item", name = "carbon-fiber", amount = 50},
 				{type = "item", name = "holmium-plate", amount = 100},
+				{type = "item", name = "bob-stone-pipe", amount = 20},
 				{type = "item", name = "bob-titanium-plate", amount = 100},
 				{type = "item", name = "bob-aluminium-plate", amount = 100},
 				{type = "item", name = "bob-cobalt-steel-alloy", amount = 100},
-				{type = "item", name = "bob-stone-pipes", amount = 100},
 			}
 		end
 	end
