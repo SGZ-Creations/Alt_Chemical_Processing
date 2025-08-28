@@ -8,6 +8,8 @@ local Collector = data.raw["asteroid-collector"]
 local SS = settings.startup
 ---@class data.QualityPrototype
 local Quality = data.raw["quality"]
+---@class data.CargoLandingPadPrototype
+local Pad = data.raw["cargo-landing-pad"]
 
 
 if mods["space-age"] then
@@ -18,9 +20,13 @@ if mods["space-age"] then
 		Collector["asteroid-collector"].arm_count_quality_scaling = 0
 		Collector["asteroid-collector"].arm_count_base = SS["CollectorArms"].value
 		Collector["asteroid-collector"].collection_radius = SS["CollectorRadius"].value
-		for name, quality in pairs(Quality) do
+		for _, quality in pairs(Quality) do
 			quality.asteroid_collector_collection_radius_bonus = 0
 		end
+	end
+	if SS["QualityLandingPads"].value == true then
+		Pad["cargo-landing-pad"].radar_range = nil
+		--Pad["cargo-landing-pad"].radar_range = SS["LandingPadCoverage"].value
 	end
 end
 

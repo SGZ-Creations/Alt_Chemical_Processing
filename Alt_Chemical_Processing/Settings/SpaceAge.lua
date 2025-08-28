@@ -104,7 +104,22 @@ if mods["space-age"] then
             minimum_value = 0.5,
             order = "1Agb"
         },
-        --[[{
+        {
+            type = "bool-setting",
+            name = "QualityLandingPads",
+            setting_type = "startup",
+            default_value = false,
+            order = "1Aha"
+        },
+        --[[
+        {
+            type = "int-setting",
+            name = "LandingPadCoverage",
+            setting_type = "startup",
+            default_value = 1,
+            order = "1Ahb"
+        },
+        {
             type = "bool-setting",
             name = "InsertSleep",
             setting_type = "startup",
