@@ -19,11 +19,27 @@ if mods["space-age"]then
 			energy_required = 10,
 			ingredients = {{type = "fluid", name = "water", amount =SS["WaterAmount"].value}},
 			results = {{type = "item", name = "ice", amount =SS["IceCubes"].value}}
-		}
+		},
 	})
 end
 
 if mods["space-age"] then
+	--if SS["NewCarbonFiber"].value then
+		data:extend({
+			{
+				type = "recipe",
+				name = "SynteticCarbonFiber",
+				category = "cryogenics",
+				icon = "__space-age__/graphics/icons/carbon-fiber.png",
+				order = "a[organic-products]-h[carbon-fiber]",
+				subgroup = "agriculture-products",
+				enabled = false,
+				energy_required = 10,
+				ingredients = {{type = "item", name = "plastic-bar", amount =10},{type = "item", name = "carbon", amount =10}},
+				results = {{type = "item", name = "carbon-fiber", amount =1}}
+			}
+		})
+	--end
 	if SS["seed-spoilage"].value then
 		data:extend({
 			{
