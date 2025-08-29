@@ -7,6 +7,8 @@ if mods["space-age"]then
 	Recipe["ice-melting"].ingredients = {{type = "item", name = "ice", amount = SS["IceCubes"].value}}
 	Recipe["ice-melting"].results = {{type = "fluid", name = "water", amount = SS["WaterAmount"].value}}
 	Recipe["ice-melting"].category = "chemistry-or-cryogenics"
+	Recipe["coal-synthesis"].category = "chemistry-or-cryogenics"
+	Recipe["coal-synthesis"].allow_productivity = true
 	data:extend({
 		{
 			type = "recipe",
@@ -29,7 +31,7 @@ if mods["space-age"] then
 			{
 				type = "recipe",
 				name = "SynteticCarbonFiber",
-				category = "cryogenics",
+				category = "BioCryo",
 				icon = "__space-age__/graphics/icons/carbon-fiber.png",
 				order = "a[organic-products]-h[carbon-fiber]",
 				subgroup = "agriculture-products",
