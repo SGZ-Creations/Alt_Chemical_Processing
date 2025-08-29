@@ -37,7 +37,7 @@ if mods["space-age"] then
 				subgroup = "agriculture-products",
 				enabled = false,
 				energy_required = 10,
-				ingredients = {{type = "item", name = "plastic-bar", amount =10},{type = "item", name = "carbon", amount =10}},
+				ingredients = {{type = "item", name = "plastic-bar", amount =2},{type = "item", name = "carbon", amount =2}},
 				results = {{type = "item", name = "carbon-fiber", amount =1}}
 			}
 		})

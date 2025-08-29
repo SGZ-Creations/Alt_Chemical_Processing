@@ -18,4 +18,7 @@ if mods["space-age"] then
 	if SS["CryoRecycle"].value then
 		table.insert(Tech["cryogenic-science-pack"].effects, {type = "unlock-recipe", recipe = "recycle-craft-cryo"})
 	end
+	--if SS["NewCarbonFiber"].value then
+		table.insert(Tech["carbon-fiber"].effects, {type = "unlock-recipe", recipe = "SynteticCarbonFiber"})
+	--end
 end
