@@ -6,6 +6,7 @@ Date: 27.08.25
     - Tweaked tech & Recipes.
   Features:
     - Added option to disable landing pad radar coverage. Should a quality mod make it to high.
+    - Made New "carbon-fiber" recipe with custom crafting category. Setting to be added soon.
 ---------------------------------------------------------------------------------------------------
 Version: 0.1.31
 Date: 23.08.25
