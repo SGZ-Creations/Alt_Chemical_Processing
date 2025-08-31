@@ -9,6 +9,8 @@ if mods["space-age"]then
 	Recipe["ice-melting"].category = "chemistry-or-cryogenics"
 	Recipe["coal-synthesis"].category = "chemistry-or-cryogenics"
 	Recipe["coal-synthesis"].allow_productivity = true
+	Recipe["holmium-solution"].category = "chemistry-or-cryogenics"
+	Recipe["holmium-solution"].allow_productivity = true
 	data:extend({
 		{
 			type = "recipe",
