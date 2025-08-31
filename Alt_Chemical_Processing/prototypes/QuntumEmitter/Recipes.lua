@@ -1,4 +1,5 @@
-
+---@class data.ItemPrototype
+local Item = data.raw["item"]
 
 if mods["Quantum-diffuser"]then
 	Recipe["quantum-emitter"].ingredients = {
@@ -15,4 +16,5 @@ if mods["Quantum-diffuser"]then
 			{type = "item", name = "beacon", amount = 2}
 		}
 	end
+	Item["quantum-emitter"].stack_size = 10
 end

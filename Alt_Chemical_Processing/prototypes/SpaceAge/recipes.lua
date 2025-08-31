@@ -32,6 +32,22 @@ if mods["space-age"] then
 		data:extend({
 			{
 				type = "recipe",
+				name = "LavaBrick",
+				category = "metallurgy",
+				icon = "__space-age__/graphics/icons/carbon-fiber.png",
+				order = "a[stone-brick]",
+				subgroup = "terrain",
+				enabled = false,
+				energy_required = 5,
+				ingredients = {{type = "fluid", name = "lava", amount =5}},
+				results = {{type = "item", name = "stone-brick", amount =2}}
+			}
+		})
+	--end
+	--if SS["NewCarbonFiber"].value then
+		data:extend({
+			{
+				type = "recipe",
 				name = "SynteticCarbonFiber",
 				category = "BioCryo",
 				icon = "__space-age__/graphics/icons/carbon-fiber.png",
