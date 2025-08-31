@@ -34,7 +34,7 @@ if mods["space-age"] then
 				type = "recipe",
 				name = "LavaBrick",
 				category = "metallurgy",
-				icon = "__space-age__/graphics/icons/carbon-fiber.png",
+				main_product = "stone-brick",
 				order = "a[stone-brick]",
 				subgroup = "terrain",
 				enabled = false,
