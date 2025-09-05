@@ -1,3 +1,4 @@
+require("__Alt_Chemical_Processing__.prototypes.Base.NewLiquid")
 require("prototypes.Base.Misc")
 require("prototypes.Base.recipes")
 require("prototypes.Base.tech")
