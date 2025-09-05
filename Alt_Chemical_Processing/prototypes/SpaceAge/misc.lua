@@ -44,12 +44,6 @@ if mods["space-age"] then
 	end
 end
 
-if mods["space-age"]and not mods["BigBags"] then
-	Item["nuclear-fuel"].stack_size = SS["FuelStacks"].value
-elseif mods["BigBags"] then -- BigBag overwrites my settings making them useless & confusing. but still need to create the stack_size to be available for Bigbags to not default back.
-	Item["nuclear-fuel"].stack_size = 50
-end
-
 if mods["space-age"] then
 	if SS["BigMiner"].value then
 		Recipe["big-mining-drill"].ingredients = {

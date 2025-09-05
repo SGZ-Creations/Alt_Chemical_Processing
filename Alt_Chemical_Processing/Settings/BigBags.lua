@@ -29,6 +29,12 @@ if mods["space-age"] and not mods["BigBags"] then
             default_value = 1,
             order = "1Aad"
         },
+    })
+end
+
+if not mods["BigBags"]then
+    data:extend({
+        --StackSizeSettings
         {
             type = "int-setting",
             name = "FuelStacks",
