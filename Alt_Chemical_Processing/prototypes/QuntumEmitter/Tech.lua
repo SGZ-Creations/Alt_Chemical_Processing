@@ -28,4 +28,3 @@ if mods["Quantum-diffuser"]then
 		table.insert(Tech["quantum-emitter"].prerequisites, "god-module")
 	end
 end
-
