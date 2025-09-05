@@ -1,6 +1,7 @@
 require("Settings.ChemicalProcesssing")
 require("Settings.VanillaLoaders")
 require("Settings.SpaceAge")
+require("Settings.KlonanTelporters")
 require("Settings.AjustableSilo")
 require("Settings.MoreThanBobs")
 require("Settings.AstroidCrushing")

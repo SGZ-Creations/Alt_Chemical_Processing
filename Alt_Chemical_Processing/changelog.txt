@@ -7,6 +7,8 @@ Date: 27.08.25
   Features:
     - Added option to disable landing pad radar coverage. Should a quality mod make it to high.
     - Made New "carbon-fiber" recipe with custom crafting category. Setting to be added soon.
+    - Added Optional TechExtension setting, adding Production & Utility Packs to it's tech. https://mods.factorio.com/mod/Teleporters
+    - Bricks to slag & slag to use.
 ---------------------------------------------------------------------------------------------------
 Version: 0.1.31
 Date: 23.08.25
