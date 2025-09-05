@@ -1,7 +1,7 @@
 ---@class data.TechnologyPrototype
-Tech = data.raw.technology
+local Tech = data.raw.technology
 ---@class data.RecipePrototype
-Recipe = data.raw.recipe
+local Recipe = data.raw.recipe
 
 
 if mods["Better_Robots_Extended"] then
