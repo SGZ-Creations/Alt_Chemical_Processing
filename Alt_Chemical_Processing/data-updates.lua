@@ -7,6 +7,8 @@ require("prototypes.bobs.recipe")
 require("prototypes.bobs.technology")
 require("prototypes.bobs.Artifacts")
 
+require("prototypes.BetterRobotsExtended.Tech")
+
 require("prototypes.SpaceBobsCombination.MiscChanges")
 require("prototypes.SpaceBobsCombination.RocketSilo")
 require("prototypes.SpaceBobsCombination.Scraping")
