@@ -1,8 +1,14 @@
 ---@class data.RecipePrototype
 local Recipe = data.raw.recipe
+---@class data.TechnologyPrototype
+local Tech = data.raw["technology"]
 
 local SpaceBobs = mods["bobplates"] and mods["bobrevamp"] and mods["space-age"]
+local SpaceBobsMining = mods["bobplates"] and mods["bobmining"] and mods["space-age"]
 
+if SpaceBobsMining then
+    Tech["bob-steel-axe-4"].research_trigger = {type ="craft-item", item ="tungsten-plate", amount = 50}
+end
 
 if SpaceBobs then
 	data:extend({
