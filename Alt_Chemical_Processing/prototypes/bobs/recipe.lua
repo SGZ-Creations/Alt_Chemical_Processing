@@ -67,7 +67,7 @@ if mods["bobplates"] and mods["bobrevamp"] then
         },
     })
     Item["bob-enriched-fuel"].stack_size = 50
-    if mods["bobmining"] then
+    if mods["bobmining"]and mods["space-age"] then
         if SS["BigMiner"].value then
             Recipe["big-mining-drill"].ingredients = {
                 {type = "item", name = "superconductor", amount = 20},
