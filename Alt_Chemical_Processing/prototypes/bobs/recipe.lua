@@ -67,6 +67,7 @@ if mods["bobplates"] and mods["bobrevamp"] then
         },
     })
     Item["bob-enriched-fuel"].stack_size = 50
+
     if mods["bobmining"]and mods["space-age"] then
         if SS["BigMiner"].value then
             Recipe["big-mining-drill"].ingredients = {
@@ -108,7 +109,7 @@ if mods["bobplates"] and mods["bobrevamp"]and mods["space-age"] then
             enabled = false,
             subgroup = "bob-resource-chemical",
             order = "f[bob-calcium-chloride]",
-            allow_productivity = true, 
+            allow_productivity = true,
             allow_decomposition = true,
             energy_required = 10.0,
             ingredients = {
