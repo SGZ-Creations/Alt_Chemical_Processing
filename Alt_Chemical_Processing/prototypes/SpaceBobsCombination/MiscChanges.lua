@@ -2,6 +2,8 @@
 local Recipe = data.raw.recipe
 ---@class data.TechnologyPrototype
 local Tech = data.raw["technology"]
+---@class LuaSettings
+local SS = settings.startup
 
 local SpaceBobs = mods["bobplates"] and mods["bobrevamp"] and mods["space-age"]
 local SpaceBobsMining = mods["bobplates"] and mods["bobmining"] and mods["space-age"]
@@ -32,23 +34,25 @@ end
 
 
 if mods["boblogistics"] and mods["space-age"] then
-    Recipe["express-transport-belt"].category = "pressing"
-    Recipe["express-underground-belt"].category = "pressing"
-    Recipe["express-splitter"].category = "pressing"
+    if SS["bobmods-logistics-inserteroverhaul"].value == true then
+        Recipe["express-transport-belt"].category = "pressing"
+        Recipe["express-underground-belt"].category = "pressing"
+        Recipe["express-splitter"].category = "pressing"
 
-    Recipe["bob-turbo-transport-belt"].category = "pressing"
-    Recipe["bob-turbo-underground-belt"].category = "pressing"
-    Recipe["bob-turbo-splitter"].category = "pressing"
+        Recipe["bob-turbo-transport-belt"].category = "pressing"
+        Recipe["bob-turbo-underground-belt"].category = "pressing"
+        Recipe["bob-turbo-splitter"].category = "pressing"
 
-    Recipe["bob-ultimate-transport-belt"].category = "pressing"
-    Recipe["bob-ultimate-underground-belt"].category = "pressing"
-    Recipe["bob-ultimate-splitter"].category = "pressing"
+        Recipe["bob-ultimate-transport-belt"].category = "pressing"
+        Recipe["bob-ultimate-underground-belt"].category = "pressing"
+        Recipe["bob-ultimate-splitter"].category = "pressing"
 
-    Recipe["bob-red-bulk-inserter"].category = "electronics-or-handcrafting"
+        Recipe["bob-red-bulk-inserter"].category = "electronics-or-handcrafting"
 
-    Recipe["bob-turbo-inserter"].category = "electronics-or-handcrafting"
-    Recipe["bob-turbo-bulk-inserter"].category = "electronics-or-handcrafting"
+        Recipe["bob-turbo-inserter"].category = "electronics-or-handcrafting"
+        Recipe["bob-turbo-bulk-inserter"].category = "electronics-or-handcrafting"
 
-    Recipe["bob-express-inserter"].category = "electronics-or-handcrafting"
-    Recipe["bob-express-bulk-inserter"].category = "electronics-or-handcrafting"
+        Recipe["bob-express-inserter"].category = "electronics-or-handcrafting"
+        Recipe["bob-express-bulk-inserter"].category = "electronics-or-handcrafting"
+    end
 end
