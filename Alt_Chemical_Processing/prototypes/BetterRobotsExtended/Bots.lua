@@ -45,6 +45,14 @@ if mods["Better_Robots_Extended"] then
 					{type = "item", name = "bob-basic-circuit-board", amount = 2},
 					{type = "item", name = "flying-robot-frame", amount = 1},
 				}
+				Recipe["logistic-robot"].ingredients = {
+					{type = "item", name = "bob-basic-circuit-board", amount = 2},
+					{type = "item", name = "flying-robot-frame", amount = 1},
+				}
+				Recipe["construction-robot"].ingredients = {
+					{type = "item", name = "bob-basic-circuit-board", amount = 2},
+					{type = "item", name = "flying-robot-frame", amount = 1},
+				}
 			end
 		end
 	end
