@@ -66,6 +66,6 @@ function remove_ingredient(recipe_name, ingredient_name)
 end
 if Item["bob-solar-panel-small"] then
     if SS["6ItmsRecipe"].value then
-        remove_ingredient("utillity-science-pack", "bob-solar-panel-small")
+        remove_ingredient("utility-science-pack", "bob-solar-panel-small")
     end
 end
