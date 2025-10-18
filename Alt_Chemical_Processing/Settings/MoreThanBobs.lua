@@ -7,5 +7,12 @@ if mods["bobenemies"]and mods["reskins-bobs"] and mods["SaltedFish"] then
 			default_value = false,
 			order = "6Aad"
 		},
+		{
+			type = "bool-setting",
+			name = "6ItmsRecipe",
+			setting_type = "startup",
+			default_value = false,
+			order = "6Aae"
+		},
 	})
 end

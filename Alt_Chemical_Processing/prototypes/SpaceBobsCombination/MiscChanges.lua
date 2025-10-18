@@ -4,7 +4,7 @@ local Recipe = data.raw.recipe
 local Tech = data.raw["technology"]
 ---@class LuaSettings
 local SS = settings.startup
-
+local Item = data.raw["item"]
 local SpaceBobs = mods["bobplates"] and mods["bobrevamp"] and mods["space-age"]
 local SpaceBobsMining = mods["bobplates"] and mods["bobmining"] and mods["space-age"]
 
@@ -54,5 +54,18 @@ if mods["boblogistics"] and mods["space-age"] then
 
         Recipe["bob-express-inserter"].category = "electronics-or-handcrafting"
         Recipe["bob-express-bulk-inserter"].category = "electronics-or-handcrafting"
+    end
+end
+
+function remove_ingredient(recipe_name, ingredient_name)
+    for i, ingredient in pairs(Recipe[recipe_name].ingredients) do
+        if ingredient.name == ingredient_name then
+            table.remove(Recipe[recipe_name].ingredients, i)
+        end
+    end
+end
+if Item["bob-solar-panel-small"] then
+    if SS["6ItmsRecipe"].value then
+        remove_ingredient("utillity-science-pack", "bob-solar-panel-small")
     end
 end
