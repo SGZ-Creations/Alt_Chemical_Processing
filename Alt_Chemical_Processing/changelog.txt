@@ -4,6 +4,8 @@ Date: 27.08.25
   Changes:
     - Quantum-diffuser mod https://mods.factorio.com/mod/Quantum-diffuser
     - Tweaked tech & Recipes.
+    - Unification on Bobs from metals and stars
+    - Unification on metals and stars --> https://mods.factorio.com/mod/James-Oil-Processing
   Features:
     - Added option to disable landing pad radar coverage. Should a quality mod make it to high.
     - Made New "carbon-fiber" recipe with custom crafting category. Setting to be added soon.
