@@ -43,4 +43,15 @@ if not mods["BigBags"]then
             order = "1Aae"
         },
     })
+    if mods["metal-and-stars"]then
+        data:extend({
+            {
+                type = "int-setting",
+                name = "ACP-mirandite-asteroid-chunk",
+                setting_type = "startup",
+                default_value = 1,
+                order = "1Aaf"
+            },
+        })
+    end
 end
