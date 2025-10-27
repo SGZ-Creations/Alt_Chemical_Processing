@@ -11,6 +11,7 @@ Date: 27.08.25
     - Made New "carbon-fiber" recipe with custom crafting category. Setting to be added soon.
     - Added Optional TechExtension setting, adding Production & Utility Packs to it's tech. https://mods.factorio.com/mod/Teleporters
     - Bricks to slag & slag to use.
+    - Stack option for [item=mirandite-asteroid-chunk] if not bigbags.
     - Option to remove solar panel from utility science pack recipe.
   Info:
     - Sorry should the be some uncompleted Features/Functions/Content.
@@ -22,7 +23,7 @@ Date: 23.08.25
     - Changed how the big mining drill setting work if playing with bobs mining mods.
     - Made bots from https://mods.factorio.com/mod/Better_Robots_Extended use bobs intermediates.
     - Alt Syngas for mod https://mods.factorio.com/mod/James-Oil-Processing
-    - Made bob-ammonia = ammonia to not have 2 liquids being the same.
+    - Made [fluid=bob-ammonia] = [fluid=ammonia] to not have 2 liquids being the same.
     - Changed recipe for [item=I-greenhouse] if the mods setting require gleba is enabled https://mods.factorio.com/mod/Wood_Gasification_updated
     - Changed recipe for [item=I-greenhouse] --||-- regarding bobs mod too https://mods.factorio.com/mod/Wood_Gasification_updated
 ---------------------------------------------------------------------------------------------------
