@@ -16,9 +16,9 @@ data:extend({
 	},
 })
 
-if mods["bobassembly"] then
-	table.insert(data.raw["assembling-machine"]["bob-centrifuge-2"].crafting_categories, "centrifuging")
-	table.insert(data.raw["assembling-machine"]["bob-centrifuge-3"].crafting_categories, "centrifuging")
+if mods["bobassembly"] and mods["gleba-reborn"] then
+	table.insert(data.raw["assembling-machine"]["bob-centrifuge-2"].crafting_categories, "organic-or-centrifuging")
+	table.insert(data.raw["assembling-machine"]["bob-centrifuge-3"].crafting_categories, "organic-or-centrifuging")
 end
 
 table.insert(data.raw["assembling-machine"]["assembling-machine-1"].crafting_categories, "electronics-or-handcrafting")
