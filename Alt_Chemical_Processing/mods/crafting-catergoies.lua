@@ -14,15 +14,11 @@ data:extend({
 		type = "recipe-category",
 		name = "BioCryo"
 	},
-	{
-		type = "recipe-category",
-		name = "centrifuging"
-	},
 })
 
 if mods["bobassembly"] then
-	table.insert(data.raw["assembling-machine"]["bob-centrifige-2"].crafting_categories, "centrifuging")
-	table.insert(data.raw["assembling-machine"]["bob-centrifige-3"].crafting_categories, "centrifuging")
+	table.insert(data.raw["assembling-machine"]["bob-centrifuge-2"].crafting_categories, "centrifuging")
+	table.insert(data.raw["assembling-machine"]["bob-centrifuge-3"].crafting_categories, "centrifuging")
 end
 
 table.insert(data.raw["assembling-machine"]["assembling-machine-1"].crafting_categories, "electronics-or-handcrafting")
