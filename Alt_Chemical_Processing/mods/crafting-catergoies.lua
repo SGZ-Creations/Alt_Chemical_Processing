@@ -14,6 +14,10 @@ data:extend({
 		type = "recipe-category",
 		name = "BioCryo"
 	},
+	{
+		type = "recipe-category",
+		name = "centrifuging"
+	},
 })
 
 if mods["bobassembly"] then
