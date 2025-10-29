@@ -28,7 +28,7 @@ if mods["space-age"]then
 end
 
 if mods["space-age"] then
-	--if SS["NewCarbonFiber"].value then
+	--if SS["LavaBricks"].value then
 		data:extend({
 			{
 				type = "recipe",
