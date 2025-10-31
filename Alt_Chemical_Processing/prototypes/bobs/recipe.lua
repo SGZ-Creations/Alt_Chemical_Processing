@@ -65,9 +65,31 @@ if mods["bobplates"] and mods["bobrevamp"] then
                 {type="item", name="rocket-fuel", amount=20},
             },
         },
+        {
+            type = "recipe",
+            category = "centrifuging",
+            name = "ThoriumPlutoniumEnrichment",
+            main_product = "bob-plutonium-239",
+            enabled = false,
+            subgroup = "bob-nuclear",
+            order = "s[bob-plutonium-239]",
+            allow_productivity = true,
+            allow_decomposition = true,
+            energy_required = 10.0,
+            ingredients = {
+                {type="item", name="bob-thorium-232", amount=5},
+                {type="item", name="bob-plutonium-239", amount=10},
+            },
+            results = {
+                {type="item", name="bob-thorium-232", amount=3},
+                {type="item", name="bob-plutonium-239", amount=11},
+            },
+        },
     })
+    if mods["gleba-reborn"] then
+        Recipe["ThoriumPlutoniumEnrichment"].category = "organic-or-centrifuging"
+    end
     Item["bob-enriched-fuel"].stack_size = 50
-
     if mods["bobmining"]and mods["space-age"] then
         if SS["BigMiner"].value then
             Recipe["big-mining-drill"].ingredients = {
@@ -79,7 +101,6 @@ if mods["bobplates"] and mods["bobrevamp"] then
         end
     end
 end
-
 
 if mods["boblogistics"] and not mods["bobplates"] then
     data:extend({

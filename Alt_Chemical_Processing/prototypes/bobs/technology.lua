@@ -42,7 +42,7 @@ if mods["bobplates"] and mods["bobrevamp"] then
             time = 30
         }
     data:extend{fueltech}
-
+    table.insert(Tech["kovarex-enrichment-process"].effects, {type="unlock-recipe", recipe="ThoriumPlutoniumEnrichment"})
     table.insert(Tech["bob-chemical-processing-2"].effects, {type="unlock-recipe", recipe="carbon-dioxide-sepreation"})
 
     if mods["space-age"]then
