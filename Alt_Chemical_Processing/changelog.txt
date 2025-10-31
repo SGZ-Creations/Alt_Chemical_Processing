@@ -13,6 +13,7 @@ Date: 27.08.25
     - Bricks to slag & slag to use.
     - Stack option for [item=mirandite-asteroid-chunk] if not bigbags.
     - Option to remove solar panel from utility science pack recipe.
+    - Added ThoriumPlutoniumEnrichment recipe for bobs.
   Info:
     - Sorry should the be some uncompleted Features/Functions/Content.
 ---------------------------------------------------------------------------------------------------
