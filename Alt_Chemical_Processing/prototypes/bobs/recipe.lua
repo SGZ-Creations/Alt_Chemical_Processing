@@ -86,9 +86,6 @@ if mods["bobplates"] and mods["bobrevamp"] then
             },
         },
     })
-    if mods["gleba-reborn"] then
-        Recipe["ThoriumPlutoniumEnrichment"].category = "organic-or-centrifuging"
-    end
     Item["bob-enriched-fuel"].stack_size = 50
     if mods["bobmining"]and mods["space-age"] then
         if SS["BigMiner"].value then
