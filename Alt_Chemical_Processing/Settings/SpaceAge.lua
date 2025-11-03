@@ -55,13 +55,6 @@ if mods["space-age"] then
             order = "1Afb"
         },
         {
-            type = "bool-setting",
-            name = "BigMiner",
-            setting_type = "startup",
-            default_value = false,
-            order = "1Afc"
-        },
-        {
             type = "int-setting",
             name = "SSlowLava",
             setting_type = "startup",
@@ -118,13 +111,17 @@ if mods["space-age"] then
             setting_type = "startup",
             default_value = 1,
             order = "1Ahb"
-        },
-        {
-            type = "bool-setting",
-            name = "InsertSleep",
-            setting_type = "startup",
-            default_value = false,
-            order = "4Aac"
         },]]
     })
+    if not mods["bobmining"] then
+        data:extend({
+            {
+                type = "bool-setting",
+                name = "BigMiner",
+                setting_type = "startup",
+                default_value = false,
+                order = "1Afc"
+            },
+        })
+    end
 end
