@@ -20,3 +20,4 @@ require("prototypes.SpaceBobsCombination.ResorceTech")
 
 require("prototypes.vanilla-loaders.recipes")
 require("prototypes.SpidertronExtended.misc")
+require("prototypes.BigBags.BagsStacks")
