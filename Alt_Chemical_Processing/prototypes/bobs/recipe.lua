@@ -87,16 +87,6 @@ if mods["bobplates"] and mods["bobrevamp"] then
         },
     })
     Item["bob-enriched-fuel"].stack_size = 50
-    if mods["bobmining"]and mods["space-age"] then
-        if SS["BigMinerBobs"].value then
-            Recipe["big-mining-drill"].ingredients = {
-                {type = "item", name = "superconductor", amount = 20},
-                {type = "item", name = "carbon-fiber", amount = 20},
-                {type = "item", name = "bob-mining-drill-4", amount = 5},
-            }
-            Recipe["big-mining-drill"].results = {{type = "item", name = "big-mining-drill", amount = 1}}
-        end
-    end
 end
 
 if mods["boblogistics"] and not mods["bobplates"] then
@@ -142,4 +132,18 @@ if mods["bobplates"] and mods["bobrevamp"]and mods["space-age"] then
     Recipe["carbon-dioxide-sepreation"].category = "chemistry-or-cryogenics"
     Recipe["rocket-fuel-from-solid-fuel"].category = "chemistry-or-cryogenics"
     Recipe["rocket-fuel-from-enriched-fuel"].category = "chemistry-or-cryogenics"
+end
+
+function remove_ingredient(recipe_name, ingredient_name)
+    for i, ingredient in pairs(Recipe[recipe_name].ingredients) do
+        if ingredient.name == ingredient_name then
+            table.remove(Recipe[recipe_name].ingredients, i)
+        end
+    end
+end
+
+if Item["bob-solar-panel-small"] then
+    if SS["6ItmsRecipe"].value then
+        remove_ingredient("utility-science-pack", "bob-solar-panel-small")
+    end
 end

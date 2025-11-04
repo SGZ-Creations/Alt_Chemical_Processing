@@ -100,8 +100,7 @@ if SpaceBobs then
             },
         },
     })
-    if
-        Item["bob-gem-ore"] then
+    if Item["bob-gem-ore"] then
         table.insert(Recipe["VulcanusOres"].results, {type ="item", name = "bob-gem-ore", amount = 25})
         table.insert(Recipe["Glebaores"].results, {type ="item", name = "bob-gem-ore", amount = 25})
         table.insert(Recipe["AquiloOres"].results, {type ="item", name = "bob-gem-ore", amount = 25})

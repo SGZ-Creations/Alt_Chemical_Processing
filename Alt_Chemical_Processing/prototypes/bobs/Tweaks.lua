@@ -13,7 +13,7 @@ if mods["bobpower"] then
 		Recipe["bob-slow-accumulator"].hidden = true
 	end
 	if SS["BoostedEffects"].value then
-		Accumulators["accumulator"].energy_source.input_flow_limit = SS["AccumulatorIF1"].value
-		Accumulators["accumulator"].energy_source.output_flow_limit = SS["AccumulatorOF1"].value
+		Accumulators["accumulator"].energy_source.input_flow_limit = tostring(SS["AccumulatorIF1"].value) .. "MJ"
+		Accumulators["accumulator"].energy_source.output_flow_limit = tostring(SS["AccumulatorOF1"].value) .. "MJ"
 	end
 end
