@@ -30,6 +30,7 @@ require("prototypes.WaterWells.Recipes")
 
 require("prototypes.bobs.Artifacts")
 require("prototypes.bobs.bobs-biters")
+--require("prototypes.bobs.Tweaks")
 
 require("prototypes.OilExtravaganza.Recipe")
 require("prototypes.OilExtravaganza.TechBlockage")
