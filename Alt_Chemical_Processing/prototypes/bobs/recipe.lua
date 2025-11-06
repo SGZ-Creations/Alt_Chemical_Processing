@@ -106,8 +106,8 @@ if mods["boblogistics"] and not mods["bobplates"] then
             results = {{type="item", name="logistic-science-pack", amount=1}},
         },
     })
-    Recipe["logistics-science-pack"].hidden = true
-    Recipe["logistics-science-pack"].enable = false
+    Recipe["logistic-science-pack"].hidden = true
+    Recipe["logistic-science-pack"].enable = false
 end
 
 
