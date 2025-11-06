@@ -50,10 +50,5 @@ if mods["bobplates"] and mods["bobrevamp"] then
         table.insert(Tech["bob-tungsten-processing"].effects, {type="unlock-recipe", recipe="tungsten-conversion-1"})
         table.insert(Tech["bob-tungsten-processing"].effects, {type="unlock-recipe", recipe="tungsten-conversion-2"})
         table.insert(Tech["tungsten-steel"].effects, {type="unlock-recipe", recipe="bob-foundry-tungsten-plate"})
-        if mods["bobmining"]then
-            if SS["BigMinerBobs"].value then
-                Tech["big-mining-drill"].prerequisites = {"bob-drills-5", "foundry"}
-            end
-        end
     end
 end

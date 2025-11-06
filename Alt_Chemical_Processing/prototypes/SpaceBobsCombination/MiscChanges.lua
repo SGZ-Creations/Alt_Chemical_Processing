@@ -38,6 +38,7 @@ if SpaceBobs then
                 {type = "item", name = "bob-mining-drill-4", amount = 5},
             }
             Recipe["big-mining-drill"].results = {{type = "item", name = "big-mining-drill", amount = 1}}
+            Tech["big-mining-drill"].prerequisites = {"bob-drills-5", "foundry"}
         end
     end
 end
