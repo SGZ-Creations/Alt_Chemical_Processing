@@ -18,6 +18,7 @@ Date: 27.08.25
     - Missing quality. In God Modules's mods. Overwriting "adjustable-quality" mods function.
   Info:
     - Sorry should the be some uncompleted Features/Functions/Content.
+    - If you have this installed from beta version on discord click the trash can to delete & reinstall for the full mod version.
 ---------------------------------------------------------------------------------------------------
 Version: 0.1.31
 Date: 23.08.25
