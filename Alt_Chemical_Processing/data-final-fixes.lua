@@ -1,6 +1,6 @@
 require("prototypes.Gregtorio.Recipes")
 require("prototypes.Gregtorio.Tech")
-
+require("prototypes.godmodule.Effects")
 --require("prototypes.WindTurbines.Misc")
 require("mods.duplicate-items-final-fix")
 require("prototypes.SpaceBobsCombination.recipes-final-fix")
