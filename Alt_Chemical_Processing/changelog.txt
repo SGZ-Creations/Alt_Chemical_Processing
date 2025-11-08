@@ -10,12 +10,12 @@ Date: 27.08.25
     - Added option to disable landing pad radar coverage. Should a quality mod make it to high.
     - Made New "carbon-fiber" recipe with custom crafting category. Setting to be added soon.
     - Added Optional TechExtension setting, adding Production & Utility Packs to it's tech. https://mods.factorio.com/mod/Teleporters
-    - Bricks to slag & slag to use.
-    - Stack option for [item=mirandite-asteroid-chunk] if not bigbags.
-    - Option to remove solar panel from utility science pack recipe.
+    - Stack option for [item=mirandite-asteroid-chunk] if not BigBags.
+    - Option to remove solar panel from utility science pack recipe.(Bob mods)
     - Added ThoriumPlutoniumEnrichment recipe for bobs.
   Bugfixes:
-    - Attempted to fix missing quality. in God Modules's mods. Overwriting "adjustable-quality" mods function.
+    - Crash BigMiner error. Showing up due to missing dependencies checks. 
+    - Missing quality. In God Modules's mods. Overwriting "adjustable-quality" mods function.
   Info:
     - Sorry should the be some uncompleted Features/Functions/Content.
 ---------------------------------------------------------------------------------------------------
