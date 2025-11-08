@@ -14,6 +14,8 @@ Date: 27.08.25
     - Stack option for [item=mirandite-asteroid-chunk] if not bigbags.
     - Option to remove solar panel from utility science pack recipe.
     - Added ThoriumPlutoniumEnrichment recipe for bobs.
+  Bugfixes:
+    - Attempted to fix missing quality. in God Modules's mods. Overwriting "adjustable-quality" mods function.
   Info:
     - Sorry should the be some uncompleted Features/Functions/Content.
 ---------------------------------------------------------------------------------------------------
