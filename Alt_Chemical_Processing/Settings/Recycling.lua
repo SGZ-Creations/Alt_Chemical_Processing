@@ -179,6 +179,14 @@ if mods["space-age"] and mods["bobplates"] then
 			minimum_value = 1,
 			order = "7Aav"
 		},
+		{
+			type = "int-setting",
+			name = "ScrapHeatShield",
+			setting_type = "startup",
+			default_value = 1,
+			minimum_value = 1,
+			order = "7Aaw"
+		},
     })
 end
 

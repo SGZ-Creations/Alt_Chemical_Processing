@@ -29,11 +29,4 @@ data:extend({
         minimum_value = 0.1,
         order = "5Yac"
     },
-    {
-        type = "bool-setting",
-        name = "iron-utillity",
-        setting_type = "startup",
-        default_value = false,
-        order = "5Zaa"
-    },
 })

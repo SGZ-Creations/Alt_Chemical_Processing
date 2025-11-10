@@ -1,4 +1,13 @@
 ---------------------------------------------------------------------------------------------------
+Version: 0.1.33
+Date: 10.11.25
+  Features:
+    - Added Head Shield tile to Scrap Recycling recipe so you should now receive those without having to use scrap-reprocessor mod.
+  Changes:
+    - Removed Redundant God Module fix.
+    - Removed Redundant bobs & Gleba reborn Centrifuging fix.
+    - Remove joke utility recipe no one told me to keep it. So it's gone & no i won't add it back.
+---------------------------------------------------------------------------------------------------
 Version: 0.1.32
 Date: 27.08.25
   Changes:
