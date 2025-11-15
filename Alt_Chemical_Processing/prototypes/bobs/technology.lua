@@ -2,10 +2,10 @@
 local Tech = data.raw["technology"]
 ---@class LuaSettings
 local SS = settings.startup
-
+--[[
 if mods["boblogistics"] and not mods["bobplates"] then
     table.insert(Tech["logistic-science-pack"].effects, {type="unlock-recipe", recipe="basic-logistics-science"})
-end
+end]]
 
 if SS["bobmods-enemies-enableartifacts"] then
 	if mods["bobenemies"] and mods["reskins-bobs"] and mods["SaltedFish"] then
