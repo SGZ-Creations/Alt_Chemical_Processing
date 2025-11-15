@@ -70,3 +70,10 @@ if mods["god-module"] then
 		end
 	end
 end
+
+if mods["god-module"] and mods["secretas"]then
+	table.insert(Recipe["god-module-efficiency"].ingredients, {type ="item", name="efficiency-module-4-S", amount = 1})
+	table.insert(Recipe["god-module-speed"].ingredients, {type ="item", name="speed-module-4-S", amount = 1})
+	table.insert(Recipe["god-module-productivity"].ingredients, {type ="item", name="productivity-module-4-S", amount = 1})
+	table.insert(Recipe["god-module-quality"].ingredients, {type ="item", name="quality-module-4-S", amount = 1})
+end

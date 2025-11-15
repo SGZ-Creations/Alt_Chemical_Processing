@@ -1,5 +1,6 @@
 require("prototypes.Gregtorio.Recipes")
 require("prototypes.Gregtorio.Tech")
+require("prototypes.ModsAndMods.Effects")
 require("mods.duplicate-items-final-fix")
 require("prototypes.SpaceBobsCombination.recipes-final-fix")
 require("mods.filters")

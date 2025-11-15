@@ -12,8 +12,8 @@ require("prototypes.armoredbiters.biter-captures")
 
 require("prototypes.KlonanTeleporter.Tech")
 
-require("prototypes.godmodule.recipes")
-require("prototypes.godmodule.Tech")
+require("prototypes.ModsAndMods.recipes")
+require("prototypes.ModsAndMods.Tech")
 
 require("prototypes.AsteroidResources.Tech")
 require("prototypes.NanoBotsRefined.Tech")
