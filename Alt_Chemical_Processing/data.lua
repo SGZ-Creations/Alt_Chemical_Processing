@@ -1,5 +1,5 @@
 require("__Alt_Chemical_Processing__.prototypes.Base.NewLiquid")
-require("__Alt_Chemical_Processing__.mods.CraftingUI")
+require("__Alt_Chemical_Processing__.mods.CraftingUI_Data")
 require("prototypes.Base.Misc")
 require("prototypes.Base.recipes")
 require("prototypes.Base.tech")
