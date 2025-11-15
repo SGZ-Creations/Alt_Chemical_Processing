@@ -11,6 +11,6 @@ data:extend({--[[
         type = "item-subgroup",
         name = "GodModuleMod",
         group = "production",
-        order = "ZZZZ[god-mudules]",
+        order = "[god-mudules]ZZZZ",
     }
 })
