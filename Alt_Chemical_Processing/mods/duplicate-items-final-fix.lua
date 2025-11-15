@@ -85,7 +85,7 @@ if mods["bobplates"]and mods["bobelectronics"] and mods["metal-and-stars"] then
     end
 end
 
-if mods["Clowns-Nuclear"]and mods["metal-and-stars"] then
+if mods["Clowns-Nuclear"]and mods["metal-and-stars"]and mods["bobplates"] then
     local replacements = {
         ["uranuim-233"] = "uranium-235"
     }
