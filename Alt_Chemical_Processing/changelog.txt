@@ -4,6 +4,8 @@ Date: 15.11.25
   Features:
     - Compatibility 🌐Secretas&Frozeta. modules.
   Changes:
+    - Made new category for god modules mod.
+    - Added all god module to the new category row.
     - Reverted back to original [item=logistic-science-pack] recipe & tweaked it instead. if conditions = if mods["boblogistics"] and not mods["bobplates"].
 ---------------------------------------------------------------------------------------------------
 Version: 0.1.33

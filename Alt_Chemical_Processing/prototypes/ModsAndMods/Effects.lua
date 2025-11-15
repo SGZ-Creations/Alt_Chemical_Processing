@@ -9,30 +9,22 @@ if mods["secretas"] then
 	Module["quality-module-4-S"].effect.quality = 65
 end
 
-data:extend({
-    {
-        type = "item-subgroup",
-        name = "GodModuleMod",
-        group = "production",
-        order = "ZZZZ",
-    }
-})
 
 if mods["god-module"] then
-	Item["god-module-efficiency"].subgroup = "GodModuleMod"
-	Item["god-module-efficiency"].order = "AAA"
-	Item["god-module-speed"].subgroup = "GodModuleMod"
-	Item["god-module-speed-module"].order = "AAB"
-	Item["god-module-productivity"].subgroup = "GodModuleMod"
-	Item["god-module-productivity"].order = "AAC"
-	Item["god-module-quality"].subgroup = "GodModuleMod"
-	Item["god-module-quality"].order = "AAD"
-	Item["god-no-prod"].subgroup = "GodModuleMod"
-	Item["god-no-prod"].order = "ABA"
-	Item["god-no-prod-has-quality"].subgroup = "GodModuleMod"
-	Item["god-no-prod-has-quality"].order = "ABB"
-	Item["god-module"].subgroup = "GodModuleMod"
-	Item["god-module"].order = "ABC"
-	Item["mod-module-has-quality"].subgroup = "GodModuleMod"
-	Item["mod-module-has-quality"].order = "ABD"
+	Module["god-module-efficiency"].subgroup = "GodModuleMod"
+	Module["god-module-efficiency"].order = "z[god-mudules]AAA"
+	Module["god-module-speed"].subgroup = "GodModuleMod"
+	Module["god-module-speed"].order = "z[god-mudules]AAB"
+	Module["god-module-productivity"].subgroup = "GodModuleMod"
+	Module["god-module-productivity"].order = "z[god-mudules]AAC"
+	Module["god-module-quality"].subgroup = "GodModuleMod"
+	Module["god-module-quality"].order = "z[god-mudules]AAD"
+	Module["god-module-no-prod"].subgroup = "GodModuleMod"
+	Module["god-module-no-prod"].order = "z[god-mudules]ABA"
+	Module["god-module-no-prod-has-quality"].subgroup = "GodModuleMod"
+	Module["god-module-no-prod-has-quality"].order = "z[god-mudules]ABB"
+	Module["god-module"].subgroup = "GodModuleMod"
+	Module["god-module"].order = "z[god-mudules]ABC"
+	Module["god-module-has-quality"].subgroup = "GodModuleMod"
+	Module["god-module-has-quality"].order = "z[god-mudules]ABD"
 end
