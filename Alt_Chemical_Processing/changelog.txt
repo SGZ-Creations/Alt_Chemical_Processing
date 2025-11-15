@@ -1,4 +1,11 @@
 ---------------------------------------------------------------------------------------------------
+Version: 0.1.34
+Date: 15.11.25
+  Features:
+    - Compatibility 🌐Secretas&Frozeta. modules.
+  Changes:
+    - Reverted back to original [item=logistic-science-pack] recipe & tweaked it instead. if conditions = if mods["boblogistics"] and not mods["bobplates"].
+---------------------------------------------------------------------------------------------------
 Version: 0.1.33
 Date: 10.11.25
   Features:

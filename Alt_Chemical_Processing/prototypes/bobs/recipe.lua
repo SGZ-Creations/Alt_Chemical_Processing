@@ -89,6 +89,7 @@ if mods["bobplates"] and mods["bobrevamp"] then
     Item["bob-enriched-fuel"].stack_size = 50
 end
 
+--[[
 if mods["boblogistics"] and not mods["bobplates"] then
     data:extend({
         {
@@ -109,7 +110,7 @@ if mods["boblogistics"] and not mods["bobplates"] then
     Recipe["logistic-science-pack"].hidden = true
     Recipe["logistic-science-pack"].enable = false
 end
-
+]]
 
 if mods["bobplates"] and mods["bobrevamp"]and mods["space-age"] then
     data:extend({
@@ -145,6 +146,10 @@ function remove_ingredient(recipe_name, ingredient_name)
     end
 end
 
+if mods["boblogistics"] and not mods["bobplates"] then
+    remove_ingredient("logistic-science-pack", "transport-belt")
+    table.insert(Recipe["logistic-science-pack"].ingredients, {type = "item", name = "bob-basic-transport-belt", amount = 1})
+end
 if Item["bob-solar-panel-small"] then
     if SS["6ItmsRecipe"].value then
         remove_ingredient("utility-science-pack", "bob-solar-panel-small")
