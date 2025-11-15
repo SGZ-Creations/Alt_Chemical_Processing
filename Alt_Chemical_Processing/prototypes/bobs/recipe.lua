@@ -89,29 +89,6 @@ if mods["bobplates"] and mods["bobrevamp"] then
     Item["bob-enriched-fuel"].stack_size = 50
 end
 
---[[
-if mods["boblogistics"] and not mods["bobplates"] then
-    data:extend({
-        {
-            type = "recipe",
-            name = "basic-logistics-science",
-            subgroup = "science-pack",
-            order = "b[logistics-sciecnce-pack]",
-            enabled = false,
-            allow_productivity = true,
-            energy_required = 10,
-            ingredients = {
-                {type = "item", name = "inserter", amount = 1},
-                {type = "item", name = "bob-basic-transport-belt", amount = 1},
-            },
-            results = {{type="item", name="logistic-science-pack", amount=1}},
-        },
-    })
-    Recipe["logistic-science-pack"].hidden = true
-    Recipe["logistic-science-pack"].enable = false
-end
-]]
-
 if mods["bobplates"] and mods["bobrevamp"]and mods["space-age"] then
     data:extend({
         {
