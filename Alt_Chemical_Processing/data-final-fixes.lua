@@ -1,6 +1,7 @@
+require("__Alt_Chemical_Processing__.mods.CraftingUI_FinalFix")
 require("prototypes.Gregtorio.Recipes")
 require("prototypes.Gregtorio.Tech")
-require("prototypes.ModsAndMods.Effects")
+require("prototypes.ModsAndMods.Sorting")
 require("mods.duplicate-items-final-fix")
 require("prototypes.SpaceBobsCombination.recipes-final-fix")
 require("mods.filters")
