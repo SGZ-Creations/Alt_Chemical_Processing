@@ -111,6 +111,32 @@ if mods["Clowns-Nuclear"]and mods["metal-and-stars"]and mods["bobplates"] then
     end
 end
 
+if mods["Clowns-Nuclear"]and mods["bobplates"] then
+    local replacements = {
+        ["plutonium-239"] = "bob-plutonium-239",
+    }
+    for _, recipe in pairs(data.raw.recipe) do
+        for _, ingredient in pairs(recipe.ingredients or {}) do
+            local replace = replacements[ingredient.name]
+				if replace then
+                ingredient.name = replace
+            end
+        end
+
+		for _, result in pairs(recipe.results or {}) do
+			local replace = replacements[result.name]
+				if replace then
+				result.name = replace
+			end
+		end
+
+        if recipe.main_product then
+			local replace = replacements[recipe.main_product]
+		if replace then recipe.main_product = replace end
+        end
+    end
+end
+
 if mods["James-Oil-Processing"] and mods["metal-and-stars"] then
     local replacements = {
         ["VPE-bitumen"] = "bitumen",
