@@ -1,0 +1,1 @@
+--require("prototypes.SpaceAge.TriggerControl")

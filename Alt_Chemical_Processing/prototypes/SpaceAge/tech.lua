@@ -2,7 +2,21 @@
 local Tech = data.raw.technology
 ---@class data.SettingsStartup
 local SS = settings.startup
-
+--[[
+if mods["space-age"] then
+	data:extend({
+		{
+			type = "technology",
+			name = "GotSeeds",
+			icon_size = 64,
+			icon = "__base__/graphics/icons/wood-processing.png",
+			effects = {{type="unlock-recipe", recipe="wood-processing"}},
+			research_trigger = {type ="build-entity", name ="tree-plant"},
+			order = "Seed"
+		},
+	})
+end
+]]
 if mods["space-age"] then
 		table.insert(Tech["fish-breeding"].effects, {type="unlock-recipe", recipe="fed-fish"})
 		table.insert(Tech["lithium-processing"].effects, {type="unlock-recipe", recipe="ice-cubes"})

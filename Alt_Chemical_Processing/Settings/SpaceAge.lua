@@ -20,6 +20,51 @@ if mods["space-age"] then
             order = "1Abb"
         },
         {
+            type = "int-setting",
+            name = "SeedAmount50",
+            setting_type = "startup",
+            default_value = 2,
+            minimum_value = 1,
+            maximum_value =100000,
+            order = "1Abc"
+        },
+        {
+            type = "int-setting",
+            name = "SeedAmount40",
+            setting_type = "startup",
+            default_value = 4,
+            minimum_value = 1,
+            maximum_value =100000,
+            order = "1Abd"
+        },
+        {
+            type = "int-setting",
+            name = "SeedAmount30",
+            setting_type = "startup",
+            default_value = 6,
+            minimum_value = 1,
+            maximum_value =100000,
+            order = "1Abe"
+        },
+        {
+            type = "int-setting",
+            name = "SeedAmount20",
+            setting_type = "startup",
+            default_value = 8,
+            minimum_value = 1,
+            maximum_value =100000,
+            order = "1Abf"
+        },
+        {
+            type = "int-setting",
+            name = "SeedAmount10",
+            setting_type = "startup",
+            default_value = 10,
+            minimum_value = 1,
+            maximum_value =100000,
+            order = "1Abg"
+        },
+        {
             type = "bool-setting",
             name = "WarmAquilo",
             setting_type = "startup",

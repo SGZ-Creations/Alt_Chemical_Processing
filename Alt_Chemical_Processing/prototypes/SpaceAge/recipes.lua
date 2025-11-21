@@ -11,6 +11,16 @@ if mods["space-age"]then
 	Recipe["coal-synthesis"].allow_productivity = true
 	Recipe["holmium-solution"].category = "chemistry-or-cryogenics"
 	Recipe["holmium-solution"].allow_productivity = true
+	Recipe["wood-processing"].category = "organic-or-hand-crafting"
+	Recipe["wood-processing"].enabled = true
+	Recipe["wood-processing"].results = {
+		{type = "item", name = "tree-seed", amount=SS["SeedAmount50"].value, probability = 0.5},
+		{type = "item", name = "tree-seed", amount=SS["SeedAmount40"].value, probability = 0.4},
+		{type = "item", name = "tree-seed", amount=SS["SeedAmount30"].value, probability = 0.3},
+		{type = "item", name = "tree-seed", amount=SS["SeedAmount20"].value, probability = 0.2},
+		{type = "item", name = "tree-seed", amount=SS["SeedAmount10"].value, probability = 0.1},
+	}
+
 	data:extend({
 		{
 			type = "recipe",
