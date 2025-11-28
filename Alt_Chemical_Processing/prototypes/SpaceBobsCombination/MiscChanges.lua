@@ -4,6 +4,8 @@ local Recipe = data.raw.recipe
 local Tech = data.raw["technology"]
 ---@class LuaSettings
 local SS = settings.startup
+---@class data.LabPrototype
+local LAB = data.raw.lab
 local SpaceBobs = mods["bobplates"] and mods["bobrevamp"] and mods["space-age"]
 local SpaceBobsMining = mods["bobplates"] and mods["bobmining"] and mods["space-age"]
 
@@ -64,4 +66,11 @@ if mods["boblogistics"] and mods["space-age"] then
         Recipe["bob-express-inserter"].category = "electronics-or-handcrafting"
         Recipe["bob-express-bulk-inserter"].category = "electronics-or-handcrafting"
     end
+end
+
+if mods["space-age"] and mods["bobtech"] then
+    table.insert(LAB["bob-lab-2"].inputs, "metalluric-science-pack")
+    table.insert(LAB["bob-lab-2"].inputs, "electromagnetic-science-pack")
+    table.insert(LAB["bob-lab-2"].inputs, "agricultural-science-pack")
+    table.insert(LAB["bob-lab-2"].inputs, "cryogenic-science-pack")
 end
