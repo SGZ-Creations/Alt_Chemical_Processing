@@ -69,7 +69,7 @@ if mods["boblogistics"] and mods["space-age"] then
 end
 
 if mods["space-age"] and mods["bobtech"] then
-    table.insert(LAB["bob-lab-2"].inputs, "metalluric-science-pack")
+    table.insert(LAB["bob-lab-2"].inputs, "metallurgic-science-pack")
     table.insert(LAB["bob-lab-2"].inputs, "electromagnetic-science-pack")
     table.insert(LAB["bob-lab-2"].inputs, "agricultural-science-pack")
     table.insert(LAB["bob-lab-2"].inputs, "cryogenic-science-pack")
