@@ -22,6 +22,9 @@ if mods["base"] then
 	Module["productivity-module-2"].order = "B[Productivity]"
 	Module["productivity-module-3"].subgroup = "Productivity"
 	Module["productivity-module-3"].order = "C[Productivity]"
+end
+
+if mods["quality"]then
 	Module["quality-module"].subgroup = "Quality"
 	Module["quality-module"].order = "A[Quality]"
 	Module["quality-module-2"].subgroup = "Quality"
@@ -63,7 +66,7 @@ if mods["metal-and-stars"] then
 	Module["overclock-module-3"].order = "C[OverClock]"
 end
 
-if mods["god-module"] then
+if mods["god-module"] and mods["quality"] then
 	Module["god-module-efficiency"].subgroup = "Efficiency"
 	Module["god-module-efficiency"].order = "S[Efficiency]"
 	Module["god-module-speed"].subgroup = "Speed"
@@ -72,7 +75,6 @@ if mods["god-module"] then
 	Module["god-module-productivity"].order = "S[Productivity]"
 	Module["god-module-quality"].subgroup = "Quality"
 	Module["god-module-quality"].order = "S[Quality]"
-
 	Module["god-module-no-prod"].subgroup = "GodModuleMod"
 	Module["god-module-no-prod"].order = "z[god-modules]ABA"
 	Module["god-module-no-prod-has-quality"].subgroup = "GodModuleMod"
