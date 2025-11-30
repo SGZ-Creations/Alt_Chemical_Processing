@@ -1,4 +1,12 @@
 ---------------------------------------------------------------------------------------------------
+Version: 0.1.40
+Date: 30.11.25
+  Changes:
+    - Removed old bobs captive bitters code.
+    - Made linox's Tungsten gear wheel merge with bobs.
+  Info:
+    - From bobs issue tracking https://github.com/modded-factorio/bobsmods/issues/419
+---------------------------------------------------------------------------------------------------
 Version: 0.1.39
 Date: 29.11.25
   Bugfixes:
