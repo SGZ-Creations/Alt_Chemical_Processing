@@ -16,22 +16,5 @@ if mods["space-age"] and mods["bobenemies"] then
 		table.insert(Recipe["biter-egg"].results, {type= "item", name="bob-alien-artifact-green", amount=5})
 		table.insert(Recipe["biter-egg"].results, {type= "item", name="bob-alien-artifact-blue", amount=5})
 		table.insert(Recipe["biter-egg"].results, {type= "item", name="bob-alien-artifact-purple", amount=5})
-
-
-		--vanilla version with bob prefix. vanilla version turned dummy.
-		table.insert(Ammo["capture-robot-rocket"].ammo_type.target_filter, "bob-spitter-spawner")
-		Unit["bob-spitter-spawner"].captured_spawner_entity = "captive-biter-spawner"
-		--vanilla version with bob prefix. vanilla version turned dummy.
-		table.insert(Ammo["capture-robot-rocket"].ammo_type.target_filter, "bob-biter-spawner")
-		Unit["bob-biter-spawner"].captured_spawner_entity = "captive-biter-spawner"
-
-		table.insert(Ammo["capture-robot-rocket"].ammo_type.target_filter, "bob-0-biter-spawner")
-		Unit["bob-0-biter-spawner"].captured_spawner_entity = "captive-biter-spawner"
-
-		table.insert(Ammo["capture-robot-rocket"].ammo_type.target_filter, "bob-0-spitter-spawner")
-		Unit["bob-0-spitter-spawner"].captured_spawner_entity = "captive-biter-spawner"
-
-		table.insert(Ammo["capture-robot-rocket"].ammo_type.target_filter, "bob-super-spawner")
-		Unit["bob-super-spawner"].captured_spawner_entity = "captive-biter-spawner"
 	end
 end
