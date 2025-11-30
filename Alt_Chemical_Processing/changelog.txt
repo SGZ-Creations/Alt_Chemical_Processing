@@ -3,7 +3,8 @@ Version: 0.1.40
 Date: 30.11.25
   Changes:
     - Removed old bobs captive bitters code.
-    - Made linox's Tungsten gear wheel merge with bobs.
+    - Made Linox's Tungsten gear wheel merge with bobs.
+    - Made seed Recipe selective where the old one can be chosen but new one is priority default.
   Info:
     - From bobs issue tracking https://github.com/modded-factorio/bobsmods/issues/419
 ---------------------------------------------------------------------------------------------------

@@ -20,13 +20,39 @@ if mods["space-age"] then
             order = "1Abb"
         },
         {
+            type = "string-setting",
+            name = "SeedOptions",
+            setting_type = "startup",
+            default_value = "MonoSeeds",
+            allowed_values = {"SeedsoOPlenty", "MonoSeeds"},
+            order = "1Baa"
+        },
+        {
+            type = "int-setting",
+            name = "TreeSeedMinValue",
+            setting_type = "startup",
+            default_value = 1,
+            minimum_value = 0,
+            maximum_value =65500,
+            order = "1Bab"
+        },
+        {
+            type = "int-setting",
+            name = "TreeSeedMaxValue",
+            setting_type = "startup",
+            default_value = 5,
+            minimum_value = 1,
+            maximum_value =65500,
+            order = "1Bac"
+        },
+        {
             type = "int-setting",
             name = "SeedAmount50",
             setting_type = "startup",
             default_value = 2,
             minimum_value = 1,
-            maximum_value =100000,
-            order = "1Abc"
+            maximum_value =65500,
+            order = "1Badd"
         },
         {
             type = "int-setting",
@@ -34,8 +60,8 @@ if mods["space-age"] then
             setting_type = "startup",
             default_value = 4,
             minimum_value = 1,
-            maximum_value =100000,
-            order = "1Abd"
+            maximum_value =65500,
+            order = "1Bae"
         },
         {
             type = "int-setting",
@@ -43,8 +69,8 @@ if mods["space-age"] then
             setting_type = "startup",
             default_value = 6,
             minimum_value = 1,
-            maximum_value =100000,
-            order = "1Abe"
+            maximum_value =65500,
+            order = "1Baf"
         },
         {
             type = "int-setting",
@@ -52,8 +78,8 @@ if mods["space-age"] then
             setting_type = "startup",
             default_value = 8,
             minimum_value = 1,
-            maximum_value =100000,
-            order = "1Abf"
+            maximum_value =65500,
+            order = "1Bag"
         },
         {
             type = "int-setting",
@@ -61,8 +87,8 @@ if mods["space-age"] then
             setting_type = "startup",
             default_value = 10,
             minimum_value = 1,
-            maximum_value =100000,
-            order = "1Abg"
+            maximum_value =65500,
+            order = "1Bah"
         },
         {
             type = "bool-setting",

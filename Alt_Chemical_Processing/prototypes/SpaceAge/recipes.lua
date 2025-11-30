@@ -13,13 +13,19 @@ if mods["space-age"]then
 	Recipe["holmium-solution"].allow_productivity = true
 	Recipe["wood-processing"].category = "organic-or-hand-crafting"
 	Recipe["wood-processing"].enabled = true
-	Recipe["wood-processing"].results = {
-		{type = "item", name = "tree-seed", amount=SS["SeedAmount50"].value, probability = 0.5},
-		{type = "item", name = "tree-seed", amount=SS["SeedAmount40"].value, probability = 0.4},
-		{type = "item", name = "tree-seed", amount=SS["SeedAmount30"].value, probability = 0.3},
-		{type = "item", name = "tree-seed", amount=SS["SeedAmount20"].value, probability = 0.2},
-		{type = "item", name = "tree-seed", amount=SS["SeedAmount10"].value, probability = 0.1},
-	}
+	if SS["SeedOptions"].value == "MonoSeeds" then
+		Recipe["wood-processing"].results = {
+			{type = "item", name = "tree-seed", amount_min = SS["TreeSeedMinValue"].value, amount_max = SS["TreeSeedMaxValue"].value},
+		}
+	elseif SS["SeedOptions"].value == "SeedsoOPlenty" then
+		Recipe["wood-processing"].results = {
+			{type = "item", name = "tree-seed", amount=SS["SeedAmount50"].value, probability = 0.5},
+			{type = "item", name = "tree-seed", amount=SS["SeedAmount40"].value, probability = 0.4},
+			{type = "item", name = "tree-seed", amount=SS["SeedAmount30"].value, probability = 0.3},
+			{type = "item", name = "tree-seed", amount=SS["SeedAmount20"].value, probability = 0.2},
+			{type = "item", name = "tree-seed", amount=SS["SeedAmount10"].value, probability = 0.1},
+		}
+	end
 
 	data:extend({
 		{
