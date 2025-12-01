@@ -1,4 +1,11 @@
 ---------------------------------------------------------------------------------------------------
+Version: 0.1.41
+Date: 01.12.25
+  Changes:
+    - Improved Metal & Stars Antimatter bots Cargo & Speed.
+    - Changed recipes for bots if playing along with:- https://mods.factorio.com/mod/Better_Robots_Extended
+    - Setting based recipes using the setting within the: https://mods.factorio.com/mod/Better_Robots_Extended
+---------------------------------------------------------------------------------------------------
 Version: 0.1.40
 Date: 30.11.25
   Changes:
