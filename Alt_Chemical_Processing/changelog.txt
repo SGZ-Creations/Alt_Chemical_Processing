@@ -1,9 +1,9 @@
 ---------------------------------------------------------------------------------------------------
 Version: 0.1.43
-Date: ????
+Date: 00.12.25
   Changes:
     - Recipe for fusion bots (Vesta).
-    - Re worked recipes with Metal & stars.
+    - Re worked recipes with Metal & stars. if Vesta is active.
 ---------------------------------------------------------------------------------------------------
 Version: 0.1.42
 Date: 01.12.25

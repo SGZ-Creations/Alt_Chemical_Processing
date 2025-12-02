@@ -1,9 +1,22 @@
+--local RemoveIngredient = require("__Alt_Chemical_Processing__/prototypes/Base/Function.lua")
 ---@class LuaSettings
 local SS = settings.startup
 ---@class data.RecipePrototype 
 local Recipe = data.raw.recipe
 ---@class data.ItemPrototype
 local Item = data.raw.item
+
+function RemoveIngredient(recipe_name, ingredient_name)
+    for i, ingredient in pairs(Recipe[recipe_name].ingredients) do
+        if ingredient.name == ingredient_name then
+            table.remove(Recipe[recipe_name].ingredients, i)
+        elseif ingredient.name == nil then
+            log("ERROR.. \""..ingredient_name.."\" Had an issue!")
+        elseif Recipe[recipe_name] == nil then
+            log("ERROR... \""..recipe_name.."\" Had am issue!")
+        end
+    end
+end
 
 if mods["bobplates"] and mods["bobrevamp"] then
     data:extend({
@@ -115,25 +128,13 @@ if mods["bobplates"] and mods["bobrevamp"]and mods["space-age"] then
     Recipe["rocket-fuel-from-enriched-fuel"].category = "chemistry-or-cryogenics"
 end
 
-function Remove(recipe_name, ingredient_name)
-    for i, ingredient in pairs(Recipe[recipe_name].ingredients) do
-        if ingredient.name == ingredient_name then
-            table.remove(Recipe[recipe_name].ingredients, i)
-        elseif ingredient.name == nil then
-            log("ERROR.. \""..ingredient_name.."\" had an issue!")
-        elseif Recipe[recipe_name] == nil then
-            log("ERROR... \""..recipe_name.."\" Had am issue!")
-        end
-    end
-end
-
 if mods["boblogistics"] and not mods["bobplates"] then
-    Remove("logistic-science-pack", "transport-belt")
+    RemoveIngredient("logistic-science-pack", "transport-belt")
     table.insert(Recipe["logistic-science-pack"].ingredients, {type = "item", name = "bob-basic-transport-belt", amount = 1})
 end
 
 if Item["bob-solar-panel-small"] then
     if SS["6ItmsRecipe"].value then
-        Remove("utility-science-pack", "bob-solar-panel-small")
+        RemoveIngredient("utility-science-pack", "bob-solar-panel-small")
     end
 end
