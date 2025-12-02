@@ -7,8 +7,8 @@ require("prototypes.bobs.recipe")
 require("prototypes.bobs.technology")
 require("prototypes.bobs.Artifacts")
 
-require("prototypes.MetalStars.FlyingRobots")
-require("prototypes.MetalStars.Recipes")
+require("prototypes.PlanetsAmongTheStars.FlyingRobots")
+require("prototypes.PlanetsAmongTheStars.Recipes")
 
 require("prototypes.BetterRobotsExtended.Bots")
 require("prototypes.BetterRobotsExtended.RecipeChanges")
