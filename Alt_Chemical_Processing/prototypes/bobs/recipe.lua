@@ -131,8 +131,10 @@ if mods["boblogistics"] and not mods["bobplates"] then
     Remove("logistic-science-pack", "transport-belt")
     table.insert(Recipe["logistic-science-pack"].ingredients, {type = "item", name = "bob-basic-transport-belt", amount = 1})
 end
+--[[
 if Item["bob-solar-panel-small"] then
     if SS["6ItmsRecipe"].value then
         Remove("utility-science-pack", "bob-solar-panel-small")
     end
 end
+]]
