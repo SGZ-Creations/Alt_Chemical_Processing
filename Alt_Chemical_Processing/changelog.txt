@@ -1,9 +1,12 @@
 ---------------------------------------------------------------------------------------------------
 Version: 0.1.43
-Date: 00.12.25
+Date: 02.12.25
   Changes:
     - Recipe for fusion bots (Vesta).
     - Re worked recipes with Metal & stars. if Vesta is active.
+    - How my Error function works. 
+  Info:
+    - Can lead to false positives where crashing can happen without actually being an issue.
 ---------------------------------------------------------------------------------------------------
 Version: 0.1.42
 Date: 01.12.25
