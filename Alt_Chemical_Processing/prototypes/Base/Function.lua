@@ -3,9 +3,9 @@ function RemoveIngredient(recipe_name, ingredient_name)
         if ingredient.name == ingredient_name then
             table.remove(Recipe[recipe_name].ingredients, i)
         elseif ingredient.name == nil then
-            log("ERROR.. \""..ingredient_name.."\" Had an issue!")
+            error("ERROR.. \""..ingredient_name.."\" Ingrediant name Failed to Load!")
         elseif data.raw.recipe[recipe_name] == nil then
-            log("ERROR... \""..recipe_name.."\" Had am issue!")
+            error("ERROR... \""..recipe_name.."\" Recipe name Failed to Load!")
         end
     end
 end
