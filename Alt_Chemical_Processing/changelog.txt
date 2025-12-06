@@ -2,7 +2,7 @@
 Version: 0.1.44
 Date: 06.12.25
   Changes:
-    - Tried removing bobs intermediates from being used when not crafting bobs bots.
+    - Fixed recipes when boblogistics are Enabled.
 ---------------------------------------------------------------------------------------------------
 Version: 0.1.43
 Date: 02.12.25
