@@ -15,6 +15,24 @@ if mods["Better_Robots_Extended"] and mods["boblogistics"] then
 			{type = "item", name = "electronic-circuit", amount = 1},
 			{type = "item", name = "flying-robot-frame", amount = 1},
 		}
+		if mods["bobelectronics"] then
+			Recipe["BRE-logistic-robot"].ingredients = {
+				{type = "item", name = "bob-basic-circuit-board", amount = 2},
+				{type = "item", name = "flying-robot-frame", amount = 1},
+			}
+			Recipe["BRE-construction-robotics"].ingredients = {
+				{type = "item", name = "bob-basic-circuit-board", amount = 2},
+				{type = "item", name = "flying-robot-frame", amount = 1},
+			}
+			Recipe["logistic-robot"].ingredients = {
+				{type = "item", name = "bob-basic-circuit-board", amount = 2},
+				{type = "item", name = "flying-robot-frame", amount = 1},
+			}
+			Recipe["construction-robot"].ingredients = {
+				{type = "item", name = "bob-basic-circuit-board", amount = 2},
+				{type = "item", name = "flying-robot-frame", amount = 1},
+			}
+		end
 	end
 end
 
