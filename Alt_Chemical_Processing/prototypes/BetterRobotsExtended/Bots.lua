@@ -35,6 +35,12 @@ if mods["Better_Robots_Extended"] then
 			Recipe["construction-robot"].enabled = false
 			Recipe["roboport"].hidden = true
 			Recipe["roboport"].enabled = false
+			Recipe["bob-robot-brain"].enabled = false
+			Recipe["bob-robot-brain"].hidden = true
+			Recipe["bob-robot-tool-logistic"].enabled = false
+			Recipe["bob-robot-tool-logistic"].hidden = true
+			Recipe["bob-robot-tool-construction"].enabled = false
+			Recipe["bob-robot-tool-construction"].hidden = true
 
 			if mods["bobelectronics"] then
 				Recipe["BRE-logistic-robot"].ingredients = {
