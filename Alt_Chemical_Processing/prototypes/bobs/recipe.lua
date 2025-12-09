@@ -129,8 +129,10 @@ if mods["bobplates"] and mods["bobrevamp"]and mods["space-age"] then
 end
 
 if mods["boblogistics"] and not mods["bobplates"] then
-    RemoveIngredient("logistic-science-pack", "transport-belt")
-    table.insert(Recipe["logistic-science-pack"].ingredients, {type = "item", name = "bob-basic-transport-belt", amount = 1})
+    if SS["bobmods-logistics-beltoverhaul"].value == true then
+        RemoveIngredient("logistic-science-pack", "transport-belt")
+        table.insert(Recipe["logistic-science-pack"].ingredients, {type = "item", name = "bob-basic-transport-belt", amount = 1})
+    end
 end
 
 if Item["bob-solar-panel-small"] then

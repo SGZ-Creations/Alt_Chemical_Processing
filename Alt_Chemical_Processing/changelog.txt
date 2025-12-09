@@ -4,6 +4,8 @@ Date: 06.12.25
   Changes:
     - Fixed recipes when boblogistics are Enabled.
     - Load order adjustments. to BRE Mod.
+  Bugfixes:
+    - Missing check for a bobs logistic setting.
 ---------------------------------------------------------------------------------------------------
 Version: 0.1.43
 Date: 02.12.25
