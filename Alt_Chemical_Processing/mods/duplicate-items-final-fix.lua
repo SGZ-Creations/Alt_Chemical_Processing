@@ -138,6 +138,34 @@ if mods["Nexus"]and mods["metal-and-stars"] then
     end
 end
 
+
+if mods["Nexus"]and mods["corrundum"] then
+    local replacements = {
+        ["plantin-plate"] = "platinum-plate",
+        ["plantin-ore"] = "platinum-ore",
+    }
+    for _, recipe in pairs(data.raw.recipe) do
+        for _, ingredient in pairs(recipe.ingredients or {}) do
+            local replace = replacements[ingredient.name]
+				if replace then
+                ingredient.name = replace
+            end
+        end
+
+		for _, result in pairs(recipe.results or {}) do
+			local replace = replacements[result.name]
+				if replace then
+				result.name = replace
+			end
+		end
+
+        if recipe.main_product then
+			local replace = replacements[recipe.main_product]
+		if replace then recipe.main_product = replace end
+        end
+    end
+end
+
 if mods["Clowns-Nuclear"]and mods["metal-and-stars"]and mods["bobplates"] then
     local replacements = {
         ["uranuim-233"] = "uranium-235"
