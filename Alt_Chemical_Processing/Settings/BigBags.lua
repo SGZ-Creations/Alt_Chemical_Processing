@@ -47,7 +47,40 @@ if not mods["BigBags"]then
         data:extend({
             {
                 type = "int-setting",
-                name = "ACP-mirandite-asteroid-chunk",
+                name = "ACPMiranditeAC",
+                setting_type = "startup",
+                default_value = 1,
+                order = "1Aaf"
+            },
+        })
+    end
+    if mods["slp-dyson-sphere-reworked"]then
+        data:extend({
+            {
+                type = "int-setting",
+                name = "ACP_SlpPlasmaC",
+                setting_type = "startup",
+                default_value = 1,
+                order = "1Aaf"
+            },
+        })
+    end
+    if mods["planetaris-hyarion"]then
+        data:extend({
+            {
+                type = "int-setting",
+                name = "ACP_BismuthAC",
+                setting_type = "startup",
+                default_value = 1,
+                order = "1Aaf"
+            },
+        })
+    end
+    if mods["secretas"]then
+        data:extend({
+            {
+                type = "int-setting",
+                name = "ACP_AuricAC",
                 setting_type = "startup",
                 default_value = 1,
                 order = "1Aaf"

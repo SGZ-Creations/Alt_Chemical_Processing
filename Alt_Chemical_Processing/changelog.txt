@@ -3,6 +3,7 @@ Version: 0.1.44
 Date: 06.12.25
   Features:
     - WIP Compatibility changes for "k2-space-age" (AirFiltering From K2 standalone edition)
+    - Stacking: Auric, Bismuth & SLP-Plasma, asteroid chunks also has checks for BigBags.
   Changes:
     - Fixed recipes when boblogistics are Enabled.
     - Load order adjustments. to BRE Mod.
