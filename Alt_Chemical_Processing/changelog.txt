@@ -1,11 +1,15 @@
 ---------------------------------------------------------------------------------------------------
 Version: 0.1.44
 Date: 06.12.25
+  Features:
+    - WIP Compatibility changes for "k2-space-age" (AirFiltering From K2 standalone edition)
   Changes:
     - Fixed recipes when boblogistics are Enabled.
     - Load order adjustments. to BRE Mod.
   Bugfixes:
     - Missing check for a bobs logistic setting.
+  Modding:
+    - Merged Gold (wire/cable) Nexus/Metal&Stars.
 ---------------------------------------------------------------------------------------------------
 Version: 0.1.43
 Date: 02.12.25
