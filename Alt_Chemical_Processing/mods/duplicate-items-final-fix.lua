@@ -141,8 +141,8 @@ end
 
 if mods["Nexus"]and mods["corrundum"] then
     local replacements = {
-        ["plantin-plate"] = "platinum-plate",
-        ["plantin-ore"] = "platinum-ore",
+        ["platin-plate"] = "platinum-plate",
+        ["platin-ore"] = "platinum-ore",
     }
     for _, recipe in pairs(data.raw.recipe) do
         for _, ingredient in pairs(recipe.ingredients or {}) do
