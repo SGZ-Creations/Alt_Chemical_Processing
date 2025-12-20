@@ -57,7 +57,7 @@ if mods["dea-dia-system"]then
 	Module["stationkeeping-module-4"].order = "D[StationKeeping]"
 end
 
-if mods["metal-and-stars"] then 
+if mods["metal-and-stars"] then
 	Module["overclock-module"].subgroup = "OverClock"
 	Module["overclock-module"].order = "A[OverClock]"
 	Module["overclock-module-2"].subgroup = "OverClock"
