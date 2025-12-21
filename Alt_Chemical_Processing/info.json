@@ -24,12 +24,11 @@
         "? Wood_Gasification_updated >= 4.2.1",
         "(?) Gregtorio"
     ],
-    "description": "This mod adds custom recipes to space age and other mods listed in dependencies so should one of them be enabled see of settings for this mod shows up as base game and this mod don't do anything",
+    "description": "This mod adds custom recipes to space age and other mods listed in dependencies so should one of them be enabled see of settings for this mod shows up as base game and this mod don't do Much",
     "package": {
         "ignore": [
             ".gitignore",
-            ".gitattributes",
-            "graphics/**"
+            ".gitattributes"
         ]
     }
 }
