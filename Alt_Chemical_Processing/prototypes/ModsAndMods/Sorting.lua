@@ -2,6 +2,8 @@
 local SS = settings.startup
 ---@class module
 local Module = data.raw["module"]
+---@class data.RecipePrototype 
+local Recipe = data.raw["recipe"]
 
 if mods["base"] then
 	Module["efficiency-module"].subgroup = "Efficiency"
@@ -55,6 +57,15 @@ if mods["dea-dia-system"]then
 	Module["stationkeeping-module-3"].order = "C[StationKeeping]"
 	Module["stationkeeping-module-4"].subgroup = "StationKeeping"
 	Module["stationkeeping-module-4"].order = "D[StationKeeping]"
+--Recipes
+	Recipe["stationkeeping-module"].subgroup = "StationKeeping"
+	Recipe["stationkeeping-module"].order = "A[StationKeeping]"
+	Recipe["stationkeeping-module-2"].subgroup = "StationKeeping"
+	Recipe["stationkeeping-module-2"].order = "B[StationKeeping]"
+	Recipe["stationkeeping-module-3"].subgroup = "StationKeeping"
+	Recipe["stationkeeping-module-3"].order = "C[StationKeeping]"
+	Recipe["stationkeeping-module-4"].subgroup = "StationKeeping"
+	Recipe["stationkeeping-module-4"].order = "D[StationKeeping]"
 end
 
 if mods["metal-and-stars"] then
