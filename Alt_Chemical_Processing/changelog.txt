@@ -13,6 +13,7 @@ Date: 06.12.25
   Modding:
     - Merged Gold (wire/cable) Nexus/Metal&Stars.
     - Merged Platinum & Platin Nexus/Corrundum.
+    - Merged 3-4 mods glass.
 ---------------------------------------------------------------------------------------------------
 Version: 0.1.43
 Date: 02.12.25
