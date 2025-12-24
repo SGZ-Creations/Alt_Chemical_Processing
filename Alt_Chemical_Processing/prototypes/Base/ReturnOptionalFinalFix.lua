@@ -26,8 +26,3 @@ if SS["CliffRemovalService"].value == true then
 		end
 	end
 end
-
-
-data.raw.item["transport-belt"].weight = 500
-data.raw.item["fast-transport-belt"].weight = 2500
-data.raw.item["express-transport-belt"].weight = 5000

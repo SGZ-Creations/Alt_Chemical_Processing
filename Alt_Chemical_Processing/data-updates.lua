@@ -1,11 +1,16 @@
+require("prototypes.Base.Weight")
+
 --require("prototypes.OilExtravaganza.Resource")
+
 require("prototypes.Foliax.Order")
+
 require("prototypes.QuntumEmitter.Tech")
 require("prototypes.QuntumEmitter.Recipes")
 
 require("prototypes.bobs.recipe")
 require("prototypes.bobs.technology")
 require("prototypes.bobs.Artifacts")
+require("prototypes.bobs.Weights")
 
 require("prototypes.PlanetsAmongTheStars.FlyingRobots")
 require("prototypes.PlanetsAmongTheStars.RecipeUpdate")
@@ -22,5 +27,6 @@ require("prototypes.SpaceBobsCombination.SpaceBobPlanets")
 require("prototypes.SpaceBobsCombination.ResorceTech")
 
 require("prototypes.vanilla-loaders.recipes")
+require("prototypes.vanilla-loaders.Weight")
 require("prototypes.SpidertronExtended.misc")
 require("prototypes.BigBags.BagsStacks")
