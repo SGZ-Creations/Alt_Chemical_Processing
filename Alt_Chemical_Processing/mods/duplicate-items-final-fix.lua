@@ -112,10 +112,11 @@ if mods["bobplates"]and mods["bobelectronics"] and mods["metal-and-stars"] then
 end
 
 
-if mods["common-prototypes"]and mods["planetaris-arig"] and mods["maraxsis"] then
+if mods["common-prototypes"]and mods["planetaris-arig"] and mods["maraxsis"]and mods["foliax"] then
     local replacements = {
         ["planetaris-glass-panel"] = "glass-plate",
         ["maraxsis-glass-panes"] = "glass-plate",
+        ["foliax-glass"] = "glass-plate",
     }
     for _, recipe in pairs(data.raw.recipe) do
         for _, ingredient in pairs(recipe.ingredients or {}) do
