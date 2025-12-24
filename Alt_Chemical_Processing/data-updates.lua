@@ -1,5 +1,5 @@
 --require("prototypes.OilExtravaganza.Resource")
-
+require("prototypes.Foliax.Order")
 require("prototypes.QuntumEmitter.Tech")
 require("prototypes.QuntumEmitter.Recipes")
 
