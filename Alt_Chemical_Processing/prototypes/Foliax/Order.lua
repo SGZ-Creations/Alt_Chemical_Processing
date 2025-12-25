@@ -1,3 +1,3 @@
 if mods["foliax"]then
-	data.raw["item-group"]["foliax"].order = "ZZ"
+	data.raw["item-group"]["foliax"].order = "zz"
 end
