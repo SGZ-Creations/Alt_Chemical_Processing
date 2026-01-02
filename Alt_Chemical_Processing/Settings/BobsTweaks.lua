@@ -9,8 +9,7 @@ if mods["bobmining"]and mods["space-age"] then
 		},
 	})
 end
-
-if mods["bobpower"]then
+--[[if mods["bobpower"]then
 	data:extend({
 		{
 			type = "int-setting",
@@ -28,3 +27,4 @@ if mods["bobpower"]then
 		},
 	})
 end
+]]
