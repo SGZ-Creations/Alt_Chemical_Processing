@@ -4,7 +4,7 @@ local Lamp = data.raw["lamp"]
 ---@class ItemPrototype
 local Item = data.raw["item"]
 ---@class ItemPrototype
-local Miner = data.raw["mining-drill"]
+local Miner = data.raw["electric-mining-drill"]
 
 
 if mods["base"] then
