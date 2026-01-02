@@ -4,7 +4,7 @@ local SS = settings.startup
 local Lamp = data.raw["lamp"]
 ---@class ItemPrototype
 local Item = data.raw["item"]
----@class ItemPrototype
+---@class MiningDrillPrototype
 local Miner = data.raw["mining-drill"]
 
 

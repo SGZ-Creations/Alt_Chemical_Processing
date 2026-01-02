@@ -1,4 +1,3 @@
-require("Settings.Vanilla")
 require("Settings.ChemicalProcesssing")
 require("Settings.VanillaLoaders")
 require("Settings.SpaceAge")

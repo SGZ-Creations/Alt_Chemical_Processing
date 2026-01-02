@@ -10,9 +10,13 @@ local SS = settings.startup
 local Quality = data.raw["quality"]
 ---@class data.CargoLandingPadPrototype
 local Pad = data.raw["cargo-landing-pad"]
+---@class MiningDrillPrototype
+local Miner = data.raw["mining-drill"]
 
 
 if mods["space-age"] then
+	Miner["big-mining-drill"].mining_speed = 2.5 + SS["MiningSpeedSetting"].value
+
 	if SS["WarmAquilo"].value then
 		data.raw.planet["aquilo"].entities_require_heating = false
 	end
