@@ -12,10 +12,6 @@ require("prototypes.bobs.Artifacts")
 require("prototypes.PlanetsAmongTheStars.FlyingRobots")
 require("prototypes.PlanetsAmongTheStars.RecipeUpdate")
 
-require("prototypes.BetterRobotsExtended.Bots")
-require("prototypes.BetterRobotsExtended.RecipeChanges")
-require("prototypes.BetterRobotsExtended.Tech")
-
 require("prototypes.SpaceBobsCombination.MiscChanges")
 require("prototypes.SpaceBobsCombination.RocketSilo")
 require("prototypes.SpaceBobsCombination.Scraping")

@@ -4,16 +4,20 @@ Date: 06.12.25
   Features:
     - WIP Compatibility changes for "k2-space-age" (AirFiltering From K2 standalone edition)
     - Stacking: Auric, Bismuth & SLP-Plasma, asteroid chunks also has checks for BigBags.
+    - New mining speed setting if not using Tenebris Prime mod.
   Changes:
-    - Fixed recipes when boblogistics are Enabled.
+    - Fixed recipes when "boblogistics" are Enabled.
     - Load order adjustments. to BRE Mod.
   Bugfixes:
     - Missing check for a bobs logistic setting.
-    - Recipe Subgroupe Ordering for stationkeeping modules.
+    - Recipe Subgroup Ordering for "stationkeeping" modules.
   Modding:
     - Merged Gold (wire/cable) Nexus/Metal&Stars.
-    - Merged Platinum & Platin Nexus/Corrundum.
+    - Merged Platinum & Platin Nexus/Corundum.
     - Merged 3-4 mods glass.
+  Info:
+    - Better_Robots_Extended  won't be supported any more deleted the code.
+    - Recommend getting my fork if you want to have my compatibility patches. Available only on Discord Betas
 ---------------------------------------------------------------------------------------------------
 Version: 0.1.43
 Date: 02.12.25
