@@ -18,14 +18,8 @@ if mods["base"] then
 	Miner["electric-mining-drill"].mining_speed = SS["MiningSpeedSetting"].value
 end
 
-
-
-
 if not mods["BigBags"] then
 	Item["nuclear-fuel"].stack_size = SS["FuelStacks"].value
 elseif mods["BigBags"] then -- BigBag overwrites my settings making them useless & confusing. but still need to create the stack_size to be available for Bigbags to not default back.
 	Item["nuclear-fuel"].stack_size = 50
 end
-
-
-
