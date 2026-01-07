@@ -9,6 +9,6 @@ require("mods.duplicate-items-final-fix")
 require("prototypes.SpaceBobsCombination.recipes-final-fix")
 
 require("prototypes.Base.ReturnOptionalFinalFix")
-require("prototypes.CargoBay.Balcklist")
+require("prototypes.CargoBay.Blacklist")
 require("prototypes.Base.Weight")
 require("mods.filters")
