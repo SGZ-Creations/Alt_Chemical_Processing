@@ -1,3 +1,6 @@
+---@class data.RecipePrototype
+local Recipe = data.raw["recipe"]
+
 function RemoveIngredient(recipe_name, ingredient_name)
     for i, ingredient in pairs(Recipe[recipe_name].ingredients) do
         if ingredient.name == ingredient_name then
