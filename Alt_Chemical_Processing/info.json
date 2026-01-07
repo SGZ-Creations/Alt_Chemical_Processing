@@ -7,22 +7,21 @@
     "dependencies":[
         "base",
         "? ArmouredBiters >= 1.2.1",
+        "? adjustable-quality >= 2.0.60",
         "? bobrevamp >= 2.0.0", 
         "? bobplates >= 2.0.0",
         "? bobenemies >= 2.0.0",
         "? boblogistics >= 2.0.0",
-        "? Better_Robots_Extended >= 1.1.17",
+        "? cargo-bay-inserters >= 1.2.0",
         "? god-module >= 0.2.14",
         "? More-Asteroid-Resources-Forked >= 1.1.6",
         "? nanobots-refined >= 4.0.5",
         "? SaltedFish >= 1.0.0",
-        "? adjustable-quality >= 2.0.60",
         "? scrap-reprocessor >= 1.0.2",
         "? spidertron-extended >= 0.4.0",
-        "? vanilla-loaders-hd >= 2.2.0",
         "? space-age >= 2.0.0",
-        "? Wood_Gasification_updated >= 4.2.1",
-        "(?) Gregtorio"
+        "? vanilla-loaders-hd >= 2.2.0",
+        "? Wood_Gasification_updated >= 4.2.1"
     ],
     "description": "This mod adds custom recipes to space age and other mods listed in dependencies so should one of them be enabled see of settings for this mod shows up as base game and this mod don't do Much",
     "package": {
