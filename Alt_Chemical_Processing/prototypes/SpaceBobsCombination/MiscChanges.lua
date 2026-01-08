@@ -99,9 +99,6 @@ if mods["boblogistics"] and mods["space-age"] then
         Hide["ACP_BasicBelt"].hide_from_player_crafting = true
         Hide["ACP_BasicUnderGround"].hide_from_player_crafting = true
         Hide["ACP_BasicSplitter"].hide_from_player_crafting = true
-        Recipe["ACP_BasicBelt"].hidden_in_factoriopedia = true
-        Recipe["ACP_BasicUnderGround"].hidden_in_factoriopedia = true
-        Recipe["ACP_BasicSplitter"].hidden_in_factoriopedia = true
 
         if mods["vanilla-loaders-hd"]then
             data:extend({
@@ -124,7 +121,6 @@ if mods["boblogistics"] and mods["space-age"] then
             })
             table.insert(Tech["logistics-0"].effects, {type="unlock-recipe", recipe="ACP_BasicLoader"})
             Hide["ACP_BasicLoader"].hide_from_player_crafting = true
-            Recipe["ACP_BasicLoader"].hidden_in_factoriopedia = true
         end
     end
 end
