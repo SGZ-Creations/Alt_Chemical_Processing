@@ -113,8 +113,7 @@ if mods["boblogistics"] and mods["space-age"] then
                     energy_required = 10,
                     ingredients = {
                         {type = "fluid", name = "molten-iron", amount = 600},
-                        {type = "fluid", name = "molten-copper", amount = 40},
-                        {type = "fluid", name = "lava", amount = 400},
+                        {type = "fluid", name = "molten-copper", amount = 80},
                     },
                     results = {{type="item", name="bob-basic-loader", amount=5}},
                 },
