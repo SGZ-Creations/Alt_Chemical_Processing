@@ -4,7 +4,7 @@ local Recipe = data.raw.recipe
 local Tech = data.raw["technology"]
 ---@class LuaSettings
 local SS = settings.startup
----@class data.LabPrototype
+---@class data.LabPrototypes
 local LAB = data.raw.lab
 local SpaceBobs = mods["bobplates"] and mods["bobrevamp"] and mods["space-age"]
 local SpaceBobsMining = mods["bobplates"] and mods["bobmining"] and mods["space-age"]
@@ -51,10 +51,9 @@ if mods["boblogistics"] and mods["space-age"] then
             {
                 type = "recipe",
                 name = "ACP_BasicBelt",
-                category = "pressing",
+                category = "metallurgy",
                 subgroup = "bob-logistic-tier-0",
                 order = "a",
-                enabled = false,
                 allow_productivity = true,
                 energy_required = 10,
                 ingredients = {
@@ -65,7 +64,7 @@ if mods["boblogistics"] and mods["space-age"] then
             {
                 type = "recipe",
                 name = "ACP_BasicUnderGround",
-                category = "pressing",
+                category = "metallurgy",
                 subgroup = "bob-logistic-tier-0",
                 order = "b",
                 enabled = false,
@@ -80,7 +79,7 @@ if mods["boblogistics"] and mods["space-age"] then
             {
                 type = "recipe",
                 name = "ACP_BasicSplitter",
-                category = "pressing",
+                category = "metallurgy",
                 subgroup = "bob-logistic-tier-0",
                 order = "c",
                 enabled = false,
@@ -93,12 +92,16 @@ if mods["boblogistics"] and mods["space-age"] then
                 results = {{type="item", name="bob-basic-splitter", amount=5}},
             },
         })
+        table.insert(Tech["logistics-0"].effects, {type="unlock-recipe", recipe="ACP_BasicBelt"})
+        table.insert(Tech["logistics-0"].effects, {type="unlock-recipe", recipe="ACP_BasicUnderGround"})
+        table.insert(Tech["logistics-0"].effects, {type="unlock-recipe", recipe="ACP_BasicSplitter"})
+
         if mods["vanilla-loaders-hd"]then
             data:extend({
                 {
                     type = "recipe",
                     name = "ACP_BasicLoader",
-                    category = "pressing",
+                    category = "metallurgy",
                     subgroup = "bob-logistic-tier-0",
                     order = "d",
                     enabled = false,
@@ -112,6 +115,8 @@ if mods["boblogistics"] and mods["space-age"] then
                     results = {{type="item", name="bob-basic-loader", amount=5}},
                 },
             })
+
+            table.insert(Tech["logistics-0"].effects, {type="unlock-recipe", recipe="ACP_BasicLoader"})
         end
     end
 end
