@@ -74,7 +74,7 @@ if mods["boblogistics"] and mods["space-age"] then
                     {type = "fluid", name = "molten-iron", amount = 150},
                     {type = "fluid", name = "lava", amount = 200},
                 },
-                results = {{type="item", name="bob-basic-underground-belt", amount=5}},
+                results = {{type="item", name="bob-basic-underground-belt", amount=2}},
             },
             {
                 type = "recipe",
@@ -89,7 +89,7 @@ if mods["boblogistics"] and mods["space-age"] then
                     {type = "fluid", name = "molten-iron", amount = 170},
                     {type = "fluid", name = "molten-copper", amount = 20},
                 },
-                results = {{type="item", name="bob-basic-splitter", amount=5}},
+                results = {{type="item", name="bob-basic-splitter", amount=1}},
             },
         })
         table.insert(Tech["logistics-0"].effects, {type="unlock-recipe", recipe="ACP_BasicBelt"})
@@ -115,7 +115,7 @@ if mods["boblogistics"] and mods["space-age"] then
                         {type = "fluid", name = "molten-iron", amount = 600},
                         {type = "fluid", name = "molten-copper", amount = 80},
                     },
-                    results = {{type="item", name="bob-basic-loader", amount=5}},
+                    results = {{type="item", name="bob-basic-loader", amount=1}},
                 },
             })
             table.insert(Tech["logistics-0"].effects, {type="unlock-recipe", recipe="ACP_BasicLoader"})
