@@ -4,8 +4,8 @@ local Recipe = data.raw.recipe
 local Tech = data.raw["technology"]
 ---@class LuaSettings
 local SS = settings.startup
----@class data.LabPrototypes
-local LAB = data.raw.lab
+---@class data.ProtypeRecipe
+local Hide = data.raw["recipe"]
 local SpaceBobs = mods["bobplates"] and mods["bobrevamp"] and mods["space-age"]
 local SpaceBobsMining = mods["bobplates"] and mods["bobmining"] and mods["space-age"]
 
@@ -96,6 +96,13 @@ if mods["boblogistics"] and mods["space-age"] then
         table.insert(Tech["logistics-0"].effects, {type="unlock-recipe", recipe="ACP_BasicUnderGround"})
         table.insert(Tech["logistics-0"].effects, {type="unlock-recipe", recipe="ACP_BasicSplitter"})
 
+        Hide["ACP_BasicBelt"].hide_from_player_crafting = true
+        Hide["ACP_BasicUnderGround"].hide_from_player_crafting = true
+        Hide["ACP_BasicSplitter"].hide_from_player_crafting = true
+        Recipe["ACP_BasicBelt"].hidden_in_factoriopedia = true
+        Recipe["ACP_BasicUnderGround"].hidden_in_factoriopedia = true
+        Recipe["ACP_BasicSplitter"].hidden_in_factoriopedia = true
+
         if mods["vanilla-loaders-hd"]then
             data:extend({
                 {
@@ -115,8 +122,9 @@ if mods["boblogistics"] and mods["space-age"] then
                     results = {{type="item", name="bob-basic-loader", amount=5}},
                 },
             })
-
             table.insert(Tech["logistics-0"].effects, {type="unlock-recipe", recipe="ACP_BasicLoader"})
+            Hide["ACP_BasicLoader"].hide_from_player_crafting = true
+            Recipe["ACP_BasicLoader"].hidden_in_factoriopedia = true
         end
     end
 end
