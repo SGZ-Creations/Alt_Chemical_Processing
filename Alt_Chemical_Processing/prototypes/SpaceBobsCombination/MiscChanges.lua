@@ -44,8 +44,88 @@ if SpaceBobs then
     end
 end
 
+
 if mods["boblogistics"] and mods["space-age"] then
-    if SS["bobmods-logistics-inserteroverhaul"].value == true then
+    if SS["bobmods-logistics-beltoverhaul"].value == true then
+        data:extend({
+            {
+                type = "recipe",
+                name = "ACP_BasicBelt",
+                category = "metallurgy",
+                subgroup = "bob-logistc-tier-0",
+                order = "a",
+                enabled = false,
+                allow_productivity = true,
+                energy_required = 10,
+                ingredients = {
+                    {type = "fluid", name = "molten-iron", amount = 30},
+                },
+                results = {{type="item", name="bob-basic-transport-belt", amount=2}},
+            },
+            {
+                type = "recipe",
+                name = "ACP_BasicUnderGround",
+                category = "metallurgy",
+                subgroup = "bob-logistc-tier-0",
+                order = "b",
+                enabled = false,
+                allow_productivity = true,
+                energy_required = 10,
+                ingredients = {
+                    {type = "fluid", name = "molten-iron", amount = 150},
+                    {type = "fluid", name = "lava", amount = 200},
+                },
+                results = {{type="item", name="bob-basic-underground-belt", amount=5}},
+            },
+            {
+                type = "recipe",
+                name = "ACP_BasicSplitter",
+                category = "metallurgy",
+                subgroup = "bob-logistc-tier-0",
+                order = "c",
+                enabled = false,
+                allow_productivity = true,
+                energy_required = 10,
+                ingredients = {
+                    {type = "fluid", name = "molten-iron", amount = 170},
+                    {type = "fluid", name = "molten-copper", amount = 20},
+                },
+                results = {{type="item", name="bob-basic-fast-splitter", amount=5}},
+            },
+        })
+        if mods["vanilla-loaders-hd"]then
+            data:extend({
+                {
+                    type = "recipe",
+                    name = "ACP_BasicLoader",
+                    category = "metallurgy",
+                    subgroup = "bob-logistc-tier-0",
+                    order = "d",
+                    enabled = false,
+                    allow_productivity = true,
+                    energy_required = 10,
+                    ingredients = {
+                        {type = "fluid", name = "molten-iron", amount = 600},
+                        {type = "fluid", name = "molten-copper", amount = 40},
+                        {type = "fluid", name = "lava", amount = 400},
+                    },
+                    results = {{type="item", name="bob-basic-fast-splitter", amount=5}},
+                },
+            })
+        end
+    end
+end
+
+if mods["boblogistics"] and mods["space-age"] then
+    if SS["bobmods-logistics-beltoverhaul"].value == true then
+        Recipe["transport-belt"].category = "pressing"
+        Recipe["underground-belt"].category = "pressing"
+        Recipe["splitter"].category = "pressing"
+
+        Recipe["fast-transport-belt"].category = "pressing"
+        Recipe["fast-underground-belt"].category = "pressing"
+        Recipe["fast-splitter"].category = "pressing"
+
         Recipe["express-transport-belt"].category = "pressing"
         Recipe["express-underground-belt"].category = "pressing"
         Recipe["express-splitter"].category = "pressing"
@@ -57,7 +137,8 @@ if mods["boblogistics"] and mods["space-age"] then
         Recipe["bob-ultimate-transport-belt"].category = "pressing"
         Recipe["bob-ultimate-underground-belt"].category = "pressing"
         Recipe["bob-ultimate-splitter"].category = "pressing"
-
+    end
+    if SS["bobmods-logistics-inserteroverhaul"].value == true then
         Recipe["bob-red-bulk-inserter"].category = "electronics-or-handcrafting"
 
         Recipe["bob-turbo-inserter"].category = "electronics-or-handcrafting"
@@ -66,11 +147,4 @@ if mods["boblogistics"] and mods["space-age"] then
         Recipe["bob-express-inserter"].category = "electronics-or-handcrafting"
         Recipe["bob-express-bulk-inserter"].category = "electronics-or-handcrafting"
     end
-end
-
-if mods["space-age"] and mods["bobtech"] then
-    table.insert(LAB["bob-lab-2"].inputs, "metallurgic-science-pack")
-    table.insert(LAB["bob-lab-2"].inputs, "electromagnetic-science-pack")
-    table.insert(LAB["bob-lab-2"].inputs, "agricultural-science-pack")
-    table.insert(LAB["bob-lab-2"].inputs, "cryogenic-science-pack")
 end
