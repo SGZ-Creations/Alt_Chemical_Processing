@@ -1,4 +1,12 @@
 ---------------------------------------------------------------------------------------------------
+Version: 0.1.46
+Date: 0.1.26
+  Changes:
+    - Made Rubia CargoBay blacklist a setting.
+  Info:
+    - Due to Rubia version 0.69.130 the mod will force crash your game unless you modify it by adding: "--" to the require code in control & data-update stage to force load your game.
+    - I totally disagree when mod author adds code that force crashes you game. it tells the player how to play there mod in game. sure it's an intended feature but let players have the option to turn it off
+---------------------------------------------------------------------------------------------------
 Version: 0.1.45
 Date: 0.1.26
   Changes:

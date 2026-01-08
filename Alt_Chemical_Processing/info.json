@@ -1,7 +1,7 @@
 { 
     "name": "Alt_Chemical_Processing",
     "title": "Alt Recipes & Processing(Bobs&SpaceAge Patch)",
-    "version": "0.1.45",
+    "version": "0.1.46",
     "factorio_version": "2.0",
     "author": "SGZ_Creations",
     "dependencies":[
