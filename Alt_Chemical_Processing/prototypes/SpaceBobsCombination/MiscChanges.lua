@@ -51,8 +51,8 @@ if mods["boblogistics"] and mods["space-age"] then
             {
                 type = "recipe",
                 name = "ACP_BasicBelt",
-                category = "metallurgy",
-                subgroup = "bob-logistc-tier-0",
+                category = "pressing",
+                subgroup = "bob-logistic-tier-0",
                 order = "a",
                 enabled = false,
                 allow_productivity = true,
@@ -65,8 +65,8 @@ if mods["boblogistics"] and mods["space-age"] then
             {
                 type = "recipe",
                 name = "ACP_BasicUnderGround",
-                category = "metallurgy",
-                subgroup = "bob-logistc-tier-0",
+                category = "pressing",
+                subgroup = "bob-logistic-tier-0",
                 order = "b",
                 enabled = false,
                 allow_productivity = true,
@@ -80,8 +80,8 @@ if mods["boblogistics"] and mods["space-age"] then
             {
                 type = "recipe",
                 name = "ACP_BasicSplitter",
-                category = "metallurgy",
-                subgroup = "bob-logistc-tier-0",
+                category = "pressing",
+                subgroup = "bob-logistic-tier-0",
                 order = "c",
                 enabled = false,
                 allow_productivity = true,
@@ -90,7 +90,7 @@ if mods["boblogistics"] and mods["space-age"] then
                     {type = "fluid", name = "molten-iron", amount = 170},
                     {type = "fluid", name = "molten-copper", amount = 20},
                 },
-                results = {{type="item", name="bob-basic-fast-splitter", amount=5}},
+                results = {{type="item", name="bob-basic-splitter", amount=5}},
             },
         })
         if mods["vanilla-loaders-hd"]then
@@ -98,8 +98,8 @@ if mods["boblogistics"] and mods["space-age"] then
                 {
                     type = "recipe",
                     name = "ACP_BasicLoader",
-                    category = "metallurgy",
-                    subgroup = "bob-logistc-tier-0",
+                    category = "pressing",
+                    subgroup = "bob-logistic-tier-0",
                     order = "d",
                     enabled = false,
                     allow_productivity = true,
@@ -109,7 +109,7 @@ if mods["boblogistics"] and mods["space-age"] then
                         {type = "fluid", name = "molten-copper", amount = 40},
                         {type = "fluid", name = "lava", amount = 400},
                     },
-                    results = {{type="item", name="bob-basic-fast-splitter", amount=5}},
+                    results = {{type="item", name="bob-basic-loader", amount=5}},
                 },
             })
         end
