@@ -51,7 +51,7 @@ if mods["boblogistics"] and mods["space-age"] then
             {
                 type = "recipe",
                 name = "ACP_BasicBelt",
-                category = "pressing",
+                category = "metallurgy",
                 subgroup = "bob-logistic-tier-0",
                 order = "a",
                 allow_productivity = true,
@@ -60,12 +60,12 @@ if mods["boblogistics"] and mods["space-age"] then
                     {type = "fluid", name = "molten-iron", amount = 30},
                     --{type="item", name="tungsten-plate", amount=5}
                 },
-                results = {{type="item", name="bob-basic-transport-belt", amount=6}},
+                results = {{type="item", name="bob-basic-transport-belt", amount=2}},
             },
             {
                 type = "recipe",
                 name = "ACP_BasicUnderGround",
-                category = "pressing",
+                category = "metallurgy",
                 subgroup = "bob-logistic-tier-0",
                 order = "b",
                 enabled = false,
@@ -74,14 +74,13 @@ if mods["boblogistics"] and mods["space-age"] then
                 ingredients = {
                     {type = "fluid", name = "molten-iron", amount = 150},
                     {type = "fluid", name = "lava", amount = 200},
-                    --{type="item", name="tungsten-plate", amount=5}
                 },
-                results = {{type="item", name="bob-basic-underground-belt", amount=6}},
+                results = {{type="item", name="bob-basic-underground-belt", amount=2}},
             },
             {
                 type = "recipe",
                 name = "ACP_BasicSplitter",
-                category = "pressing",
+                category = "metallurgy",
                 subgroup = "bob-logistic-tier-0",
                 order = "c",
                 enabled = false,
@@ -90,9 +89,8 @@ if mods["boblogistics"] and mods["space-age"] then
                 ingredients = {
                     {type = "fluid", name = "molten-iron", amount = 170},
                     {type = "fluid", name = "molten-copper", amount = 20},
-                    --{type="item", name="tungsten-plate", amount=5}
                 },
-                results = {{type="item", name="bob-basic-splitter", amount=4}},
+                results = {{type="item", name="bob-basic-splitter", amount=1}},
             },
         })
         table.insert(Tech["logistics-0"].effects, {type="unlock-recipe", recipe="ACP_BasicBelt"})
@@ -108,7 +106,7 @@ if mods["boblogistics"] and mods["space-age"] then
                 {
                     type = "recipe",
                     name = "ACP_BasicLoader",
-                    category = "pressing",
+                    category = "metallurgy",
                     subgroup = "bob-logistic-tier-0",
                     order = "d",
                     enabled = false,
@@ -117,9 +115,8 @@ if mods["boblogistics"] and mods["space-age"] then
                     ingredients = {
                         {type = "fluid", name = "molten-iron", amount = 600},
                         {type = "fluid", name = "molten-copper", amount = 80},
-                        {type="item", name="tungsten-plate", amount=5}
                     },
-                    results = {{type="item", name="bob-basic-loader", amount=4}},
+                    results = {{type="item", name="bob-basic-loader", amount=1}},
                 },
             })
             table.insert(Tech["logistics-0"].effects, {type="unlock-recipe", recipe="ACP_BasicLoader"})
