@@ -134,10 +134,9 @@ if mods["boblogistics"] and not mods["bobplates"] then
         table.insert(Recipe["logistic-science-pack"].ingredients, {type = "item", name = "bob-basic-transport-belt", amount = 1})
     end
 end
-if mods["bobpower"] and not mods["SeaBlockMetaPack"] then
-    if Item["bob-solar-panel-small"] then
-        if SS["6ItmsRecipe"].value then
-            RemoveIngredient("utility-science-pack", "bob-solar-panel-small")
-        end
+
+if Item["bob-solar-panel-small"] then
+    if SS["6ItmsRecipe"].value then
+        RemoveIngredient("utility-science-pack", "bob-solar-panel-small")
     end
 end
