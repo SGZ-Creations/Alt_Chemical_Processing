@@ -44,4 +44,11 @@ data:extend({
         minimum_value = 0.1,
         order = "5Yaf"
     },
+    {
+        type = "double-setting",
+        name = "ExplosiveSpeed",
+        setting_type = "startup",
+        default_value = 2,
+        order = "5Yag"
+    },
 })
