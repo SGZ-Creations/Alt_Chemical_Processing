@@ -138,5 +138,6 @@ end
 if Item["bob-solar-panel-small"] then
     if SS["6ItmsRecipe"].value then
         RemoveIngredient("utility-science-pack", "bob-solar-panel-small")
+    else if not Item["bob-solar-panel-small"] then return end
     end
 end
