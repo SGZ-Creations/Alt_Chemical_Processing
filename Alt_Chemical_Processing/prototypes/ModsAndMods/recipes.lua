@@ -27,17 +27,17 @@ if mods["god-module"] then
 				{type ="item", name="god-module-efficiency", amount = 1},
 			}
 		end
-	end
-	if SS["god-module-recipe-require-quality"].value == false then
-		Recipe["god-module-has-quality"].ingredients = {
-			{type ="item", name="god-module-speed", amount = 1},
-			{type ="item", name="god-module-efficiency", amount = 1},
-			{type ="item", name="god-module-productivity", amount = 1},
-		}
-		Recipe["god-module-no-prod-has-quality"].ingredients = {
-			{type ="item", name="god-module-speed", amount = 1},
-			{type ="item", name="god-module-efficiency", amount = 1},
-		}
+		if SS["god-module-recipe-require-quality"].value == false then
+			Recipe["god-module-has-quality"].ingredients = {
+				{type ="item", name="god-module-speed", amount = 1},
+				{type ="item", name="god-module-efficiency", amount = 1},
+				{type ="item", name="god-module-productivity", amount = 1},
+			}
+			Recipe["god-module-no-prod-has-quality"].ingredients = {
+				{type ="item", name="god-module-speed", amount = 1},
+				{type ="item", name="god-module-efficiency", amount = 1},
+			}
+		end
 	end
 	if mods["space-age"] then
 		if SS["god-module-easier-craft"].value == false then

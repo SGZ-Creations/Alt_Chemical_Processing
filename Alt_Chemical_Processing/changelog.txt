@@ -9,6 +9,7 @@ Date: 08.01.26
     - Removed old space age science pack fix bob should have this solved on there end.
   Bugfixes:
     - Attempted bob fix.
+    - Quality module outside of dependency check.
   Info:
     - Due to Rubia version 0.69.130 the mod will force crash your game unless you modify it by adding: "--" to their ("require("__rubia__.compat.cargo-bay-inserters")" should look like "--require("__rubia__.compat.cargo-bay-inserters")" in both files) to the require code in control & data-update stage to force load your game.
     - I totally disagree when mod author adds code that force crashes you game when other mods changes the behaviour. It tells the player how to play there mod in game without having options. Sure it's an intended feature but let players have the option to turn it off.
