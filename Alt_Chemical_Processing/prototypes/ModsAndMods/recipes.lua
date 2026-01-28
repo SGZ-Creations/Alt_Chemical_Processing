@@ -26,6 +26,8 @@ if mods["god-module"] then
 				{type ="item", name="god-module-quality", amount = 1},
 				{type ="item", name="god-module-efficiency", amount = 1},
 			}
+		end
+		if SS["god-module-recipe-require-quality"].value == false then
 			Recipe["god-module-has-quality"].ingredients = {
 				{type ="item", name="god-module-speed", amount = 1},
 				{type ="item", name="god-module-efficiency", amount = 1},
