@@ -1,7 +1,4 @@
 Lab = data.raw.lab
-if mods["ScienceCostTweakerM"] then
-	Lab["bob-lab-2"].inputs = nil
-end
 if mods["ScienceCostTweakerM"] and mods["bobtech"] then
     table.insert(Lab["lab"].inputs, "logistic-science-pack")
 	table.insert(Lab["bob-lab-2"].inputs, "automation-science-pack")--1
