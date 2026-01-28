@@ -18,6 +18,8 @@ require("prototypes.SpaceBobsCombination.SpaceResorces")
 require("prototypes.SpaceBobsCombination.SpaceBobPlanets")
 require("prototypes.SpaceBobsCombination.ResorceTech")
 
+require("prototypes.ScienceCostTweaker.LabChanges")
+
 require("prototypes.vanilla-loaders.recipes")
 require("prototypes.SpidertronExtended.misc")
 require("prototypes.BigBags.BagsStacks")
