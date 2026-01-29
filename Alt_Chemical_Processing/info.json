@@ -21,6 +21,7 @@
         "? scrap-reprocessor >= 1.0.2",
         "? spidertron-extended >= 0.4.0",
         "? space-age >= 2.0.0",
+        "? SeaBlock >= 0.6.0",
         "? vanilla-loaders-hd >= 2.2.0",
         "? Wood_Gasification_updated >= 4.2.1"
     ],
