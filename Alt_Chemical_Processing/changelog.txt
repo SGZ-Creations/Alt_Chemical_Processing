@@ -5,6 +5,7 @@ Date: 08.01.26
     - Made more casting recipes for bob logistics.
   Modding:
     - Added missing packs in to labs for ScienceCostTweakerM.
+    - FlowControl & SeaBlock. Patching.
   Changes:
     - Made Rubia CargoBay blacklist a setting.
     - Removed missed code in regards to BRE.
