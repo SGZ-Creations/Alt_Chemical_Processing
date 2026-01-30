@@ -32,3 +32,30 @@ for _, recipe in pairs(data.raw.recipe or {}) do
 		end
 	end
 end
+
+for _, recipe in pairs(data.raw.recipe) do
+	local mp = recipe.main_product
+	if mp then
+		local found = false
+
+		-- Normalize results list
+		local results = recipe.results
+		if not results and recipe.results then
+			results = {{name = recipe.results}}
+		end
+
+		if results then
+			for _, r in pairs(results) do
+				if r.name == mp then
+						found = true
+					break
+				end
+			end
+		end
+
+		-- main_product is invalid → remove it
+		if not found then
+			recipe.main_product = nil
+		end
+	end
+end
