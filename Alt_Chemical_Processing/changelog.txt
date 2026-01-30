@@ -1,6 +1,11 @@
 ---------------------------------------------------------------------------------------------------
+Version: 0.1.47
+Date: 30.1.26
+  Bugfixes:
+    - Fix to Transport Drones mod. Code Provided by AI GPT3 
+---------------------------------------------------------------------------------------------------
 Version: 0.1.46
-Date: 08.01.26
+Date: 29.01.26
   Features:
     - Made more casting recipes for bob logistics.
   Modding:
