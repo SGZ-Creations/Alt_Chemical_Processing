@@ -17,7 +17,8 @@ require("prototypes.ModsAndMods.recipes")
 require("prototypes.ModsAndMods.Tech")
 
 require("prototypes.AsteroidResources.Tech")
-require("prototypes.NanoBotsRefined.Tech")
+
+require("__Alt_Chemical_Processing__.prototypes.NanoBots.NanobotsRefined")
 
 require("prototypes.SaltedFish.recipes")
 require("prototypes.SaltedFish.tech")

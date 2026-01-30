@@ -8,7 +8,7 @@ require("mods.duplicate-items-final-fix")
 
 require("prototypes.SpaceBobsCombination.recipes-final-fix")
 require("prototypes.ScienceCostTweaker.LabChangesFinal")
-
+require("__Alt_Chemical_Processing__.prototypes.NanoBots.Nanobots3")
 require("prototypes.Base.ReturnOptionalFinalFix")
 require("prototypes.CargoBay.Blacklist")
 require("prototypes.Base.Weight")
