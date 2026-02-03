@@ -4,6 +4,9 @@ Date: 30.1.26
   Bugfixes:
     - Transport Drones mod. Code Provided by AI GPT3.
     - Recipe issue with Transport Drones mod. Code Provided by AI GPT3.
+  Features:
+    - Nanobots with SeaBlock Improvements.
+    - Changes to Drones with SeaBlock.
 ---------------------------------------------------------------------------------------------------
 Version: 0.1.46
 Date: 29.01.26

@@ -9,3 +9,14 @@ if mods["nanobots-refined"] then
         },
     })
 end
+if mods["nanobots3"] then
+    data:extend({
+        {
+            type = "bool-setting",
+            name = "FreeNanobots",
+            setting_type = "startup",
+            default_value = false,
+            order = "3Cad"
+        },
+    })
+end

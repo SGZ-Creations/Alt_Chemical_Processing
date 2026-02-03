@@ -2,6 +2,9 @@
 local Recipe = data.raw["recipe"]
 ---@class data.TechnologyPrototype
 local Tech = data.raw["technology"]
+---@class LuaSettings
+local SS = settings.startup
+
 
 if mods["Nanobots3"]and mods["SeaBlock"] then
 	Tech["nanobots"].research_trigger = {type ="craft-item", item ="bob-basic-circuit-board", amount = 20}
@@ -13,4 +16,11 @@ if mods["Nanobots3"]and mods["SeaBlock"] then
 		{type ="item", name="copper-plate", amount = 5},
 		{type ="item", name="iron-plate", amount = 5},
 	}
+end
+
+if mods["nanobots3"]then
+	if SS["FreeNanobots"].value == true then
+		Recipe["ammo-nano-construction"].ingredients = nil
+		Recipe["ammo-nano-termites"].ingredients = nil
+	end
 end
