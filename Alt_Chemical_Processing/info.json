@@ -23,6 +23,7 @@
         "? spidertron-extended >= 0.4.0",
         "? space-age >= 2.0.0",
         "? SeaBlock >= 0.6.0",
+        "? Transport_Drones_Meglinge_Fork >= 1.0.26",
         "? vanilla-loaders-hd >= 2.2.0",
         "? Wood_Gasification_updated >= 4.2.1"
     ],
