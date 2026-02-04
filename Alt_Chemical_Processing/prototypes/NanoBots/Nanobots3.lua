@@ -18,9 +18,9 @@ if mods["Nanobots3"]and mods["SeaBlock"] then
 	}
 end
 
-if mods["nanobots3"]then
+if mods["Nanobots3"]then
 	if SS["FreeNanobots"].value == true then
-		Recipe["ammo-nano-construction"].ingredients = nil
+		Recipe["ammo-nano-constructors"].ingredients = nil
 		Recipe["ammo-nano-termites"].ingredients = nil
 	end
 end
