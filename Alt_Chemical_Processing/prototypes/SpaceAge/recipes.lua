@@ -44,6 +44,36 @@ if mods["space-age"]then
 end
 
 if mods["space-age"] then
+	--if SS["MoltenPlates"].value ==true then
+		data:extend({
+			{
+				type = "recipe",
+				name = "MoltenCopperPlates",
+				category = "metallurgy",
+				main_product = "molten-copper",
+				order = "a[molten-copper]",
+				subgroup = "vulcanus-processes",
+				enabled = false,
+				energy_required = 16,
+				ingredients = {{type = "item", name = "copper-plate", amount =10}},
+				results = {{type = "fluid", name = "molten-copper", amount =100}}
+			}
+		})
+		data:extend({
+			{
+				type = "recipe",
+				name = "MoltenIronPlates",
+				category = "metallurgy",
+				main_product = "molten-iron",
+				order = "a[molten-iron]",
+				subgroup = "vulcanus-processes",
+				enabled = false,
+				energy_required = 16,
+				ingredients = {{type = "item", name = "iron-plate", amount =10}},
+				results = {{type = "fluid", name = "molten-iron", amount =100}}
+			}
+		})
+	--end
 	--if SS["LavaBricks"].value then
 		data:extend({
 			{
