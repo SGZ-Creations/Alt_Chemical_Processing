@@ -4,6 +4,8 @@ Date: 10.02.26
   Features:
     - Iron & Copper Plate foundry smelting.
     - New Crafting category "SmeltingOrFoundry"
+  Changes:
+    - Changed category for recipe in "ev-refining", "steel-dust-smelting".
 ---------------------------------------------------------------------------------------------------
 Version: 0.1.47
 Date: 30.1.26
