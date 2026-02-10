@@ -25,9 +25,9 @@ table.insert(data.raw["assembling-machine"]["assembling-machine-1"].crafting_cat
 table.insert(data.raw["assembling-machine"]["assembling-machine-2"].crafting_categories, "electronics-or-handcrafting")
 table.insert(data.raw["assembling-machine"]["assembling-machine-3"].crafting_categories, "electronics-or-handcrafting")
 table.insert(data.raw["assembling-machine"]["chemical-plant"].crafting_categories, "chemical-hands")
-table.insert(data.raw["assembling-machine"]["electric-furnace"].crafting_categories, "SmeltingOrFoundry")
-table.insert(data.raw["assembling-machine"]["steel-furnace"].crafting_categories, "SmeltingOrFoundry")
-table.insert(data.raw["assembling-machine"]["stone-furnace"].crafting_categories, "SmeltingOrFoundry")
+table.insert(data.raw["furnace"]["electric-furnace"].crafting_categories, "SmeltingOrFoundry")
+table.insert(data.raw["furnace"]["steel-furnace"].crafting_categories, "SmeltingOrFoundry")
+table.insert(data.raw["furnace"]["stone-furnace"].crafting_categories, "SmeltingOrFoundry")
 
 
 table.insert(data.raw["character"]["character"].crafting_categories, "electronics-or-handcrafting")
@@ -38,7 +38,7 @@ if mods["space-age"] then
 	table.insert(data.raw["assembling-machine"]["cryogenic-plant"].crafting_categories, "chemical-hands")
 	table.insert(data.raw["assembling-machine"]["biochamber"].crafting_categories, "BioCryo")
 	table.insert(data.raw["assembling-machine"]["cryogenic-plant"].crafting_categories, "BioCryo")
-	table.insert(data.raw["assembling-machine"]["Foundry"].crafting_categories, "SmeltingOrFoundry")
+	table.insert(data.raw["assembling-machine"]["foundry"].crafting_categories, "SmeltingOrFoundry")
 end
 
 if mods["space-age"] then
