@@ -18,6 +18,10 @@ if mods["space-age"] then
 end
 ]]
 if mods["space-age"] then
+	--if SS["MoltenPlates"] == true then
+		table.insert(Tech["foundry"].effects, {type = "unlock-recipe", recipe = "MoltenCopperPlates"})
+		table.insert(Tech["foundry"].effects, {type = "unlock-recipe", recipe = "MoltenIronPlates"})
+	--end 
 		table.insert(Tech["fish-breeding"].effects, {type="unlock-recipe", recipe="fed-fish"})
 		table.insert(Tech["lithium-processing"].effects, {type="unlock-recipe", recipe="ice-cubes"})
 		table.insert(Tech["foundry"].effects, {type="unlock-recipe", recipe="casted-space-foundation"})
