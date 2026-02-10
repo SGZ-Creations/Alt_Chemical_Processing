@@ -24,6 +24,8 @@ require("prototypes.SaltedFish.recipes")
 require("prototypes.SaltedFish.tech")
 require("prototypes.SaltedFish.FishStats")
 
+require("__Alt_Chemical_Processing__.prototypes.ExtendedRefining.Recipe")
+
 require("prototypes.woodgasification.Recipes")
 require("prototypes.woodgasification.Techs")
 
