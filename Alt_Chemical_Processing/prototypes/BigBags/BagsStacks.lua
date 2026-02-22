@@ -49,3 +49,7 @@ if mods["secretas"] then
 		Item["auric-asteroid-chunk"].stack_size = 50
 	end
 end
+
+if mods["Transport_Drones_Continued"] and mods["BigBags"] then
+	Item["transport-drone"].stack_size = SS["DroneStacksContinued"].value
+end

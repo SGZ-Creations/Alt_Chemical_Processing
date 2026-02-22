@@ -18,15 +18,19 @@ function RemoveIngredient(recipe_name, ingredient_name)
     end
 end
 
-if mods["SeaBlock"] and mods["Transport_Drones_Meglinge_Fork"] then
-	Tech["transport-system"].research_trigger = {type ="craft-fluid", fluid ="angels-gas-hydrogen", amount = 5000}
-	Tech["transport-system"].prerequisites = nil
-	Tech["transport-system"].unit = nil
+if mods["SeaBlock"] then
+    if (mods["Transport_Drones_Meglinge_Fork"] or mods["Transport_Drones_Continued"]) then
+        Tech["transport-system"].research_trigger = {type ="craft-fluid", fluid ="angels-gas-hydrogen", amount = 5000}
+        Tech["transport-system"].prerequisites = nil
+        Tech["transport-system"].unit = nil
+    end
 end
 
-if mods["SeaBlock"] and mods["Transport_Drones_Meglinge_Fork"] then
-	RemoveIngredient("transport-drone", "engine-unit")
-	table.insert(Recipe["transport-drone"].ingredients, {type="item", name= "bob-basic-circuit-board", amount=2})
-	RemoveIngredient("road", "coal")
-	table.insert(Recipe["road"].ingredients, {type="item", name= "angels-wood-charcoal", amount=10})
+if mods["SeaBlock"]then
+    if (mods["Transport_Drones_Meglinge_Fork"] or mods["Transport_Drones_Continued"])then
+        RemoveIngredient("transport-drone", "engine-unit")
+        table.insert(Recipe["transport-drone"].ingredients, {type="item", name= "bob-basic-circuit-board", amount=2})
+        RemoveIngredient("road", "coal")
+        table.insert(Recipe["road"].ingredients, {type="item", name= "angels-wood-charcoal", amount=10})
+    end
 end

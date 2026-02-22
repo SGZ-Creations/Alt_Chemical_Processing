@@ -6,41 +6,40 @@ if mods["space-age"] and not mods["BigBags"] then
             name = "ACP-metallic-asteroid-chunk",
             setting_type = "startup",
             default_value = 1,
-            order = "1Aaa"
+            order = "1Baa"
         },
         {
             type = "int-setting",
             name = "ACP-carbonic-asteroid-chunk",
             setting_type = "startup",
             default_value = 1,
-            order = "1Aab"
+            order = "1Bab"
         },
         {
             type = "int-setting",
             name = "ACP-oxide-asteroid-chunk",
             setting_type = "startup",
             default_value = 1,
-            order = "1Aac"
+            order = "1Bac"
         },
         {
             type = "int-setting",
             name = "ACP-promethium-asteroid-chunk",
             setting_type = "startup",
             default_value = 1,
-            order = "1Aad"
+            order = "1Bad"
         },
     })
 end
 
 if not mods["BigBags"]then
     data:extend({
-        --StackSizeSettings
         {
             type = "int-setting",
             name = "FuelStacks",
             setting_type = "startup",
             default_value = 1,
-            order = "1Aae"
+            order = "1Bae"
         },
     })
     if mods["metal-and-stars"]then
@@ -50,7 +49,7 @@ if not mods["BigBags"]then
                 name = "ACPMiranditeAC",
                 setting_type = "startup",
                 default_value = 1,
-                order = "1Aaf"
+                order = "1Bag"
             },
         })
     end
@@ -61,7 +60,7 @@ if not mods["BigBags"]then
                 name = "ACP_SlpPlasmaC",
                 setting_type = "startup",
                 default_value = 1,
-                order = "1Aaf"
+                order = "1Bah"
             },
         })
     end
@@ -72,7 +71,7 @@ if not mods["BigBags"]then
                 name = "ACP_BismuthAC",
                 setting_type = "startup",
                 default_value = 1,
-                order = "1Aaf"
+                order = "1Bai"
             },
         })
     end
@@ -83,8 +82,19 @@ if not mods["BigBags"]then
                 name = "ACP_AuricAC",
                 setting_type = "startup",
                 default_value = 1,
-                order = "1Aaf"
+                order = "1Baj"
             },
         })
     end
+end
+if mods["Transport_Drones_Continued"] and mods["BigBags"] then
+    data:extend({
+        {
+            type = "int-setting",
+            name = "DroneStacksContinued",
+            setting_type = "startup",
+            default_value = 1,
+            order = "1Baf"
+        },
+    })
 end

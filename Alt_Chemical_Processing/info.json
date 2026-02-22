@@ -24,6 +24,7 @@
         "? space-age >= 2.0.0",
         "? SeaBlock >= 0.6.0",
         "? Transport_Drones_Meglinge_Fork >= 1.0.26",
+        "? Transport_Drones_Continued >= 2.0.60",
         "? vanilla-loaders-hd >= 2.2.0",
         "? Wood_Gasification_updated >= 4.2.1"
     ],
