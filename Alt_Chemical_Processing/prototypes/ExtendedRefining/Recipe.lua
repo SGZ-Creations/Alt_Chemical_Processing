@@ -4,5 +4,7 @@ local SS = settings.startup
 local Recipe = data.raw["recipe"]
 
 if mods["ev-refining"] and mods["space-age"] then
-	Recipe["steel-dust-smelting"].category = "SmeltingOrFoundry"
+	if Recipe["steel-dust-smelting"] then
+		Recipe["steel-dust-smelting"].category = "SmeltingOrFoundry"
+	end
 end
