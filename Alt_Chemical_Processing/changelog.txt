@@ -6,7 +6,6 @@ Date: 10.02.26
     - New Crafting category "SmeltingOrFoundry"
   Changes:
     - Changed category for recipe in "ev-refining", "steel-dust-smelting".
-    - Added stack changes to transport drones Continues.
     - Made transport drones Continues have same changes that meglings fork has.
   Bugfixes:
     - Missing setting True value on bobs alien artifact condition causing a crash.

@@ -87,6 +87,7 @@ if not mods["BigBags"]then
         })
     end
 end
+--[[
 if mods["Transport_Drones_Continued"] and mods["BigBags"] then
     data:extend({
         {
@@ -98,3 +99,4 @@ if mods["Transport_Drones_Continued"] and mods["BigBags"] then
         },
     })
 end
+]]
