@@ -1,5 +1,6 @@
 require("__Alt_Chemical_Processing__.mods.CraftingUI_FinalFix")
 
+require("__Alt_Chemical_Processing__.prototypes.ExtendedRefining.Recipe")
 require("prototypes.PlanetsAmongTheStars.RecipeFix")
 
 require("prototypes.ModsAndMods.Sorting")
