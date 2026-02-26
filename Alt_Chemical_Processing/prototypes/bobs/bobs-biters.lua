@@ -8,7 +8,7 @@ local SS = settings.startup
 local Recipe = data.raw["recipe"]
 
 if mods["space-age"] and mods["bobenemies"] then
-	if SS["bobmods-enemies-enableartifacts"] and SS["bobmods-enemies-enablenewartifacts"] then
+	if SS["bobmods-enemies-enableartifacts"].value == true and SS["bobmods-enemies-enablenewartifacts"].value == true then
 		table.insert(Recipe["biter-egg"].results, {type= "item", name="bob-alien-artifact", amount=5})
 		table.insert(Recipe["biter-egg"].results, {type= "item", name="bob-alien-artifact-red", amount=5})
 		table.insert(Recipe["biter-egg"].results, {type= "item", name="bob-alien-artifact-orange", amount=5})
