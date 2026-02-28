@@ -9,8 +9,6 @@ require("prototypes.SpaceAge.recipes")
 require("prototypes.SpaceAge.tech")
 require("prototypes.SpaceAge.misc")
 
-require("prototypes.armoredbiters.biter-captures")
-
 require("prototypes.KlonanTeleporter.Tech")
 
 require("prototypes.ModsAndMods.recipes")
