@@ -2,7 +2,6 @@
 Version: 0.1.51
 Date: 29.03.26
   Bugfixes:
-    - Crash with WarpDriveMachine missing Icon. 
 ---------------------------------------------------------------------------------------------------
 Version: 0.1.50
 Date: 28.02.26
