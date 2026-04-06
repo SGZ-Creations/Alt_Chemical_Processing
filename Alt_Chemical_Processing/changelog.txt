@@ -3,7 +3,7 @@ Version: 0.1.51
 Date: 29.03.26
   Features:
     - Setting for setting a global weight should the mod pack of your choice make them broken.
-    - Also choosing the weight value.
+    - Also setting to set global weight value.
     - Wall Resistance toggle setting.
     - Wall Health Value setting.
 ---------------------------------------------------------------------------------------------------
