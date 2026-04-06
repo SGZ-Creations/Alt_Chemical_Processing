@@ -1,6 +1,3 @@
-
-
-
 if mods["space-age"] and mods["bobplates"] then
     data:extend({
 		{

@@ -51,4 +51,32 @@ data:extend({
         default_value = 2,
         order = "5Yag"
     },
+    {
+        type = "int-setting",
+        name = "WallHealth",
+        setting_type = "startup",
+        default_value = 350,
+        order = "5Yah"
+    },
+    {
+        type = "bool-setting",
+        name = "WallResistant",
+        setting_type = "startup",
+        default_value = false,
+        order = "5Yai"
+    },
+    {
+        type = "int-setting",
+        name = "GlobalGrams",
+        setting_type = "startup",
+        default_value = 5000,
+        order = "5Yah"
+    },
+    {
+        type = "bool-setting",
+        name = "WeightCalculatioins",
+        setting_type = "startup",
+        default_value = false,
+        order = "5Yai"
+    },
 })

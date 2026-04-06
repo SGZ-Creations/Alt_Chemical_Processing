@@ -24,3 +24,50 @@ if not mods["BigBags"] then
 elseif mods["BigBags"] then -- BigBag overwrites my settings making them useless & confusing. but still need to create the stack_size to be available for Bigbags to not default back.
 	Item["nuclear-fuel"].stack_size = 50
 end
+
+data.raw["wall"]["stone-wall"].max_health = SS["WallHealth"].value
+
+if SS["WallResistant"].value == true then
+	data.raw["wall"]["stone-wall"].resistances = {
+		{
+			type = "physical",
+			decrease = 1000,
+			percent = 50,
+		},
+		{
+			type = "acid",
+			decrease = 0,
+			percent = 100,
+		},
+		{
+			type = "explosion",
+			decrease = 1000,
+			percent = 65,
+		},
+		{
+			type = "fire",
+			decrease = 0,
+			percent = 100
+		},
+		{
+			type = "electric",
+			decrease = 0,
+			percent = 100,
+		},
+		{
+			type = "impact",
+			decrease = 0,
+			percent = 50,
+		},
+		{
+			type = "laser",
+			decrease = 0,
+			percent = 100,
+		},
+		{
+			type = "poison",
+			decrease = 0,
+			percent = 100,
+		},
+	}
+end
