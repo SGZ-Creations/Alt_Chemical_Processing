@@ -12,6 +12,7 @@ require("prototypes.bobs.Artifacts")
 require("prototypes.PlanetsAmongTheStars.FlyingRobots")
 
 require("prototypes.SpaceBobsCombination.MiscChanges")
+require("prototypes.SpaceBobsCombination.PlanetsGasCollections")
 require("prototypes.SpaceBobsCombination.RocketSilo")
 require("prototypes.SpaceBobsCombination.Scraping")
 require("prototypes.SpaceBobsCombination.SpaceResorces")
