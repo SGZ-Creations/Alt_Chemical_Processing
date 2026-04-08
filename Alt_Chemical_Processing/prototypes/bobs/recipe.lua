@@ -23,25 +23,6 @@ if mods["bobplates"] and mods["bobrevamp"] then
         {
             type = "recipe",
             category = "chemistry",
-            name = "carbon-dioxide-sepreation",
-            icon = "__bobplates__/graphics/icons/oxygen.png",
-            enabled = false,
-            subgroup = "fluid",
-            order = "a[fluid]-g[carbon-dixoide]",
-            allow_productivity = true,
-            allow_decomposition = true,
-            energy_required = 10.0,
-            ingredients = {
-                {type="fluid", name="bob-carbon-dioxide", amount=25},
-            },
-            results = {
-                {type="item", name="bob-carbon", amount=1},
-                {type="fluid", name="bob-oxygen", amount=25}
-            },
-        },
-        {
-            type = "recipe",
-            category = "chemistry",
             name = "rocket-fuel-from-solid-fuel",
             icon = "__base__/graphics/icons/rocket-fuel.png",
             enabled = false,
@@ -83,9 +64,9 @@ if mods["bobplates"] and mods["bobrevamp"] then
             category = "centrifuging",
             name = "ThoriumPlutoniumEnrichment",
             main_product = "bob-plutonium-239",
-            enabled = false,
             subgroup = "bob-nuclear",
             order = "s[bob-plutonium-239]",
+            enabled = false,
             allow_productivity = true,
             allow_decomposition = true,
             energy_required = 10.0,
@@ -108,9 +89,9 @@ if mods["bobplates"] and mods["bobrevamp"]and mods["space-age"] then
             type = "recipe",
             category = "chemistry-or-cryogenics",
             name = "CalciumChloride",
-            enabled = false,
             subgroup = "bob-resource-chemical",
             order = "f[bob-calcium-chloride]",
+            enabled = false,
             allow_productivity = true,
             allow_decomposition = true,
             energy_required = 10.0,
@@ -123,7 +104,6 @@ if mods["bobplates"] and mods["bobrevamp"]and mods["space-age"] then
             },
         },
     })
-    Recipe["carbon-dioxide-sepreation"].category = "chemistry-or-cryogenics"
     Recipe["rocket-fuel-from-solid-fuel"].category = "chemistry-or-cryogenics"
     Recipe["rocket-fuel-from-enriched-fuel"].category = "chemistry-or-cryogenics"
 end
