@@ -4,10 +4,16 @@ local SS = settings.startup
 local Recipe = data.raw.recipe
 ---@class data.ItemPrototype
 local Item = data.raw.item
-
-
 local SpaceBobs = mods["bobplates"] and mods["bobrevamp"] and mods["space-age"]
 
+data:extend({
+    {
+        type = "item-subgroup",
+        name = "PlanetOres",
+        group = "bob-resource-products",
+        order = "AAA",
+    },
+})
 
 if SpaceBobs then
     data:extend({
@@ -15,7 +21,7 @@ if SpaceBobs then
             type = "recipe",
             name = "VulcanusOres",
             category = "metallurgy",
-            subgroup = "bob-ores",
+            subgroup = "PlanetOres",
             icon = "__space-age__/graphics/icons/vulcanus.png",
             order = "zz[ores]",
             allow_productivity = true,
@@ -44,7 +50,7 @@ if SpaceBobs then
             type = "recipe",
             name = "Glebaores",
             category = "organic",
-            subgroup = "bob-ores",
+            subgroup = "PlanetOres",
             icon = "__space-age__/graphics/icons/gleba.png",
             order = "zz[ores]",
             allow_productivity = true,
@@ -72,7 +78,7 @@ if SpaceBobs then
             type = "recipe",
             name = "AquiloOres",
             category = "cryogenics",
-            subgroup = "bob-ores",
+            subgroup = "PlanetOres",
             icon = "__space-age__/graphics/icons/aquilo.png",
             order = "zz[ores]",
             allow_productivity = true,
