@@ -5,22 +5,20 @@ local Recipe = data.raw.recipe
 ---@class data.TechnologyPrototype
 local Tech = data.raw["technology"]
 
-if mods["bobplates"]then
-    data:extend({
-        {
-            type = "item-subgroup",
-            name = "PlanetFluidGasses",
-            group = "fluids",
-            order = "GassLiquids",
-        },
-        {
-            type = "item-subgroup",
-            name = "GassSeperations",
-            group = "fluids",
-            order = "GassLiquids",
-        },
-    })
-end
+data:extend({
+    {
+        type = "item-subgroup",
+        name = "PlanetFluidGasses",
+        group = "fluids",
+        order = "GassLiquids",
+    },
+    {
+        type = "item-subgroup",
+        name = "GassSeperations",
+        group = "fluids",
+        order = "GassLiquids",
+    },
+})
 
 if mods["bobplates"]then
     data.extend({
@@ -28,7 +26,7 @@ if mods["bobplates"]then
             type = "recipe",
             category = "chemistry",
             name = "carbon-dioxide-separation",
-            main_product = "bob-oxygen",
+            main_product = "bob-carbon",
             subgroup = "GassSeperations",
             order = "a[GassSeperations]",
             enabled = false,
@@ -117,7 +115,7 @@ if mods["bobplates"]then
                 type = "recipe",
                 category = "chemistry-or-cryogenics",
                 name = "Gleba_air_filtrations",
-                main_product = "bob-carbon-dioxide",
+                main_product = "bob-chlorine",
                 subgroup = "PlanetFluidGasses",
                 order = "a[PlanetFluidGasses]",
                 enabled = false,
@@ -135,8 +133,8 @@ if mods["bobplates"]then
                     {type="item", name="jelly", amount=10},
                 },
                 results = {
-                    {type="fluid", name="bob-carbon-dioxide", amount=130},
-                    {type="fluid", name="bob-nitric-acid", amount=70}
+                    {type="fluid", name="bob-carbon-dioxide", amount=70},
+                    {type="fluid", name="bob-chlorine", amount=130}
                 },
             },
             {
