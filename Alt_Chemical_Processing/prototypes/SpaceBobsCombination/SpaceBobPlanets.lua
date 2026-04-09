@@ -6,16 +6,16 @@ local Recipe = data.raw.recipe
 local Item = data.raw.item
 local SpaceBobs = mods["bobplates"] and mods["bobrevamp"] and mods["space-age"]
 
-data:extend({
-    {
-        type = "item-subgroup",
-        name = "PlanetOres",
-        group = "bob-resource-products",
-        order = "AAA",
-    },
-})
 
 if SpaceBobs then
+    data:extend({
+        {
+            type = "item-subgroup",
+            name = "PlanetOres",
+            group = "bob-resource-products",
+            order = "AAA",
+        },
+    })
     data:extend({
         {
             type = "recipe",
