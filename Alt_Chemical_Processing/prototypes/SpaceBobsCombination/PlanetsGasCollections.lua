@@ -99,9 +99,9 @@ if mods["bobplates"]then
                 allow_decomposition = true,
                 energy_required = 10.0,
                 surface_condition = {
-                    {property = "magnetic-field", min = 90, max = 100},
-                    {property = "gravity", min = 5, max = 10},
-                    {property = "pressure", min = 100, max = 1000},
+                    --{property = "magnetic-field", min = 90, max = 100}
+                    {property = "gravity", min = 8, max = 8},
+                    --{property = "pressure", min = 100, max = 1000},
                 },
                 ingredients = {
                     {type="fluid", name="bob-liquid-air", amount=100},
@@ -123,9 +123,9 @@ if mods["bobplates"]then
                 allow_decomposition = true,
                 energy_required = 10.0,
                 surface_condition = {
-                    {property = "magnetic-field", min = 10, max = 50},
-                    {property = "gravity", min = 10, max = 30},
-                    {property = "pressure", min = 2000, max = 2000},
+                    --{property = "magnetic-field", min = 25, max = 25},
+                    {property = "gravity", min = 20, max = 20},
+                    --{property = "pressure", min = 2000, max = 2000},
                 },
                 ingredients = {
                     {type="fluid", name="water", amount=200},
@@ -149,9 +149,9 @@ if mods["bobplates"]then
                 allow_decomposition = true,
                 energy_required = 10.0,
                 surface_condition = {
-                    {property = "magnetic-field", min = 10, max = 50},
+                    --{property = "magnetic-field", min = 40, max = 40},
                     {property = "gravity", min = 40, max = 40},
-                    {property = "pressure", min = 4000, max = 4000},
+                    --{property = "pressure", min = 4000, max = 4000},
                 },
                 ingredients = {
                     {type="fluid", name="bob-liquid-air", amount=200},
