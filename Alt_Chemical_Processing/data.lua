@@ -16,8 +16,6 @@ require("prototypes.ModsAndMods.Tech")
 
 require("prototypes.AsteroidResources.Tech")
 
-require("prototypes.NanoBots.NanobotsRefined")
-
 require("prototypes.SaltedFish.recipes")
 require("prototypes.SaltedFish.tech")
 require("prototypes.SaltedFish.FishStats")
