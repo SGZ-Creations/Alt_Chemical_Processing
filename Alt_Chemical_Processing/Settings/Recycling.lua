@@ -10,7 +10,7 @@ if mods["space-age"] and mods["bobplates"] then
 		},
 		{
 			type = "int-setting",
-			name = "concrete",
+			name = "ScrapConcrete",
 			setting_type = "startup",
 			default_value = 1,
 			minimum_value = 1,
