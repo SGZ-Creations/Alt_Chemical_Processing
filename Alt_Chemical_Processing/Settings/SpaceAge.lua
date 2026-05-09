@@ -20,6 +20,14 @@ if mods["space-age"] then
             order = "1Abb"
         },
         {
+            type = "int-setting",
+            name = "ScrapingMachineInventory",
+            setting_type = "startup",
+            default_value = 30,
+            minimum_value = 0,
+            order = "1Bba"
+        },
+        {
             type = "string-setting",
             name = "SeedOptions",
             setting_type = "startup",

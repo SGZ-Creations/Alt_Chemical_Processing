@@ -24,6 +24,15 @@ if mods["More-Asteroid-Resources-Forked"] then
 	}
 end
 
+if not mods["More-Asteroid-Resources-Forked"] then
+	table.insert(Recipe["metallic-asteroid-crushing"].results, {type = "item", name = "stone", amount = 3})
+	table.insert(Recipe["carbonic-asteroid-crushing"].results, {type = "item", name = "stone", amount = 3})
+	table.insert(Recipe["oxide-asteroid-crushing"].results, {type = "item", name = "coal", amount = 3})
+
+	table.insert(Recipe["advanced-metallic-asteroid-crushing"].results, {type = "item", name = "stone", amount = 5})
+	table.insert(Recipe["carbonic-asteroid-crushing"].results, {type = "item", name = "stone", amount = 5})
+	table.insert(Recipe["oxide-asteroid-crushing"].results, {type = "item", name = "coal", amount = 5})
+end
 
 if mods["space-age"] and mods["bobplates"] then
 	table.insert(Recipe["metallic-asteroid-crushing"].results, {type = "item", name = "bob-tin-ore", amount = 3})

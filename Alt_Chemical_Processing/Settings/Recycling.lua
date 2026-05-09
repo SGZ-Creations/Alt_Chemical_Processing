@@ -10,7 +10,7 @@ if mods["space-age"] and mods["bobplates"] then
 		},
 		{
 			type = "int-setting",
-			name = "ScrapSteel",
+			name = "concrete",
 			setting_type = "startup",
 			default_value = 1,
 			minimum_value = 1,
@@ -18,7 +18,7 @@ if mods["space-age"] and mods["bobplates"] then
 		},
 		{
 			type = "int-setting",
-			name = "ScrapBattery",
+			name = "ScrapSteel",
 			setting_type = "startup",
 			default_value = 1,
 			minimum_value = 1,
@@ -26,7 +26,7 @@ if mods["space-age"] and mods["bobplates"] then
 		},
 		{
 			type = "int-setting",
-			name = "ScrapProcessingUnit",
+			name = "ScrapBattery",
 			setting_type = "startup",
 			default_value = 1,
 			minimum_value = 1,
@@ -34,7 +34,7 @@ if mods["space-age"] and mods["bobplates"] then
 		},
 		{
 			type = "int-setting",
-			name = "ScrapAdvancedCircuit",
+			name = "ScrapProcessingUnit",
 			setting_type = "startup",
 			default_value = 1,
 			minimum_value = 1,
@@ -42,7 +42,7 @@ if mods["space-age"] and mods["bobplates"] then
 		},
 		{
 			type = "int-setting",
-			name = "ScrapElectronicCircuit",
+			name = "ScrapAdvancedCircuit",
 			setting_type = "startup",
 			default_value = 1,
 			minimum_value = 1,
@@ -50,7 +50,7 @@ if mods["space-age"] and mods["bobplates"] then
 		},
 		{
 			type = "int-setting",
-			name = "ScrapLowDensity",
+			name = "ScrapElectronicCircuit",
 			setting_type = "startup",
 			default_value = 1,
 			minimum_value = 1,
@@ -58,7 +58,7 @@ if mods["space-age"] and mods["bobplates"] then
 		},
 		{
 			type = "int-setting",
-			name = "ScrapHolmiumOre",
+			name = "ScrapLowDensity",
 			setting_type = "startup",
 			default_value = 1,
 			minimum_value = 1,
@@ -66,7 +66,7 @@ if mods["space-age"] and mods["bobplates"] then
 		},
 		{
 			type = "int-setting",
-			name = "ScrapSilverZincBattery",
+			name = "ScrapHolmiumOre",
 			setting_type = "startup",
 			default_value = 1,
 			minimum_value = 1,
@@ -74,7 +74,7 @@ if mods["space-age"] and mods["bobplates"] then
 		},
 		{
 			type = "int-setting",
-			name = "ScrapLithiumIonBattery",
+			name = "ScrapSilverZincBattery",
 			setting_type = "startup",
 			default_value = 1,
 			minimum_value = 1,
@@ -82,7 +82,7 @@ if mods["space-age"] and mods["bobplates"] then
 		},
 		{
 			type = "int-setting",
-			name = "ScrapAdvancedProcessingUnit",
+			name = "ScrapLithiumIonBattery",
 			setting_type = "startup",
 			default_value = 1,
 			minimum_value = 1,
@@ -90,7 +90,7 @@ if mods["space-age"] and mods["bobplates"] then
 		},
 		{
 			type = "int-setting",
-			name = "ScrapGlass",
+			name = "ScrapAdvancedProcessingUnit",
 			setting_type = "startup",
 			default_value = 1,
 			minimum_value = 1,
@@ -98,7 +98,7 @@ if mods["space-age"] and mods["bobplates"] then
 		},
 		{
 			type = "int-setting",
-			name = "ScrapTin",
+			name = "ScrapGlass",
 			setting_type = "startup",
 			default_value = 1,
 			minimum_value = 1,
@@ -106,7 +106,7 @@ if mods["space-age"] and mods["bobplates"] then
 		},
 		{
 			type = "int-setting",
-			name = "ScrapSilver",
+			name = "ScrapTin",
 			setting_type = "startup",
 			default_value = 1,
 			minimum_value = 1,
@@ -114,7 +114,7 @@ if mods["space-age"] and mods["bobplates"] then
 		},
 		{
 			type = "int-setting",
-			name = "ScrapLead",
+			name = "ScrapSilver",
 			setting_type = "startup",
 			default_value = 1,
 			minimum_value = 1,
@@ -122,7 +122,7 @@ if mods["space-age"] and mods["bobplates"] then
 		},
 		{
 			type = "int-setting",
-			name = "ScrapGold",
+			name = "ScrapLead",
 			setting_type = "startup",
 			default_value = 1,
 			minimum_value = 1,
@@ -130,7 +130,7 @@ if mods["space-age"] and mods["bobplates"] then
 		},
 		{
 			type = "int-setting",
-			name = "ScrapZinc",
+			name = "ScrapGold",
 			setting_type = "startup",
 			default_value = 1,
 			minimum_value = 1,
@@ -138,7 +138,7 @@ if mods["space-age"] and mods["bobplates"] then
 		},
 		{
 			type = "int-setting",
-			name = "ScrapSilicon",
+			name = "ScrapZinc",
 			setting_type = "startup",
 			default_value = 1,
 			minimum_value = 1,
@@ -146,7 +146,7 @@ if mods["space-age"] and mods["bobplates"] then
 		},
 		{
 			type = "int-setting",
-			name = "ScrapNickel",
+			name = "ScrapSilicon",
 			setting_type = "startup",
 			default_value = 1,
 			minimum_value = 1,
@@ -154,7 +154,7 @@ if mods["space-age"] and mods["bobplates"] then
 		},
 		{
 			type = "int-setting",
-			name = "ScrapAluminium",
+			name = "ScrapNickel",
 			setting_type = "startup",
 			default_value = 1,
 			minimum_value = 1,
@@ -162,7 +162,7 @@ if mods["space-age"] and mods["bobplates"] then
 		},
 		{
 			type = "int-setting",
-			name = "ScrapTitanium",
+			name = "ScrapAluminium",
 			setting_type = "startup",
 			default_value = 1,
 			minimum_value = 1,
@@ -170,7 +170,7 @@ if mods["space-age"] and mods["bobplates"] then
 		},
 		{
 			type = "int-setting",
-			name = "ScrapCobaltSteel",
+			name = "ScrapTitanium",
 			setting_type = "startup",
 			default_value = 1,
 			minimum_value = 1,
@@ -178,11 +178,19 @@ if mods["space-age"] and mods["bobplates"] then
 		},
 		{
 			type = "int-setting",
-			name = "ScrapHeatShield",
+			name = "ScrapCobaltSteel",
 			setting_type = "startup",
 			default_value = 1,
 			minimum_value = 1,
 			order = "7Aaw"
+		},
+		{
+			type = "int-setting",
+			name = "ScrapHeatShield",
+			setting_type = "startup",
+			default_value = 1,
+			minimum_value = 1,
+			order = "7Aaz"
 		},
     })
 end
