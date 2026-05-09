@@ -1,6 +1,5 @@
 ---@class data.ItemPrototype
 local Item = data.raw["item"]
----@class data.SettingsStartup
 local SS = settings.startup
 
 

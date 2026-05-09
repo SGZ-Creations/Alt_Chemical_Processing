@@ -1,6 +1,6 @@
 ---@class data.ItemPrototype
 local Item = data.raw["item"]
---@class data.RecipePrototype
+---@class data.RecipePrototype
 local Recipe = data.raw.recipe
 
 

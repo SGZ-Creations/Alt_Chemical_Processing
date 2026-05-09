@@ -4,14 +4,13 @@ local Item = data.raw["item"]
 local Recipe = data.raw["recipe"]
 ---@class data.EntityPrototype
 local Collector = data.raw["asteroid-collector"]
----@class data.SettingsStartup
-local SS = settings.startup
 ---@class data.QualityPrototype
 local Quality = data.raw["quality"]
 ---@class data.CargoLandingPadPrototype
 local Pad = data.raw["cargo-landing-pad"]
 ---@class MiningDrillPrototype
 local Miner = data.raw["mining-drill"]
+local SS = settings.startup
 
 
 if mods["space-age"] then

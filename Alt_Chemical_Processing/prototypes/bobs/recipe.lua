@@ -1,5 +1,4 @@
 --local RemoveIngredient = require("__Alt_Chemical_Processing__/prototypes/Base/Function.lua")
----@class LuaSettings
 local SS = settings.startup
 ---@class data.RecipePrototype 
 local Recipe = data.raw.recipe

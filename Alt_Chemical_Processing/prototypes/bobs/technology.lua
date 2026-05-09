@@ -1,6 +1,5 @@
 ---@class data.TechnologyPrototype
 local Tech = data.raw["technology"]
----@class LuaSettings
 local SS = settings.startup
 
 if SS["bobmods-enemies-enableartifacts"] then

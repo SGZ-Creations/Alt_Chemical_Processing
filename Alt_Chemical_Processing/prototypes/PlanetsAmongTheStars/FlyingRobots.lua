@@ -2,7 +2,6 @@
 local LogicBot = data.raw["logistic-robot"]
 ---@class FlyingRobotPrototype
 local ConstructBot = data.raw["construction-robot"]
----@class LuaSettings
 local SS = settings.startup
 
 

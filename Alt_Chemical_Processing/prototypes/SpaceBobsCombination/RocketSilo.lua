@@ -2,9 +2,6 @@
 local Recipe = data.raw.recipe
 ---@class data.TechnologyPrototype
 local Tech = data.raw.technology
----@class LuaSettings
-local SS = settings.startup
-
 
 if mods["space-age"] then
 	if mods["bobrevamp"] and mods["bobplates"] and mods["bobtech"]then

@@ -1,4 +1,3 @@
----@class LuaSettings
 local SS = settings.startup
 ---@class TechPrototype
 local Tech = data.raw["technology"]

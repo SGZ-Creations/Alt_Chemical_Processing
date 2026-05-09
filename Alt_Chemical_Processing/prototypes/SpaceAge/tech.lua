@@ -1,6 +1,5 @@
 ---@class data.TechnologyPrototype
 local Tech = data.raw.technology
----@class data.SettingsStartup
 local SS = settings.startup
 --[[
 if mods["space-age"] then

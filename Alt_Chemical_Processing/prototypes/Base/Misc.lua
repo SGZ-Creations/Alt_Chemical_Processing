@@ -1,4 +1,3 @@
----@class LuaSettings
 local SS = settings.startup
 ---@class data.LampPrototype
 local Lamp = data.raw["lamp"]

@@ -1,6 +1,5 @@
 ---@class data.TechnologyPrototype
-Tech = data.raw.technology
----@class data.SettingsStartup
+local Tech = data.raw.technology
 local SS = settings.startup
 
 if mods["god-module"] then

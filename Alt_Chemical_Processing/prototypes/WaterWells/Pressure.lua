@@ -1,4 +1,3 @@
----@class data.SettingsStartup
 local SS = settings.startup
 
 if mods["StoneWaterWell-ActuallyUpdated"]and mods["space-age"] then

@@ -1,7 +1,6 @@
 ---@class data.TechnologyPrototype
 local Tech = data.raw["technology"]
 
-
 local Scraping = mods["space-age"] and mods["scrap-reprocessor"] and mods["bobplates"] and mods["bobrevamp"]
 
 if Scraping then

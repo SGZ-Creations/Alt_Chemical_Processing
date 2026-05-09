@@ -2,10 +2,9 @@
 local Recipe = data.raw.recipe
 ---@class data.TechnologyPrototype
 local Tech = data.raw["technology"]
----@class LuaSettings
-local SS = settings.startup
 ---@class data.RecipePrototype
 local Hide = data.raw["recipe"]
+local SS = settings.startup
 local SpaceBobs = mods["bobplates"] and mods["bobrevamp"] and mods["space-age"]
 local SpaceBobsMining = mods["bobplates"] and mods["bobmining"] and mods["space-age"]
 

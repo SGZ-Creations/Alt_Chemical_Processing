@@ -1,5 +1,3 @@
----@class data.SettingsStartup
-local SS = settings.startup
 ---@class module
 local Module = data.raw["module"]
 ---@class data.RecipePrototype 

@@ -1,6 +1,5 @@
 ---@class data.RecipePrototype
 local Recipes = data.raw.recipe
----@class data.Settings.startup
 local SS = settings.startup
 
 
