@@ -3,7 +3,7 @@ local SS = settings.startup
 local Recipe = data.raw["recipe"]
 ---@class data.ItemPrototype
 local Item = data.raw.item
-local Scraping = mods["space-age"] and mods["scrap-reprocessor"] and mods["bobplates"] and mods["bobrevamp"]
+local Expanded_Scraping = mods["space-age"] and mods["scrap-reprocessor"] and mods["bobplates"] and mods["bobrevamp"]
 
 if mods["space-age"] and mods["bobplates"] then
 	Recipe["scrap-recycling"].results = {
@@ -37,10 +37,7 @@ if mods["space-age"] and mods["bobplates"] then
 	end
 end
 
-data.raw["furnace"]["recycler"].result_inventory_size = SS["ScrapingMachineInventory"].value
-
-
-if Scraping then
+if Expanded_Scraping then
 	data:extend({
 		{
 			type = "recipe",

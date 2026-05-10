@@ -1,4 +1,5 @@
 require("__Alt_Chemical_Processing__.mods.CraftingUI_FinalFix")
+require("prototypes.SpaceBobsCombination.ScrapingFixes")
 
 require("__Alt_Chemical_Processing__.prototypes.ExtendedRefining.Recipe")
 require("prototypes.PlanetsAmongTheStars.RecipeFix")
