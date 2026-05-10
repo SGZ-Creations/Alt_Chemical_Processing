@@ -3,13 +3,14 @@ Version: 0.1.52
 Date: 08.04.26
   Features:
     - [Bobs][space-age] Added 3 new Planet Gas collection recipes. 
-    - [Bobs][space-age] Removed the optional Rocket Silo Settings it would soft lock players not knowing about this setting.
     - [Bobs] Added 2 more gas separation recipes in relation to the 3 new planet gas collections.
+  Changes:
+    - [Bobs][space-age] Removed the optional Rocket Silo Settings it would soft lock players not knowing about this setting.
+    - [Base][Bobs] Rewrite Explosives code & settings.
     - [Bobs][space-age] Scraping: added Concrete to the % drop. & settings where added.
     - [Bobs][space-age] Recycler output inventory setting added hope to make this an auto detect system.
-    - New icon added showing in settings. Cliff removal service to return grenades to vanilla.
-    - [Base][Bobs] Rewrite Explosives code & settings. 
   Bugfixes:
+
     - Fixed Typo in Explosives recipe. that was the reason for recipe only being 1 - 10 not 10 - 10. 
   Info:
     - Iron & Copper is obtained in space for Bobs. Note: Gleba will be required for bobs 4 the time being as this is default space age why to obtain copper in space.
