@@ -12,7 +12,7 @@ Date: 08.04.26
   Bugfixes:
     - Fixed Typo in Explosives recipe. that was the reason for recipe only being 1 - 10 not 10 - 10. 
   Info:
-    - Iron & Copper is obtained in space for Bobs Note Gleba will be required for bobs 4 the time being as this is default space age.
+    - Iron & Copper is obtained in space for Bobs. Note: Gleba will be required for bobs 4 the time being as this is default space age why to obtain copper in space.
 ---------------------------------------------------------------------------------------------------
 Version: 0.1.51
 Date: 07.04.26
