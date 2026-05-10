@@ -16,14 +16,14 @@ data:extend({
 	},
     {
         type = "bool-setting",
-        name = "CliffRemovalService",
+        name = "Explosives",
         setting_type = "startup",
         default_value = false,
         order = "5Yac"
     },
     {
         type = "bool-setting",
-        name = "CliffAltItem",
+        name = "Grenades",
         setting_type = "startup",
         default_value = false,
         order = "5Yad"
