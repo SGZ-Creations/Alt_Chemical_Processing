@@ -2,6 +2,7 @@ require("prototypes.Base.NewLiquid")
 require("mods.CraftingUI_Data")
 require("prototypes.Base.Misc")
 require("prototypes.Base.recipes")
+require('prototypes.Base.Explosives')
 require("prototypes.Base.tech")
 require("mods.crafting-catergoies")
 

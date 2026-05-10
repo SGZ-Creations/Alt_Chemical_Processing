@@ -32,14 +32,3 @@ if mods["bobplates"] and mods["bobrevamp"] and mods["space-age"] then
 		},
 	})
 end
-if SS["CliffRemovalService"].value then
-	if not mods["bobores"] then
-		table.insert(Recipe["early-explosives"].ingredients, {type = "item", name = "stone", amount = 10})
-		table.insert(Recipe["early-nades"].ingredients, {type = "item", name = "stone", amount = 10})
-		table.insert(Recipe["grenade"].ingredients, {type = "item", name = "stone", amount = 10})
-	else
-		table.insert(Recipe["early-explosives"].ingredients, {type = "item", name = "sulfur", amount = 10})
-		table.insert(Recipe["early-nades"].ingredients, {type = "item", name = "sulfur", amount = 10})
-		table.insert(Recipe["grenade"].ingredients, {type = "item", name = "sulfur", amount = 10})
-	end
-end
