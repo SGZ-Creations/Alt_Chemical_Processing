@@ -15,7 +15,7 @@ require("prototypes.SpaceBobsCombination.MiscChanges")
 require("prototypes.SpaceBobsCombination.PlanetsGasCollections")
 require("prototypes.SpaceBobsCombination.RocketSilo")
 require("prototypes.SpaceBobsCombination.Scraping")
-require("prototypes.SpaceBobsCombination.SpaceResorces")
+require("prototypes.SpaceBobsCombination.SpaceResources")
 require("prototypes.SpaceBobsCombination.SpaceBobPlanets")
 require("prototypes.SpaceBobsCombination.ResorceTech")
 

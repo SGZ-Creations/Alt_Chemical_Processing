@@ -1,4 +1,10 @@
 ---------------------------------------------------------------------------------------------------
+Version: 0.1.53
+Date: 00.05.26
+  Changes:
+    - [KlonanTeleportation] Made better setting description.
+    - [Bobs][space-age] Fixed missing condition on SpaceResources for stone & 
+---------------------------------------------------------------------------------------------------
 Version: 0.1.52
 Date: 10.05.26
   Features:
