@@ -23,7 +23,7 @@ if mods["More-Asteroid-Resources-Forked"] then
 	}
 end
 
-if not mods["More-Asteroid-Resources-Forked"] then
+if not mods["More-Asteroid-Resources-Forked"] and mods["bobplates"] then
 	table.insert(Recipe["metallic-asteroid-crushing"].results, {type = "item", name = "stone", amount = 3})
 	table.insert(Recipe["carbonic-asteroid-crushing"].results, {type = "item", name = "stone", amount = 3})
 	table.insert(Recipe["oxide-asteroid-crushing"].results, {type = "item", name = "coal", amount = 3})
