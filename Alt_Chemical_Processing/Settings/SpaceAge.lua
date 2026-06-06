@@ -10,6 +10,19 @@ if mods["Wood_Gasification_updated"]and mods["space-age"] then
     })
 end
 
+if mods["quality"]then
+    data:extend({
+        {
+            type = "int-setting",
+            name = "ScrapingMachineInventory",
+            setting_type = "startup",
+            default_value = 30,
+            minimum_value = 0,
+            order = "1Bba"
+        },
+    })
+end
+
 if mods["space-age"] then
     data:extend({
         {
@@ -18,14 +31,6 @@ if mods["space-age"] then
             setting_type = "startup",
             default_value = false,
             order = "1Abb"
-        },
-        {
-            type = "int-setting",
-            name = "ScrapingMachineInventory",
-            setting_type = "startup",
-            default_value = 30,
-            minimum_value = 0,
-            order = "1Bba"
         },
         {
             type = "string-setting",
