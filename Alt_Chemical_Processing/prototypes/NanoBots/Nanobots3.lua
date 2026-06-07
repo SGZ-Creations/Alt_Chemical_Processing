@@ -17,9 +17,28 @@ if mods["Nanobots3"]and mods["SeaBlock"] then
 	}
 end
 
+if mods["Nanobots3"]and mods["pypostprocessing"] then
+	Tech["nanobots"].research_trigger = {type ="craft-item", item ="repair-pack", amount = 1}
+	Tech["nanobots"].unit = nil
+	Tech["nanobots"].prerequisites = nil
+
+	Recipe["gun-nano-emitter"].ingredients = {
+		{type ="item", name="repair-pack", amount = 5},
+		{type ="item", name="copper-plate", amount = 5},
+		{type ="item", name="iron-plate", amount = 5},
+	}
+end
+
 if mods["Nanobots3"]then
 	if SS["FreeNanobots"].value == true then
 		Recipe["ammo-nano-constructors"].ingredients = nil
 		Recipe["ammo-nano-termites"].ingredients = nil
+	end
+	if SS["NanobotsTermites"].value == true then
+		--if Recipe["ammo-nano-termites"].ingredients == nil then return end
+	--else
+		Recipe["ammo-nano-termites"].enabled = false
+		Recipe["ammo-nano-termites"].hiddden = true
+		Recipe["ammo-nano-termites"].hidden_in_factoriopedia = true
 	end
 end

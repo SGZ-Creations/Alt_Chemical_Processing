@@ -23,6 +23,7 @@
         "? space-age >= 2.0.0",
         "? Krastorio2 >= 2.0.11",
 		"? Krastorio2-spaced-out >= 1.6.18",
+        "(?) pypostprocessing",
         "? SeaBlock >= 0.6.0",
         "? Transport_Drones_Meglinge_Fork >= 1.0.26",
         "? Transport_Drones_Continued >= 2.0.60",

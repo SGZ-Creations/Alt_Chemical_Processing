@@ -10,6 +10,8 @@ if mods["nanobots-refined"] then
     })
 end
 
+
+
 if mods["Nanobots3"] then
     data:extend({
         {
@@ -18,6 +20,13 @@ if mods["Nanobots3"] then
             setting_type = "startup",
             default_value = false,
             order = "3Cad"
+        },
+        {
+            type = "bool-setting",
+            name = "NanobotsTermites",
+            setting_type = "startup",
+            default_value = false,
+            order = "3Cae"
         },
     })
 end

@@ -1,9 +1,11 @@
 ---------------------------------------------------------------------------------------------------
-Version: 0.1.53
-Date: 00.05.26
+Version: 0.2.0
+Date: 17.06.26
   Changes:
     - [KlonanTeleportation] Made better setting description.
-    - [Bobs][space-age] Fixed missing condition on SpaceResources for stone & 
+    - [Bobs][space-age] Fixed missing condition on SpaceResources for stone.
+    - [Nanobots3] Made Py changes to make it unlocked earlier in game.
+    - [Nanobots3] Addde setting to removed Teremites from mod.
 ---------------------------------------------------------------------------------------------------
 Version: 0.1.52
 Date: 10.05.26
