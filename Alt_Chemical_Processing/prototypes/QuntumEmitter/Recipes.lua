@@ -1,7 +1,7 @@
 ---@class data.ItemPrototype
 local Item = data.raw["item"]
 ---@class data.RecipePrototype
-local Recipe = data.raw.recipe
+local Recipe = data.raw["recipe"]
 
 
 if mods["Quantum-diffuser"]then
