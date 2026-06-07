@@ -2,8 +2,6 @@
 local Recipe = data.raw.recipe
 ---@class data.TechnologyPrototype
 local Tech = data.raw["technology"]
----@class LuaSettings
-local SS = settings.startup
 
 
 function RemoveIngredient(recipe_name, ingredient_name)
@@ -28,9 +26,7 @@ end
 
 if mods["SeaBlock"]then
     if (mods["Transport_Drones_Meglinge_Fork"] or mods["Transport_Drones_Continued"])then
-        RemoveIngredient("transport-drone", "engine-unit")
-        table.insert(Recipe["transport-drone"].ingredients, {type="item", name= "bob-basic-circuit-board", amount=2})
-        RemoveIngredient("road", "coal")
-        table.insert(Recipe["road"].ingredients, {type="item", name= "angels-wood-charcoal", amount=10})
+        RemoveIngredient("transport-drone", "engine-unit") table.insert(Recipe["transport-drone"].ingredients, {type="item", name= "bob-basic-circuit-board", amount=2})
+        RemoveIngredient("road", "coal") table.insert(Recipe["road"].ingredients, {type="item", name= "angels-wood-charcoal", amount=10})
     end
 end
