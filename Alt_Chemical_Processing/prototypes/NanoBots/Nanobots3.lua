@@ -18,7 +18,7 @@ if mods["Nanobots3"]then
 	if mods["pypostprocessing"] then
 		Tech["nanobots"].research_trigger = {type ="craft-item", item ="repair-pack", amount = 1}
 		Tech["nanobots"].unit = nil
-		Tech["nanobots"].prerequisites = "repair-packs"
+		Tech["nanobots"].prerequisites = {"repair-pack"}
 		Recipe["gun-nano-emitter"].ingredients = {
 			{type ="item", name="repair-pack", amount = 5},
 			{type ="item", name="copper-plate", amount = 5},
