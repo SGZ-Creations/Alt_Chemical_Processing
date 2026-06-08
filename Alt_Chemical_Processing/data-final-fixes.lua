@@ -17,6 +17,9 @@ require("mods.filters")
 
 require("__Alt_Chemical_Processing__.prototypes.Pyanodon.PYRecipes")
 require("__Alt_Chemical_Processing__.prototypes.Pyanodon.PYTech")
+require("__Alt_Chemical_Processing__.prototypes.TransportDroens.FixRecipe")
+require("__Alt_Chemical_Processing__.prototypes.TransportDroens.FixTech")
+
 
 require("__Alt_Chemical_Processing__.prototypes.3rdPartyFixes.DroneChanges")
 require("__Alt_Chemical_Processing__.prototypes.3rdPartyFixes.EngineStackLimit")

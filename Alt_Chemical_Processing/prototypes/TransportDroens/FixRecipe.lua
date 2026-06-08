@@ -4,6 +4,7 @@ local Item = data.raw["item"]
 local Recipe = data.raw["recipe"]
 
 if mods["pypostprocessing"]then
+	Recipe["road"].category = "crafting-with-fluid"
 	Recipe["road"].ingredients = {
 		{type = "fluid", name = "tar", amount = 10},
 		{type = "item", name = "stone", amount = 5},

@@ -3,7 +3,7 @@ local Tech = data.raw["technology"]
 
 if mods["pypostprocessing"]then
     if mods["Transport_Drones_Continued"] then
-        Tech["fast-road"].research_trigger = {type ="craft-item", fluid ="road", amount = 1000}
+        Tech["fast-road"].research_trigger = {type ="craft-item", item ="road", amount = 1000}
         Tech["fast-road"].unit = nil
 
         Tech["transport-system"].unit.ingredients = {
