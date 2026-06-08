@@ -2,5 +2,5 @@
 local Tech = data.raw["technology"]
 
 if mods["pypostprocessing"]then
-	Tech["splitter"].prerequisites = {"automation"}
+	Tech["logistics"].prerequisites = {"automation"}
 end
