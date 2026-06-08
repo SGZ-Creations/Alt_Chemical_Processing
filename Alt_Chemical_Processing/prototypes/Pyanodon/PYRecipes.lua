@@ -17,7 +17,6 @@ if mods["pypostprocessing"]then
 			{type = "item", name = "ceramic", amount = 5},
 		}
 	end
-	Recipe["cliff-explosives"].category = "crafting"
-	Recipe["explosives"].category = "crafting"
+	Recipe["cliff-explosives"].category = "crafting-with-fluid"
+	Recipe["explosives"].category = "crafting-with-fluid"
 end
-

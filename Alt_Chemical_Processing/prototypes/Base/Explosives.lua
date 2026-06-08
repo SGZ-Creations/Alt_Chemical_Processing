@@ -81,6 +81,5 @@ if SS["Grenades"].value then
 		table.insert(Recipe["grenade"].ingredients, {type = "item", name = "sulfur", amount = 10})
 	end
 end
-
 Recipe["cliff-explosives"].category = "chemical-hands"
 Recipe["explosives"].category = "chemical-hands"
