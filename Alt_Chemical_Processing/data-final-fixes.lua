@@ -14,7 +14,9 @@ require("__Alt_Chemical_Processing__.prototypes.NanoBots.Nanobots3")
 require("prototypes.CargoBay.Blacklist")
 require("prototypes.Base.Weight")
 require("mods.filters")
---require("__Alt_Chemical_Processing__.prototypes.BigBags.BagStacksFixes")
+
+require("__Alt_Chemical_Processing__.prototypes.Pyanodon.PYRecipes")
+require("__Alt_Chemical_Processing__.prototypes.Pyanodon.PYTech")
+
 require("__Alt_Chemical_Processing__.prototypes.3rdPartyFixes.DroneChanges")
 require("__Alt_Chemical_Processing__.prototypes.3rdPartyFixes.EngineStackLimit")
---require("__Alt_Chemical_Processing__.prototypes.3rdPartyFixes.BiolumensssentLignumis")
