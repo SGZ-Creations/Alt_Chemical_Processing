@@ -30,8 +30,6 @@ if mods["Nanobots3"]then
 		Recipe["ammo-nano-termites"].ingredients = nil
 	end
 	if SS["NanobotsTermites"].value == true then
-		--if Recipe["ammo-nano-termites"].ingredients == nil then return end
-	--else
 		Recipe["ammo-nano-termites"].enabled = false
 		Recipe["ammo-nano-termites"].hiddden = true
 		Recipe["ammo-nano-termites"].hidden_in_factoriopedia = true
