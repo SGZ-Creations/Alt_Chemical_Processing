@@ -1,3 +1,4 @@
+local SS = settings.startup
 ---@class data.ItemPrototype
 local Item = data.raw["item"]
 ---@class data.RecipePrototype
@@ -17,15 +18,25 @@ if mods["pypostprocessing"]then
 			{type = "item", name = "ceramic", amount = 5},
 		}
 	end
-	Recipe["cliff-explosives-1"].category = "crafting-with-fluid"
-	Recipe["explosives-0"].category = "crafting-with-fluid"
 	Recipe["cliff-explosives"].category = "crafting-with-fluid"
 	Recipe["explosives"].category = "crafting-with-fluid"
 
-	Recipe["explosives-0"].ingredients = {
-	{type = "item", name = "gunpowder", amount = 25},
-	{type = "fluid", name = "tar", amount = 25},
-	}
+	if SS["Explosives"].value then
+		Recipe["cliff-explosives-1"].category = "crafting-with-fluid"
+		Recipe["explosives-0"].category = "crafting-with-fluid"
+		Recipe["explosives-0"].ingredients = {
+			{type = "item", name = "gunpowder", amount = 10},
+			{type = "fluid", name = "tar", amount = 50},
+		}
+	end
+
+	if SS["Grenades"].value then
+		Recipe["early-nades"].ingredients = {
+			{type = "item", name = "gunpowder", amount = 10},
+			{type = "item", name = "iron-plate", amount = 10},
+			{type = "item", name = "ceramic", amount = 10},
+		}
+	end
 
 	if not mods["boblogistics"]and mods["bobinserters"] then
 		Recipe["long-handed-inserter-2"].hidden = true
