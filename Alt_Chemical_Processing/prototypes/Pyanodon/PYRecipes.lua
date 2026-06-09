@@ -36,6 +36,11 @@ if mods["pypostprocessing"]then
 			{type = "item", name = "iron-plate", amount = 10},
 			{type = "item", name = "ceramic", amount = 10},
 		}
+		Recipe["grenade"].ingredients = {
+			{type = "item", name = "gunpowder", amount = 10},
+			{type = "item", name = "iron-plate", amount = 10},
+			{type = "item", name = "ceramic", amount = 10},
+		}
 	end
 
 	if not mods["boblogistics"]and mods["bobinserters"] then
