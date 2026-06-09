@@ -41,12 +41,11 @@ if SS["Explosives"].value then
 			results = {{type = "item", name = "explosives", amount = 1}}
 		}
 	})
-	if not mods["pypostprocessingt"]then
-		if not mods["bobores"] then
-			table.insert(Recipe["explosives-0"].ingredients, {type = "item", name = "stone", amount = 10})
-		else
-			table.insert(Recipe["explosives-0"].ingredients, {type = "item", name = "sulfur", amount = 10})
-		end
+
+	if not mods["bobores"] then
+		table.insert(Recipe["explosives-0"].ingredients, {type = "item", name = "stone", amount = 10})
+	else
+		table.insert(Recipe["explosives-0"].ingredients, {type = "item", name = "sulfur", amount = 10})
 	end
 
 	Recipe["cliff-explosives"].results = {{type = "item", name = "cliff-explosives", amount = 5}}
@@ -74,12 +73,14 @@ if SS["Grenades"].value then
 		}
 	})
 	Recipe["grenade"].results = {{type = "item", name = "grenade", amount = 5}}
-	if not mods["bobores"] then
-		table.insert(Recipe["early-nades"].ingredients, {type = "item", name = "stone", amount = 10})
-		table.insert(Recipe["grenade"].ingredients, {type = "item", name = "stone", amount = 10})
-	else
-		table.insert(Recipe["early-nades"].ingredients, {type = "item", name = "sulfur", amount = 10})
-		table.insert(Recipe["grenade"].ingredients, {type = "item", name = "sulfur", amount = 10})
+	if not mods["pypostprocessingt"]then
+		if not mods["bobores"] then
+			table.insert(Recipe["early-nades"].ingredients, {type = "item", name = "stone", amount = 10})
+			table.insert(Recipe["grenade"].ingredients, {type = "item", name = "stone", amount = 10})
+		else
+			table.insert(Recipe["early-nades"].ingredients, {type = "item", name = "sulfur", amount = 10})
+			table.insert(Recipe["grenade"].ingredients, {type = "item", name = "sulfur", amount = 10})
+		end
 	end
 end
 Recipe["cliff-explosives"].category = "chemical-hands"
