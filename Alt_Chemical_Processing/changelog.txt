@@ -6,6 +6,7 @@ Date: 17.06.26
     - [Bobs][space-age] Fixed missing condition on SpaceResources for stone.
     - [Nanobots3] Made Py changes to make it unlocked earlier in game.
     - [Nanobots3] Addde setting to removed Teremites from mod.
+    - [StoneWaterWell-ActuallyUpdated] or [StoneWaterWell-NoRestrict] have recipe tweaks to it. Along with pressure oiption for [space-age]
 ---------------------------------------------------------------------------------------------------
 Version: 0.1.52
 Date: 10.05.26

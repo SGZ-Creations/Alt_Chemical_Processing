@@ -1,7 +1,7 @@
 ---@class data.RecipePrototype
 local Recipes = data.raw.recipe
 
-if mods["StoneWaterWell-ActuallyUpdated"] then
+if (mods["StoneWaterWell-ActuallyUpdated"] or mods["StoneWaterWell-NoRestrict"]) then
 	Recipes["stone-waterwell"].ingredients = {
 		{type ="item", name="stone", amount = 40},
 		{type ="item", name="stone-brick", amount = 8},
