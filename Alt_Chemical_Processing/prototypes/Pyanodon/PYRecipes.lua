@@ -17,6 +17,18 @@ if mods["pypostprocessing"]then
 			{type = "item", name = "ceramic", amount = 5},
 		}
 	end
+	Recipe["cliff-explosives-1"].category = "crafting-with-fluid"
+	Recipe["explosives-0"].category = "crafting-with-fluid"
 	Recipe["cliff-explosives"].category = "crafting-with-fluid"
 	Recipe["explosives"].category = "crafting-with-fluid"
+
+	Recipe["explosives-0"].ingredients = {
+	{type = "item", name = "gunpowder", amount = 25},
+	{type = "fluid", name = "tar", amount = 25},
+	}
+
+	if not mods["boblogistics"]and mods["bobinserters"] then
+		Recipe["long-handed-inserter-2"].hidden = true
+		Recipe["long-handed-inserter-2"].enable = false
+	end
 end

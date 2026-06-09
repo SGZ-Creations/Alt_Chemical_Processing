@@ -114,6 +114,7 @@ if mods["boblogistics"] and not mods["bobplates"] then
     end
 end
 
+
 if Item["bob-solar-panel-small"] then
     if SS["6ItmsRecipe"].value then
         RemoveIngredient("utility-science-pack", "bob-solar-panel-small")
