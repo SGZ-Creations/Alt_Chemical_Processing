@@ -10,7 +10,7 @@ if mods["pypostprocessing"]then
 	--[[
 	if not mods["boblogistics"] and mods["pypetroleumhandling"] then
 		Tech["rubber"].effects = {
-			{type = "unlock-recipe", recipe = ""}
+			{type = "unlock-recipe", recipe = "rubber"}
 			{type = "unlock-recipe", recipe = ""}
 			{type = "unlock-recipe", recipe = ""}
 			{type = "unlock-recipe", recipe = ""}
