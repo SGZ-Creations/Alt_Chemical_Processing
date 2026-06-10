@@ -138,9 +138,9 @@ if mods["boblogistics"] and mods["space-age"] then
         Recipe["express-underground-belt"].category = "pressing"
         Recipe["express-splitter"].category = "pressing"
 
-        Recipe["bob-turbo-transport-belt"].category = "pressing"
-        Recipe["bob-turbo-underground-belt"].category = "pressing"
-        Recipe["bob-turbo-splitter"].category = "pressing"
+        Recipe["turbo-transport-belt"].category = "pressing"
+        Recipe["turbo-underground-belt"].category = "pressing"
+        Recipe["turbo-splitter"].category = "pressing"
 
         Recipe["bob-ultimate-transport-belt"].category = "pressing"
         Recipe["bob-ultimate-underground-belt"].category = "pressing"

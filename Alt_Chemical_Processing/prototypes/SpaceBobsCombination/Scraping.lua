@@ -17,8 +17,8 @@ if mods["space-age"] and mods["bobplates"] then
 		{type = "item", name = "processing-unit",					amount = SS["ScrapProcessingUnit"].value, 				probability = 0.05, show_details_in_recipe_tooltip = false},--8
 		{type = "item", name = "bob-advanced-processing-unit",		amount = SS["ScrapAdvancedProcessingUnit"].value, 		probability = 0.05, show_details_in_recipe_tooltip = false},--9
 		{type = "item", name = "battery",							amount = SS["ScrapBattery"].value, 						probability = 0.05, show_details_in_recipe_tooltip = false},--10
-		{type = "item", name = "bob-silver-zinc-battery",			amount = SS["ScrapSilverZincBattery"].value, 			probability = 0.05, show_details_in_recipe_tooltip = false},--11
-		{type = "item", name = "bob-lithium-ion-battery",			amount = SS["ScrapLithiumIonBattery"].value, 			probability = 0.05, show_details_in_recipe_tooltip = false},--12
+		{type = "item", name = "bob-battery-2",						amount = SS["ScrapSilverZincBattery"].value, 			probability = 0.05, show_details_in_recipe_tooltip = false},--11
+		{type = "item", name = "bob-battery-3",						amount = SS["ScrapLithiumIonBattery"].value, 			probability = 0.05, show_details_in_recipe_tooltip = false},--12
 		{type = "item", name = "bob-glass", 						amount = SS["ScrapGlass"].value,						probability = 0.05, show_details_in_recipe_tooltip = false},--13
 		{type = "item", name = "bob-tin-plate", 					amount = SS["ScrapTin"].value, 							probability = 0.05, show_details_in_recipe_tooltip = false},--14
 		{type = "item", name = "bob-silver-plate", 					amount = SS["ScrapSilver"].value, 						probability = 0.05, show_details_in_recipe_tooltip = false},--15

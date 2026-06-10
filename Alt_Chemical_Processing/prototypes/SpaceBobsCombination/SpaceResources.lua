@@ -22,40 +22,41 @@ if mods["More-Asteroid-Resources-Forked"] then
 		{type = "item", name = "lithium", amount = SS["OxideLithium"].value}
 	}
 end
+if mods["space-age"]then
+	if mods["bobplates"] then
+			table.insert(Recipe["metallic-asteroid-crushing"].results, {type = "item", name = "bob-tin-ore", amount = 3})
+			table.insert(Recipe["metallic-asteroid-crushing"].results, {type = "item", name = "bob-rutile-ore", amount = 3})
 
-if not mods["More-Asteroid-Resources-Forked"] and mods["bobplates"] then
-	table.insert(Recipe["metallic-asteroid-crushing"].results, {type = "item", name = "stone", amount = 3})
-	table.insert(Recipe["carbonic-asteroid-crushing"].results, {type = "item", name = "stone", amount = 3})
-	table.insert(Recipe["oxide-asteroid-crushing"].results, {type = "item", name = "coal", amount = 3})
+			table.insert(Recipe["carbonic-asteroid-crushing"].results, {type = "item", name = "bob-bauxite-ore", amount = 3})
+			table.insert(Recipe["carbonic-asteroid-crushing"].results, {type = "item", name = "bob-nickel-ore", amount = 3})
 
-	table.insert(Recipe["advanced-metallic-asteroid-crushing"].results, {type = "item", name = "stone", amount = 5})
-	table.insert(Recipe["carbonic-asteroid-crushing"].results, {type = "item", name = "stone", amount = 5})
-	table.insert(Recipe["oxide-asteroid-crushing"].results, {type = "item", name = "coal", amount = 5})
-end
+			table.insert(Recipe["oxide-asteroid-crushing"].results, {type = "item", name = "bob-lead-ore", amount = 3})
+			table.insert(Recipe["oxide-asteroid-crushing"].results, {type = "item", name = "bob-quartz", amount = 3})
 
-if mods["space-age"] and mods["bobplates"] then
-	table.insert(Recipe["metallic-asteroid-crushing"].results, {type = "item", name = "bob-tin-ore", amount = 3})
-	table.insert(Recipe["metallic-asteroid-crushing"].results, {type = "item", name = "bob-rutile-ore", amount = 3})
+			table.insert(Recipe["advanced-metallic-asteroid-crushing"].results, {type = "item", name = "bob-tin-ore", amount = 5})
+			table.insert(Recipe["advanced-metallic-asteroid-crushing"].results, {type = "item", name = "bob-rutile-ore", amount = 5})
+			table.insert(Recipe["advanced-metallic-asteroid-crushing"].results, {type = "item", name = "bob-cobalt-ore", amount = 5})
+			table.insert(Recipe["advanced-metallic-asteroid-crushing"].results, {type = "item", name = "bob-silver-ore", amount = 5})
 
-	table.insert(Recipe["carbonic-asteroid-crushing"].results, {type = "item", name = "bob-bauxite-ore", amount = 3})
-	table.insert(Recipe["carbonic-asteroid-crushing"].results, {type = "item", name = "bob-nickel-ore", amount = 3})
+			table.insert(Recipe["advanced-carbonic-asteroid-crushing"].results, {type = "item", name = "bob-bauxite-ore", amount = 5})
+			table.insert(Recipe["advanced-carbonic-asteroid-crushing"].results, {type = "item", name = "bob-nickel-ore", amount = 5})
+			table.insert(Recipe["advanced-carbonic-asteroid-crushing"].results, {type = "item", name = "bob-gold-ore", amount = 5})
+			table.insert(Recipe["advanced-carbonic-asteroid-crushing"].results, {type = "item", name = "bob-thorium-ore", amount = 5})
 
-	table.insert(Recipe["oxide-asteroid-crushing"].results, {type = "item", name = "bob-lead-ore", amount = 3})
-	table.insert(Recipe["oxide-asteroid-crushing"].results, {type = "item", name = "bob-quartz", amount = 3})
+			table.insert(Recipe["advanced-oxide-asteroid-crushing"].results, {type = "item", name = "bob-lead-ore", amount = 5})
+			table.insert(Recipe["advanced-oxide-asteroid-crushing"].results, {type = "item", name = "bob-quartz", amount = 5})
+			table.insert(Recipe["advanced-oxide-asteroid-crushing"].results, {type = "item", name = "bob-zinc-ore", amount = 5})
 
-	table.insert(Recipe["advanced-metallic-asteroid-crushing"].results, {type = "item", name = "bob-tin-ore", amount = 5})
-	table.insert(Recipe["advanced-metallic-asteroid-crushing"].results, {type = "item", name = "bob-rutile-ore", amount = 5})
-	table.insert(Recipe["advanced-metallic-asteroid-crushing"].results, {type = "item", name = "bob-cobalt-ore", amount = 5})
-	table.insert(Recipe["advanced-metallic-asteroid-crushing"].results, {type = "item", name = "bob-silver-ore", amount = 5})
+		if not mods["More-Asteroid-Resources-Forked"] then
+			table.insert(Recipe["metallic-asteroid-crushing"].results, {type = "item", name = "stone", amount = 3})
+			table.insert(Recipe["carbonic-asteroid-crushing"].results, {type = "item", name = "stone", amount = 3})
+			table.insert(Recipe["oxide-asteroid-crushing"].results, {type = "item", name = "coal", amount = 3})
 
-	table.insert(Recipe["advanced-carbonic-asteroid-crushing"].results, {type = "item", name = "bob-bauxite-ore", amount = 5})
-	table.insert(Recipe["advanced-carbonic-asteroid-crushing"].results, {type = "item", name = "bob-nickel-ore", amount = 5})
-	table.insert(Recipe["advanced-carbonic-asteroid-crushing"].results, {type = "item", name = "bob-gold-ore", amount = 5})
-	table.insert(Recipe["advanced-carbonic-asteroid-crushing"].results, {type = "item", name = "bob-thorium-ore", amount = 5})
-
-	table.insert(Recipe["advanced-oxide-asteroid-crushing"].results, {type = "item", name = "bob-lead-ore", amount = 5})
-	table.insert(Recipe["advanced-oxide-asteroid-crushing"].results, {type = "item", name = "bob-quartz", amount = 5})
-	table.insert(Recipe["advanced-oxide-asteroid-crushing"].results, {type = "item", name = "bob-zinc-ore", amount = 5})
+			table.insert(Recipe["advanced-metallic-asteroid-crushing"].results, {type = "item", name = "stone", amount = 5})
+			table.insert(Recipe["carbonic-asteroid-crushing"].results, {type = "item", name = "stone", amount = 5})
+			table.insert(Recipe["oxide-asteroid-crushing"].results, {type = "item", name = "coal", amount = 5})
+		end
+	end
 end
 
 if mods["More-Asteroid-Resources-Forked"] and mods["bobplates"] then

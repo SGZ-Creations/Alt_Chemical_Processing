@@ -25,7 +25,7 @@ if mods["bobplates"]then
             type = "recipe",
             category = "chemistry",
             name = "carbon-dioxide-separation",
-            main_product = "bob-carbon",
+            main_product = "carbon",
             subgroup = "GassSeperations",
             order = "a[GassSeperations]",
             enabled = false,
@@ -36,7 +36,7 @@ if mods["bobplates"]then
                 {type="fluid", name="bob-carbon-dioxide", amount=25},
             },
             results = {
-                {type="item", name="bob-carbon", amount=1},
+                {type="item", name="carbon", amount=1},
                 {type="fluid", name="bob-oxygen", amount=25}
             },
         },

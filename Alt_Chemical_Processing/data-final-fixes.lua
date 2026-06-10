@@ -8,7 +8,6 @@ require("prototypes.ModsAndMods.Sorting")
 
 require("mods.duplicate-items-final-fix")
 
-require("prototypes.SpaceBobsCombination.recipes-final-fix")
 require("prototypes.ScienceCostTweaker.LabChangesFinal")
 require("__Alt_Chemical_Processing__.prototypes.NanoBots.Nanobots3")
 require("prototypes.CargoBay.Blacklist")

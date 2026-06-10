@@ -11,10 +11,6 @@ end
 
 if mods["bobplates"] and mods["space-age"] then
     Hide_Item("seedling")
-    Hide_Item("bob-carbon")
-    Hide_Item("bob-lithium")
-    Hide_Item("bob-tungsten-plate")
-    Hide_Item("bob-tungsten-carbide")
 end
 
 if mods["bobplates"] and mods["SaltedFish"] then
