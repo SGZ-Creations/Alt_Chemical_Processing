@@ -5,7 +5,7 @@ local Item = data.raw.item
 local SpaceBobs = mods["bobplates"] and mods["bobrevamp"] and mods["space-age"]
 
 
-if SpaceBobs then
+if SpaceBobs and not mods["TIMSABA"] then
     data:extend({
         {
             type = "item-subgroup",

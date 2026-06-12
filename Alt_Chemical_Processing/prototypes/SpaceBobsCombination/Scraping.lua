@@ -96,7 +96,7 @@ if Expanded_Scraping then
 				{type = "item", name = "bob-lead-plate", amount_min = 1, amount_max = 10, probability = 0.25, show_details_in_recipe_tooltip = false},
 				{type = "item", name = "bob-gold-plate", amount_min = 2, amount_max = 10, probability = 0.20, show_details_in_recipe_tooltip = false},
 				{type = "item", name = "bob-zinc-plate", amount_min = 1, amount_max = 10, probability = 0.25, show_details_in_recipe_tooltip = false},
-				{type = "item", name = "bob-silicon-plate", amount_min = 3, amount_max = 10, probability = 0.15, show_details_in_recipe_tooltip = false}
+				{type = "item", name = "bob-silicon-plate", amount_min = 3, amount_max = 10, probability = 0.15, show_details_in_recipe_tooltip = false},
 				{type = "item", name = "bob-nickel-plate", amount_min = 2, amount_max = 10, probability = 0.20, show_details_in_recipe_tooltip = false},
 				{type = "item", name = "bob-aluminium-plate", amount_min = 2, amount_max = 10, probability = 0.20, show_details_in_recipe_tooltip = false},
 				{type = "item", name = "bob-titanium-plate", amount_min = 2, amount_max = 10, probability = 0.20, show_details_in_recipe_tooltip = false},

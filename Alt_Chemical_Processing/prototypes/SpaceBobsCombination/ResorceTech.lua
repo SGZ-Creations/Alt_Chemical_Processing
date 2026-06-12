@@ -30,7 +30,7 @@ if Scraping then
 	})
 end
 
-if mods["bobplates"] and mods["bobrevamp"] and mods["space-age"] then
+if mods["bobplates"] and mods["bobrevamp"] and mods["space-age"] and not mods["TIMSABA"] then
     table.insert(Tech["foundry"].effects, {type="unlock-recipe", recipe="VulcanusOres"})
     table.insert(Tech["biochamber"].effects, {type="unlock-recipe", recipe="Glebaores"})
     table.insert(Tech["cryogenic-plant"].effects, {type="unlock-recipe", recipe="AquiloOres"})
