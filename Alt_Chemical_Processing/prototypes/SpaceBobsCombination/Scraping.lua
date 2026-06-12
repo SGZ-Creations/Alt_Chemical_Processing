@@ -62,8 +62,8 @@ if Expanded_Scraping then
 			results = {
 				{type = "item", name = "bob-advanced-processing-unit",      amount_min = 5, amount_max = 10, probability = 0.1, show_details_in_recipe_tooltip = false},
 				{type = "item", name = "electronic-circuit",      			amount_min = 40, amount_max = 50, probability = 0.1, show_details_in_recipe_tooltip = false},
-				{type = "item", name = "bob-silver-zinc-battery",			amount_min = 4, amount_max = 8, probability = 0.2, show_details_in_recipe_tooltip = false},
-				{type = "item", name = "bob-lithium-ion-battery",			amount_min = 8, amount_max = 16, probability = 0.2, show_details_in_recipe_tooltip = false},
+				{type = "item", name = "bob-battery-2",			amount_min = 4, amount_max = 8, probability = 0.2, show_details_in_recipe_tooltip = false},
+				{type = "item", name = "bob-battery-3",			amount_min = 8, amount_max = 16, probability = 0.2, show_details_in_recipe_tooltip = false},
 			},
 			allow_productivity = true
 		},
