@@ -4,10 +4,11 @@ Date: 17.06.26
   Changes:
     - [KlonanTeleportation] Made better setting description.
     - [Bobs][space-age] Fixed missing condition on SpaceResources for stone.
-    - [Bobs][space-age] Reemoved un needed patching.
-    - [Nanobots3] Made Py changes to make it unlocked earlier in game.
-    - [Nanobots3] Addde setting to removed Teremites from mod.
-    - [ACP][Pyanodon] Early fix for pyanodons.
+    - [Bobs][space-age] Removed un needed patching.
+    - [Bobs][space-age] Patching rocket silo to work better with bob 2.1.
+    - [Nanobots3] Made Pyanodon changes to make it unlocked earlier in game.
+    - [Nanobots3] Adde setting to removed Termites from mod.
+    - [ACP][Pyanodon] Early fix for Pyanodons.
     - [StoneWaterWell-ActuallyUpdated] or [StoneWaterWell-NoRestrict] have recipe tweaks to it. Along with pressure oiption for [space-age]
 ---------------------------------------------------------------------------------------------------
 Version: 0.1.52
