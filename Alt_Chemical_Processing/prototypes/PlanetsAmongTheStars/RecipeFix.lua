@@ -14,7 +14,7 @@ function RemoveIngredient(recipe_name, ingredient_name)
     end
 end
 
-if mods["planetaris-hyarion"] then
+if mods["planetaris-hyarion"] and not mods["TIMSABA"] then
 	RemoveIngredient("hyarion-geode-mining-drill", "burner-mining-drill")
 	RemoveIngredient("hyarion-geode-mining-drill", "electronic-circuit")
 	table.insert(Recipe["hyarion-geode-mining-drill"].ingredients, {type = "item", name = "big-mining-drill", amount = 1})

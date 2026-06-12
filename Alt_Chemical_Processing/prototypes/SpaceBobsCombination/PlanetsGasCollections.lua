@@ -19,7 +19,7 @@ data:extend({
     },
 })
 
-if mods["bobplates"]then
+if mods["bobplates"] and not mods["TIMSABA"] then
     data.extend({
         {
             type = "recipe",
