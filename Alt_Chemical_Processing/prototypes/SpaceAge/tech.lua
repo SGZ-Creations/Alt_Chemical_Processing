@@ -39,6 +39,6 @@ if mods["space-age"] then
 		table.insert(Tech["carbon-fiber"].effects, {type = "unlock-recipe", recipe = "SynteticCarbonFiber"})
 	--end
 	--if SS["Lava2Brick"].value then
-	table.insert(Tech["foundry"].effects, {type = "unlock-recipe", recipe = "LavaBrick"})
+		table.insert(Tech["foundry"].effects, {type = "unlock-recipe", recipe = "LavaBrick"})
 	--end
 end
