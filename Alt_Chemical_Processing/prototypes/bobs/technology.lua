@@ -38,8 +38,9 @@ if mods["bobplates"] and mods["bobrevamp"] then
         }
     data:extend{fueltech}
     table.insert(Tech["kovarex-enrichment-process"].effects, {type="unlock-recipe", recipe="ThoriumPlutoniumEnrichment"})
-
-    if mods["space-age"]then
-        table.insert(Tech["bob-chemical-processing-2"].effects, {type="unlock-recipe", recipe="CalciumChloride"})
+    if not mods["TIMSABA"]then
+        if mods["space-age"]then
+            table.insert(Tech["bob-chemical-processing-2"].effects, {type="unlock-recipe", recipe="CalciumChloride"})
+        end
     end
 end
