@@ -81,41 +81,42 @@ if mods["bobplates"] and mods["bobrevamp"] then
     })
     Item["bob-enriched-fuel"].stack_size = 50
 end
-
-if mods["bobplates"] and mods["bobrevamp"]and mods["space-age"] then
-    data:extend({
-        {
-            type = "recipe",
-            category = "chemistry-or-cryogenics",
-            name = "CalciumChloride",
-            subgroup = "bob-resource-chemical",
-            order = "f[bob-calcium-chloride]",
-            enabled = false,
-            allow_productivity = true,
-            allow_decomposition = true,
-            energy_required = 10.0,
-            ingredients = {
-                {type="fluid", name="bob-chlorine", amount=10},
-                {type="item", name="calcite", amount=1},
+if not mods["TIMSABA"]then
+    if mods["bobplates"] and mods["bobrevamp"]and mods["space-age"] then
+        data:extend({
+            {
+                type = "recipe",
+                category = "chemistry-or-cryogenics",
+                name = "CalciumChloride",
+                subgroup = "bob-resource-chemical",
+                order = "f[bob-calcium-chloride]",
+                enabled = false,
+                allow_productivity = true,
+                allow_decomposition = true,
+                energy_required = 10.0,
+                ingredients = {
+                    {type="fluid", name="bob-chlorine", amount=10},
+                    {type="item", name="calcite", amount=1},
+                },
+                results = {
+                    {type="item", name="bob-calcium-chloride", amount=1},
+                },
             },
-            results = {
-                {type="item", name="bob-calcium-chloride", amount=1},
-            },
-        },
-    })
-    Recipe["rocket-fuel-from-solid-fuel"].category = "chemistry-or-cryogenics"
-    Recipe["rocket-fuel-from-enriched-fuel"].category = "chemistry-or-cryogenics"
-end
-
-if mods["boblogistics"] and not mods["bobplates"] then
-    if SS["bobmods-logistics-beltoverhaul"].value == true then
-        RemoveIngredient("logistic-science-pack", "transport-belt")
-        table.insert(Recipe["logistic-science-pack"].ingredients, {type = "item", name = "bob-basic-transport-belt", amount = 1})
+        })
+        Recipe["rocket-fuel-from-solid-fuel"].category = "chemistry-or-cryogenics"
+        Recipe["rocket-fuel-from-enriched-fuel"].category = "chemistry-or-cryogenics"
     end
-end
 
-if Item["bob-solar-panel-small"] then
-    if SS["6ItmsRecipe"].value then
-        RemoveIngredient("utility-science-pack", "bob-solar-panel-small")
+    if mods["boblogistics"] and not mods["bobplates"] then
+        if SS["bobmods-logistics-beltoverhaul"].value == true then
+            RemoveIngredient("logistic-science-pack", "transport-belt")
+            table.insert(Recipe["logistic-science-pack"].ingredients, {type = "item", name = "bob-basic-transport-belt", amount = 1})
+        end
+    end
+
+    if Item["bob-solar-panel-small"] then
+        if SS["6ItmsRecipe"].value then
+            RemoveIngredient("utility-science-pack", "bob-solar-panel-small")
+        end
     end
 end
