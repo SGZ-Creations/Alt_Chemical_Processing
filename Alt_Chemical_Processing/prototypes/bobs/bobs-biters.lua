@@ -1,7 +1,3 @@
----@class data.unit-spawnerPrototype 
-local Unit = data.raw["unit-spawner"]
----@class data.AmmoPrototype 
-local Ammo = data.raw.ammo
 local SS = settings.startup
 ---@class data.RecipePrototype 
 local Recipe = data.raw["recipe"]
