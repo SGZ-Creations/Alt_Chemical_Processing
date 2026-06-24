@@ -9,7 +9,8 @@ Date: 17.06.26
     - [Nanobots3] Made Pyanodon changes to make it unlocked earlier in game.
     - [Nanobots3] Adde setting to removed Termites from mod.
     - [ACP][Pyanodon] Early fix for Pyanodons.
-    - [StoneWaterWell-ActuallyUpdated] or [StoneWaterWell-NoRestrict] have recipe tweaks to it. Along with pressure oiption for [space-age]
+    - [StoneWaterWell-ActuallyUpdated] or [StoneWaterWell-NoRestrict] Recipe change to it.
+    - [StoneWaterWell-NoRestrict] Crash fixed with load order.
     - [TIMSABA] Fixes to make mod load.
 ---------------------------------------------------------------------------------------------------
 Version: 0.1.52
