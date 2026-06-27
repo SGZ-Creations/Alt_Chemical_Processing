@@ -20,7 +20,7 @@ data:extend({
 })
 
 if mods["bobplates"] and mods["bobrevamp"] and not mods["TIMSABA"] then
-    if SS["extra chemistry"].value == true then
+    if SS["bobmods-revamp-hardmode"].value == true then
         data.extend({
             {
                 type = "recipe",
