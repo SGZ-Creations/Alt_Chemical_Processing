@@ -12,6 +12,7 @@ Date: 17.06.26
     - [StoneWaterWell-ActuallyUpdated] or [StoneWaterWell-NoRestrict] Recipe change to it.
     - [StoneWaterWell-NoRestrict] Crash fixed with load order.
     - [TIMSABA] Fixes to make mod load.
+    - [Bobs][space-age] Missing dependencies crash fixes.
 ---------------------------------------------------------------------------------------------------
 Version: 0.1.52
 Date: 10.05.26
