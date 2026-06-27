@@ -31,10 +31,12 @@ if not mods["TIMSABA"] then
 			{type = "item", name = "bob-aluminium-plate", 				amount = SS["ScrapAluminium"].value, 					probability = 0.05, show_details_in_recipe_tooltip = false},--21
 			{type = "item", name = "bob-titanium-plate", 				amount = SS["ScrapTitanium"].value, 					probability = 0.05, show_details_in_recipe_tooltip = false},--22
 			{type = "item", name = "bob-cobalt-steel-alloy", 			amount = SS["ScrapCobaltSteel"].value, 					probability = 0.05, show_details_in_recipe_tooltip = false},--23
-			{type = "item", name = "bob-heat-shield-tile", 				amount = SS["ScrapHeatShield"].value,					probability = 0.05, show_details_in_recipe_tooltip = false},--24
 		}
+		if mods["bobrevamp"] then
+			table.insert(Recipe["scrap-recycling"].results,	{type = "item", name = "bob-heat-shield-tile", amount = SS["ScrapHeatShield"].value, probability = 0.05, show_details_in_recipe_tooltip = false}) --24
+		end
 		if Item["bob-gem-ore"] then
-			table.insert(Recipe["scrap-recycling"].results,	{type = "item", name = "bob-gem-ore",amount = SS["ScrapGemsOre"].value, probability = 0.05, show_details_in_recipe_tooltip = false})
+			table.insert(Recipe["scrap-recycling"].results,	{type = "item", name = "bob-gem-ore", amount = SS["ScrapGemsOre"].value, probability = 0.05, show_details_in_recipe_tooltip = false})--25
 		end
 	end
 end
