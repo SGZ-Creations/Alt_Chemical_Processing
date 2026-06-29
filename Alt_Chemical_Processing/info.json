@@ -14,6 +14,7 @@
         "? cargo-bay-inserters >= 1.2.0",
         "? god-module >= 0.2.14",
         "? More-Asteroid-Resources-Forked >= 1.1.6",
+        "? planet-muluna >= 2.2.7",
         "? nanobots-refined >= 4.0.5",
         "? Nanobots3 >= 5.5.0",
         "? SaltedFish >= 1.0.0",
