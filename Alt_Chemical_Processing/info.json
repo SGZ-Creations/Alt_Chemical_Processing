@@ -6,6 +6,7 @@
     "author": "SGZ_Creations",
     "dependencies":[
         "base",
+        "? aai-signal-transmission >= 0.5.3",
         "? adjustable-quality >= 2.0.60",
         "? bobrevamp >= 2.1.0", 
         "? bobplates >= 2.1.0",

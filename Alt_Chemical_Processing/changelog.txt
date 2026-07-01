@@ -6,13 +6,14 @@ Date: 17.06.26
     - [Bobs][space-age] Fixed missing condition on SpaceResources for stone.
     - [Bobs][space-age] Removed un needed patching.
     - [Bobs][space-age] Patching rocket silo to work better with bob 2.1.
-    - [Nanobots3] Made Pyanodon changes to make it unlocked earlier in game.
-    - [Nanobots3] Adde setting to removed Termites from mod.
-    - [ACP][Pyanodon] Early fix for Pyanodons.
+    - [Nanobots3] Made PY changes to make it unlocked earlier in game.
+    - [Nanobots3] Added setting to removed Termites from mod.
+    - [ACP][PY] Early fix for PY.
     - [StoneWaterWell-ActuallyUpdated] or [StoneWaterWell-NoRestrict] Recipe change to it.
     - [StoneWaterWell-NoRestrict] Crash fixed with load order.
     - [TIMSABA] Fixes to make mod load.
     - [Bobs][space-age] Missing dependencies crash fixes.
+    - [Signal Transmission] with PY.
 ---------------------------------------------------------------------------------------------------
 Version: 0.1.52
 Date: 10.05.26
@@ -25,7 +26,6 @@ Date: 10.05.26
     - [Bobs][space-age] Scraping: added Concrete to the % drop. & settings where added.
     - [Bobs][space-age] Recycler output inventory setting added hope to make this an auto detect system.
   Bugfixes:
-
     - Fixed Typo in Explosives recipe. that was the reason for recipe only being 1 - 10 not 10 - 10. 
   Info:
     - Iron & Copper is obtained in space for Bobs. Note: Gleba will be required for bobs 4 the time being as this is default space age why to obtain copper in space.
