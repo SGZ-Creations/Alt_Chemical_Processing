@@ -106,9 +106,10 @@ if mods["bobplates"]and mods["bobelectronics"] and mods["metal-and-stars"] and n
 end
 
 
-if mods["bobplates"]and mods["planet-muluna"] and not mods["TIMSABA"] then
+if mods["bobplates"]and mods["bobrevamp"]and mods["planet-muluna"] and not mods["TIMSABA"] then
     local replacements = {
         ["aluminum-plate"] = "bob-aluminium-plate",
+        --["carbon-dioxide"] = "bob-carbon-dioxide",
         ["oxygen"] = "bob-oxygen",
     }
     for _, recipe in pairs(data.raw.recipe) do
@@ -270,7 +271,6 @@ end
 
 if mods["bobrevamp"]and mods["corrundum"] then
     local replacements = {
-        ["carbon-dioxide"] = "bob-carbon-dioxide",
         ["sulfur-dioxide"] = "bob-sulfur-dioxide",
     }
     for _, recipe in pairs(data.raw.recipe) do
