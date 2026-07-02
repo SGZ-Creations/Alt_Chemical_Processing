@@ -243,8 +243,8 @@ end
 
 if mods["Nexus"]and mods["bobplates"] then
     local replacements = {
-        ["gold-cable"] = "bob-guilded-copper-cable",
-        ["gold-wire"] = "bob-guilded-copper-cable",
+        ["gold-cable"] = "bob-gilded-copper-cable",
+        ["gold-wire"] = "bob-gilded-copper-cable",
     }
     for _, recipe in pairs(data.raw.recipe) do
         for _, ingredient in pairs(recipe.ingredients or {}) do
