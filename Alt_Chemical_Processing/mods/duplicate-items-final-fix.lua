@@ -241,6 +241,59 @@ if mods["Nexus"]and mods["common-prototypes"] then
     end
 end
 
+if mods["Nexus"]and mods["bobplates"] then
+    local replacements = {
+        ["gold-cable"] = "bob-guilded-copper-cable",
+        ["gold-wire"] = "bob-guilded-copper-cable",
+    }
+    for _, recipe in pairs(data.raw.recipe) do
+        for _, ingredient in pairs(recipe.ingredients or {}) do
+            local replace = replacements[ingredient.name]
+				if replace then
+                ingredient.name = replace
+            end
+        end
+
+		for _, result in pairs(recipe.results or {}) do
+			local replace = replacements[result.name]
+				if replace then
+				result.name = replace
+			end
+		end
+
+        if recipe.main_product then
+			local replace = replacements[recipe.main_product]
+		if replace then recipe.main_product = replace end
+        end
+    end
+end
+
+if mods["bobrevamp"]and mods["corrundum"] then
+    local replacements = {
+        ["carbon-dioxide"] = "bob-carbon-dioxide",
+        ["sulfur-dioxide"] = "bob-sulfur-dioxide",
+    }
+    for _, recipe in pairs(data.raw.recipe) do
+        for _, ingredient in pairs(recipe.ingredients or {}) do
+            local replace = replacements[ingredient.name]
+				if replace then
+                ingredient.name = replace
+            end
+        end
+
+		for _, result in pairs(recipe.results or {}) do
+			local replace = replacements[result.name]
+				if replace then
+				result.name = replace
+			end
+		end
+
+        if recipe.main_product then
+			local replace = replacements[recipe.main_product]
+		if replace then recipe.main_product = replace end
+        end
+    end
+end
 
 if mods["Nexus"]and mods["corrundum"] then
     local replacements = {
