@@ -47,13 +47,13 @@ if mods["pypostprocessing"]then
 		Recipe["long-handed-inserter-2"].hidden = true
 		Recipe["long-handed-inserter-2"].enable = false
 	end
-
 	if mods["pyalienlife"] then
+		Recipe["moondrop-seeds"].icon = "__pyalienlifegraphics__/graphics/icons/moondrop-seeds.png"
 		Recipe["moondrop-seeds"].results = {
 			{type = "item", name = "moondrop", probability = 0.25, amount_min = 1, amount_max = 5},
 			{type = "item", name = "moondrop", amount = 5},
-			{type = "item", name = "moondrop-seed", probability = 0.25, amount_min = 1, amount_max = 5},
-			{type = "item", name = "moondrop-seed", amount = 5},
+			{type = "item", name = "moondrop-seeds", probability = 0.25, amount_min = 1, amount_max = 5},
+			{type = "item", name = "moondrop-seeds", amount = 5},
 		}
 	end
 end
