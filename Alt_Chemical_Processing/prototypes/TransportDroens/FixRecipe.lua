@@ -24,8 +24,8 @@ if mods["Transport_Drones_Continued"]then
 		--Recipe["road"].category = "crafting-with-fluid"
 		Recipe["road"].ingredients = {
 			{type = "item", name = "stone-brick", amount = 10},
-			{type = "item", name = "", amount = 10},
-			{type = "item", name = "", amount = 20},
+			{type = "item", name = "stone", amount = 10},
+			{type = "item", name = "coal", amount = 20},
 		}
 		Recipe["fast-road"].ingredients = {
 			{type = "item", name = "road", amount = 10},
