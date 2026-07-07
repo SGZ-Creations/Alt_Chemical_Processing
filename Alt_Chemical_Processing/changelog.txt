@@ -14,6 +14,8 @@ Date: 17.06.26
     - [TIMSABA] Fixes to make mod load.
     - [Bobs][space-age] Missing dependencies crash fixes.
     - [Signal Transmission] with PY.
+    - [Muluna] Merging Items & Liquids/Gases: ["aluminum-plate"] = "bob-aluminium-plate", ["chlorane"] = "bob-hydrogen-chloride", ["oxygen"] = "bob-oxygen",
+    - [Muria] Merging Items & Liquids/Gases: ["lead-plate"] = "bob-lead-plate", ["chlorine"] = "bob-chlorine", ["oxygen"] = "bob-oxygen",
 ---------------------------------------------------------------------------------------------------
 Version: 0.1.52
 Date: 10.05.26
