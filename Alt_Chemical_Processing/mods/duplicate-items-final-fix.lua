@@ -109,7 +109,7 @@ end
 if mods["bobplates"]and mods["bobrevamp"]and mods["planet-muluna"] and not mods["TIMSABA"] then
     local replacements = {
         ["aluminum-plate"] = "bob-aluminium-plate",
-        --["carbon-dioxide"] = "bob-carbon-dioxide",
+        ["chlorane"] = "bob-hydrogen-chloride",
         ["oxygen"] = "bob-oxygen",
     }
     for _, recipe in pairs(data.raw.recipe) do
