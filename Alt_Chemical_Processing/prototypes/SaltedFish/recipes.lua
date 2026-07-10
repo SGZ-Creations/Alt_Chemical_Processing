@@ -7,10 +7,10 @@ if mods["SaltedFish"] then
 			enabled = false,
 			energy_required = 1,
 			ingredients = {
-				{type = "item", name = "salt", amount = 2}
+				{type = "item", name = "salted-fish", amount = 2}
 			},
 			results = {
-				{type = "item", name = "nutrients", amount = 25}
+				{type = "item", name = "nutrients", amount = 30}
 			},
 			subgroup = "agriculture-processes",
 			order = "ac-[nutrient]-a[salt]",
