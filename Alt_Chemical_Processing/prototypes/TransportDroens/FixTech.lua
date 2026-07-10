@@ -44,6 +44,6 @@ if mods["Transport_Drones_Continued"] then
 			{"automation-science-pack",  2},
 		}
 	end
-	if Recipe["active-depot"].hidden == true then Tech["transport-active-supply"].hidden = true end
-	if Recipe["active-depot"].hidden == true then Tech["transport-active-supply"].enabled = false end
+	if Recipe["active-depot"].enabled == false then Tech["transport-active-supply"].hidden = true end
+	if Recipe["active-depot"].enabled == false then Tech["transport-active-supply"].enabled = false end
 end
