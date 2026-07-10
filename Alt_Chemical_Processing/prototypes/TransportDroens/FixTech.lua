@@ -3,9 +3,8 @@ local Tech = data.raw["technology"]
 ---@class data.RecipePrototype
 local Recipe = data.raw["recipe"]
 
-
-if mods["pypostprocessing"]then
-    if mods["Transport_Drones_Continued"] then
+if mods["Transport_Drones_Continued"] then
+    if mods["pypostprocessing"]then
         Tech["fast-road"].research_trigger = {type ="craft-item", item ="road", amount = 1000}
         Tech["fast-road"].unit = nil
 
@@ -26,7 +25,7 @@ if mods["pypostprocessing"]then
 			{"py-science-pack-1",  1}
 		}
     end
-	if mods["bobplates"] and mods["bobrevamp"] and mods["bobtech"] then
+	if mods["bobplates"] and mods["bobrevamp"] then
 	Tech["fast-road"].research_trigger = {type ="craft-item", item ="road", amount = 1000}
         Tech["fast-road"].unit = nil
         Tech["transport-system"].unit.ingredients = {
