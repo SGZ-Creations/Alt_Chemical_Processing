@@ -83,7 +83,7 @@ if mods["Transport_Drones_Continued"]then
 			{type = "item", name = "electronic-circuit", amount = 10},
 			{type = "item", name = "engine-unit", amount = 10},
 		}
-		Recipe["transport-drones"].result = {
+		Recipe["transport-drone"].result = {
 			{type = "item", name = "transport-drones", amount = 10},
 		}
 	end
