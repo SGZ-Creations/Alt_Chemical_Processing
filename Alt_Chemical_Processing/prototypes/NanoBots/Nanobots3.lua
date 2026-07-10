@@ -6,7 +6,7 @@ local SS = settings.startup
 
 if mods["Nanobots3"]then
 	if mods["SeaBlock"] then
-		Tech["nanobots"].research_trigger = {type ="craft-item", item ="bob-basic-circuit-board", amount = 20}
+		Tech["nanobots"].research_trigger = {type ="craft-item", item ="bob-basic-circuit-board", count = 20}
 		Tech["nanobots"].unit = nil
 		Tech["nanobots"].prerequisites = nil
 		Recipe["gun-nano-emitter"].ingredients = {
@@ -16,7 +16,7 @@ if mods["Nanobots3"]then
 		}
 	end
 	if mods["pypostprocessing"] then
-		Tech["nanobots"].research_trigger = {type ="craft-item", item ="repair-pack", amount = 1}
+		Tech["nanobots"].research_trigger = {type ="craft-item", item ="repair-pack", count = 1}
 		Tech["nanobots"].unit = nil
 		Tech["nanobots"].prerequisites = {"repair-pack"}
 		Recipe["gun-nano-emitter"].ingredients = {

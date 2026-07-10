@@ -9,7 +9,7 @@ local SpaceBobs = mods["bobplates"] and mods["bobrevamp"] and mods["space-age"]
 local SpaceBobsMining = mods["bobplates"] and mods["bobmining"] and mods["space-age"]
 
 if SpaceBobsMining then
-    Tech["bob-steel-axe-4"].research_trigger = {type ="craft-item", item ="tungsten-plate", amount = 50}
+    Tech["bob-steel-axe-4"].research_trigger = {type ="craft-item", item ="tungsten-plate", count = 50}
 end
 
 if SpaceBobs then

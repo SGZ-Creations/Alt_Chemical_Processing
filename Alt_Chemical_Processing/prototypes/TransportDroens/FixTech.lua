@@ -5,7 +5,7 @@ local Recipe = data.raw["recipe"]
 
 if mods["Transport_Drones_Continued"] then
     if mods["pypostprocessing"]then
-        Tech["fast-road"].research_trigger = {type ="craft-item", item ="road", amount = 1000}
+        Tech["fast-road"].research_trigger = {type ="craft-item", item ="road", count = 1000}
         Tech["fast-road"].unit = nil
 
         Tech["transport-system"].unit.ingredients = {
@@ -26,7 +26,7 @@ if mods["Transport_Drones_Continued"] then
 		}
     end
 	if mods["bobplates"] and mods["bobrevamp"] then
-	Tech["fast-road"].research_trigger = {type ="craft-item", item ="road", amount = 1000}
+	Tech["fast-road"].research_trigger = {type ="craft-item", item ="road", count = 1000}
         Tech["fast-road"].unit = nil
         Tech["transport-system"].unit.ingredients = {
 			{"automation-science-pack",  2},
