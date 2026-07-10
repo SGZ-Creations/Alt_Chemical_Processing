@@ -79,12 +79,12 @@ if mods["Transport_Drones_Continued"]then
 			{type = "item", name = "bob-glass", amount = 100},
 			{type = "item", name = "bob-rubber", amount = 20},
 		}
-		Recipe["transport-drones"].ingredients = {
+		Recipe["transport-drone"].ingredients = {
 			{type = "item", name = "electronic-circuit", amount = 10},
 			{type = "item", name = "engine-unit", amount = 10},
 		}
 		Recipe["transport-drone"].result = {
-			{type = "item", name = "transport-drones", amount = 10},
+			{type = "item", name = "transport-drone", amount = 10},
 		}
 	end
 end
