@@ -1,5 +1,4 @@
 local SS = settings.startup
----@class data.RecipePrototype 
 local Recipe = data.raw["recipe"]
 
 if mods["space-age"] and mods["bobenemies"] then

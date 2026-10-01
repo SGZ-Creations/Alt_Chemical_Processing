@@ -1,4 +1,3 @@
----@class data.CapsulePrototype
 local Caps = data.raw["capsule"]
 
 if mods["SaltedFish"] then

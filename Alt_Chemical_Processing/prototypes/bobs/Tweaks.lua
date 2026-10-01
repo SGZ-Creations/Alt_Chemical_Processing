@@ -1,7 +1,5 @@
 local SS = settings.startup
----@class data.RecipePrototype 
 local Recipe = data.raw.recipe
----@class data.ItemPrototype
 local Accumulators = data.raw["accumulators"]
 
 if mods["bobpower"] then

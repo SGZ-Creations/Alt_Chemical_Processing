@@ -1,4 +1,3 @@
----@class data.RecipePrototype
 local Recipes = data.raw.recipe
 
 if (mods["StoneWaterWell-ActuallyUpdated"] or mods["StoneWaterWell-NoRestrict"]) then

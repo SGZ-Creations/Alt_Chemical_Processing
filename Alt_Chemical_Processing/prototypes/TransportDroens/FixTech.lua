@@ -1,6 +1,4 @@
----@class data.RecipePrototype
 local Tech = data.raw["technology"]
----@class data.RecipePrototype
 local Recipe = data.raw["recipe"]
 
 if mods["Transport_Drones_Continued"] then

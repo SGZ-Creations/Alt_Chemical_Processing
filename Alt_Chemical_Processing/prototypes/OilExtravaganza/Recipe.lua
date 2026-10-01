@@ -1,4 +1,3 @@
----@ class RecipePrototype
 local Recipe = data.raw["recipe"]
 
 

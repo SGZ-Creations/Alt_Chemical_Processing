@@ -1,4 +1,3 @@
----@class data.TechnologyPrototype
 local Tech = data.raw.technology
 local SS = settings.startup
 

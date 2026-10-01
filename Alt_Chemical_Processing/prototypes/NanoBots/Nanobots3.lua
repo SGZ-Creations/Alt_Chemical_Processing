@@ -1,6 +1,4 @@
----@class data.RecipePrototype 
 local Recipe = data.raw["recipe"]
----@class data.TechnologyPrototype
 local Tech = data.raw["technology"]
 local SS = settings.startup
 

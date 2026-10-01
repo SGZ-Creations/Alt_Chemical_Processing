@@ -1,6 +1,4 @@
----@class data.RecipePrototype 
 local Recipe = data.raw.recipe
----@class data.ItemPrototype
 local Item = data.raw.item
 local SpaceBobs = mods["bobplates"] and mods["bobrevamp"] and mods["space-age"]
 

@@ -1,7 +1,4 @@
 local SS = settings.startup
----@class data.ItemPrototype
-local Item = data.raw["item"]
----@class data.RecipePrototype
 local Recipe = data.raw["recipe"]
 
 if mods["pypostprocessing"]then

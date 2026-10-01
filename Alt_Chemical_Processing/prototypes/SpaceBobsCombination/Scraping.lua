@@ -1,7 +1,5 @@
 local SS = settings.startup
----@class data.RecipePrototype
 local Recipe = data.raw["recipe"]
----@class data.ItemPrototype
 local Item = data.raw.item
 local Expanded_Scraping = mods["space-age"] and mods["scrap-reprocessor"] and mods["bobplates"] and mods["bobrevamp"]
 

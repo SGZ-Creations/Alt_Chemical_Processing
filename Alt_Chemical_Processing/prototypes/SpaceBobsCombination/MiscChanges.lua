@@ -1,8 +1,5 @@
----@class data.RecipePrototype
 local Recipe = data.raw.recipe
----@class data.TechnologyPrototype
 local Tech = data.raw["technology"]
----@class data.RecipePrototype
 local Hide = data.raw["recipe"]
 local SS = settings.startup
 local SpaceBobs = mods["bobplates"] and mods["bobrevamp"] and mods["space-age"]

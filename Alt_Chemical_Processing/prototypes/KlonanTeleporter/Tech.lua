@@ -1,4 +1,3 @@
----@class Prototype
 local Tech = data.raw["technology"]
 local SS = settings.startup
 if mods["Teleporters"] then

@@ -1,7 +1,5 @@
 local SS = settings.startup
----@class data.RecipePrototype 
 local Recipe = data.raw.recipe
----@class data.TechnologyPrototype
 local Tech = data.raw["technology"]
 
 data:extend({

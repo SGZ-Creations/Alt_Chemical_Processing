@@ -1,8 +1,5 @@
---local RemoveIngredient = require("__Alt_Chemical_Processing__/prototypes/Base/Function.lua")
 local SS = settings.startup
----@class data.RecipePrototype 
 local Recipe = data.raw.recipe
----@class data.ItemPrototype
 local Item = data.raw.item
 
 function RemoveIngredient(recipe_name, ingredient_name)
