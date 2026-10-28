@@ -1,6 +1,4 @@
 local SS = settings.startup
----@class data.RecipePrototype
-local Recipe = data.raw["recipe"]
 
 if SS["LiquidCoal"].value then
 	data:extend({

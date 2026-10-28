@@ -87,16 +87,3 @@ if not mods["BigBags"]then
         })
     end
 end
---[[
-if mods["Transport_Drones_Continued"] and mods["BigBags"] then
-    data:extend({
-        {
-            type = "int-setting",
-            name = "DroneStacksContinued",
-            setting_type = "startup",
-            default_value = 10,
-            order = "1Aaf"
-        },
-    })
-end
-]]

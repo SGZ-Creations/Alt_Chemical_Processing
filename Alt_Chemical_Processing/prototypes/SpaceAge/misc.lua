@@ -1,6 +1,3 @@
----@class data.ItemPrototype
-local Item = data.raw["item"]
----@class data.RecipePrototype
 local Recipe = data.raw["recipe"]
 ---@class data.EntityPrototype
 local Collector = data.raw["asteroid-collector"]

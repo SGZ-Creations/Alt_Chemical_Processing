@@ -1,4 +1,3 @@
----@class data.RecipePrototype
 local Recipe = data.raw["recipe"]
 
 function RemoveIngredient(recipe_name, ingredient_name)

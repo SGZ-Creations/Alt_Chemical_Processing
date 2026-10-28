@@ -1,4 +1,3 @@
---local RemoveIngredient = require("__Alt_Chemical_Processing__/prototypes/Base/Function.lua")
 local Recipe = data.raw.recipe
 
 function RemoveIngredient(recipe_name, ingredient_name)
@@ -18,12 +17,3 @@ if mods["planetaris-hyarion"] and not mods["TIMSABA"] then
 	RemoveIngredient("hyarion-geode-mining-drill", "electronic-circuit")
 	table.insert(Recipe["hyarion-geode-mining-drill"].ingredients, {type = "item", name = "big-mining-drill", amount = 1})
 end
---[[
----@class FluidPrototype
-local Fluid = data.raw.fluid
-if mods["bobrevamp"] and mods["planet-muluna"] then
-    Fluid["bob-carbon-dioxide"].min_temperature = 15
-    Fluid["bob-carbon-dioxide"].max_temperature = 100
-    Fluid["bob-carbon-dioxide"].heat_capacity = 500
-end
-]]
