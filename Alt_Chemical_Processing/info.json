@@ -24,17 +24,16 @@
         "? scrap-reprocessor >= 1.0.2",
         "? spidertron-extended >= 0.4.0",
         "? space-age >= 2.0.0",
-        "? Krastorio2 >= 2.0.11",
 		"? Krastorio2-spaced-out >= 1.6.18",
-        "(?) pypostprocessing",
-        "(?) pyalienlife >= 3.0.67",
         "? SeaBlock >= 0.6.0",
-        "(?) TIMSABA >= 1.5.0",
         "? Transport_Drones_Meglinge_Fork >= 1.0.26",
         "? Transport_Drones_Continued >= 2.0.60",
         "? vanilla-loaders-hd >= 2.2.0",
         "? StoneWaterWell-NoRestrict",
-        "? Wood_Gasification_updated >= 4.2.1"
+        "? Wood_Gasification_updated >= 4.2.1",
+        "(?) pypostprocessing",
+        "(?) pyalienlife >= 3.0.67",
+        "(?) TIMSABA >= 1.5.0"
     ],
     "description": "This mod adds custom recipes to space age and other mods listed in dependencies so should one of them be enabled see of settings for this mod shows up as base game and this mod don't do Much",
     "package": {

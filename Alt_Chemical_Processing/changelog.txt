@@ -2,6 +2,7 @@
 Version: 0.2.0
 Date: 17.06.26
   Changes:
+    - [Transport_Drones_Continued][Bob][Py]
     - [KlonanTeleportation] Made better setting description.
     - [Bobs][space-age] Fixed missing condition on SpaceResources for stone.
     - [Bobs][space-age] Removed un needed patching.

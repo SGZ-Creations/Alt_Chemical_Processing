@@ -1,6 +1,8 @@
----@class data.RecipePrototype
+--[[
+CC GNU Lesser General Public License version 3
+https://opensource.org/license/lgpl-3.0
+]]
 local Recipe = data.raw.recipe
----@class data.TechnologyPrototype
 local Tech = data.raw["technology"]
 
 

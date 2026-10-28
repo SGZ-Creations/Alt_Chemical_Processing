@@ -1,7 +1,14 @@
+--[[
+CC GNU Lesser General Public License version 3
+https://opensource.org/license/lgpl-3.0
+]]
+
 local Recipe = data.raw["recipe"]
 
-
 if mods["Transport_Drones_Continued"]then
+	Recipe["transport-drone"].results = {
+		{type = "item", name = "transport-drone", amount = 10},
+	}
 	if mods["pypostprocessing"]then
 		Recipe["road"].category = "crafting-with-fluid"
 		Recipe["road"].ingredients = {
@@ -28,7 +35,7 @@ if mods["Transport_Drones_Continued"]then
 			{type = "item", name = "concrete", amount = 10},
 		}
 		Recipe["drone-dispatcher"].ingredients = {
-			{type = "item", name = "bob-invar-alloy", amount = 10},
+			{type = "item", name = "bob-cobalt-steel-alloy", amount = 10},
 			{type = "item", name = "electronic-circuit", amount = 10},
 			{type = "item", name = "bob-glass", amount = 100},
 			{type = "item", name = "bob-solder", amount = 20},
@@ -79,9 +86,6 @@ if mods["Transport_Drones_Continued"]then
 		Recipe["transport-drone"].ingredients = {
 			{type = "item", name = "electronic-circuit", amount = 10},
 			{type = "item", name = "engine-unit", amount = 10},
-		}
-		Recipe["transport-drone"].results = {
-			{type = "item", name = "transport-drone", amount = 10},
 		}
 	end
 end

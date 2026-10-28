@@ -1,7 +1,5 @@
 --require("prototypes.OilExtravaganza.Resource")
 
-require("prototypes.Foliax.Order")
-
 require("prototypes.QuntumEmitter.Tech")
 require("prototypes.QuntumEmitter.Recipes")
 
@@ -17,7 +15,6 @@ require("prototypes.SpaceBobsCombination.SpaceResources")
 require("prototypes.SpaceBobsCombination.SpaceBobPlanets")
 require("prototypes.SpaceBobsCombination.ResorceTech")
 
-require("prototypes.K2_K2SO.LoaderPower")
 require("prototypes.vanilla-loaders.recipes")
 require("prototypes.SpidertronExtended.misc")
 require("prototypes.BigBags.BagsStacks")
