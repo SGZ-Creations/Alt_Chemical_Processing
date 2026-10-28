@@ -18,8 +18,8 @@ require("__Alt_Chemical_Processing__.prototypes.SignalTransmission.Recipe")
 require("__Alt_Chemical_Processing__.prototypes.SignalTransmission.Tech")
 require("__Alt_Chemical_Processing__.prototypes.Pyanodon.PYRecipes")
 require("__Alt_Chemical_Processing__.prototypes.Pyanodon.PYTech")
-require("__Alt_Chemical_Processing__.prototypes.TransportDroens.FixRecipe")
-require("__Alt_Chemical_Processing__.prototypes.TransportDroens.FixTech")
+require("__Alt_Chemical_Processing__.prototypes.TransportDrones.FixRecipe")
+require("__Alt_Chemical_Processing__.prototypes.TransportDrones.FixTech")
 
 
 require("__Alt_Chemical_Processing__.prototypes.3rdPartyFixes.DroneChanges")
