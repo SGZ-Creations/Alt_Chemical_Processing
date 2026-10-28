@@ -2,13 +2,15 @@
 Version: 0.2.0
 Date: 17.06.26
   Changes:
-    - [Transport_Drones_Continued][Bob][Py]
+    - [ACP]Updated LICENSE
+    - [Transport_Drones_Continued][Bob][Py] fixes few functional things.
+    - [Transport_Drones_Continued][Bob][Py] fixes few recipe progression.
     - [KlonanTeleportation] Made better setting description.
     - [Bobs][space-age] Fixed missing condition on SpaceResources for stone.
     - [Bobs][space-age] Removed un needed patching.
     - [Bobs][space-age] Patching rocket silo to work better with bob 2.1.
     - [Nanobots3] Made PY changes to make it unlocked earlier in game.
-    - [Nanobots3] Added setting to removed Termites from mod.
+    - [Nanobots3] Added setting to removed Termites from mod.(Broken not sure how to fix)
     - [ACP][PY] Early fix for PY.
     - [StoneWaterWell-ActuallyUpdated] or [StoneWaterWell-NoRestrict] Recipe change to it.
     - [StoneWaterWell-NoRestrict] Crash fixed with load order.
